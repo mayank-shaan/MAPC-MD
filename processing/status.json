@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "project": "MAPC Study Portal",
+    "total_pdfs": 97,
+    "processed": 1,
+    "in_progress": null,
+    "last_updated": "2024-12-12T00:00:00Z",
+    "enrichment_stats": {
+      "total_external_links": 42,
+      "wikipedia_articles": 10,
+      "research_papers": 8,
+      "videos": 12,
+      "interactive_elements": 4
+    }
+  },
+  "courses": {
+    "MPC-001": {
+      "name": "Cognitive Psychology, Learning and Memory",
+      "total_units": 16,
+      "processed_units": 1,
+      "blocks": {
+        "Block-1": {
+          "name": "Foundations",
+          "units": {
+            "Unit-1": {
+              "status": "completed",
+              "pdf_path": "MPC-001/Block-1/Unit-1.pdf",
+              "topics_extracted": [
+                "Introduction to Cognitive Psychology",
+                "Research Methods in Cognitive Psychology",
+                "Domains of Cognitive Psychology",
+                "History of Cognitive Psychology",
+                "Key Issues in Cognitive Psychology",
+                "Computer Metaphor and Human Cognition",
+                "Cognitive Science",
+                "Neuroscience and Cognitive Psychology"
+              ],
+              "mdx_files": [
+                "cognitive-psychology-introduction.mdx",
+                "research-methods-cognitive-psychology.mdx",
+                "history-cognitive-psychology.mdx",
+                "key-issues-cognitive-psychology.mdx"
+              ],
+              "enrichment_sources": 42,
+              "processed_date": "2024-12-12"
+            },
+            "Unit-2": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-1/Unit-2.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-3": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-1/Unit-3.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-4": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-1/Unit-4.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            }
+          }
+        },
+        "Block-2": {
+          "name": "Memory Systems",
+          "units": {
+            "Unit-1": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-2/Unit-1.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-2": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-2/Unit-2.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-3": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-2/Unit-3.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-4": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-2/Unit-4.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            }
+          }
+        },
+        "Block-3": {
+          "name": "Learning Theories",
+          "units": {
+            "Unit-1": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-3/Unit-1.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-2": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-3/Unit-2.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-3": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-3/Unit-3.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-4": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-3/Unit-4.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            }
+          }
+        },
+        "Block-4": {
+          "name": "Advanced Topics",
+          "units": {
+            "Unit-1": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-4/Unit-1.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-2": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-4/Unit-2.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-3": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-4/Unit-3.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            },
+            "Unit-4": {
+              "status": "pending",
+              "pdf_path": "MPC-001/Block-4/Unit-4.pdf",
+              "topics_extracted": [],
+              "mdx_files": [],
+              "enrichment_sources": 0,
+              "processed_date": null
+            }
+          }
+        }
+      }
+    },
+    "MPC-002": {
+      "name": "Life Span Psychology",
+      "total_units": 16,
+      "processed_units": 0,
+      "blocks": {
+        "Block-1": {
+          "units": {
+            "Unit-1": { "status": "pending" },
+            "Unit-2": { "status": "pending" },
+            "Unit-3": { "status": "pending" },
+            "Unit-4": { "status": "pending" }
+          }
+        },
+        "Block-2": {
+          "units": {
+            "Unit-1": { "status": "pending" },
+            "Unit-2": { "status": "pending" },
+            "Unit-3": { "status": "pending" },
+            "Unit-4": { "status": "pending" }
+          }
+        },
+        "Block-3": {
+          "units": {
+            "Unit-1": { "status": "pending" },
+            "Unit-2": { "status": "pending" },
+            "Unit-3": { "status": "pending" },
+            "Unit-4": { "status": "pending" }
+          }
+        },
+        "Block-4": {
+          "units": {
+            "Unit-1": { "status": "pending" },
+            "Unit-2": { "status": "pending" },
+            "Unit-3": { "status": "pending" },
+            "Unit-4": { "status": "pending" }
+          }
+        }
+      }
+    },
+    "MPC-003": {
+      "name": "Personality Theories and Assessment",
+      "total_units": 16,
+      "processed_units": 0
+    },
+    "MPC-004": {
+      "name": "Advanced Social Psychology",
+      "total_units": 16,
+      "processed_units": 0
+    },
+    "MPC-005": {
+      "name": "Research Methods",
+      "total_units": 16,
+      "processed_units": 0
+    },
+    "MPC-006": {
+      "name": "Statistics in Psychology",
+      "total_units": 16,
+      "processed_units": 0
+    },
+    "MPCL-007": {
+      "name": "Practicals - Experimental Psychology and Psychological Testing",
+      "total_units": 1,
+      "processed_units": 0
+    }
+  }
+}
