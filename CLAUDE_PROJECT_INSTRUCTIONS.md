@@ -12,6 +12,30 @@ Processing Status: /Users/msd/Work/Repositories/mapc-study/processing/status.jso
 Static PDFs: /Users/msd/Work/Repositories/mapc-study/static/pdfs/
 ```
 
+## 📂 Project Structure
+```
+docs/
+├── intro.mdx                          # Welcome page
+├── mpc-001/                           # Actual content files
+│   └── block-1/
+│       ├── 01-cognitive-psychology-introduction.mdx
+│       ├── 02-research-methods-cognitive-psychology.mdx
+│       ├── 03-history-cognitive-psychology.mdx
+│       └── 04-key-issues-cognitive-psychology.mdx
+├── mpc-001-cognitive/index.mdx        # Course overview page
+├── mpc-002-lifespan/index.mdx         # Course overview page
+├── mpc-003-personality/index.mdx      # Course overview page
+├── mpc-004-social/index.mdx           # Course overview page
+├── mpc-005-research/index.mdx         # Course overview page
+├── mpc-006-statistics/index.mdx       # Course overview page
+└── mpcl-007-practicals/index.mdx      # Course overview page
+```
+
+### File Naming Convention
+- **Content files**: `XX-topic-name.mdx` (e.g., `01-cognitive-psychology-introduction.mdx`)
+- **Index files**: `index.mdx` in course overview directories
+- **Document IDs**: Use kebab-case without numbers (e.g., `cognitive-psychology-introduction`)
+
 ## 🔄 Workflow Commands
 
 ### Primary Command: "continue"
@@ -161,28 +185,48 @@ Before marking a PDF as complete:
 
 ## 📊 Status Tracking
 
+### Current Progress
+- **Total PDFs**: 97
+- **Processed**: 1 (MPC-001/Block-1/Unit-1)
+- **Enrichment Sources Added**: 42 links, 10 Wikipedia articles, 8 research papers, 12 videos
+
 ### status.json Structure
 ```json
 {
   "metadata": {
     "total_pdfs": 97,
-    "processed": 0,
+    "processed": 1,
     "in_progress": null,
-    "last_updated": "ISO timestamp"
+    "last_updated": "ISO timestamp",
+    "enrichment_stats": {
+      "total_external_links": 42,
+      "wikipedia_articles": 10,
+      "research_papers": 8,
+      "videos": 12,
+      "interactive_elements": 4
+    }
   },
   "courses": {
     "MPC-001": {
-      "name": "Cognitive Psychology",
+      "name": "Cognitive Psychology, Learning and Memory",
+      "total_units": 16,
+      "processed_units": 1,
       "blocks": {
         "Block-1": {
+          "name": "Foundations",
           "units": {
             "Unit-1": {
-              "status": "pending|processing|completed",
-              "pdf_path": "path/to/pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
+              "status": "completed",
+              "pdf_path": "MPC-001/Block-1/Unit-1.pdf",
+              "topics_extracted": [...],
+              "mdx_files": [
+                "cognitive-psychology-introduction.mdx",
+                "research-methods-cognitive-psychology.mdx",
+                "history-cognitive-psychology.mdx",
+                "key-issues-cognitive-psychology.mdx"
+              ],
+              "enrichment_sources": 42,
+              "processed_date": "2024-12-12"
             }
           }
         }
@@ -223,6 +267,41 @@ After processing each PDF:
 📄 Created: [List of MDX files]
 ⏭️ Next: [Next PDF to process]
 Progress: X/97 PDFs (Y%)
+```
+
+## ⚙️ Docusaurus Configuration
+
+### Sidebar Configuration (`sidebars.js`)
+- Categories with `items: []` MUST have a `link` property or Docusaurus will error
+- Document IDs must match the `id` field in MDX frontmatter
+- Content files are in `mpc-001/block-X/` but course overviews are in `mpc-001-cognitive/`
+
+### Example Sidebar Entry
+```javascript
+{
+  type: 'category',
+  label: 'MPC-001: Cognitive Psychology',
+  link: {
+    type: 'doc',
+    id: 'mpc-001-cognitive/index',  // Course overview
+  },
+  items: [
+    {
+      type: 'category',
+      label: 'Block 1: Foundations',
+      items: [
+        'mpc-001/block-1/cognitive-psychology-introduction',  // Uses doc ID, not filename
+        'mpc-001/block-1/research-methods-cognitive-psychology',
+      ],
+    },
+  ],
+}
+```
+
+### Running the Dev Server
+```bash
+npm start          # Starts on port 3000
+npm start -- --port 3001  # Use alternate port if 3000 is busy
 ```
 
 ---

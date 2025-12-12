@@ -18,42 +18,13 @@ const sidebars = {
           type: 'category',
           label: 'Block 1: Foundations',
           items: [
-            'mpc-001-cognitive/block-1/introduction',
-            'mpc-001-cognitive/block-1/attention',
-            'mpc-001-cognitive/block-1/perception',
-            'mpc-001-cognitive/block-1/pattern-recognition',
+            'mpc-001/block-1/cognitive-psychology-introduction',
+            'mpc-001/block-1/research-methods-cognitive-psychology',
+            'mpc-001/block-1/history-cognitive-psychology',
+            'mpc-001/block-1/key-issues-cognitive-psychology',
           ],
         },
-        {
-          type: 'category',
-          label: 'Block 2: Memory Systems',
-          items: [
-            'mpc-001-cognitive/block-2/memory-models',
-            'mpc-001-cognitive/block-2/working-memory',
-            'mpc-001-cognitive/block-2/long-term-memory',
-            'mpc-001-cognitive/block-2/forgetting',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Block 3: Learning',
-          items: [
-            'mpc-001-cognitive/block-3/classical-conditioning',
-            'mpc-001-cognitive/block-3/operant-conditioning',
-            'mpc-001-cognitive/block-3/observational-learning',
-            'mpc-001-cognitive/block-3/cognitive-learning',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Block 4: Advanced Topics',
-          items: [
-            'mpc-001-cognitive/block-4/language',
-            'mpc-001-cognitive/block-4/problem-solving',
-            'mpc-001-cognitive/block-4/decision-making',
-            'mpc-001-cognitive/block-4/metacognition',
-          ],
-        },
+        // Block 2-4 will be added as content is created
       ],
     },
     {
@@ -63,28 +34,7 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-002-lifespan/index',
       },
-      items: [
-        {
-          type: 'category',
-          label: 'Block 1: Introduction & Methods',
-          items: [],
-        },
-        {
-          type: 'category',
-          label: 'Block 2: Early Development',
-          items: [],
-        },
-        {
-          type: 'category',
-          label: 'Block 3: Adolescence & Adulthood',
-          items: [],
-        },
-        {
-          type: 'category',
-          label: 'Block 4: Aging & Death',
-          items: [],
-        },
-      ],
+      items: [],
     },
     {
       type: 'category',
