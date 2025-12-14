@@ -18,10 +18,25 @@ const sidebars = {
           type: 'category',
           label: 'Block 1: Foundations',
           items: [
+            // Unit 1: Introduction to Cognitive Psychology
             'mpc-001/block-1/cognitive-psychology-introduction',
             'mpc-001/block-1/research-methods-cognitive-psychology',
             'mpc-001/block-1/history-cognitive-psychology',
             'mpc-001/block-1/key-issues-cognitive-psychology',
+            {
+              type: 'category',
+              label: 'Memory Models',
+              items: [
+                'mpc-001/block-1/information-processing-model',
+                'mpc-001/block-1/working-memory-model',
+                'mpc-001/block-1/levels-of-processing',
+                'mpc-001/block-1/encoding-storage-retrieval',
+              ],
+            },
+            // Unit 2: Information Processing in Learning and Memory
+            'mpc-001/block-1/learning-memory-systems',
+            'mpc-001/block-1/information-processing-theory',
+            'mpc-001/block-1/bloom-sternberg-theories',
           ],
         },
         // Block 2-4 will be added as content is created

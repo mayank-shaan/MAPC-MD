@@ -2,22 +2,22 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "processed": 1,
+    "processed": 2,
     "in_progress": null,
-    "last_updated": "2024-12-12T00:00:00Z",
+    "last_updated": "2024-12-14T00:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 42,
-      "wikipedia_articles": 10,
-      "research_papers": 8,
-      "videos": 12,
-      "interactive_elements": 4
+      "total_external_links": 82,
+      "wikipedia_articles": 14,
+      "research_papers": 15,
+      "videos": 15,
+      "interactive_elements": 8
     }
   },
   "courses": {
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "processed_units": 1,
+      "processed_units": 2,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -36,21 +36,50 @@
                 "Neuroscience and Cognitive Psychology"
               ],
               "mdx_files": [
-                "cognitive-psychology-introduction.mdx",
-                "research-methods-cognitive-psychology.mdx",
-                "history-cognitive-psychology.mdx",
-                "key-issues-cognitive-psychology.mdx"
+                "01-cognitive-psychology-introduction.mdx",
+                "02-research-methods-cognitive-psychology.mdx",
+                "03-history-cognitive-psychology.mdx",
+                "04-key-issues-cognitive-psychology.mdx",
+                "05-information-processing-model.mdx",
+                "06-working-memory-model.mdx",
+                "07-levels-of-processing.mdx",
+                "08-encoding-storage-retrieval.mdx"
               ],
               "enrichment_sources": 42,
               "processed_date": "2024-12-12"
             },
             "Unit-2": {
-              "status": "pending",
+              "status": "completed",
               "pdf_path": "MPC-001/Block-1/Unit-2.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
+              "topics_extracted": [
+                "Learning and Memory Systems",
+                "Three Domains of Learning (Cognitive, Psychomotor, Affective)",
+                "Sensory Memory",
+                "Short-Term Memory (STM)",
+                "Miller's Magic Number (7±2)",
+                "Working Memory",
+                "Long-Term Memory (LTM)",
+                "Chunking Strategy",
+                "Schemas and Mental Models",
+                "Cognitive Information Processing Theory",
+                "CIP Model (Encoding, Storage, Retrieval)",
+                "Information Processing Principles",
+                "Bottom-Up and Top-Down Processing",
+                "Development of Memory and Information Processing",
+                "Bloom's Taxonomy (Original and Revised)",
+                "Six Cognitive Levels",
+                "Knowledge Dimension",
+                "Sternberg's Information Processing Approach",
+                "Triarchic Theory of Intelligence",
+                "Metacomponents, Performance Components, Knowledge-Acquisition Components"
+              ],
+              "mdx_files": [
+                "09-learning-memory-systems.mdx",
+                "10-information-processing-theory.mdx",
+                "11-bloom-sternberg-theories.mdx"
+              ],
+              "enrichment_sources": 40,
+              "processed_date": "2024-12-14"
             },
             "Unit-3": {
               "status": "pending",
