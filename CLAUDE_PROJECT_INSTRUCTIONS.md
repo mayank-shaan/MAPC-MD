@@ -146,6 +146,7 @@ When user says "continue", execute this workflow:
    - Include external links
    - Add PDF references with page numbers AND clickable links
    - Cross-reference related topics
+   - Number files sequentially (continuing from last number in block)
 
 6. **Update Sidebar**
    - CRITICAL: Add new document IDs to sidebars.js immediately
@@ -156,7 +157,7 @@ When user says "continue", execute this workflow:
    - Mark PDF as processed in status.json
    - List created MDX files (with correct sequential numbering)
    - Log enrichment sources count
-   - Update enrichment statistics
+   - Update metadata enrichment statistics
    - Show next PDF in queue
 
 ### Secondary Commands
@@ -236,54 +237,6 @@ Key takeaways in bullet points
 - 📚 MPC-XXX Course Full Name
 ```
 
-## 📎 PDF Linking Guide
-
-### URL Encoding Reference
-
-**MPC-001:**
-```
-/pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/Block-1/Unit-1.pdf
-```
-
-**MPC-002:**
-```
-/pdfs/MPC-002%20Life%20Span%20Psychology/Block-1/Unit-1.pdf
-```
-
-**MPC-003:**
-```
-/pdfs/MPC-003%20Personality%20Theories%20and%20Assessment/Block-1/Unit-1.pdf
-```
-
-**MPC-004:**
-```
-/pdfs/MPC-004%20Advanced%20Social%20Psychology/Block-1/Unit-1.pdf
-```
-
-**MPC-005:**
-```
-/pdfs/MPC-005%20Research%20Methods/Block-1/Unit-1.pdf
-```
-
-**MPC-006:**
-```
-/pdfs/MPC-006%20Statistics%20in%20Psychology/Block-1/Unit-1.pdf
-```
-
-**MPCL-007:**
-```
-/pdfs/MPCL-007%20Practicals%20Experimental%20Psychology%20and%20Psychological%20Testing/Unit-1.pdf
-```
-
-### Testing PDF Links
-
-After creating MDX files:
-1. Start dev server: `npm start`
-2. Navigate to the page
-3. Click the PDF link at the bottom
-4. Verify PDF opens in browser
-5. Check page numbers are accurate
-
 ## 🎨 Writing Guidelines
 
 ### Tone & Style
@@ -322,17 +275,133 @@ Before marking a PDF as complete:
 - [ ] Memory aids provided
 - [ ] Real-world applications discussed
 - [ ] Sidebar updated with new files
+- [ ] Status.json updated
 
 ## 📊 Status Tracking
 
-### Current Progress
+### Current Progress (as of 2024-12-14)
 - **Total PDFs**: 97
 - **Processed**: 2 (MPC-001/Block-1/Unit-1, Unit-2)
+- **Progress**: 2.1%
+- **MDX Files**: 11 files
 - **Enrichment Sources Added**: 82 links, 14 Wikipedia articles, 15 research papers, 15 videos
-- **All PDF links**: Now clickable ✅
+
+### status.json Structure and Fields
+
+**Complete Example Structure:**
+
+```json
+{
+  "metadata": {
+    "project": "MAPC Study Portal",
+    "total_pdfs": 97,
+    "processed": 2,
+    "in_progress": null,
+    "last_updated": "2024-12-14T00:00:00Z",
+    "enrichment_stats": {
+      "total_external_links": 82,
+      "wikipedia_articles": 14,
+      "research_papers": 15,
+      "videos": 15,
+      "interactive_elements": 8
+    }
+  },
+  "courses": {
+    "MPC-001": {
+      "name": "Cognitive Psychology, Learning and Memory",
+      "total_units": 16,
+      "processed_units": 2,
+      "blocks": {
+        "Block-1": {
+          "name": "Foundations",
+          "units": {
+            "Unit-1": {
+              "status": "completed",
+              "pdf_path": "MPC-001/Block-1/Unit-1.pdf",
+              "topics_extracted": [
+                "Introduction to Cognitive Psychology",
+                "Research Methods in Cognitive Psychology"
+              ],
+              "mdx_files": [
+                "01-cognitive-psychology-introduction.mdx",
+                "02-research-methods-cognitive-psychology.mdx"
+              ],
+              "enrichment_sources": 42,
+              "processed_date": "2024-12-12"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**Field Descriptions:**
+
+**metadata:**
+- `total_pdfs`: Always 97 (total PDFs to process)
+- `processed`: Increment after each unit (current: 2)
+- `in_progress`: PDF currently being worked on (or null)
+- `last_updated`: ISO timestamp (update on every change)
+- `enrichment_stats`: Cumulative totals across ALL processed units
+
+**enrichment_stats:**
+- `total_external_links`: All web links added
+- `wikipedia_articles`: Count of Wikipedia references
+- `research_papers`: Academic/research paper links
+- `videos`: Educational videos (MIT, Crash Course, etc.)
+- `interactive_elements`: Diagrams, tables, interactive components
+
+**unit fields:**
+- `status`: "pending" | "in_progress" | "completed" | "error"
+- `pdf_path`: Relative path from static/pdfs
+- `topics_extracted`: Array of main topics from the PDF
+- `mdx_files`: Array of created filenames (sequential numbers!)
+- `enrichment_sources`: Count for THIS unit only
+- `processed_date`: ISO date or null
+
+### How to Update Status After Processing
+
+**After completing each unit:**
+
+```javascript
+// 1. Update metadata
+metadata.processed += 1
+metadata.last_updated = "2024-12-14T00:00:00Z"
+metadata.enrichment_stats.total_external_links += [new_links_count]
+metadata.enrichment_stats.wikipedia_articles += [new_wiki_count]
+// ... etc
+
+// 2. Update course processed_units
+courses["MPC-001"].processed_units += 1
+
+// 3. Update specific unit
+courses["MPC-001"].blocks["Block-1"].units["Unit-X"] = {
+  status: "completed",
+  pdf_path: "MPC-001/Block-1/Unit-X.pdf",
+  topics_extracted: ["Topic 1", "Topic 2", ...],
+  mdx_files: ["XX-file-name.mdx", "YY-file-name.mdx", ...],
+  enrichment_sources: 40,
+  processed_date: "2024-12-14"
+}
+```
+
+### Common Status Update Mistakes
+
+❌ **DON'T**: Forget to increment metadata.processed
+❌ **DON'T**: Forget to update enrichment_stats in metadata
+❌ **DON'T**: Use old filenames if files were renamed
+❌ **DON'T**: Leave topics_extracted empty
+❌ **DON'T**: Forget to increment course processed_units
+✅ **DO**: Update both metadata AND specific unit
+✅ **DO**: Use current sequential filenames
+✅ **DO**: Include all main topics from PDF
+✅ **DO**: Update last_updated timestamp
+✅ **DO**: Add enrichment counts to cumulative stats
 
 ## 🚫 Error Handling
-- If PDF cannot be read with connector: Mark as "ERROR" in status and continue
+- If PDF cannot be read with connector: Mark as "error" in status and continue
 - If enrichment search fails: Note it but continue with content
 - Always save progress to status.json before stopping
 - Create partial content rather than skip
@@ -535,6 +604,7 @@ MPCL-007: /pdfs/MPCL-007%20Practicals%20Experimental%20Psychology%20and%20Psycho
 
 ### File Organization
 - Number files sequentially starting from 01 (no gaps, no duplicates)
+- Continue numbering across units within same block
 - Use descriptive kebab-case IDs in frontmatter
 - Group related topics in same file when appropriate
 - Cross-reference between files using relative links
