@@ -262,6 +262,14 @@ Each topic MUST include:
 - Callout boxes for important notes (using blockquotes)
 - Emoji sparingly for visual markers (📚 🧠 💡 ✅ 🎯 📄 📖)
 
+### Cross-Reference Links
+**CRITICAL**: Internal links must NOT include `/docs/` prefix
+
+❌ **WRONG**: `[Topic](/docs/mpc-001/block-1/topic)`
+✅ **CORRECT**: `[Topic](/mpc-001/block-1/topic)`
+
+Docusaurus automatically adds the `/docs/` base URL. Including it in links will cause build failures.
+
 ## 🔍 Quality Checklist
 Before marking a PDF as complete:
 - [ ] All major topics covered

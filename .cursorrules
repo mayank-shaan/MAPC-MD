@@ -1,0 +1,175 @@
+# MAPC Study Portal - AI Assistant Configuration
+# For use with Windsurf, Cursor, or similar AI coding assistants
+
+## 📚 Primary Instructions
+**ALWAYS read first**: `./CLAUDE_PROJECT_INSTRUCTIONS.md`
+
+This file contains the complete workflow, templates, and requirements.
+
+## 📄 PDF Access Strategy
+
+### PDFs are pre-extracted to text files
+- **Location**: `./processing/extracted-text/`
+- **Format**: `[Course-Name]_[Block-X]_Unit-Y.txt`
+- **Example**: `MPC-001 Cognitive Psychology, Learning and Memory_Block-1_Unit-3.txt`
+
+### To extract PDFs (one-time setup):
+```bash
+./scripts/extract-pdfs.sh
+# OR if pdftotext unavailable:
+python3 scripts/extract_all_pdfs.py
+```
+
+## 🔄 Workflow for "continue" Command
+
+When user says **"continue"**:
+
+1. **Read instructions**
+   ```
+   Read: ./CLAUDE_PROJECT_INSTRUCTIONS.md
+   ```
+
+2. **Check status**
+   ```
+   Read: ./processing/status.json
+   Identify: Next "pending" unit
+   ```
+
+3. **Load PDF content**
+   ```
+   Read: ./processing/extracted-text/[Course]_[Block]_Unit-X.txt
+   Analyze: Structure, topics, key concepts
+   ```
+
+4. **Search for enrichment**
+   ```
+   Web search for:
+   - Recent research (2024)
+   - Wikipedia articles
+   - Educational videos (MIT, Crash Course)
+   - Practical applications
+   ```
+
+5. **Create MDX files**
+   ```
+   Follow template in CLAUDE_PROJECT_INSTRUCTIONS.md
+   - Sequential numbering (continue from last file number)
+   - Proper frontmatter
+   - Enriched content
+   - Clickable PDF links
+   - Mermaid diagrams
+   - Self-assessments
+   ```
+
+6. **Update sidebar.js**
+   ```
+   Add new document IDs to appropriate section
+   Use comments to separate units
+   ```
+
+7. **Update status.json**
+   ```
+   - Mark unit as "completed"
+   - List mdx_files created
+   - Update enrichment_stats
+   - Increment processed count
+   ```
+
+## 🎯 Key Requirements
+
+### Quality Standards (from instructions)
+- ✅ Student-friendly conversational tone
+- ✅ 2+ external authoritative sources per topic
+- ✅ 1+ practical/clinical application
+- ✅ 1+ memory aid or mnemonic
+- ✅ Educational videos when available
+- ✅ Wikipedia for foundational concepts
+- ✅ Cross-references to related topics
+- ✅ Clickable PDF links with page numbers
+- ✅ Mermaid diagrams for complex processes
+- ✅ Self-assessment questions
+- ✅ Real-world examples
+
+### File Organization
+- Number sequentially: 01, 02, 03... (no gaps or duplicates)
+- Continue numbering within block across units
+- Use kebab-case IDs in frontmatter
+- Update sidebar immediately after creating files
+- Update status.json with accurate metadata
+
+### Critical Steps (Don't Skip!)
+1. ✅ Read CLAUDE_PROJECT_INSTRUCTIONS.md first
+2. ✅ Check status.json for next unit
+3. ✅ Load extracted PDF text
+4. ✅ Create MDX files with enrichment
+5. ✅ Update sidebar.js
+6. ✅ Update status.json
+7. ✅ Report progress
+
+## 🔗 PDF Linking
+
+**All PDF references must be clickable links:**
+
+```markdown
+📄 [Block-1/Unit-3.pdf - Pages 31-45](/pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/Block-1/Unit-3.pdf)
+```
+
+**URL Encoding Reference:**
+```
+MPC-001: /pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/
+MPC-002: /pdfs/MPC-002%20Life%20Span%20Psychology/
+MPC-003: /pdfs/MPC-003%20Personality%20Theories%20and%20Assessment/
+MPC-004: /pdfs/MPC-004%20Advanced%20Social%20Psychology/
+MPC-005: /pdfs/MPC-005%20Research%20Methods/
+MPC-006: /pdfs/MPC-006%20Statistics%20in%20Psychology/
+MPCL-007: /pdfs/MPCL-007%20Practicals%20Experimental%20Psychology%20and%20Psychological%20Testing/
+```
+
+## 📊 Current Status (Reference)
+- Total PDFs: 97
+- Processed: 2 (Units 1-2 of Block-1)
+- Next: MPC-001/Block-1/Unit-3
+- Files created: 01-11 in block-1
+- Next file number: 12
+
+## 💡 Tips for AI Assistants
+
+### Context Management
+- Reference CLAUDE_PROJECT_INSTRUCTIONS.md frequently
+- Check status.json before each unit
+- Maintain consistency with existing files
+- Follow established patterns
+
+### Web Search (if available)
+- Search for topic + "2024" for recent research
+- Search "MIT OpenCourseWare" + topic for videos
+- Search Wikipedia for foundational concepts
+- Search for practical applications
+
+### If Web Search Unavailable
+- Note: "Enrichment search required but unavailable"
+- Suggest user manually add resources
+- Focus on creating quality structure and content
+
+## 🚨 Common Mistakes to Avoid
+- ❌ Creating files without updating sidebar
+- ❌ Using duplicate file numbers
+- ❌ Forgetting to update status.json
+- ❌ Missing enrichment requirements
+- ❌ Not making PDF links clickable
+- ❌ Skipping self-assessments or memory aids
+
+## ✅ Success Checklist
+Before marking unit complete:
+- [ ] PDF text loaded and analyzed
+- [ ] Topics extracted and listed
+- [ ] MDX files created with sequential numbers
+- [ ] Enrichment added (searches performed)
+- [ ] PDF links are clickable
+- [ ] Sidebar.js updated
+- [ ] Status.json updated
+- [ ] Files verified in browser
+
+---
+
+**Remember**: Quality over speed. Each unit should be comprehensive, enriched, and student-friendly. Follow the CLAUDE_PROJECT_INSTRUCTIONS.md workflow exactly.
