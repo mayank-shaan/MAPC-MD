@@ -2,23 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 3,
-    "enriched": 2,
+    "extracted": 4,
+    "enriched": 4,
     "in_progress": {
-      "unit": "MPC-001/Block-1/Unit-3",
-      "stage": "enrichment",
-      "files_pending_enrichment": [
-        "15-brain-imaging-memory-processes.mdx"
-      ]
+      "unit": "MPC-001/Block-2/Unit-1",
+      "stage": "pending"
     },
-    "remaining": 94,
-    "last_updated": "2024-12-14T12:00:00Z",
+    "remaining": 93,
+    "last_updated": "2024-12-15T10:45:00Z",
     "enrichment_stats": {
-      "total_external_links": 152,
-      "wikipedia_articles": 29,
-      "research_papers": 29,
-      "videos": 29,
-      "interactive_elements": 18
+      "total_external_links": 220,
+      "wikipedia_articles": 45,
+      "research_papers": 61,
+      "videos": 39,
+      "interactive_elements": 35
     }
   },
   "quality_standards": {
@@ -42,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 3,
-      "enriched_units": 2,
+      "extracted_units": 4,
+      "enriched_units": 4,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -165,9 +162,9 @@
               }
             },
             "Unit-3": {
-              "status": "extracted",
+              "status": "enriched",
               "extraction_date": "2024-12-14",
-              "enrichment_date": null,
+              "enrichment_date": "2024-12-15",
               "pdf_path": "MPC-001/Block-1/Unit-3.pdf",
               "topics_extracted": [
                 "Memory and Brain Systems - Amnesia",
@@ -227,24 +224,21 @@
                 },
                 {
                   "filename": "15-brain-imaging-memory-processes.mdx",
-                  "status": "extracted",
-                  "word_count": 1600,
-                  "enrichment_score": 5,
+                  "status": "enriched",
+                  "word_count": 8500,
+                  "enrichment_score": 10,
                   "quality_check": {
-                    "external_sources": 4,
-                    "wikipedia": 2,
-                    "research_papers": 2,
-                    "videos": 3,
-                    "diagrams": 0,
-                    "self_assessment": 3,
-                    "memory_aids": 1,
-                    "meets_standards": false,
-                    "issues": [
-                      "Missing detailed explanations of imaging studies",
-                      "Insufficient Mermaid diagrams",
-                      "Clinical applications section abbreviated",
-                      "Needs more real-world examples"
-                    ]
+                    "external_sources": 15,
+                    "wikipedia": 3,
+                    "research_papers": 12,
+                    "videos": 4,
+                    "diagrams": 4,
+                    "self_assessment": 11,
+                    "memory_aids": 4,
+                    "meets_standards": true,
+                    "recent_research_2023_2024": true,
+                    "clinical_applications": true,
+                    "real_world_examples": true
                   }
                 },
                 {
@@ -265,20 +259,120 @@
                 }
               ],
               "enrichment_quality": {
-                "total_external_links": 70,
-                "wikipedia_articles": 15,
-                "research_papers": 15,
-                "videos": 15,
-                "mermaid_diagrams": 5,
-                "self_assessments": 20,
-                "memory_aids": 10,
-                "needs_enrichment": true,
-                "files_pending": ["15-brain-imaging-memory-processes.mdx"]
+                "total_external_links": 81,
+                "wikipedia_articles": 18,
+                "research_papers": 25,
+                "videos": 19,
+                "mermaid_diagrams": 9,
+                "self_assessments": 31,
+                "memory_aids": 14,
+                "needs_enrichment": false,
+                "files_pending": []
               }
             },
             "Unit-4": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-1/Unit-4.pdf"
+              "status": "enriched",
+              "extraction_date": "2024-12-15",
+              "enrichment_date": "2024-12-15",
+              "pdf_path": "MPC-001/Block-1/Unit-4.pdf",
+              "topics_extracted": [
+                "Waugh and Norman's Primary and Secondary Memory Model",
+                "Atkinson-Shiffrin Three-Stage Model",
+                "Levels of Processing: Craik and Lockhart",
+                "Self-Reference Effect",
+                "Connectionist/PDP Model: Rumelhart and McClelland"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "17-waugh-norman-dual-memory-model.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 4,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "18-atkinson-shiffrin-stage-model.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 15,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "19-levels-of-processing-craik-lockhart.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 1,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "20-self-reference-effect.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 2,
+                    "research_papers": 4,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "21-connectionist-pdp-model-rumelhart-mcclelland.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 1,
+                    "research_papers": 4,
+                    "videos": 0,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 57,
+                "wikipedia_articles": 13,
+                "research_papers": 20,
+                "videos": 6,
+                "mermaid_diagrams": 13,
+                "self_assessments": 24,
+                "memory_aids": 14
+              }
             }
           }
         },

@@ -44,6 +44,13 @@ const sidebars = {
             'mpc-001/block-1/temporal-lobe-animal-memory-models',
             'mpc-001/block-1/brain-imaging-memory-processes',
             'mpc-001/block-1/cellular-molecular-memory-mechanisms',
+            
+            // Unit 4: Models of Information Processing
+            'mpc-001/block-1/waugh-norman-dual-memory-model',
+            'mpc-001/block-1/atkinson-shiffrin-stage-model',
+            'mpc-001/block-1/levels-of-processing-craik-lockhart',
+            'mpc-001/block-1/self-reference-effect',
+            'mpc-001/block-1/connectionist-pdp-model-rumelhart-mcclelland',
           ],
         },
         // Block 2-4 will be added as content is created
