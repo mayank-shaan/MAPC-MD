@@ -1,184 +1,282 @@
-# Claude Project Instructions - MAPC Study Portal Builder
+# MAPC Study Portal - AI Instructions
+
+## 🎯 Core Principle
+**LEARNER VALUE > TOKEN EFFICIENCY**
+
+Transform IGNOU MAPC psychology PDFs into comprehensive, enriched study materials. Never sacrifice content quality to save tokens.
 
 ## 🎯 Project Mission
 Transform IGNOU MAPC psychology PDFs into comprehensive, enriched study materials with external resources, creating an interactive learning portal using Docusaurus.
 
-## 📁 File Locations
-```
-Source PDFs: /Users/msd/Work/Repositories/mapc-study/static/pdfs/
-Project Root: /Users/msd/Work/Repositories/mapc-study/
-Content Directory: /Users/msd/Work/Repositories/mapc-study/docs/
-Processing Status: /Users/msd/Work/Repositories/mapc-study/processing/status.json
-Static PDFs Directory: /Users/msd/Work/Repositories/mapc-study/static/pdfs/
-```
+**Core Purpose**: Create the best possible study experience by going beyond the PDFs - enriching content with modern research, multimedia, interactive elements, real-world applications, and practical learning aids that help students deeply understand psychology.
 
-## 📂 PDF Directory Structure
+Transform IGNOU MAPC psychology PDFs into comprehensive, enriched study materials. Never sacrifice content quality to save tokens.
+
+---
+
+## 📁 Project Paths
 ```
-static/pdfs/
-├── MPC-001 Cognitive Psychology, Learning and Memory/
-│   ├── Block-1/
-│   │   ├── Unit-1.pdf
-│   │   ├── Unit-2.pdf
-│   │   ├── Unit-3.pdf
-│   │   └── Unit-4.pdf
-│   ├── Block-2/
-│   ├── Block-3/
-│   └── Block-4/
-├── MPC-002 Life Span Psychology/
-├── MPC-003 Personality Theories and Assessment/
-├── MPC-004 Advanced Social Psychology/
-├── MPC-005 Research Methods/
-├── MPC-006 Statistics in Psychology/
-└── MPCL-007 Practicals Experimental Psychology and Psychological Testing/
+Project Root:     /Users/msd/Work/Repositories/mapc-study/
+Source PDFs:      /Users/msd/Work/Repositories/mapc-study/static/pdfs/
+Content:          /Users/msd/Work/Repositories/mapc-study/docs/
+Status Tracking:  /Users/msd/Work/Repositories/mapc-study/processing/status.json
 ```
 
-## 📂 Project Structure
+---
+
+## 🔧 File Operations: Use Filesystem MCP
+
+**ALWAYS use Filesystem MCP** for all file operations (NOT bash commands):
+
+| Operation | Tool |
+|-----------|------|
+| Create MDX files | `Filesystem:write_file` |
+| Edit sidebar/status | `Filesystem:edit_file` |
+| Read files | `Filesystem:read_file` |
+
+---
+
+## 📖 Reading PDFs
+
+Use **PDF Tools MCP connector**:
+
 ```
-docs/
-├── intro.mdx                          # Welcome page
-├── mpc-001/                           # Actual content files
-│   └── block-1/
-│       ├── 01-cognitive-psychology-introduction.mdx
-│       ├── 02-research-methods-cognitive-psychology.mdx
-│       ├── 03-history-cognitive-psychology.mdx
-│       ├── 04-key-issues-cognitive-psychology.mdx
-│       ├── 05-information-processing-model.mdx
-│       ├── 06-working-memory-model.mdx
-│       ├── 07-levels-of-processing.mdx
-│       ├── 08-encoding-storage-retrieval.mdx
-│       ├── 09-learning-memory-systems.mdx
-│       ├── 10-information-processing-theory.mdx
-│       └── 11-bloom-sternberg-theories.mdx
-├── mpc-001-cognitive/index.mdx        # Course overview page
-├── mpc-002-lifespan/index.mdx         # Course overview page
-├── mpc-003-personality/index.mdx      # Course overview page
-├── mpc-004-social/index.mdx           # Course overview page
-├── mpc-005-research/index.mdx         # Course overview page
-├── mpc-006-statistics/index.mdx       # Course overview page
-└── mpcl-007-practicals/index.mdx      # Course overview page
-```
+# List PDFs in a block
+PDF Tools:list_pdfs
+  directory = "/Users/msd/Work/Repositories/mapc-study/static/pdfs/MPC-001 Cognitive Psychology, Learning and Memory/Block-1"
 
-### File Naming Convention
-- **Content files**: `XX-topic-name.mdx` (e.g., `01-cognitive-psychology-introduction.mdx`)
-- **Number sequentially**: 01, 02, 03... (no duplicate numbers)
-- **Index files**: `index.mdx` in course overview directories
-- **Document IDs**: Use kebab-case without numbers (e.g., `cognitive-psychology-introduction`)
-
-## 🔧 PDF Processing with MCP Connector
-
-### Using the PDF Tools Connector
-
-The PDF Tools MCP connector is available and should be used to read PDF files. This connector provides reliable access to PDF content.
-
-### How to Read PDFs
-
-**Step 1: List Available PDFs**
-```
-Use: PDF Tools - Analyze, Extract, Fill, Compare:list_pdfs
-Directory: /Users/msd/Work/Repositories/mapc-study/static/pdfs/[Course]/[Block]/
+# Read specific PDF
+PDF Tools:read_pdf_content
+  pdf_path = "/Users/msd/Work/Repositories/mapc-study/static/pdfs/MPC-001 Cognitive Psychology, Learning and Memory/Block-1/Unit-3.pdf"
 ```
 
-**Step 2: Read PDF Content**
+**Notes:**
+- Directory names include spaces (e.g., "MPC-001 Cognitive Psychology, Learning and Memory")
+- PDF filenames: Unit-1.pdf, Unit-2.pdf, etc.
+- Command-line tools won't work for PDFs—use the MCP connector
+
+---
+
+## 🔄 Two-Stage Workflow
+
+### Stage 1: EXTRACTION
+**Goal**: Capture ALL PDF content completely
+
+1. Read PDF with PDF Tools connector
+2. Identify 3-5 main topics
+3. Create MDX files with FULL content
+4. Mark as `"extracted"` in status.json
+
+### Stage 2: ENRICHMENT  
+**Goal**: Transform into exceptional learning resource
+
+1. Add 5+ external resources per file
+2. Include 1+ Wikipedia link
+3. Add 1+ educational video
+4. Create 1+ Mermaid diagram
+5. Write 3+ self-assessment questions
+6. Add memory aids/mnemonics
+7. Include real-world applications
+8. Expand to 2,000+ words
+9. Mark as `"enriched"` in status.json
+
+---
+
+## 📋 Commands
+
+### `continue`
+Process next pending unit through both stages.
+
+1. **Check Status** → Read `processing/status.json`, find next pending unit
+2. **Load PDF** → Use `PDF Tools:read_pdf_content`
+3. **Extract Content** → Create 3-5 MDX files with full PDF content
+4. **Enrich Each File** → Add all required resources, diagrams, assessments
+5. **Update Sidebar** → Use `Filesystem:edit_file` on `sidebars.js`
+6. **Update Status** → Use `Filesystem:edit_file` on `status.json`
+7. **Report Progress** → Show files created with enrichment stats
+
+---
+
+### `status`
+Show current processing progress.
+
+**Output:**
 ```
-Use: PDF Tools - Analyze, Extract, Fill, Compare:read_pdf_content
-Path: /Users/msd/Work/Repositories/mapc-study/static/pdfs/[Course]/[Block]/Unit-X.pdf
+📊 MAPC Study Portal Status
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total PDFs: 97
+Extracted: X | Enriched: Y | Pending: Z
+
+Current Course: MPC-001 Cognitive Psychology
+├── Block-1: 3/4 units enriched
+├── Block-2: 0/4 units (pending)
+└── ...
+
+In Progress: MPC-001/Block-1/Unit-4 (extraction)
+Next Up: MPC-001/Block-2/Unit-1
 ```
 
-**Example Workflow:**
+---
+
+### `enrich [unit]`
+Re-enrich a specific unit to meet quality standards.
+
+**Usage:** `enrich MPC-001/Block-1/Unit-3`
+
+**Workflow:**
+1. Read existing MDX files for the unit
+2. Check current enrichment levels against standards
+3. Add missing elements (videos, diagrams, research, etc.)
+4. Expand content if under 2,000 words
+5. Update `status.json` with new quality_check data
+6. Mark as `"enriched"` when all standards met
+
+**Use when:**
+- Files marked as `"extracted"` need enrichment
+- Quality check shows `meets_standards: false`
+- User wants to improve existing content
+
+---
+
+### `enrich+ [unit]`
+Deep enrichment—go beyond minimum standards for comprehensive coverage.
+
+**Usage:** `enrich+ MPC-001/Block-1/Unit-3`
+
+**Enhanced Standards:**
+| Standard | Normal | Deep (enrich+) |
+|----------|--------|----------------|
+| External sources | 5+ | 10+ |
+| Wikipedia | 1+ | 3+ |
+| Videos | 1+ | 3+ |
+| Research papers | 1+ | 3+ |
+| Diagrams | 1+ | 2+ |
+| Self-assessments | 3+ | 5+ |
+| Word count | 2,000+ | 3,500+ |
+
+**Additional Deep Enrichment:**
+- Add case studies and clinical vignettes
+- Include historical context and key researcher bios
+- Create comparison tables across theories
+- Add exam-focused tips and common misconceptions
+- Link to primary source papers where available
+- Include Indian context/applications where relevant
+
+---
+
+### `validate [unit]`
+Validate unit for data consistency and PDF coverage.
+
+**Usage:** `validate MPC-001/Block-1/Unit-3`
+
+**Checks Performed:**
+
+**1. Coverage Check** (vs PDF content)
+- All major topics from PDF covered?
+- Key theories and researchers mentioned?
+- Important definitions included?
+- Page references accurate?
+
+**2. Quality Standards Check**
+- External sources ≥ 5?
+- Wikipedia ≥ 1?
+- Videos ≥ 1?
+- Diagrams ≥ 1?
+- Self-assessments ≥ 3?
+- Word count ≥ 2,000?
+
+**3. Technical Consistency**
+- Frontmatter complete and valid?
+- Document IDs in sidebar.js?
+- PDF links clickable and correct?
+- Cross-references working?
+- No duplicate file numbers?
+
+**4. Status Consistency**
+- status.json matches actual files?
+- Word counts accurate?
+- Quality check data current?
+
+**Output:**
 ```
-1. List PDFs in block:
-   PDF Tools:list_pdfs with directory = "/Users/msd/Work/Repositories/mapc-study/static/pdfs/MPC-001 Cognitive Psychology, Learning and Memory/Block-1"
+🔍 Validation: MPC-001/Block-1/Unit-3
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-2. Read specific PDF:
-   PDF Tools:read_pdf_content with pdf_path = "/Users/msd/Work/Repositories/mapc-study/static/pdfs/MPC-001 Cognitive Psychology, Learning and Memory/Block-1/Unit-2.pdf"
+📚 Coverage: ✅ PASS (12/12 topics covered)
+   Missing: None
 
-3. Process the extracted text content
+📊 Quality Standards:
+   ├── External sources: ✅ 8/5
+   ├── Wikipedia: ✅ 2/1
+   ├── Videos: ✅ 3/1
+   ├── Diagrams: ⚠️ 0/1 (MISSING)
+   ├── Self-assessments: ✅ 4/3
+   └── Word count: ✅ 2,450/2,000
+
+🔧 Technical:
+   ├── Frontmatter: ✅ Valid
+   ├── Sidebar: ✅ All IDs present
+   ├── PDF links: ✅ Working
+   └── Cross-refs: ✅ Valid
+
+📋 Status.json: ⚠️ MISMATCH
+   └── Word count outdated (shows 2,100)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Result: ⚠️ 2 issues found
+Action: Run `enrich MPC-001/Block-1/Unit-3` to fix
 ```
 
-### Important Notes
+---
 
-- **Always use static/pdfs/** directory (NOT Downloads directory)
-- The PDF Tools connector can successfully access files in the static/pdfs location
-- Full directory names include spaces (e.g., "MPC-001 Cognitive Psychology, Learning and Memory")
-- PDF filenames follow pattern: Unit-1.pdf, Unit-2.pdf, etc.
-- The connector returns extracted text that can be directly processed
+### Command Quick Reference
 
-### Troubleshooting
+| Command | Purpose | Example |
+|---------|---------|---------|
+| `continue` | Process next pending unit | `continue` |
+| `status` | Show overall progress | `status` |
+| `enrich [unit]` | Re-enrich to meet standards | `enrich MPC-001/Block-1/Unit-3` |
+| `enrich+ [unit]` | Deep enrichment beyond standards | `enrich+ MPC-001/Block-1/Unit-3` |
+| `validate [unit]` | Check coverage & consistency | `validate MPC-001/Block-1/Unit-3` |
 
-- If PDF read fails: Verify the full path including spaces in directory names
-- If directory not found: Use list_pdfs to confirm the directory structure
-- Command-line tools (pdftotext) won't work - always use the PDF Tools connector
-- Filesystem read tools won't work for PDFs - use the specialized PDF connector
+---
 
-## 🔄 Workflow Commands
+## ✅ Quality Standards (Non-Negotiable)
 
-### Primary Command: "continue"
-When user says "continue", execute this workflow:
+### Per File Requirements
 
-1. **Check Status**
-   - Read `processing/status.json`
-   - Identify next unprocessed PDF
-   - Construct the full PDF path in static/pdfs directory
+**External Resources:**
+- 5+ external sources
+- 1+ Wikipedia article
+- 1+ educational video (MIT/Crash Course)
+- 1+ recent research paper (2020-2025)
+- Cross-references to related topics
 
-2. **Load PDF Content**
-   - Use PDF Tools connector: `read_pdf_content`
-   - Full path format: `/Users/msd/Work/Repositories/mapc-study/static/pdfs/[Course Name with spaces]/[Block-N]/Unit-X.pdf`
-   - Extract and analyze the returned text
+**Learning Aids:**
+- 1+ Mermaid diagram
+- 1+ comparison table (where applicable)
+- 1+ memory aid/mnemonic
+- 3+ self-assessment questions
+- Real-world examples & clinical applications
 
-3. **Process Content**
-   - Extract main topics and subtopics
-   - Identify key theories, researchers, studies
-   - Note important definitions and concepts
-   - Record page numbers for references
+**Content Quality:**
+- 2,000+ words (comprehensive coverage)
+- Conversational yet academic tone
+- PDF source citations with page numbers
+- Clickable PDF links
 
-4. **Enrich Content**
-   - Search for recent research (2020-2024)
-   - Find Wikipedia articles for concepts
-   - Locate educational videos (MIT OpenCourseWare, Crash Course)
-   - Identify real-world applications
-   - Find or create memory aids
-   - Add clinical/practical relevance
-
-5. **Create MDX Files**
-   - Write in student-friendly language
-   - Structure with clear hierarchy
-   - Add interactive elements (Mermaid diagrams, tables)
-   - Include external links
-   - Add PDF references with page numbers AND clickable links
-   - Cross-reference related topics
-   - Number files sequentially (continuing from last number in block)
-
-6. **Update Sidebar**
-   - CRITICAL: Add new document IDs to sidebars.js immediately
-   - Use document IDs from frontmatter, not filenames
-   - Add comments to separate units
-
-7. **Update Status**
-   - Mark PDF as processed in status.json
-   - List created MDX files (with correct sequential numbering)
-   - Log enrichment sources count
-   - Update metadata enrichment statistics
-   - Show next PDF in queue
-
-### Secondary Commands
-
-- **"status"** - Show current processing progress
-- **"check [course-code]"** - Verify specific course completion
-- **"list pending"** - Show unprocessed PDFs
-- **"preview [topic]"** - Show MDX preview for a topic
+---
 
 ## 📝 MDX File Format
 
-### Required Frontmatter
+### Frontmatter
 ```yaml
 ---
-id: unique-topic-id
+id: topic-name-kebab-case
 title: Full Topic Title
-sidebar_label: Sidebar Display Name
-tags: [tag1, tag2, tag3]
-keywords: [search, keywords]
+sidebar_label: Short Label
+tags: [tag1, tag2]
 description: SEO description (150 chars)
-draft: false
 last_updated: YYYY-MM-DD
 estimated_time: X min
 difficulty: basic|intermediate|advanced
@@ -186,376 +284,23 @@ exam_importance: low|medium|high
 ---
 ```
 
-### Content Structure with Clickable PDF Links
-```mdx
-# Main Title
-
-## Overview
-Brief introduction with real-world hook
-
-## Core Concepts
-
-### Concept 1
-- Clear explanation
-- Example/analogy
-- Clinical application
-> 📖 **Reference**: [Block-X/Unit-Y.pdf, Pages A-B]
-
-## Research & Studies
-- Key experiments
-- Recent findings (with links)
-- Meta-analyses
-
-## Practical Applications
-- Clinical settings
-- Educational contexts
-- Real-world examples
-
-## Study Resources
-### Videos
-- [MIT OpenCourseWare: Topic](link)
-- [Crash Course Psychology: Topic](link)
-
-### Additional Reading
-- [Wikipedia: Topic](link)
-- [Recent Research Paper (2024)](DOI link)
-
-### Memory Aids
-- Mnemonics
-- Visual diagrams (Mermaid)
-- Quick formulas
-
-## Self-Assessment
-Interactive quiz or questions
-
-## Summary
-Key takeaways in bullet points
-
----
-**Source PDFs**: 
-- 📄 [Block-X/Unit-Y.pdf - Pages A-B](/pdfs/COURSE-NAME-ENCODED/Block-X/Unit-Y.pdf)
-- 📚 MPC-XXX Course Full Name
-```
-
-## 🎨 Writing Guidelines
-
-### Tone & Style
-- **Conversational but academic**
-- Use "you" to address students
-- Include analogies and metaphors
-- Break complex topics into chunks
-- Use active voice
-
-### Enrichment Requirements
-Each topic MUST include:
-- ✅ 2+ authoritative external sources (recent research, educational sites)
-- ✅ 1+ practical/clinical application  
-- ✅ 1+ memory aid or study technique
-- ✅ Related video when available (prioritize MIT OpenCourseWare, Crash Course)
-- ✅ Wikipedia or encyclopedia reference for foundational concepts
-- ✅ Cross-references to related topics
-- ✅ Clickable PDF link to source material
-
-### Visual Elements
-- Tables for comparisons
-- Mermaid diagrams for processes and flows
-- Callout boxes for important notes (using blockquotes)
-- Emoji sparingly for visual markers (📚 🧠 💡 ✅ 🎯 📄 📖)
+### File Naming
+- Format: `XX-topic-name.mdx` (e.g., `12-memory-brain-systems.mdx`)
+- Number sequentially: 01, 02, 03... (no gaps or duplicates)
+- Continue numbering across units within same block
 
 ### Cross-Reference Links
-**CRITICAL**: Internal links must NOT include `/docs/` prefix
-
-❌ **WRONG**: `[Topic](/docs/mpc-001/block-1/topic)`
-✅ **CORRECT**: `[Topic](/mpc-001/block-1/topic)`
-
-Docusaurus automatically adds the `/docs/` base URL. Including it in links will cause build failures.
-
-## 🔍 Quality Checklist
-Before marking a PDF as complete:
-- [ ] All major topics covered
-- [ ] External resources added (minimum counts met)
-- [ ] Interactive elements included (diagrams, tables)
-- [ ] PDF references with page numbers
-- [ ] PDF links are clickable and work
-- [ ] Cross-references created
-- [ ] Mobile-friendly formatting
-- [ ] Self-assessment included
-- [ ] Memory aids provided
-- [ ] Real-world applications discussed
-- [ ] Sidebar updated with new files
-- [ ] Status.json updated
-
-## 📊 Status Tracking
-
-### Current Progress (as of 2024-12-14)
-- **Total PDFs**: 97
-- **Processed**: 2 (MPC-001/Block-1/Unit-1, Unit-2)
-- **Progress**: 2.1%
-- **MDX Files**: 11 files
-- **Enrichment Sources Added**: 82 links, 14 Wikipedia articles, 15 research papers, 15 videos
-
-### status.json Structure and Fields
-
-**Complete Example Structure:**
-
-```json
-{
-  "metadata": {
-    "project": "MAPC Study Portal",
-    "total_pdfs": 97,
-    "processed": 2,
-    "in_progress": null,
-    "last_updated": "2024-12-14T00:00:00Z",
-    "enrichment_stats": {
-      "total_external_links": 82,
-      "wikipedia_articles": 14,
-      "research_papers": 15,
-      "videos": 15,
-      "interactive_elements": 8
-    }
-  },
-  "courses": {
-    "MPC-001": {
-      "name": "Cognitive Psychology, Learning and Memory",
-      "total_units": 16,
-      "processed_units": 2,
-      "blocks": {
-        "Block-1": {
-          "name": "Foundations",
-          "units": {
-            "Unit-1": {
-              "status": "completed",
-              "pdf_path": "MPC-001/Block-1/Unit-1.pdf",
-              "topics_extracted": [
-                "Introduction to Cognitive Psychology",
-                "Research Methods in Cognitive Psychology"
-              ],
-              "mdx_files": [
-                "01-cognitive-psychology-introduction.mdx",
-                "02-research-methods-cognitive-psychology.mdx"
-              ],
-              "enrichment_sources": 42,
-              "processed_date": "2024-12-12"
-            }
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-**Field Descriptions:**
-
-**metadata:**
-- `total_pdfs`: Always 97 (total PDFs to process)
-- `processed`: Increment after each unit (current: 2)
-- `in_progress`: PDF currently being worked on (or null)
-- `last_updated`: ISO timestamp (update on every change)
-- `enrichment_stats`: Cumulative totals across ALL processed units
-
-**enrichment_stats:**
-- `total_external_links`: All web links added
-- `wikipedia_articles`: Count of Wikipedia references
-- `research_papers`: Academic/research paper links
-- `videos`: Educational videos (MIT, Crash Course, etc.)
-- `interactive_elements`: Diagrams, tables, interactive components
-
-**unit fields:**
-- `status`: "pending" | "in_progress" | "completed" | "error"
-- `pdf_path`: Relative path from static/pdfs
-- `topics_extracted`: Array of main topics from the PDF
-- `mdx_files`: Array of created filenames (sequential numbers!)
-- `enrichment_sources`: Count for THIS unit only
-- `processed_date`: ISO date or null
-
-### How to Update Status After Processing
-
-**After completing each unit:**
-
-```javascript
-// 1. Update metadata
-metadata.processed += 1
-metadata.last_updated = "2024-12-14T00:00:00Z"
-metadata.enrichment_stats.total_external_links += [new_links_count]
-metadata.enrichment_stats.wikipedia_articles += [new_wiki_count]
-// ... etc
-
-// 2. Update course processed_units
-courses["MPC-001"].processed_units += 1
-
-// 3. Update specific unit
-courses["MPC-001"].blocks["Block-1"].units["Unit-X"] = {
-  status: "completed",
-  pdf_path: "MPC-001/Block-1/Unit-X.pdf",
-  topics_extracted: ["Topic 1", "Topic 2", ...],
-  mdx_files: ["XX-file-name.mdx", "YY-file-name.mdx", ...],
-  enrichment_sources: 40,
-  processed_date: "2024-12-14"
-}
-```
-
-### Common Status Update Mistakes
-
-❌ **DON'T**: Forget to increment metadata.processed
-❌ **DON'T**: Forget to update enrichment_stats in metadata
-❌ **DON'T**: Use old filenames if files were renamed
-❌ **DON'T**: Leave topics_extracted empty
-❌ **DON'T**: Forget to increment course processed_units
-✅ **DO**: Update both metadata AND specific unit
-✅ **DO**: Use current sequential filenames
-✅ **DO**: Include all main topics from PDF
-✅ **DO**: Update last_updated timestamp
-✅ **DO**: Add enrichment counts to cumulative stats
-
-## 🚫 Error Handling
-- If PDF cannot be read with connector: Mark as "error" in status and continue
-- If enrichment search fails: Note it but continue with content
-- Always save progress to status.json before stopping
-- Create partial content rather than skip
-- If path issues occur: Verify directory structure with list_pdfs
-
-## ✅ Success Indicators
-- Student can understand without prior knowledge
-- Multiple learning styles accommodated
-- Rich with external resources (meeting minimum requirements)
-- Interactive and engaging (diagrams, analogies, examples)
-- Properly cited and referenced (with page numbers)
-- Cross-linked to related topics
-- **Source PDFs are clickable and accessible**
-
-## 📈 Processing Order
-1. MPC-001: Cognitive Psychology, Learning and Memory (16 units)
-2. MPC-002: Life Span Psychology (16 units)
-3. MPC-003: Personality Theories and Assessment (16 units)
-4. MPC-004: Advanced Social Psychology (16 units)
-5. MPC-005: Research Methods (16 units)
-6. MPC-006: Statistics in Psychology (16 units)
-7. MPCL-007: Practicals - Experimental Psychology and Psychological Testing (1 project)
-
-## 💬 Response Format
-After processing each PDF:
-```
-✅ Processed: [Course]/[Block]/[Unit]
-📝 Topics: [List main topics]
-🔗 Enrichment: X links, Y videos, Z research papers
-📄 Created: [List of MDX files with numbers]
-⏭️ Next: [Next PDF to process]
-Progress: X/97 PDFs (Y%)
-```
-
-## ⚙️ Docusaurus Configuration
-
-### Sidebar Configuration (`sidebars.js`)
-
-**CRITICAL**: Every MDX file MUST be added to `sidebars.js` to appear in the site navigation.
-
-- Categories with `items: []` MUST have a `link` property or Docusaurus will error
-- Document IDs must match the `id` field in MDX frontmatter
-- Content files are in `mpc-001/block-X/` but course overviews are in `mpc-001-cognitive/`
-- **NEW FILES WON'T SHOW** until added to sidebar - this is a common mistake!
-
-### How to Update Sidebar After Creating MDX Files
-
-**Step 1**: Create your MDX files with proper frontmatter IDs
-**Step 2**: Update `sidebars.js` to include the new document IDs
-**Step 3**: Verify files appear in browser (refresh if needed)
-
-### Example Sidebar Entry
-```javascript
-{
-  type: 'category',
-  label: 'MPC-001: Cognitive Psychology',
-  link: {
-    type: 'doc',
-    id: 'mpc-001-cognitive/index',  // Course overview
-  },
-  items: [
-    {
-      type: 'category',
-      label: 'Block 1: Foundations',
-      items: [
-        // Unit 1: Introduction to Cognitive Psychology
-        'mpc-001/block-1/cognitive-psychology-introduction',  // Uses doc ID, not filename
-        'mpc-001/block-1/research-methods-cognitive-psychology',
-        'mpc-001/block-1/history-cognitive-psychology',
-        'mpc-001/block-1/key-issues-cognitive-psychology',
-        // Memory Models (Unit 1 bonus)
-        {
-          type: 'category',
-          label: 'Memory Models',
-          items: [
-            'mpc-001/block-1/information-processing-model',
-            'mpc-001/block-1/working-memory-model',
-            'mpc-001/block-1/levels-of-processing',
-            'mpc-001/block-1/encoding-storage-retrieval',
-          ],
-        },
-        // Unit 2: Information Processing in Learning and Memory
-        'mpc-001/block-1/learning-memory-systems',
-        'mpc-001/block-1/information-processing-theory',
-        'mpc-001/block-1/bloom-sternberg-theories',
-      ],
-    },
-  ],
-}
-```
-
-### Sidebar Update Checklist
-After creating new MDX files:
-- [ ] Open `sidebars.js`
-- [ ] Locate the correct course and block section
-- [ ] Add document IDs (not filenames) in logical order
-- [ ] Add comments to separate units for clarity
-- [ ] Save file
-- [ ] Test in browser (npm start)
-
-### Common Mistakes to Avoid
-❌ **DON'T**: Create MDX files without updating sidebar
-❌ **DON'T**: Use filenames in sidebar (use document IDs from frontmatter)
-❌ **DON'T**: Forget to add comments separating units
-❌ **DON'T**: Use duplicate file numbers
-✅ **DO**: Update sidebar immediately after creating files
-✅ **DO**: Use the `id` field from MDX frontmatter
-✅ **DO**: Group files by unit with comments
-✅ **DO**: Number files sequentially
-
-### Running the Dev Server
-```bash
-npm start          # Starts on port 3000
-npm start -- --port 3001  # Use alternate port if 3000 is busy
-
-# If changes don't appear:
-# 1. Stop the server (Ctrl+C)
-# 2. Clear Docusaurus cache: rm -rf .docusaurus
-# 3. Restart: npm start
-```
-
-## 📎 Linking to Source PDFs
-
-### Making PDF References Clickable
-
-All PDF references in MDX files should link to the actual PDF files in the static folder for easy student access.
-
-### PDF URL Format
-
-Since PDFs are in the `/static/pdfs/` folder, they're served from `/pdfs/` in the browser.
-
-**Path Pattern:**
-```
-Static folder: /static/pdfs/[COURSE-NAME]/[BLOCK]/Unit-X.pdf
-Browser URL:   /pdfs/[COURSE-NAME-URL-ENCODED]/[BLOCK]/Unit-X.pdf
-```
-
-### URL Encoding for Paths with Spaces
-
-Course names have spaces and need URL encoding:
-- Spaces → `%20`
-- Commas can stay as-is in most browsers
-
-**Quick Reference: Course PDF Base URLs**
-
 ```markdown
+❌ WRONG: [Topic](/docs/mpc-001/block-1/topic)
+✅ CORRECT: [Topic](/mpc-001/block-1/topic)
+```
+
+---
+
+## 📎 PDF Link Format
+
+**URL-encoded course paths:**
+```
 MPC-001: /pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/
 MPC-002: /pdfs/MPC-002%20Life%20Span%20Psychology/
 MPC-003: /pdfs/MPC-003%20Personality%20Theories%20and%20Assessment/
@@ -565,60 +310,127 @@ MPC-006: /pdfs/MPC-006%20Statistics%20in%20Psychology/
 MPCL-007: /pdfs/MPCL-007%20Practicals%20Experimental%20Psychology%20and%20Psychological%20Testing/
 ```
 
-### Template for Source PDF Citations
-
-**At the end of each MDX file:**
-
+**Citation template:**
 ```markdown
 ---
 **Source PDFs**: 
-- 📄 [Block-X/Unit-Y.pdf - Pages A-B](/pdfs/COURSE-NAME-ENCODED/Block-X/Unit-Y.pdf)
-- 📚 MPC-XXX Course Full Name
-```
-
-**Example (MPC-001, Block-1, Unit-2, Pages 19-24):**
-```markdown
----
-**Source PDFs**: 
-- 📄 [Block-1/Unit-2.pdf - Pages 19-24](/pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/Block-1/Unit-2.pdf)
+- 📄 [Block-1/Unit-3.pdf - Pages 31-45](/pdfs/MPC-001%20Cognitive%20Psychology,%20Learning%20and%20Memory/Block-1/Unit-3.pdf)
 - 📚 MPC-001 Cognitive Psychology, Learning and Memory
 ```
 
-### Benefits of Clickable PDF Links
+---
 
-✅ Students can instantly access source material
-✅ Easy verification of content
-✅ Better user experience
-✅ Professional presentation
-✅ Supports fact-checking and deeper study
+## 📊 Status Tracking
 
-## 🎓 Best Practices
+### status.json Structure
+```json
+{
+  "metadata": {
+    "total_pdfs": 97,
+    "extracted": 3,
+    "enriched": 3,
+    "in_progress": {
+      "unit": "MPC-001/Block-1/Unit-4",
+      "stage": "extraction"
+    }
+  },
+  "courses": {
+    "MPC-001": {
+      "blocks": {
+        "Block-1": {
+          "units": {
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2024-12-14",
+              "enrichment_date": "2024-12-14",
+              "mdx_files": [
+                {
+                  "filename": "12-memory-brain-systems.mdx",
+                  "status": "enriched",
+                  "word_count": 2500,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 4,
+                    "meets_standards": true
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
 
-### Content Creation
-- Start each unit by reading the full PDF with the connector
-- Identify 3-5 major themes per unit
-- Create separate MDX files for distinct topics (not one massive file)
-- Each MDX file should be 10-20 minutes reading time
-- Include real-world examples for every major concept
-- Add visual elements (diagrams, tables) for complex relationships
-- **Add clickable PDF links at the end of each file**
-
-### Enrichment Strategy
-1. **Web Search**: Use specific topic keywords (2-3 words max)
-2. **Recent Research**: Include year "2024" or "2023" in searches
-3. **Videos**: Prioritize MIT OpenCourseWare and Crash Course Psychology
-4. **Wikipedia**: Use for foundational concepts and historical context
-5. **Memory Aids**: Create original mnemonics, not generic ones
-
-### File Organization
-- Number files sequentially starting from 01 (no gaps, no duplicates)
-- Continue numbering across units within same block
-- Use descriptive kebab-case IDs in frontmatter
-- Group related topics in same file when appropriate
-- Cross-reference between files using relative links
-- Keep frontmatter consistent across all files
-- Update sidebar.js immediately after creating files
+### Status Types
+- **"pending"** - Not yet processed
+- **"extracted"** - PDF content captured, needs enrichment
+- **"enriched"** - Meets all quality standards
+- **"error"** - Processing failed
 
 ---
 
-**Remember**: We're creating a comprehensive learning resource that goes beyond the PDFs - enriching content with modern research, multimedia, and interactive elements to create the best possible study experience. Always use the PDF Tools connector to read PDFs from the static/pdfs directory, and make all PDF references clickable for student convenience.
+## ⚙️ Sidebar Configuration
+
+**CRITICAL**: Every MDX file MUST be added to `sidebars.js`
+
+```javascript
+{
+  type: 'category',
+  label: 'Block 1: Foundations',
+  items: [
+    // Unit 3: Memory and Brain
+    'mpc-001/block-1/memory-brain-systems',      // Uses doc ID from frontmatter
+    'mpc-001/block-1/neuroimaging-memory',
+    'mpc-001/block-1/amnesia-case-studies',
+  ],
+}
+```
+
+---
+
+## 💬 Progress Report Format
+
+After processing:
+```
+✅ Processed: MPC-001/Block-1/Unit-3
+📝 Topics: Memory & Brain Systems, Neuroimaging, Amnesia Studies
+🔗 Enrichment: 15 links, 4 videos, 3 research papers
+📄 Created: 12-memory-brain-systems.mdx (2,500 words, enriched)
+⏭️ Next: MPC-001/Block-1/Unit-4
+Progress: 3/97 PDFs (3.1%)
+```
+
+---
+
+## ❌ Common Mistakes
+
+| Don't | Do |
+|-------|-----|
+| Use bash for file operations | Use Filesystem MCP |
+| Mark "extracted" as complete | Only mark "enriched" when standards met |
+| Create files under 2,000 words | Expand to comprehensive coverage |
+| Skip enrichment to move faster | Prioritize learner value |
+| Forget sidebar updates | Update immediately after creating files |
+| Use duplicate file numbers | Number sequentially |
+
+---
+
+## 📈 Processing Order
+
+1. MPC-001: Cognitive Psychology (16 units)
+2. MPC-002: Life Span Psychology (16 units)
+3. MPC-003: Personality Theories (16 units)
+4. MPC-004: Social Psychology (16 units)
+5. MPC-005: Research Methods (16 units)
+6. MPC-006: Statistics (16 units)
+7. MPCL-007: Practicals (1 project)
+
+---
+
+**Remember**: We're building a study portal students will rely on for their education. Quality cannot be compromised. Every file should be something we're proud to present to learners.

@@ -37,6 +37,13 @@ const sidebars = {
             'mpc-001/block-1/learning-memory-systems',
             'mpc-001/block-1/information-processing-theory',
             'mpc-001/block-1/bloom-sternberg-theories',
+            
+            // Unit 3: Neuropsychological Basis of Learning and Memory
+            'mpc-001/block-1/memory-brain-systems-amnesia',
+            'mpc-001/block-1/memory-consolidation-hippocampus',
+            'mpc-001/block-1/temporal-lobe-animal-memory-models',
+            'mpc-001/block-1/brain-imaging-memory-processes',
+            'mpc-001/block-1/cellular-molecular-memory-mechanisms',
           ],
         },
         // Block 2-4 will be added as content is created

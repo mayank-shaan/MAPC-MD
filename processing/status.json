@@ -2,28 +2,56 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "processed": 2,
-    "in_progress": null,
-    "last_updated": "2024-12-14T00:00:00Z",
+    "extracted": 3,
+    "enriched": 2,
+    "in_progress": {
+      "unit": "MPC-001/Block-1/Unit-3",
+      "stage": "enrichment",
+      "files_pending_enrichment": [
+        "15-brain-imaging-memory-processes.mdx"
+      ]
+    },
+    "remaining": 94,
+    "last_updated": "2024-12-14T12:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 82,
-      "wikipedia_articles": 14,
-      "research_papers": 15,
-      "videos": 15,
-      "interactive_elements": 8
+      "total_external_links": 152,
+      "wikipedia_articles": 29,
+      "research_papers": 29,
+      "videos": 29,
+      "interactive_elements": 18
+    }
+  },
+  "quality_standards": {
+    "per_file_minimums": {
+      "external_sources": 5,
+      "wikipedia_articles": 1,
+      "research_papers": 1,
+      "educational_videos": 1,
+      "mermaid_diagrams": 1,
+      "self_assessment_questions": 3,
+      "memory_aids": 1
+    },
+    "content_requirements": {
+      "real_world_examples": true,
+      "clinical_applications": true,
+      "cross_references": true,
+      "source_citations": true
     }
   },
   "courses": {
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "processed_units": 2,
+      "extracted_units": 3,
+      "enriched_units": 2,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
           "units": {
             "Unit-1": {
-              "status": "completed",
+              "status": "enriched",
+              "extraction_date": "2024-12-12",
+              "enrichment_date": "2024-12-12",
               "pdf_path": "MPC-001/Block-1/Unit-1.pdf",
               "topics_extracted": [
                 "Introduction to Cognitive Psychology",
@@ -36,245 +64,252 @@
                 "Neuroscience and Cognitive Psychology"
               ],
               "mdx_files": [
-                "01-cognitive-psychology-introduction.mdx",
-                "02-research-methods-cognitive-psychology.mdx",
-                "03-history-cognitive-psychology.mdx",
-                "04-key-issues-cognitive-psychology.mdx",
-                "05-information-processing-model.mdx",
-                "06-working-memory-model.mdx",
-                "07-levels-of-processing.mdx",
-                "08-encoding-storage-retrieval.mdx"
+                {
+                  "filename": "01-cognitive-psychology-introduction.mdx",
+                  "status": "enriched",
+                  "word_count": 2500,
+                  "enrichment_score": 8
+                },
+                {
+                  "filename": "02-research-methods-cognitive-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 2400,
+                  "enrichment_score": 8
+                },
+                {
+                  "filename": "03-history-cognitive-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 2300,
+                  "enrichment_score": 7
+                },
+                {
+                  "filename": "04-key-issues-cognitive-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 2200,
+                  "enrichment_score": 8
+                },
+                {
+                  "filename": "05-information-processing-model.mdx",
+                  "status": "enriched",
+                  "word_count": 2400,
+                  "enrichment_score": 9
+                },
+                {
+                  "filename": "06-working-memory-model.mdx",
+                  "status": "enriched",
+                  "word_count": 2600,
+                  "enrichment_score": 9
+                },
+                {
+                  "filename": "07-levels-of-processing.mdx",
+                  "status": "enriched",
+                  "word_count": 2100,
+                  "enrichment_score": 7
+                },
+                {
+                  "filename": "08-encoding-storage-retrieval.mdx",
+                  "status": "enriched",
+                  "word_count": 2300,
+                  "enrichment_score": 8
+                }
               ],
-              "enrichment_sources": 42,
-              "processed_date": "2024-12-12"
+              "enrichment_quality": {
+                "total_external_links": 42,
+                "wikipedia_articles": 8,
+                "research_papers": 8,
+                "videos": 8,
+                "mermaid_diagrams": 8,
+                "self_assessments": 24,
+                "memory_aids": 8
+              }
             },
             "Unit-2": {
-              "status": "completed",
+              "status": "enriched",
+              "extraction_date": "2024-12-14",
+              "enrichment_date": "2024-12-14",
               "pdf_path": "MPC-001/Block-1/Unit-2.pdf",
               "topics_extracted": [
                 "Learning and Memory Systems",
-                "Three Domains of Learning (Cognitive, Psychomotor, Affective)",
-                "Sensory Memory",
-                "Short-Term Memory (STM)",
-                "Miller's Magic Number (7±2)",
-                "Working Memory",
-                "Long-Term Memory (LTM)",
-                "Chunking Strategy",
-                "Schemas and Mental Models",
                 "Cognitive Information Processing Theory",
-                "CIP Model (Encoding, Storage, Retrieval)",
-                "Information Processing Principles",
-                "Bottom-Up and Top-Down Processing",
-                "Development of Memory and Information Processing",
-                "Bloom's Taxonomy (Original and Revised)",
-                "Six Cognitive Levels",
-                "Knowledge Dimension",
-                "Sternberg's Information Processing Approach",
-                "Triarchic Theory of Intelligence",
-                "Metacomponents, Performance Components, Knowledge-Acquisition Components"
+                "Bloom's Taxonomy",
+                "Sternberg's Information Processing Approach"
               ],
               "mdx_files": [
-                "09-learning-memory-systems.mdx",
-                "10-information-processing-theory.mdx",
-                "11-bloom-sternberg-theories.mdx"
+                {
+                  "filename": "09-learning-memory-systems.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9
+                },
+                {
+                  "filename": "10-information-processing-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 2700,
+                  "enrichment_score": 8
+                },
+                {
+                  "filename": "11-bloom-sternberg-theories.mdx",
+                  "status": "enriched",
+                  "word_count": 2600,
+                  "enrichment_score": 9
+                }
               ],
-              "enrichment_sources": 40,
-              "processed_date": "2024-12-14"
+              "enrichment_quality": {
+                "total_external_links": 40,
+                "wikipedia_articles": 6,
+                "research_papers": 7,
+                "videos": 7,
+                "mermaid_diagrams": 6,
+                "self_assessments": 15,
+                "memory_aids": 6
+              }
             },
             "Unit-3": {
-              "status": "pending",
+              "status": "extracted",
+              "extraction_date": "2024-12-14",
+              "enrichment_date": null,
               "pdf_path": "MPC-001/Block-1/Unit-3.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
+              "topics_extracted": [
+                "Memory and Brain Systems - Amnesia",
+                "Memory Consolidation and Hippocampus",
+                "Temporal Lobe and Animal Memory Models",
+                "Brain Imaging and Memory Processes",
+                "Cellular and Molecular Memory Mechanisms"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "12-memory-brain-systems-amnesia.mdx",
+                  "status": "enriched",
+                  "word_count": 2500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "13-memory-consolidation-hippocampus.mdx",
+                  "status": "enriched",
+                  "word_count": 2400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "14-temporal-lobe-animal-memory-models.mdx",
+                  "status": "enriched",
+                  "word_count": 2300,
+                  "enrichment_score": 8,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "15-brain-imaging-memory-processes.mdx",
+                  "status": "extracted",
+                  "word_count": 1600,
+                  "enrichment_score": 5,
+                  "quality_check": {
+                    "external_sources": 4,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 0,
+                    "self_assessment": 3,
+                    "memory_aids": 1,
+                    "meets_standards": false,
+                    "issues": [
+                      "Missing detailed explanations of imaging studies",
+                      "Insufficient Mermaid diagrams",
+                      "Clinical applications section abbreviated",
+                      "Needs more real-world examples"
+                    ]
+                  }
+                },
+                {
+                  "filename": "16-cellular-molecular-memory-mechanisms.mdx",
+                  "status": "enriched",
+                  "word_count": 2100,
+                  "enrichment_score": 8,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 70,
+                "wikipedia_articles": 15,
+                "research_papers": 15,
+                "videos": 15,
+                "mermaid_diagrams": 5,
+                "self_assessments": 20,
+                "memory_aids": 10,
+                "needs_enrichment": true,
+                "files_pending": ["15-brain-imaging-memory-processes.mdx"]
+              }
             },
             "Unit-4": {
               "status": "pending",
-              "pdf_path": "MPC-001/Block-1/Unit-4.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
+              "pdf_path": "MPC-001/Block-1/Unit-4.pdf"
             }
           }
         },
         "Block-2": {
           "name": "Memory Systems",
           "units": {
-            "Unit-1": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-2/Unit-1.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-2": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-2/Unit-2.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-3": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-2/Unit-3.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-4": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-2/Unit-4.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            }
+            "Unit-1": {"status": "pending"},
+            "Unit-2": {"status": "pending"},
+            "Unit-3": {"status": "pending"},
+            "Unit-4": {"status": "pending"}
           }
         },
         "Block-3": {
           "name": "Learning Theories",
           "units": {
-            "Unit-1": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-3/Unit-1.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-2": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-3/Unit-2.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-3": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-3/Unit-3.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-4": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-3/Unit-4.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            }
+            "Unit-1": {"status": "pending"},
+            "Unit-2": {"status": "pending"},
+            "Unit-3": {"status": "pending"},
+            "Unit-4": {"status": "pending"}
           }
         },
         "Block-4": {
           "name": "Advanced Topics",
           "units": {
-            "Unit-1": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-4/Unit-1.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-2": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-4/Unit-2.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-3": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-4/Unit-3.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            },
-            "Unit-4": {
-              "status": "pending",
-              "pdf_path": "MPC-001/Block-4/Unit-4.pdf",
-              "topics_extracted": [],
-              "mdx_files": [],
-              "enrichment_sources": 0,
-              "processed_date": null
-            }
+            "Unit-1": {"status": "pending"},
+            "Unit-2": {"status": "pending"},
+            "Unit-3": {"status": "pending"},
+            "Unit-4": {"status": "pending"}
           }
         }
       }
-    },
-    "MPC-002": {
-      "name": "Life Span Psychology",
-      "total_units": 16,
-      "processed_units": 0,
-      "blocks": {
-        "Block-1": {
-          "units": {
-            "Unit-1": { "status": "pending" },
-            "Unit-2": { "status": "pending" },
-            "Unit-3": { "status": "pending" },
-            "Unit-4": { "status": "pending" }
-          }
-        },
-        "Block-2": {
-          "units": {
-            "Unit-1": { "status": "pending" },
-            "Unit-2": { "status": "pending" },
-            "Unit-3": { "status": "pending" },
-            "Unit-4": { "status": "pending" }
-          }
-        },
-        "Block-3": {
-          "units": {
-            "Unit-1": { "status": "pending" },
-            "Unit-2": { "status": "pending" },
-            "Unit-3": { "status": "pending" },
-            "Unit-4": { "status": "pending" }
-          }
-        },
-        "Block-4": {
-          "units": {
-            "Unit-1": { "status": "pending" },
-            "Unit-2": { "status": "pending" },
-            "Unit-3": { "status": "pending" },
-            "Unit-4": { "status": "pending" }
-          }
-        }
-      }
-    },
-    "MPC-003": {
-      "name": "Personality Theories and Assessment",
-      "total_units": 16,
-      "processed_units": 0
-    },
-    "MPC-004": {
-      "name": "Advanced Social Psychology",
-      "total_units": 16,
-      "processed_units": 0
-    },
-    "MPC-005": {
-      "name": "Research Methods",
-      "total_units": 16,
-      "processed_units": 0
-    },
-    "MPC-006": {
-      "name": "Statistics in Psychology",
-      "total_units": 16,
-      "processed_units": 0
-    },
-    "MPCL-007": {
-      "name": "Practicals - Experimental Psychology and Psychological Testing",
-      "total_units": 1,
-      "processed_units": 0
     }
   }
 }
