@@ -64,21 +64,21 @@ const config = {
       },
       
       navbar: {
-        title: 'MAPC Study Portal',
+        title: '',
         logo: {
           alt: 'MAPC Logo',
-          src: 'img/logo.svg',
+          src: 'logo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Study Materials',
+            label: 'Home',
           },
           {
             type: 'dropdown',
-            label: 'Courses',
+            label: 'Navigate',
             position: 'left',
             items: [
               {label: 'MPC-001: Cognitive Psychology', to: '/mpc-001-cognitive'},
@@ -90,11 +90,11 @@ const config = {
               {label: 'MPCL-007: Practicals', to: '/mpcl-007-practicals'},
             ],
           },
-          {
-            href: 'https://github.com/yourusername/mapc-study',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/yourusername/mapc-study',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       
