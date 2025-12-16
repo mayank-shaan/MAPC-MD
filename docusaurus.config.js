@@ -12,6 +12,12 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   
+  // Enable Mermaid diagrams
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -148,6 +154,11 @@ const config = {
           hideable: true,
           autoCollapseCategories: true,
         },
+      },
+      
+      // Mermaid theme configuration
+      mermaid: {
+        theme: {light: 'neutral', dark: 'dark'},
       },
     }),
 };
