@@ -53,7 +53,19 @@ const sidebars = {
             'mpc-001/block-1/connectionist-pdp-model-rumelhart-mcclelland',
           ],
         },
-        // Block 2-4 will be added as content is created
+        {
+          type: 'category',
+          label: 'Block 2: Memory Systems',
+          items: [
+            // Unit 1: Intelligence Theories
+            'mpc-001/block-2/nature-intelligence-definitions',
+            'mpc-001/block-2/spearman-two-factor-theory',
+            'mpc-001/block-2/critical-appraisals-spearman-theory',
+            'mpc-001/block-2/pass-theory-jp-das',
+            'mpc-001/block-2/intelligence-theories-integration-summary',
+          ],
+        },
+        // Block 3-4 will be added as content is created
       ],
     },
     {
