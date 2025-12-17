@@ -57,8 +57,7 @@ const config = {
       metadata: [
         {name: 'keywords', content: 'IGNOU, MAPC, Psychology, Study Materials, MA Psychology'},
         {name: 'description', content: 'Comprehensive study portal for IGNOU MA in Psychology (MAPC) program'},
-        {name: 'algolia-site-verification', content: '4A9CE6C1E82A0D98'},
-        {name: 'algolia-site-verification', content: '2FB51D6842354BEF'},
+        {name: 'algolia-site-verification', content: '6D11F68F1FB48D43'}
       ],
       
       // Announcement bar
