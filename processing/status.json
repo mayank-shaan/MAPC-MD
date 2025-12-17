@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 5,
-    "enriched": 5,
+    "extracted": 6,
+    "enriched": 6,
     "in_progress": {
-      "unit": "MPC-001/Block-2/Unit-2",
+      "unit": "MPC-001/Block-2/Unit-3",
       "stage": "pending"
     },
-    "remaining": 92,
-    "last_updated": "2024-12-16T12:00:00Z",
+    "remaining": 91,
+    "last_updated": "2024-12-17T13:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 270,
-      "wikipedia_articles": 55,
-      "research_papers": 71,
+      "total_external_links": 318,
+      "wikipedia_articles": 66,
+      "research_papers": 82,
       "videos": 44,
-      "interactive_elements": 40
+      "interactive_elements": 47
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 5,
-      "enriched_units": 5,
+      "extracted_units": 6,
+      "enriched_units": 6,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -483,7 +483,110 @@
                 "memory_aids": 10
               }
             },
-            "Unit-2": {"status": "pending"},
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2024-12-17",
+              "enrichment_date": "2024-12-17",
+              "pdf_path": "MPC-001/Block-2/Unit-2.pdf",
+              "topics_extracted": [
+                "Guilford's Structure-of-Intellect Theory",
+                "Gardner's Theory of Multiple Intelligences",
+                "Sternberg's Triarchic Theory of Intelligence",
+                "Comparative Analysis of Intelligence Theories",
+                "Integration and Contemporary Perspectives"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "27-guilford-structure-of-intellect-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "28-gardner-multiple-intelligences-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 6500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "29-sternberg-triarchic-theory-intelligence.mdx",
+                  "status": "enriched",
+                  "word_count": 6800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "30-comparing-intelligence-theories-guilford-gardner-sternberg.mdx",
+                  "status": "enriched",
+                  "word_count": 6200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "31-multiple-intelligence-theories-summary-integration.mdx",
+                  "status": "enriched",
+                  "word_count": 5500,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 0,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 48,
+                "wikipedia_articles": 11,
+                "research_papers": 11,
+                "videos": 0,
+                "mermaid_diagrams": 7,
+                "self_assessments": 25,
+                "memory_aids": 16
+              }
+            },
             "Unit-3": {"status": "pending"},
             "Unit-4": {"status": "pending"}
           }

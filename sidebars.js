@@ -57,12 +57,19 @@ const sidebars = {
           type: 'category',
           label: 'Block 2: Memory Systems',
           items: [
-            // Unit 1: Intelligence Theories
+            // Unit 1: Intelligence Theories - G and S Factor
             'mpc-001/block-2/nature-intelligence-definitions',
             'mpc-001/block-2/spearman-two-factor-theory',
             'mpc-001/block-2/critical-appraisals-spearman-theory',
             'mpc-001/block-2/pass-theory-jp-das',
             'mpc-001/block-2/intelligence-theories-integration-summary',
+            
+            // Unit 2: Multiple Theories of Intelligence
+            'mpc-001/block-2/guilford-structure-of-intellect-theory',
+            'mpc-001/block-2/gardner-multiple-intelligences-theory',
+            'mpc-001/block-2/sternberg-triarchic-theory-intelligence',
+            'mpc-001/block-2/comparing-intelligence-theories-guilford-gardner-sternberg',
+            'mpc-001/block-2/multiple-intelligence-theories-summary-integration',
           ],
         },
         // Block 3-4 will be added as content is created
