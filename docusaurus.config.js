@@ -40,7 +40,7 @@ const config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
-          lastmod: 'date',
+          lastmod: 'weekly',
           changefreq: 'daily',
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
