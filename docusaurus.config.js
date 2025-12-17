@@ -16,7 +16,17 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    ['@easyops-cn/docusaurus-search-local', {
+      hashed: true,
+      language: ['en'],
+      highlightSearchTermsOnTargetPage: true,
+      explicitSearchResultPath: true,
+      docsRouteBasePath: '/',
+      indexBlog: false,
+    }],
+  ],
   
   i18n: {
     defaultLocale: 'en',
@@ -141,14 +151,15 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       
-      // Search - Will be configured later with Algolia
-      algolia: {
-        appId: 'RKQ6EQ5FLG',
-        apiKey: '04020ac97a42ce0a6e897b87778c38ca',
-        indexName: 'mapc_msd_vercel_app_88ue9lav0f_pages',
-        contextualSearch: true,
-        searchPagePath: 'search',
-      },
+      // Search - Using local search as fallback
+      // Algolia config (uncomment when approved):
+      // algolia: {
+      //   appId: 'RKQ6EQ5FLG',
+      //   apiKey: '04020ac97a42ce0a6e897b87778c38ca',
+      //   indexName: 'mapc_msd_vercel_app_88ue9lav0f_pages',
+      //   contextualSearch: true,
+      //   searchPagePath: 'search',
+      // },
       
       colorMode: {
         defaultMode: 'light',

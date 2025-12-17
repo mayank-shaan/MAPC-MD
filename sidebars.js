@@ -70,6 +70,12 @@ const sidebars = {
             'mpc-001/block-2/sternberg-triarchic-theory-intelligence',
             'mpc-001/block-2/comparing-intelligence-theories-guilford-gardner-sternberg',
             'mpc-001/block-2/multiple-intelligence-theories-summary-integration',
+            
+            // Unit 3: Intelligence Testing
+            'mpc-001/block-2/theoretical-background-intelligence-measurement',
+            'mpc-001/block-2/history-intelligence-testing',
+            'mpc-001/block-2/stanford-binet-intelligence-scales',
+            'mpc-001/block-2/wechsler-intelligence-scales',
           ],
         },
         // Block 3-4 will be added as content is created

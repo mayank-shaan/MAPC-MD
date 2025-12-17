@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 6,
-    "enriched": 6,
+    "extracted": 7,
+    "enriched": 7,
     "in_progress": {
-      "unit": "MPC-001/Block-2/Unit-3",
+      "unit": "MPC-001/Block-2/Unit-4",
       "stage": "pending"
     },
-    "remaining": 91,
-    "last_updated": "2024-12-17T13:00:00Z",
+    "remaining": 90,
+    "last_updated": "2024-12-17T18:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 318,
-      "wikipedia_articles": 66,
-      "research_papers": 82,
-      "videos": 44,
-      "interactive_elements": 47
+      "total_external_links": 358,
+      "wikipedia_articles": 78,
+      "research_papers": 93,
+      "videos": 49,
+      "interactive_elements": 51
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 6,
-      "enriched_units": 6,
+      "extracted_units": 7,
+      "enriched_units": 7,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -587,7 +587,93 @@
                 "memory_aids": 16
               }
             },
-            "Unit-3": {"status": "pending"},
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2024-12-17",
+              "enrichment_date": "2024-12-17",
+              "pdf_path": "MPC-001/Block-2/Unit-3.pdf",
+              "topics_extracted": [
+                "Theoretical Background of Intelligence Measurement",
+                "History of Intelligence Testing",
+                "Stanford-Binet Intelligence Scales",
+                "Wechsler Intelligence Scales"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "32-theoretical-background-intelligence-measurement.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "33-history-intelligence-testing.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "34-stanford-binet-intelligence-scales.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "35-wechsler-intelligence-scales.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 4,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 40,
+                "wikipedia_articles": 12,
+                "research_papers": 11,
+                "videos": 6,
+                "mermaid_diagrams": 4,
+                "self_assessments": 16,
+                "memory_aids": 8
+              }
+            },
             "Unit-4": {"status": "pending"}
           }
         },
