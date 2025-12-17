@@ -143,8 +143,8 @@ const config = {
       
       // Search - Will be configured later with Algolia
       algolia: {
-        appId: '88UE9LAV0F',
-        apiKey: '406bbcce2bba04661f2ca9edfd64cce9',
+        appId: 'RKQ6EQ5FLG',
+        apiKey: '04020ac97a42ce0a6e897b87778c38ca',
         indexName: 'mapc_msd_vercel_app_88ue9lav0f_pages',
         contextualSearch: true,
         searchPagePath: 'search',
