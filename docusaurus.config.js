@@ -5,10 +5,10 @@ const config = {
   title: 'MAPC Study Portal',
   tagline: 'Master of Arts in Psychology - IGNOU Study Materials',
   favicon: 'img/favicon.ico',
-  url: 'https://mapc-study.vercel.app', // Update with your domain
+  url: 'https://mapc-msd.vercel.app', // Update with your domain
   baseUrl: '/',
   organizationName: 'msd', // Your GitHub username
-  projectName: 'mapc-study',
+  projectName: 'mapc-msd',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   
@@ -38,6 +38,13 @@ const config = {
         blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       }),
     ],
@@ -138,9 +145,9 @@ const config = {
       
       // Search - Will be configured later with Algolia
       algolia: {
-        appId: 'YOUR_APP_ID', // To be configured
-        apiKey: 'YOUR_SEARCH_API_KEY', // To be configured
-        indexName: 'mapc-study',
+        appId: '88UE9LAV0F',
+        apiKey: '406bbcce2bba04661f2ca9edfd64cce9',
+        indexName: 'mapc_msd_vercel_app_88ue9lav0f_pages',
         contextualSearch: true,
         searchPagePath: 'search',
       },
