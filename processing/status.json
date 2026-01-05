@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 7,
-    "enriched": 7,
+    "extracted": 8,
+    "enriched": 8,
     "in_progress": {
-      "unit": "MPC-001/Block-2/Unit-4",
+      "unit": "MPC-001/Block-3/Unit-1",
       "stage": "pending"
     },
-    "remaining": 90,
-    "last_updated": "2024-12-17T18:00:00Z",
+    "remaining": 89,
+    "last_updated": "2025-01-05T12:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 358,
-      "wikipedia_articles": 78,
-      "research_papers": 93,
-      "videos": 49,
-      "interactive_elements": 51
+      "total_external_links": 403,
+      "wikipedia_articles": 90,
+      "research_papers": 105,
+      "videos": 55,
+      "interactive_elements": 57
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 7,
-      "enriched_units": 7,
+      "extracted_units": 8,
+      "enriched_units": 8,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -674,7 +674,127 @@
                 "memory_aids": 8
               }
             },
-            "Unit-4": {"status": "pending"}
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2024-12-17",
+              "enrichment_date": "2024-12-17",
+              "pdf_path": "MPC-001/Block-2/Unit-4.pdf",
+              "topics_extracted": [
+                "Creativity - Meaning, Aspects, and Theories",
+                "Investment and Confluence Theory of Creativity",
+                "Stages of Creativity",
+                "Creativity and Intelligence Relationship",
+                "Measurement of Creativity - TTCT",
+                "Problem Solving - Comprehensive Analysis"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "36-creativity-meaning-aspects-theories.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "37-investment-confluence-theory-creativity.mdx",
+                  "status": "enriched",
+                  "word_count": 2900,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "38-stages-of-creativity.mdx",
+                  "status": "enriched",
+                  "word_count": 2700,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "39-creativity-intelligence-relationship.mdx",
+                  "status": "enriched",
+                  "word_count": 2600,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "40-measurement-creativity-ttct.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "41-problem-solving-comprehensive.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 55,
+                "wikipedia_articles": 18,
+                "research_papers": 16,
+                "videos": 7,
+                "mermaid_diagrams": 6,
+                "self_assessments": 36,
+                "memory_aids": 12
+              }
+            }
           }
         },
         "Block-3": {

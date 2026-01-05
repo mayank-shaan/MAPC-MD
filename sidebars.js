@@ -76,6 +76,14 @@ const sidebars = {
             'mpc-001/block-2/history-intelligence-testing',
             'mpc-001/block-2/stanford-binet-intelligence-scales',
             'mpc-001/block-2/wechsler-intelligence-scales',
+            
+            // Unit 4: Creativity and Problem Solving
+            'mpc-001/block-2/creativity-meaning-aspects-theories',
+            'mpc-001/block-2/investment-confluence-theory-creativity',
+            'mpc-001/block-2/stages-of-creativity',
+            'mpc-001/block-2/creativity-intelligence-relationship',
+            'mpc-001/block-2/measurement-creativity-ttct',
+            'mpc-001/block-2/problem-solving-comprehensive',
           ],
         },
         // Block 3-4 will be added as content is created
