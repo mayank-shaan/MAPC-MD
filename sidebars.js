@@ -103,6 +103,19 @@ const sidebars = {
             'mpc-001/block-3/language-processes-production-comprehension',
             'mpc-001/block-3/language-development-semantics',
             'mpc-001/block-3/kintsch-model-comprehension',
+            
+            // Unit 3: Multilingualism and Second Language
+            'mpc-001/block-3/multilingualism-basic-concepts',
+            'mpc-001/block-3/multilingualism-cognition-code-switching',
+            'mpc-001/block-3/multilingualism-thinking-cognitive-benefits',
+            'mpc-001/block-3/second-language-acquisition',
+            
+            // Unit 4: Language and Speech Disorders
+            'mpc-001/block-3/defining-language-speech-disorders',
+            'mpc-001/block-3/language-disorders-aphasia-autism-learning-disabilities',
+            'mpc-001/block-3/language-disorders-alzheimer-sli-phonological-dyspraxia',
+            'mpc-001/block-3/speech-disorders-voice-articulation-fluency',
+            'mpc-001/block-3/speech-disorders-apraxia-dysprosody-dysarthria',
           ],
         },
         // Block 4 will be added as content is created
