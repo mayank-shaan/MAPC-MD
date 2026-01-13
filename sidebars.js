@@ -86,7 +86,26 @@ const sidebars = {
             'mpc-001/block-2/problem-solving-comprehensive',
           ],
         },
-        // Block 3-4 will be added as content is created
+        {
+          type: 'category',
+          label: 'Block 3: Language and Cognition',
+          items: [
+            // Unit 1: Language and Cognition
+            // Unit 1: Language and Cognition
+            'mpc-001/block-3/language-cognition-foundations',
+            'mpc-001/block-3/linguistics-language-structure',
+            'mpc-001/block-3/stages-language-acquisition',
+            'mpc-001/block-3/language-acquisition-theories-behaviorist-innateness',
+            
+            // Unit 2: Language Processing
+            'mpc-001/block-3/functions-of-language',
+            'mpc-001/block-3/structure-of-language',
+            'mpc-001/block-3/language-processes-production-comprehension',
+            'mpc-001/block-3/language-development-semantics',
+            'mpc-001/block-3/kintsch-model-comprehension',
+          ],
+        },
+        // Block 4 will be added as content is created
       ],
     },
     {

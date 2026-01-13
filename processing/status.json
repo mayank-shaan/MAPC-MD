@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 8,
-    "enriched": 8,
+    "extracted": 10,
+    "enriched": 10,
     "in_progress": {
-      "unit": "MPC-001/Block-3/Unit-1",
+      "unit": "MPC-001/Block-3/Unit-3",
       "stage": "pending"
     },
-    "remaining": 89,
-    "last_updated": "2025-01-05T12:00:00Z",
+    "remaining": 87,
+    "last_updated": "2025-01-12T18:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 403,
-      "wikipedia_articles": 90,
-      "research_papers": 105,
-      "videos": 55,
-      "interactive_elements": 57
+      "total_external_links": 508,
+      "wikipedia_articles": 117,
+      "research_papers": 132,
+      "videos": 72,
+      "interactive_elements": 75
     }
   },
   "quality_standards": {
@@ -800,8 +800,197 @@
         "Block-3": {
           "name": "Learning Theories",
           "units": {
-            "Unit-1": {"status": "pending"},
-            "Unit-2": {"status": "pending"},
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-01-12",
+              "enrichment_date": "2025-01-12",
+              "pdf_path": "MPC-001/Block-3/Unit-1.pdf",
+              "topics_extracted": [
+                "Language and Cognition - Foundations",
+                "Linguistics and Language Structure",
+                "Stages of Language Acquisition",
+                "Language Acquisition Theories - Behaviorist and Innateness"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "42-language-cognition-foundations.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "43-linguistics-language-structure.mdx",
+                  "status": "enriched",
+                  "word_count": 2600,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "44-stages-language-acquisition.mdx",
+                  "status": "enriched",
+                  "word_count": 2700,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "45-language-acquisition-theories-behaviorist-innateness.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 1,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 45,
+                "wikipedia_articles": 12,
+                "research_papers": 12,
+                "videos": 7,
+                "mermaid_diagrams": 4,
+                "self_assessments": 20,
+                "memory_aids": 8
+              }
+            },
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-01-12",
+              "enrichment_date": "2025-01-12",
+              "pdf_path": "MPC-001/Block-3/Unit-2.pdf",
+              "topics_extracted": [
+                "Functions of Language - Speech Acts and Communication",
+                "Structure of Language - Phonology, Syntax, Semantics",
+                "Language Processes - Production and Comprehension",
+                "Language Development - Semantic and Pragmatic Growth",
+                "Kintsch's Model of Comprehension"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "46-functions-of-language.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "47-structure-of-language.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 15,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "48-language-processes-production-comprehension.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "49-language-development-semantics.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "50-kintsch-model-comprehension.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 60,
+                "wikipedia_articles": 15,
+                "research_papers": 15,
+                "videos": 10,
+                "mermaid_diagrams": 14,
+                "self_assessments": 30,
+                "memory_aids": 12
+              }
+            },
             "Unit-3": {"status": "pending"},
             "Unit-4": {"status": "pending"}
           }
