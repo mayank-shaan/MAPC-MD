@@ -118,7 +118,15 @@ const sidebars = {
             'mpc-001/block-3/speech-disorders-apraxia-dysprosody-dysarthria',
           ],
         },
-        // Block 4 will be added as content is created
+        // Block 4: Problem Solving
+        {
+          type: 'category',
+          label: 'Block 4: Problem Solving',
+          items: [
+            // Unit 1: Nature of Problem Solving
+            'mpc-001/block-4/types-characteristics-problems',
+          ],
+        },
       ],
     },
     {
