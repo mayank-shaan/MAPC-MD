@@ -125,6 +125,8 @@ const sidebars = {
           items: [
             // Unit 1: Nature of Problem Solving
             'mpc-001/block-4/types-characteristics-problems',
+            'mpc-001/block-4/nature-stages-problem-solving',
+            'mpc-001/block-4/thinking-types-insight-problem-solving',
           ],
         },
       ],

@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 12,
-    "enriched": 12,
+    "extracted": 13,
+    "enriched": 13,
     "in_progress": {
-      "unit": "MPC-001/Block-4/Unit-1",
+      "unit": "MPC-001/Block-4/Unit-2",
       "stage": "pending"
     },
-    "remaining": 85,
-    "last_updated": "2025-01-13T12:00:00Z",
+    "remaining": 84,
+    "last_updated": "2025-01-13T14:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 608,
-      "wikipedia_articles": 145,
-      "research_papers": 156,
+      "total_external_links": 626,
+      "wikipedia_articles": 150,
+      "research_papers": 160,
       "videos": 86,
-      "interactive_elements": 95
+      "interactive_elements": 102
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 12,
-      "enriched_units": 12,
+      "extracted_units": 13,
+      "enriched_units": 13,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -1185,9 +1185,78 @@
           }
         },
         "Block-4": {
-          "name": "Advanced Topics",
+          "name": "Problem Solving",
           "units": {
-            "Unit-1": {"status": "pending"},
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-01-13",
+              "enrichment_date": "2025-01-13",
+              "pdf_path": "MPC-001/Block-4/Unit-1.pdf",
+              "topics_extracted": [
+                "Types and Characteristics of Problems",
+                "Nature and Stages of Problem Solving",
+                "Types of Thinking and Insight in Problem Solving"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "60-types-characteristics-problems.mdx",
+                  "status": "enriched",
+                  "word_count": 600,
+                  "enrichment_score": 7,
+                  "quality_check": {
+                    "external_sources": 3,
+                    "wikipedia": 1,
+                    "research_papers": 0,
+                    "videos": 0,
+                    "diagrams": 1,
+                    "self_assessment": 3,
+                    "memory_aids": 1,
+                    "meets_standards": false
+                  }
+                },
+                {
+                  "filename": "61-nature-stages-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "62-thinking-types-insight-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 18,
+                "wikipedia_articles": 5,
+                "research_papers": 4,
+                "videos": 0,
+                "mermaid_diagrams": 7,
+                "self_assessments": 17,
+                "memory_aids": 8
+              }
+            },
             "Unit-2": {"status": "pending"},
             "Unit-3": {"status": "pending"},
             "Unit-4": {"status": "pending"}
