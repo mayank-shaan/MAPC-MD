@@ -96,13 +96,46 @@ npm run deploy
 
 | Course Code | Course Name | Total Units | Processed | Status |
 |------------|-------------|-------------|-----------|---------|
-| MPC-001 | Cognitive Psychology | 16 | 0/16 | 🔄 In Progress |
+| MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 14/16 | 🔄 87.5% Complete |
 | MPC-002 | Life Span Psychology | 16 | 0/16 | ⏳ Pending |
-| MPC-003 | Personality Theories | 16 | 0/16 | ⏳ Pending |
+| MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
+
+**Overall Progress**: 14/97 units (14.4%) • **Total Files Created**: 68 MDX files
+
+### MPC-001 Detailed Progress
+- ✅ **Block-1**: Foundations (4/4 units - 100%)
+- ✅ **Block-2**: Memory Systems (4/4 units - 100%)
+- ✅ **Block-3**: Language and Cognition (4/4 units - 100%)
+- 🔄 **Block-4**: Problem Solving (2/4 units - 50%)
+
+### Enrichment Statistics
+- 📊 **672** external resource links
+- 📚 **165** Wikipedia articles
+- 🔬 **175** research papers (2020-2024)
+- 🎥 **94** educational videos
+- 📈 **109** interactive diagrams
+- ✍️ **300+** self-assessment questions
+- 🧠 **100+** memory aids
+
+## 📝 Recent Updates
+
+**Latest: January 16, 2025**
+- ✅ Completed MPC-001/Block-4/Unit-2: Stages of Problem Solving
+  - 5 comprehensive MDX files (23,200 words total)
+  - Covered algorithms, heuristics, problem-solving techniques, creativity, and AI
+  - Added 46 external resources, 15 research papers, 8 videos
+  - Created detailed coverage of expert systems and computer simulation
+
+**Recent Completions:**
+- ✅ MPC-001/Block-4/Unit-1: Nature of Problem Solving (Jan 13)
+- ✅ MPC-001/Block-3/Unit-4: Language & Speech Disorders (Jan 13)
+- ✅ MPC-001/Block-3/Unit-3: Multilingualism (Jan 13)
+- ✅ MPC-001/Block-3/Unit-2: Language Processing (Jan 12)
+- ✅ MPC-001/Block-3/Unit-1: Language and Cognition (Jan 12)
 
 ## 🎨 Features
 - **Smart Search**: Full-text search across all content
