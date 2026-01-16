@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 13,
-    "enriched": 13,
+    "extracted": 14,
+    "enriched": 14,
     "in_progress": {
-      "unit": "MPC-001/Block-4/Unit-2",
+      "unit": "MPC-001/Block-4/Unit-3",
       "stage": "pending"
     },
-    "remaining": 84,
+    "remaining": 83,
     "last_updated": "2025-01-13T14:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 626,
-      "wikipedia_articles": 150,
-      "research_papers": 160,
-      "videos": 86,
-      "interactive_elements": 102
+      "total_external_links": 672,
+      "wikipedia_articles": 165,
+      "research_papers": 175,
+      "videos": 94,
+      "interactive_elements": 109
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 13,
-      "enriched_units": 13,
+      "extracted_units": 14,
+      "enriched_units": 14,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -1257,7 +1257,110 @@
                 "memory_aids": 8
               }
             },
-            "Unit-2": {"status": "pending"},
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-01-16",
+              "enrichment_date": "2025-01-16",
+              "pdf_path": "MPC-001/Block-4/Unit-2.pdf",
+              "topics_extracted": [
+                "Nature of Problem and Generating Solutions",
+                "Algorithms vs Heuristics - Problem Solving Strategies",
+                "Specific Problem Solving Techniques",
+                "Creativity and Problem Solving - Insight",
+                "Artificial Intelligence in Problem Solving"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "63-nature-problem-generating-solutions.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 0,
+                    "self_assessment": 8,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "64-algorithms-heuristics-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 4800,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "65-specific-problem-solving-techniques.mdx",
+                  "status": "enriched",
+                  "word_count": 5400,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "66-creativity-problem-solving-insight.mdx",
+                  "status": "enriched",
+                  "word_count": 5200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "67-artificial-intelligence-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 4600,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 10,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 46,
+                "wikipedia_articles": 15,
+                "research_papers": 15,
+                "videos": 8,
+                "mermaid_diagrams": 7,
+                "self_assessments": 48,
+                "memory_aids": 12
+              }
+            },
             "Unit-3": {"status": "pending"},
             "Unit-4": {"status": "pending"}
           }

@@ -127,6 +127,13 @@ const sidebars = {
             'mpc-001/block-4/types-characteristics-problems',
             'mpc-001/block-4/nature-stages-problem-solving',
             'mpc-001/block-4/thinking-types-insight-problem-solving',
+            
+            // Unit 2: Stages of Problem Solving
+            'mpc-001/block-4/nature-problem-generating-solutions',
+            'mpc-001/block-4/algorithms-heuristics-problem-solving',
+            'mpc-001/block-4/specific-problem-solving-techniques',
+            'mpc-001/block-4/creativity-problem-solving-insight',
+            'mpc-001/block-4/artificial-intelligence-problem-solving',
           ],
         },
       ],
