@@ -96,7 +96,7 @@ npm run deploy
 
 | Course Code | Course Name | Total Units | Processed | Status |
 |------------|-------------|-------------|-----------|---------|
-| MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 14/16 | 🔄 87.5% Complete |
+| MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
 | MPC-002 | Life Span Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
@@ -104,38 +104,45 @@ npm run deploy
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 14/97 units (14.4%) • **Total Files Created**: 68 MDX files
+**Overall Progress**: 16/97 units (16.5%) • **Total Files Created**: 77 MDX files • **First Course Complete!** 🎉
 
-### MPC-001 Detailed Progress
+### MPC-001 Detailed Progress - ✅ COMPLETE!
 - ✅ **Block-1**: Foundations (4/4 units - 100%)
 - ✅ **Block-2**: Memory Systems (4/4 units - 100%)
 - ✅ **Block-3**: Language and Cognition (4/4 units - 100%)
-- 🔄 **Block-4**: Problem Solving (2/4 units - 50%)
+- ✅ **Block-4**: Problem Solving (4/4 units - 100%)
 
 ### Enrichment Statistics
-- 📊 **672** external resource links
-- 📚 **165** Wikipedia articles
-- 🔬 **175** research papers (2020-2024)
-- 🎥 **94** educational videos
-- 📈 **109** interactive diagrams
-- ✍️ **300+** self-assessment questions
-- 🧠 **100+** memory aids
+- 📊 **768+** external resource links
+- 📚 **195+** Wikipedia articles
+- 🔬 **205+** research papers (2020-2024)
+- 🎥 **106** educational videos
+- 📈 **137+** interactive diagrams (Mermaid)
+- ✍️ **400+** self-assessment questions
+- 🧠 **120+** memory aids
 
 ## 📝 Recent Updates
 
-**Latest: January 16, 2025**
-- ✅ Completed MPC-001/Block-4/Unit-2: Stages of Problem Solving
-  - 5 comprehensive MDX files (23,200 words total)
-  - Covered algorithms, heuristics, problem-solving techniques, creativity, and AI
-  - Added 46 external resources, 15 research papers, 8 videos
-  - Created detailed coverage of expert systems and computer simulation
+**🎉 MILESTONE: January 21, 2025**
+- ✅ **COMPLETED MPC-001: Cognitive Psychology, Learning and Memory**
+  - All 16 units fully extracted and enriched
+  - 77 comprehensive MDX files created (~240,000 words)
+  - First complete course in MAPC Study Portal!
+
+**Latest: January 21, 2025**
+- ✅ Completed MPC-001/Block-4/Unit-4: Impediments to Problem Solving
+  - 5 comprehensive MDX files (23,400 words total)
+  - Covered Einstellung, functional fixedness, psychological barriers
+  - Explored environmental/cultural blocks and expertise differences
+  - Added 42 external resources, 11 research papers, 11 diagrams
+  - Detailed teaching strategies and transfer promotion
 
 **Recent Completions:**
+- ✅ MPC-001/Block-4/Unit-3: Theoretical Approaches to Problem Solving (Jan 16)
+- ✅ MPC-001/Block-4/Unit-2: Stages of Problem Solving (Jan 16)
 - ✅ MPC-001/Block-4/Unit-1: Nature of Problem Solving (Jan 13)
 - ✅ MPC-001/Block-3/Unit-4: Language & Speech Disorders (Jan 13)
 - ✅ MPC-001/Block-3/Unit-3: Multilingualism (Jan 13)
-- ✅ MPC-001/Block-3/Unit-2: Language Processing (Jan 12)
-- ✅ MPC-001/Block-3/Unit-1: Language and Cognition (Jan 12)
 
 ## 🎨 Features
 - **Smart Search**: Full-text search across all content

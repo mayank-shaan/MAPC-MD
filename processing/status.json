@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 14,
-    "enriched": 14,
+    "extracted": 16,
+    "enriched": 16,
     "in_progress": {
-      "unit": "MPC-001/Block-4/Unit-3",
+      "unit": "MPC-002/Block-1/Unit-1",
       "stage": "pending"
     },
-    "remaining": 83,
-    "last_updated": "2025-01-13T14:00:00Z",
+    "remaining": 81,
+    "last_updated": "2025-01-21T10:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 672,
-      "wikipedia_articles": 165,
-      "research_papers": 175,
-      "videos": 94,
-      "interactive_elements": 109
+      "total_external_links": 768,
+      "wikipedia_articles": 195,
+      "research_papers": 205,
+      "videos": 106,
+      "interactive_elements": 137
     }
   },
   "quality_standards": {
@@ -39,8 +39,8 @@
     "MPC-001": {
       "name": "Cognitive Psychology, Learning and Memory",
       "total_units": 16,
-      "extracted_units": 14,
-      "enriched_units": 14,
+      "extracted_units": 16,
+      "enriched_units": 16,
       "blocks": {
         "Block-1": {
           "name": "Foundations",
@@ -1361,8 +1361,214 @@
                 "memory_aids": 12
               }
             },
-            "Unit-3": {"status": "pending"},
-            "Unit-4": {"status": "pending"}
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-01-16",
+              "enrichment_date": "2025-01-16",
+              "pdf_path": "MPC-001/Block-4/Unit-3.pdf",
+              "topics_extracted": [
+                "Traditional Approaches to Problem Solving",
+                "Gestalt Approaches to Problem Solving",
+                "Information Processing and General Problem Solver",
+                "Newell's Approach and Problem Space Hypothesis",
+                "Problem Solving as Modeling"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "68-traditional-approaches-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 3400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "69-gestalt-approaches-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 5200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "70-information-processing-general-problem-solver.mdx",
+                  "status": "enriched",
+                  "word_count": 6500,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 8,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "71-newell-problem-space-hypothesis.mdx",
+                  "status": "enriched",
+                  "word_count": 5800,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 8,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "72-problem-solving-as-modeling.mdx",
+                  "status": "enriched",
+                  "word_count": 5600,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 8,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 54,
+                "wikipedia_articles": 19,
+                "research_papers": 19,
+                "videos": 12,
+                "mermaid_diagrams": 17,
+                "self_assessments": 36,
+                "memory_aids": 5
+              }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-01-21",
+              "enrichment_date": "2025-01-21",
+              "pdf_path": "MPC-001/Block-4/Unit-4.pdf",
+              "topics_extracted": [
+                "Einstellung and Mental Set - Luchin's Water Jar Problem",
+                "Functional Fixedness and Problem Representation",
+                "Psychological Barriers - Perceptual, Emotional, Intellectual Blocks",
+                "Environmental, Cultural, and Expressive Blocks",
+                "Problem Representation, Expertise, and Overcoming Impediments"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "73-einstellung-mental-set-luchin-water-jar.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "74-functional-fixedness-problem-representation.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "75-psychological-barriers-problem-solving.mdx",
+                  "status": "enriched",
+                  "word_count": 5200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "76-environmental-cultural-expressive-blocks.mdx",
+                  "status": "enriched",
+                  "word_count": 5000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "77-problem-solving-approaches-expertise.mdx",
+                  "status": "enriched",
+                  "word_count": 5400,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 0,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 42,
+                "wikipedia_articles": 11,
+                "research_papers": 11,
+                "videos": 0,
+                "mermaid_diagrams": 11,
+                "self_assessments": 35,
+                "memory_aids": 10
+              }
+            }
           }
         }
       }

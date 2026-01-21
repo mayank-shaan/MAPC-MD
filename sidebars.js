@@ -134,6 +134,20 @@ const sidebars = {
             'mpc-001/block-4/specific-problem-solving-techniques',
             'mpc-001/block-4/creativity-problem-solving-insight',
             'mpc-001/block-4/artificial-intelligence-problem-solving',
+            
+            // Unit 3: Theoretical Approaches to Problem Solving
+            'mpc-001/block-4/traditional-approaches-problem-solving',
+            'mpc-001/block-4/gestalt-approaches-problem-solving',
+            'mpc-001/block-4/information-processing-general-problem-solver',
+            'mpc-001/block-4/newell-problem-space-hypothesis',
+            'mpc-001/block-4/problem-solving-as-modeling',
+            
+            // Unit 4: Impediments to Problem Solving
+            'mpc-001/block-4/einstellung-mental-set-luchin-water-jar',
+            'mpc-001/block-4/functional-fixedness-problem-representation',
+            'mpc-001/block-4/psychological-barriers-problem-solving',
+            'mpc-001/block-4/environmental-cultural-expressive-blocks',
+            'mpc-001/block-4/problem-solving-approaches-expertise',
           ],
         },
       ],
