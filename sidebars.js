@@ -159,7 +159,20 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-002-lifespan/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'Block 1: Foundations of Life Span Development',
+          items: [
+            // Unit 1: Concept of Development, Growth, and Life Span Perspective
+            'mpc-002/block-1/concept-development-growth',
+            'mpc-002/block-1/life-span-perspectives-understanding',
+            'mpc-002/block-1/life-span-stages-domains',
+            'mpc-002/block-1/characteristics-life-span-development',
+            'mpc-002/block-1/research-methods-development-obstacles',
+          ],
+        },
+      ],
     },
     {
       type: 'category',

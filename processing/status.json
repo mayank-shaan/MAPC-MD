@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 16,
+    "extracted": 17,
     "enriched": 16,
     "in_progress": {
       "unit": "MPC-002/Block-1/Unit-1",
-      "stage": "pending"
+      "stage": "enrichment"
     },
-    "remaining": 81,
-    "last_updated": "2025-01-21T10:00:00Z",
+    "remaining": 80,
+    "last_updated": "2025-01-21T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 768,
       "wikipedia_articles": 195,
@@ -1568,6 +1568,73 @@
                 "self_assessments": 35,
                 "memory_aids": 10
               }
+            }
+          }
+        }
+      }
+    },
+    "MPC-002": {
+      "name": "Life Span Psychology",
+      "total_units": 16,
+      "extracted_units": 1,
+      "enriched_units": 0,
+      "blocks": {
+        "Block-1": {
+          "name": "Foundations of Life Span Development",
+          "units": {
+            "Unit-1": {
+              "status": "extracted",
+              "extraction_date": "2025-01-21",
+              "pdf_path": "MPC-002/Block-1/Unit-1.pdf",
+              "topics_extracted": [
+                "Concept of Development and Growth",
+                "Life Span Perspectives and Understanding",
+                "Developmental Stages and Domains",
+                "Characteristics of Life Span Development",
+                "Research Methods and Development Facts"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "78-concept-development-growth.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "79-life-span-perspectives-understanding.mdx",
+                  "status": "extracted",
+                  "word_count": 2100,
+                  "enrichment_score": 5
+                },
+                {
+                  "filename": "80-life-span-stages-domains.mdx",
+                  "status": "extracted",
+                  "word_count": 2300,
+                  "enrichment_score": 5
+                },
+                {
+                  "filename": "81-characteristics-life-span-development.mdx",
+                  "status": "extracted",
+                  "word_count": 2400,
+                  "enrichment_score": 5
+                },
+                {
+                  "filename": "82-research-methods-development-obstacles.mdx",
+                  "status": "extracted",
+                  "word_count": 2500,
+                  "enrichment_score": 5
+                }
+              ]
             }
           }
         }
