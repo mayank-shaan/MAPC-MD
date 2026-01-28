@@ -170,6 +170,16 @@ const sidebars = {
             'mpc-002/block-1/life-span-stages-domains',
             'mpc-002/block-1/characteristics-life-span-development',
             'mpc-002/block-1/research-methods-development-obstacles',
+            
+            // Unit 2: Prenatal Development (Genetics, Environment, Hazards)
+            'mpc-002/block-1/beginnings-life-genetics-sex-determination',
+            'mpc-002/block-1/prenatal-stages-development',
+            'mpc-002/block-1/prenatal-characteristics-environmental-influences',
+            
+            // Unit 3: Development During Infancy (Physical, Psychosocial, Cognitive, Linguistic)
+            'mpc-002/block-1/infancy-concept-characteristics-adjustments',
+            'mpc-002/block-1/infancy-physical-psychosocial-development',
+            'mpc-002/block-1/infancy-cognitive-linguistic-development',
           ],
         },
       ],
