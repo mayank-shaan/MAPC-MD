@@ -16,7 +16,17 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexBlog: false,
+        indexDocs: true,
+        language: "en",
+      },
+    ],
+  ],
   
   i18n: {
     defaultLocale: 'en',
@@ -56,7 +66,6 @@ const config = {
       metadata: [
         {name: 'keywords', content: 'IGNOU, MAPC, Psychology, Study Materials, MA Psychology'},
         {name: 'description', content: 'Comprehensive study portal for IGNOU MA in Psychology (MAPC) program'},
-        {name: 'algolia-site-verification', content: '6D11F68F1FB48D43'}
       ],
       
       // Announcement bar
@@ -141,14 +150,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       
-      // Search - Algolia
-      algolia: {
-        appId: 'RKQ6EQ5FLG',
-        apiKey: '04020ac97a42ce0a6e897b87778c38ca',
-        indexName: 'mapc_msd_vercel_app_88ue9lav0f_pages',
-        contextualSearch: true,
-        searchPagePath: 'search',
-      },
       
       colorMode: {
         defaultMode: 'light',
