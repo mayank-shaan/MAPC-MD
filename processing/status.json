@@ -5,18 +5,18 @@
     "extracted": 17,
     "enriched": 19,
     "in_progress": {
-      "unit": null,
-      "stage": null,
-      "file": null
+      "unit": "MPC-002/Block-1/Unit-2",
+      "stage": "enrichment",
+      "file": "84-prenatal-stages-development.mdx"
     },
     "remaining": 78,
-    "last_updated": "2025-01-28T17:00:00Z",
+    "last_updated": "2025-01-28T18:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 826,
-      "wikipedia_articles": 223,
-      "research_papers": 235,
-      "videos": 109,
-      "interactive_elements": 146
+      "total_external_links": 836,
+      "wikipedia_articles": 228,
+      "research_papers": 238,
+      "videos": 110,
+      "interactive_elements": 148
     }
   },
   "quality_standards": {
