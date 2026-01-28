@@ -16,8 +16,9 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: [
-    '@docusaurus/theme-mermaid',
+  themes: ['@docusaurus/theme-mermaid'],
+  
+  plugins: [
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
@@ -26,6 +27,10 @@ const config = {
         language: "en",
       },
     ],
+  ],
+  
+  clientModules: [
+    require.resolve('./src/theme/SearchBarShortcut.js'),
   ],
   
   i18n: {

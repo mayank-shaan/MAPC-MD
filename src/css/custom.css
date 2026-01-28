@@ -183,3 +183,85 @@ blockquote {
   text-align: center;
   margin: 20px 0;
 }
+
+/* Local Search Styling - @cmfcmf/docusaurus-search-local */
+.aa-Autocomplete {
+  --aa-primary-color-rgb: 46, 133, 85 !important;
+  --aa-input-border-color-rgb: 128, 128, 128 !important;
+  --aa-input-border-color-alpha: 0.8 !important;
+}
+
+.aa-Form {
+  border-radius: 8px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  background: var(--ifm-background-color) !important;
+}
+
+.aa-Input {
+  font-size: 14px !important;
+}
+
+.aa-InputWrapperPrefix {
+  padding-left: 12px !important;
+}
+
+.aa-SubmitButton {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Search button in navbar */
+button.aa-DetachedSearchButton {
+  border-radius: 8px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  background: var(--ifm-background-surface-color) !important;
+  padding: 6px 12px !important;
+  min-width: 200px !important;
+  justify-content: flex-start !important;
+}
+
+button.aa-DetachedSearchButton:hover {
+  border-color: var(--ifm-color-primary) !important;
+}
+
+.aa-DetachedSearchButtonPlaceholder {
+  color: var(--ifm-color-emphasis-600) !important;
+  font-size: 14px !important;
+}
+
+/* Keyboard shortcut hint */
+.aa-DetachedSearchButtonKeys {
+  display: flex !important;
+  gap: 2px !important;
+}
+
+.aa-DetachedSearchButtonKey {
+  background: var(--ifm-color-emphasis-200) !important;
+  border-radius: 4px !important;
+  padding: 2px 6px !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+}
+
+/* Search modal panel */
+.aa-Panel {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+[data-theme='dark'] .aa-Panel {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Search results */
+.aa-Item {
+  border-radius: 6px !important;
+  padding: 10px 12px !important;
+}
+
+.aa-Item[aria-selected="true"] {
+  background: var(--ifm-color-primary-lightest) !important;
+}
+
+[data-theme='dark'] .aa-Item[aria-selected="true"] {
+  background: var(--ifm-color-primary-darkest) !important;
+}
