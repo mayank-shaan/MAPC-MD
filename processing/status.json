@@ -2,11 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 19,
-    "enriched": 21,
-    "in_progress": null,
-    "remaining": 76,
-    "last_updated": "2025-01-28T23:45:00Z",
+    "extracted": 22,
+    "enriched": 23,
+    "in_progress": {
+      "unit": "MPC-002/Block-1/Unit-4",
+      "stage": "needs_enrichment"
+    },
+    "remaining": 73,
+    "last_updated": "2025-01-30T14:00:00Z",
     "enrichment_stats": {
       "total_external_links": 836,
       "wikipedia_articles": 228,
@@ -42,6 +45,93 @@
         "Block-1": {
           "name": "Foundations",
           "units": {
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": "2025-01-30",
+              "pdf_path": "MPC-002/Block-1/Unit-3.pdf",
+              "topics_extracted": [
+                "Concept and Characteristics of Infancy Period",
+                "Hazards and Adjustments During Infancy",
+                "Physical and Psychosocial Development in Infancy",
+                "Cognitive and Linguistic Development in Infancy"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "86-concept-characteristics-infancy-period.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "87-hazards-adjustments-infancy.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "88-physical-psychosocial-development-infancy.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 5,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "89-cognitive-linguistic-development-infancy.mdx",
+                  "status": "enriched",
+                  "word_count": 5000,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 5,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 40,
+                "wikipedia_articles": 12,
+                "research_papers": 8,
+                "videos": 8,
+                "mermaid_diagrams": 9,
+                "self_assessments": 23,
+                "memory_aids": 17
+              }
+            },
             "Unit-1": {
               "status": "enriched",
               "extraction_date": "2024-12-12",

@@ -177,9 +177,16 @@ const sidebars = {
             'mpc-002/block-1/prenatal-characteristics-environmental-influences',
             
             // Unit 3: Development During Infancy (Physical, Psychosocial, Cognitive, Linguistic)
-            'mpc-002/block-1/infancy-concept-characteristics-adjustments',
-            'mpc-002/block-1/infancy-physical-psychosocial-development',
-            'mpc-002/block-1/infancy-cognitive-linguistic-development',
+            'mpc-002/block-1/concept-characteristics-infancy-period',
+            'mpc-002/block-1/hazards-adjustments-infancy',
+            'mpc-002/block-1/physical-psychosocial-development-infancy',
+            'mpc-002/block-1/cognitive-linguistic-development-infancy',
+            
+            // Unit 4: Early Childhood (Physical, Psychosocial, Cognitive, Linguistic)
+            'mpc-002/block-1/concept-characteristics-hazards-early-childhood',
+            'mpc-002/block-1/physical-development-early-childhood',
+            'mpc-002/block-1/psychosocial-development-early-childhood',
+            'mpc-002/block-1/cognitive-linguistic-development-early-childhood',
           ],
         },
       ],

@@ -30,7 +30,7 @@ mapc-study/
 │   │   ├── block-3/          # 4 units, 19 files
 │   │   └── block-4/          # 4 units, 30 files
 │   ├── mpc-002/              # Life Span Psychology 🔄 IN PROGRESS
-│   │   └── block-1/          # Unit 1 complete, Unit 2 started
+│   │   └── block-1/          # 4 units complete (extraction), 3 enriched
 │   ├── mpc-003/              # Personality ⏳ Pending
 │   ├── mpc-004/              # Social Psychology ⏳ Pending
 │   ├── mpc-005/              # Research Methods ⏳ Pending
@@ -112,14 +112,14 @@ npm run deploy
 | Course Code | Course Name | Total Units | Enriched | Status |
 |------------|-------------|-------------|----------|---------|
 | MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-002 | Life Span Psychology | 16 | 1.25/16 | 🔄 **In Progress** |
+| MPC-002 | Life Span Psychology | 16 | 3/16 | 🔄 **In Progress** |
 | MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 19/97 units (19.6%) • **Total Files Created**: 83 MDX files • **~275,000 words**
+**Overall Progress**: 22/97 units extracted (22.7%) • 23/97 enriched (23.7%) • **Total Files Created**: 93 MDX files • **~305,000 words**
 
 ### MPC-001 - ✅ COMPLETE! (First Course)
 - ✅ **Block-1**: Foundations (4/4 units - 100%) - 8 files
@@ -128,23 +128,24 @@ npm run deploy
 - ✅ **Block-4**: Problem Solving (4/4 units - 100%) - 30 files
 
 ### MPC-002 - 🔄 IN PROGRESS
-- ✅ **Block-1/Unit-1**: Life Span Development Foundations (100%) - 5 files
+- ✅ **Block-1/Unit-1**: Life Span Development Foundations (ENRICHED) - 5 files
   - Completed: Concept of Development, Life-Span Perspectives, Stages & Domains, Characteristics, Research Methods
-- 🔄 **Block-1/Unit-2**: Prenatal Development (25%) - 1 of 4 files
-  - Completed: Beginnings of Life & Genetics
-  - Pending: Prenatal Stages, Environmental Influences, Hazards
-- ⏳ **Block-1/Unit-3**: Birth & Infancy
-- ⏳ **Block-1/Unit-4**: Early Childhood
+- ✅ **Block-1/Unit-2**: Prenatal Development (ENRICHED) - 3 files
+  - Completed: Beginnings of Life, Prenatal Stages, Environmental Influences & Hazards
+- ✅ **Block-1/Unit-3**: Development During Infancy (ENRICHED) - 4 files
+  - Completed: Concept & Characteristics, Hazards & Adjustments, Physical & Psychosocial Development, Cognitive & Linguistic Development
+- ✅ **Block-1/Unit-4**: Early Childhood (EXTRACTED, needs enrichment) - 4 files
+  - Completed: Concept & Characteristics, Physical Development, Psychosocial Development, Cognitive & Linguistic Development
 
-### Enrichment Statistics (As of Jan 28, 2025)
-- 📊 **836+** external resource links
-- 📚 **228+** Wikipedia articles linked
-- 🔬 **238+** research papers cited (2020-2024)
-- 🎥 **110+** educational videos embedded
-- 📈 **148+** interactive Mermaid diagrams
-- ✍️ **450+** self-assessment questions
-- 🧠 **150+** memory aids and mnemonics
-- 📝 **~275,000 words** of enriched content
+### Enrichment Statistics (As of Jan 30, 2025)
+- 📊 **876+** external resource links
+- 📚 **240+** Wikipedia articles linked
+- 🔬 **246+** research papers cited (2023-2024)
+- 🎥 **118+** educational videos embedded
+- 📈 **157+** interactive Mermaid diagrams
+- ✍️ **473+** self-assessment questions
+- 🧠 **167+** memory aids and mnemonics
+- 📝 **~305,000 words** of enriched content
 
 ## 🎉 Major Milestones
 
@@ -154,6 +155,15 @@ npm run deploy
   - 77 comprehensive MDX files created (~240,000 words)
   - First complete course in MAPC Study Portal!
   - Quality score: 9-10/10 across all files
+
+**📚 January 30, 2025 - MPC-002 Block-1 Extraction Complete!**
+- ✅ **COMPLETED MPC-002/Block-1 EXTRACTION** (All 4 units)
+  - Unit-1: Life Span Development (5 files, ENRICHED)
+  - Unit-2: Prenatal Development (3 files, ENRICHED)
+  - Unit-3: Development During Infancy (4 files, ENRICHED)
+  - Unit-4: Early Childhood (4 files, EXTRACTED - needs enrichment)
+  - 16 comprehensive MDX files (~40,000 words total)
+  - Block-1 covers complete foundations from prenatal through early childhood
 
 **📚 January 28, 2025 - Second Course Started!**
 - ✅ **COMPLETED MPC-002/Block-1/Unit-1: Life Span Development**
@@ -167,7 +177,25 @@ npm run deploy
 
 ## 📝 Recent Updates
 
-**Latest: January 28, 2025**
+**Latest: January 30, 2025**
+- ✅ **Completed MPC-002/Block-1/Unit-3** (Development During Infancy) - ENRICHED
+  - 4 comprehensive files: Concept & characteristics, Hazards & adjustments, Physical & psychosocial development, Cognitive & linguistic development
+  - 17,000 words with full enrichment
+  - 40 external links, 12 Wikipedia articles, 8 research papers (2023-2024)
+  - 9 Mermaid diagrams, 23 self-assessments, 17 memory aids
+  - Topics: Infancy period characteristics, four major adjustments, Erikson's trust vs mistrust, Piaget's sensorimotor stage, language development
+
+- ✅ **Completed MPC-002/Block-1/Unit-4** (Early Childhood) - EXTRACTED
+  - 4 files created: Concept & characteristics, Physical development, Psychosocial development, Cognitive & linguistic development  
+  - 10,500 words extracted (needs enrichment)
+  - Topics: Play age characteristics, physical growth patterns, Erikson's autonomy vs shame, Piaget's preoperational stage, vocabulary explosion
+
+- 🎉 **MILESTONE: MPC-002/Block-1 EXTRACTION COMPLETE** (All 4 units)
+  - 16 total files covering prenatal through early childhood
+  - 3 units fully enriched, 1 unit needs enrichment
+  - Ready to begin Block-2 after Unit-4 enrichment
+
+**Previous: January 28, 2025**
 - ✅ **Completed MPC-002/Block-1/Unit-1** (Life Span Development Foundations)
   - 5 enriched files: Development concepts, Life-span perspectives, Stages & domains, Characteristics, Research methods
   - 27,700 words total with comprehensive enrichment
@@ -180,6 +208,10 @@ npm run deploy
   - 10 external links, 5 Wikipedia articles, 3 research papers
 
 **Recent Completions (January 2025):**
+- ✅ MPC-002/Block-1/Unit-3: Development During Infancy (Jan 30) - ENRICHED
+- ✅ MPC-002/Block-1/Unit-4: Early Childhood (Jan 30) - EXTRACTED
+- ✅ MPC-002/Block-1/Unit-2: Prenatal Development (Jan 28) - ENRICHED
+- ✅ MPC-002/Block-1/Unit-1: Life Span Foundations (Jan 28) - ENRICHED
 - ✅ MPC-001/Block-4/Unit-4: Impediments to Problem Solving (Jan 21)
 - ✅ MPC-001/Block-4/Unit-3: Theoretical Approaches (Jan 16)
 - ✅ MPC-001/Block-4/Unit-2: Stages of Problem Solving (Jan 16)
@@ -261,6 +293,6 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: January 28, 2025  
-**Version**: 2.0 (Second course in progress)  
-**Status**: Active Development - MPC-002 Block-1 Unit-2 in progress
+**Last Updated**: January 30, 2025  
+**Version**: 2.1 (MPC-002 Block-1 extraction complete)  
+**Status**: Active Development - MPC-002 Block-1/Unit-4 needs enrichment, then ready for Block-2
