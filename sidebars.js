@@ -189,6 +189,17 @@ const sidebars = {
             'mpc-002/block-1/cognitive-linguistic-development-early-childhood',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 2: Development During Early School Years',
+          items: [
+            // Unit 1: Physical Development (6-11 Years)
+            'mpc-002/block-2/physical-growth-early-school-years',
+            'mpc-002/block-2/motor-development-skills-middle-childhood',
+            'mpc-002/block-2/body-changes-physical-systems-middle-childhood',
+            'mpc-002/block-2/motor-skills-disorders-sports-participation',
+          ],
+        },
       ],
     },
     {

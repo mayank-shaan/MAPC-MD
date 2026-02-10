@@ -2,10 +2,10 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 22,
-    "enriched": 24,
+    "extracted": 23,
+    "enriched": 25,
     "in_progress": null,
-    "remaining": 73,
+    "remaining": 72,
     "last_updated": "2025-01-30T16:00:00Z",
     "enrichment_stats": {
       "total_external_links": 836,
@@ -1747,8 +1747,8 @@
     "MPC-002": {
       "name": "Life Span Psychology",
       "total_units": 16,
-      "extracted_units": 4,
-      "enriched_units": 4,
+      "extracted_units": 5,
+      "enriched_units": 5,
       "blocks": {
         "Block-1": {
           "name": "Foundations of Life Span Development",
@@ -1935,6 +1935,98 @@
                 "mermaid_diagrams": 8,
                 "self_assessments": 25,
                 "memory_aids": 10
+              }
+            }
+          }
+        },
+        "Block-2": {
+          "name": "Development During Early School Years",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": "2025-01-30",
+              "pdf_path": "MPC-002/Block-2/Unit-1.pdf",
+              "topics_extracted": [
+                "Physical Growth in Early School Years (6-11)",
+                "Motor Development and Skills",
+                "Body Changes and Physical Systems",
+                "Motor Skills Refinement, Disorders, and Sports"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "94-physical-growth-early-school-years.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "95-motor-development-skills-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "96-body-changes-physical-systems-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 3400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "97-motor-skills-disorders-sports-participation.mdx",
+                  "status": "enriched",
+                  "word_count": 3900,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 12,
+                "research_papers": 8,
+                "videos": 8,
+                "mermaid_diagrams": 4,
+                "self_assessments": 20,
+                "memory_aids": 12
               }
             }
           }
