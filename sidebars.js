@@ -204,6 +204,10 @@ const sidebars = {
             'mpc-002/block-2/social-development-middle-childhood',
             'mpc-002/block-2/moral-development-middle-childhood',
             'mpc-002/block-2/emotional-development-middle-childhood',
+            
+            // Unit 3: Schooling and Development
+            'mpc-002/block-2/school-aims-philosophy-middle-childhood',
+            'mpc-002/block-2/basic-skills-subjects-value-education',
           ],
         },
       ],

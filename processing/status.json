@@ -3,13 +3,13 @@
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
     "extracted": 23,
-    "enriched": 26,
+    "enriched": 27,
     "in_progress": {
-      "unit": "MPC-002/Block-2/Unit-3",
+      "unit": "MPC-002/Block-2/Unit-4",
       "stage": "pending"
     },
-    "remaining": 71,
-    "last_updated": "2025-01-30T20:00:00Z",
+    "remaining": 70,
+    "last_updated": "2025-01-30T22:00:00Z",
     "enrichment_stats": {
       "total_external_links": 836,
       "wikipedia_articles": 228,
@@ -1741,6 +1741,62 @@
                 "mermaid_diagrams": 11,
                 "self_assessments": 35,
                 "memory_aids": 10
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": "2025-01-30",
+              "pdf_path": "MPC-002/Block-2/Unit-3.pdf",
+              "topics_extracted": [
+                "School and Life of Children - Educational Philosophy",
+                "Basic School Skills - 3Rs and Computer Literacy",
+                "Teaching for Knowledge - Geography, History, Science, Languages",
+                "Value Education - Character Development",
+                "Other Subjects - Physical Education, Arts, Educational Excursions"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "102-school-aims-philosophy-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 6000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 6,
+                    "wikipedia": 2,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "103-basic-skills-subjects-value-education.mdx",
+                  "status": "enriched",
+                  "word_count": 5500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 2,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 13,
+                "wikipedia_articles": 4,
+                "research_papers": 10,
+                "videos": 4,
+                "mermaid_diagrams": 4,
+                "self_assessments": 14,
+                "memory_aids": 6
               }
             }
           }
