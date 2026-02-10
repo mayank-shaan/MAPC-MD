@@ -201,6 +201,9 @@ const sidebars = {
             
             // Unit 2: Cognitive, Social, Emotional, and Moral Development (6-11 Years)
             'mpc-002/block-2/cognitive-development-middle-childhood',
+            'mpc-002/block-2/social-development-middle-childhood',
+            'mpc-002/block-2/moral-development-middle-childhood',
+            'mpc-002/block-2/emotional-development-middle-childhood',
           ],
         },
       ],

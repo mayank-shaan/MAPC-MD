@@ -3,15 +3,13 @@
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
     "extracted": 23,
-    "enriched": 25,
+    "enriched": 26,
     "in_progress": {
-      "unit": "MPC-002/Block-2/Unit-2",
-      "stage": "enrichment",
-      "files_completed": 1,
-      "files_total": 4
+      "unit": "MPC-002/Block-2/Unit-3",
+      "stage": "pending"
     },
-    "remaining": 72,
-    "last_updated": "2025-01-30T16:00:00Z",
+    "remaining": 71,
+    "last_updated": "2025-01-30T20:00:00Z",
     "enrichment_stats": {
       "total_external_links": 836,
       "wikipedia_articles": 228,
@@ -2035,9 +2033,9 @@
               }
             },
             "Unit-2": {
-              "status": "in_progress",
+              "status": "enriched",
               "extraction_date": "2025-01-30",
-              "enrichment_date": null,
+              "enrichment_date": "2025-01-30",
               "pdf_path": "MPC-002/Block-2/Unit-2.pdf",
               "topics_extracted": [
                 "Cognitive Development (Piaget's Concrete Operations)",
@@ -2061,9 +2059,65 @@
                     "memory_aids": 3,
                     "meets_standards": true
                   }
+                },
+                {
+                  "filename": "99-social-development-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 5200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "100-moral-development-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 5800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "101-emotional-development-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 5500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
                 }
               ],
-              "progress_notes": "1 of 4 files completed. Remaining: Social Development, Moral Development, Emotional Development. Continue in next session."
+              "enrichment_quality": {
+                "total_external_links": 28,
+                "wikipedia_articles": 12,
+                "research_papers": 17,
+                "videos": 8,
+                "mermaid_diagrams": 10,
+                "self_assessments": 26,
+                "memory_aids": 14
+              }
             }
           }
         }
