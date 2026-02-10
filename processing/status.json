@@ -4,7 +4,12 @@
     "total_pdfs": 97,
     "extracted": 23,
     "enriched": 25,
-    "in_progress": null,
+    "in_progress": {
+      "unit": "MPC-002/Block-2/Unit-2",
+      "stage": "enrichment",
+      "files_completed": 1,
+      "files_total": 4
+    },
     "remaining": 72,
     "last_updated": "2025-01-30T16:00:00Z",
     "enrichment_stats": {
@@ -2028,6 +2033,37 @@
                 "self_assessments": 20,
                 "memory_aids": 12
               }
+            },
+            "Unit-2": {
+              "status": "in_progress",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": null,
+              "pdf_path": "MPC-002/Block-2/Unit-2.pdf",
+              "topics_extracted": [
+                "Cognitive Development (Piaget's Concrete Operations)",
+                "Social Development (Parents, Siblings, Peers)",
+                "Moral Development (Piaget and Kohlberg)",
+                "Emotional Development (Fear, Anger, Joy, Curiosity)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "98-cognitive-development-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 3,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "progress_notes": "1 of 4 files completed. Remaining: Social Development, Moral Development, Emotional Development. Continue in next session."
             }
           }
         }

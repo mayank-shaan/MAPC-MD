@@ -198,6 +198,9 @@ const sidebars = {
             'mpc-002/block-2/motor-development-skills-middle-childhood',
             'mpc-002/block-2/body-changes-physical-systems-middle-childhood',
             'mpc-002/block-2/motor-skills-disorders-sports-participation',
+            
+            // Unit 2: Cognitive, Social, Emotional, and Moral Development (6-11 Years)
+            'mpc-002/block-2/cognitive-development-middle-childhood',
           ],
         },
       ],
