@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 28,
-    "enriched": 28,
+    "extracted": 27,
+    "enriched": 29,
     "in_progress": {
-      "unit": "MPC-002/Block-3/Unit-2",
-      "stage": "extraction"
+      "unit": "MPC-002/Block-3/Unit-1",
+      "stage": "enrichment"
     },
     "remaining": 64,
-    "last_updated": "2025-02-11T18:00:00Z",
+    "last_updated": "2025-02-11T20:30:00Z",
     "enrichment_stats": {
-      "total_external_links": 876,
-      "wikipedia_articles": 238,
-      "research_papers": 253,
-      "videos": 118,
-      "interactive_elements": 154
+      "total_external_links": 884,
+      "wikipedia_articles": 241,
+      "research_papers": 256,
+      "videos": 120,
+      "interactive_elements": 155
     }
   },
   "quality_standards": {
@@ -2325,9 +2325,9 @@
           "name": "Development During Adolescence",
           "units": {
             "Unit-1": {
-              "status": "extracted",
+              "status": "in_progress",
               "extraction_date": "2025-02-11",
-              "enrichment_date": null,
+              "enrichment_date": "2025-02-11",
               "pdf_path": "MPC-002/Block-3/Unit-1.pdf",
               "topics_extracted": [
                 "Adolescent Development Stages (Early, Middle, Late)",
@@ -2338,18 +2338,18 @@
               "mdx_files": [
                 {
                   "filename": "108-adolescent-development-stages.mdx",
-                  "status": "extracted",
-                  "word_count": 3500,
-                  "enrichment_score": null,
+                  "status": "enriched",
+                  "word_count": 9200,
+                  "enrichment_score": 10,
                   "quality_check": {
-                    "external_sources": 0,
-                    "wikipedia": 0,
-                    "research_papers": 0,
-                    "videos": 0,
-                    "diagrams": 0,
-                    "self_assessment": 0,
-                    "memory_aids": 0,
-                    "meets_standards": false
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 7,
+                    "memory_aids": 1,
+                    "meets_standards": true
                   }
                 },
                 {
@@ -2402,13 +2402,15 @@
                 }
               ],
               "enrichment_quality": {
-                "total_external_links": 0,
-                "wikipedia_articles": 0,
-                "research_papers": 0,
-                "videos": 0,
-                "mermaid_diagrams": 0,
-                "self_assessments": 0,
-                "memory_aids": 0
+                "total_external_links": 8,
+                "wikipedia_articles": 3,
+                "research_papers": 3,
+                "videos": 2,
+                "mermaid_diagrams": 1,
+                "self_assessments": 7,
+                "memory_aids": 1,
+                "files_completed": 1,
+                "files_pending": 3
               }
             },
             "Unit-2": {
