@@ -216,6 +216,17 @@ const sidebars = {
             'mpc-002/block-2/gifted-talented-children-integration',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 3: Development During Adolescence',
+          items: [
+            // Unit 1: Physical Changes
+            'mpc-002/block-3/adolescent-development-stages',
+            'mpc-002/block-3/puberty-physical-development',
+            'mpc-002/block-3/physical-changes-adolescent-males',
+            'mpc-002/block-3/physical-changes-adolescent-females',
+          ],
+        },
       ],
     },
     {

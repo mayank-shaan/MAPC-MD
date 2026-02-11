@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 24,
+    "extracted": 28,
     "enriched": 28,
     "in_progress": {
-      "unit": "MPC-002/Block-3/Unit-1",
-      "stage": "pending"
+      "unit": "MPC-002/Block-3/Unit-2",
+      "stage": "extraction"
     },
-    "remaining": 68,
-    "last_updated": "2025-01-30T23:30:00Z",
+    "remaining": 64,
+    "last_updated": "2025-02-11T18:00:00Z",
     "enrichment_stats": {
       "total_external_links": 876,
       "wikipedia_articles": 238,
@@ -2001,6 +2001,62 @@
         "Block-2": {
           "name": "Development During Early School Years",
           "units": {
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": "2025-01-30",
+              "pdf_path": "MPC-002/Block-2/Unit-3.pdf",
+              "topics_extracted": [
+                "School and Life of Children - Educational Philosophy",
+                "Basic School Skills - 3Rs and Computer Literacy",
+                "Teaching for Knowledge - Geography, History, Science, Languages",
+                "Value Education - Character Development",
+                "Other Subjects - Physical Education, Arts, Educational Excursions"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "102-school-aims-philosophy-middle-childhood.mdx",
+                  "status": "enriched",
+                  "word_count": 6000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 6,
+                    "wikipedia": 2,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "103-basic-skills-subjects-value-education.mdx",
+                  "status": "enriched",
+                  "word_count": 5500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 7,
+                    "wikipedia": 2,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 13,
+                "wikipedia_articles": 4,
+                "research_papers": 10,
+                "videos": 4,
+                "mermaid_diagrams": 4,
+                "self_assessments": 14,
+                "memory_aids": 6
+              }
+            },
             "Unit-1": {
               "status": "enriched",
               "extraction_date": "2025-01-30",
@@ -2262,6 +2318,122 @@
                 "self_assessments": 26,
                 "memory_aids": 6
               }
+            }
+          }
+        },
+        "Block-3": {
+          "name": "Development During Adolescence",
+          "units": {
+            "Unit-1": {
+              "status": "extracted",
+              "extraction_date": "2025-02-11",
+              "enrichment_date": null,
+              "pdf_path": "MPC-002/Block-3/Unit-1.pdf",
+              "topics_extracted": [
+                "Adolescent Development Stages (Early, Middle, Late)",
+                "Puberty and Physical Development",
+                "Physical Changes in Adolescent Males",
+                "Physical Changes in Adolescent Females"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "108-adolescent-development-stages.mdx",
+                  "status": "extracted",
+                  "word_count": 3500,
+                  "enrichment_score": null,
+                  "quality_check": {
+                    "external_sources": 0,
+                    "wikipedia": 0,
+                    "research_papers": 0,
+                    "videos": 0,
+                    "diagrams": 0,
+                    "self_assessment": 0,
+                    "memory_aids": 0,
+                    "meets_standards": false
+                  }
+                },
+                {
+                  "filename": "109-puberty-physical-development.mdx",
+                  "status": "extracted",
+                  "word_count": 4200,
+                  "enrichment_score": null,
+                  "quality_check": {
+                    "external_sources": 0,
+                    "wikipedia": 0,
+                    "research_papers": 0,
+                    "videos": 0,
+                    "diagrams": 0,
+                    "self_assessment": 0,
+                    "memory_aids": 0,
+                    "meets_standards": false
+                  }
+                },
+                {
+                  "filename": "110-physical-changes-adolescent-males.mdx",
+                  "status": "extracted",
+                  "word_count": 5100,
+                  "enrichment_score": null,
+                  "quality_check": {
+                    "external_sources": 0,
+                    "wikipedia": 0,
+                    "research_papers": 0,
+                    "videos": 0,
+                    "diagrams": 0,
+                    "self_assessment": 0,
+                    "memory_aids": 0,
+                    "meets_standards": false
+                  }
+                },
+                {
+                  "filename": "111-physical-changes-adolescent-females.mdx",
+                  "status": "extracted",
+                  "word_count": 5300,
+                  "enrichment_score": null,
+                  "quality_check": {
+                    "external_sources": 0,
+                    "wikipedia": 0,
+                    "research_papers": 0,
+                    "videos": 0,
+                    "diagrams": 0,
+                    "self_assessment": 0,
+                    "memory_aids": 0,
+                    "meets_standards": false
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 0,
+                "wikipedia_articles": 0,
+                "research_papers": 0,
+                "videos": 0,
+                "mermaid_diagrams": 0,
+                "self_assessments": 0,
+                "memory_aids": 0
+              }
+            },
+            "Unit-2": {
+              "status": "pending",
+              "extraction_date": null,
+              "enrichment_date": null,
+              "pdf_path": "MPC-002/Block-3/Unit-2.pdf",
+              "topics_extracted": [],
+              "mdx_files": []
+            },
+            "Unit-3": {
+              "status": "pending",
+              "extraction_date": null,
+              "enrichment_date": null,
+              "pdf_path": "MPC-002/Block-3/Unit-3.pdf",
+              "topics_extracted": [],
+              "mdx_files": []
+            },
+            "Unit-4": {
+              "status": "pending",
+              "extraction_date": null,
+              "enrichment_date": null,
+              "pdf_path": "MPC-002/Block-3/Unit-4.pdf",
+              "topics_extracted": [],
+              "mdx_files": []
             }
           }
         }
