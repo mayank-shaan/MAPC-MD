@@ -208,6 +208,12 @@ const sidebars = {
             // Unit 3: Schooling and Development
             'mpc-002/block-2/school-aims-philosophy-middle-childhood',
             'mpc-002/block-2/basic-skills-subjects-value-education',
+            
+            // Unit 4: Identification of Problems in School Children and Remedial Measures
+            'mpc-002/block-2/learning-disabilities-identification-remedial-measures',
+            'mpc-002/block-2/mental-retardation-adhd-physical-disabilities',
+            'mpc-002/block-2/sensory-impairments-hearing-visual',
+            'mpc-002/block-2/gifted-talented-children-integration',
           ],
         },
       ],

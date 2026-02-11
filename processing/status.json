@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 23,
-    "enriched": 27,
+    "extracted": 24,
+    "enriched": 28,
     "in_progress": {
-      "unit": "MPC-002/Block-2/Unit-4",
+      "unit": "MPC-002/Block-3/Unit-1",
       "stage": "pending"
     },
-    "remaining": 70,
-    "last_updated": "2025-01-30T22:00:00Z",
+    "remaining": 68,
+    "last_updated": "2025-01-30T23:30:00Z",
     "enrichment_stats": {
-      "total_external_links": 836,
-      "wikipedia_articles": 228,
-      "research_papers": 238,
-      "videos": 110,
-      "interactive_elements": 148
+      "total_external_links": 876,
+      "wikipedia_articles": 238,
+      "research_papers": 253,
+      "videos": 118,
+      "interactive_elements": 154
     }
   },
   "quality_standards": {
@@ -1806,8 +1806,8 @@
     "MPC-002": {
       "name": "Life Span Psychology",
       "total_units": 16,
-      "extracted_units": 5,
-      "enriched_units": 5,
+      "extracted_units": 6,
+      "enriched_units": 6,
       "blocks": {
         "Block-1": {
           "name": "Foundations of Life Span Development",
@@ -2173,6 +2173,94 @@
                 "mermaid_diagrams": 10,
                 "self_assessments": 26,
                 "memory_aids": 14
+              }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-01-30",
+              "enrichment_date": "2025-01-30",
+              "pdf_path": "MPC-002/Block-2/Unit-4.pdf",
+              "topics_extracted": [
+                "Learning Disabilities (LD) - Identification and Remedial Measures",
+                "Mental Retardation (MR) - Assessment and Intervention",
+                "ADHD and Physical/Orthopedic Disabilities",
+                "Sensory Impairments - Hearing and Visual",
+                "Gifted and Talented Children - Enrichment and Integration"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "104-learning-disabilities-identification-remedial-measures.mdx",
+                  "status": "enriched",
+                  "word_count": 7500,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "105-mental-retardation-adhd-physical-disabilities.mdx",
+                  "status": "enriched",
+                  "word_count": 7200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "106-sensory-impairments-hearing-visual.mdx",
+                  "status": "enriched",
+                  "word_count": 6800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 2,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "107-gifted-talented-children-integration.mdx",
+                  "status": "enriched",
+                  "word_count": 6200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 2,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 40,
+                "wikipedia_articles": 10,
+                "research_papers": 15,
+                "videos": 8,
+                "mermaid_diagrams": 6,
+                "self_assessments": 26,
+                "memory_aids": 6
               }
             }
           }
