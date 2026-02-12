@@ -112,14 +112,14 @@ npm run deploy
 | Course Code | Course Name | Total Units | Enriched | Status |
 |------------|-------------|-------------|----------|---------|
 | MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-002 | Life Span Psychology | 16 | 3/16 | 🔄 **In Progress** |
+| MPC-002 | Life Span Psychology | 16 | 7/16 | 🔄 **In Progress (44%)** |
 | MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 22/97 units extracted (22.7%) • 23/97 enriched (23.7%) • **Total Files Created**: 93 MDX files • **~305,000 words**
+**Overall Progress**: 27/97 units extracted (27.8%) • 31/97 enriched (32.0%) • **Total Files Created**: 111 MDX files • **~342,000 words**
 
 ### MPC-001 - ✅ COMPLETE! (First Course)
 - ✅ **Block-1**: Foundations (4/4 units - 100%) - 8 files
@@ -128,24 +128,27 @@ npm run deploy
 - ✅ **Block-4**: Problem Solving (4/4 units - 100%) - 30 files
 
 ### MPC-002 - 🔄 IN PROGRESS
-- ✅ **Block-1/Unit-1**: Life Span Development Foundations (ENRICHED) - 5 files
-  - Completed: Concept of Development, Life-Span Perspectives, Stages & Domains, Characteristics, Research Methods
-- ✅ **Block-1/Unit-2**: Prenatal Development (ENRICHED) - 3 files
-  - Completed: Beginnings of Life, Prenatal Stages, Environmental Influences & Hazards
-- ✅ **Block-1/Unit-3**: Development During Infancy (ENRICHED) - 4 files
-  - Completed: Concept & Characteristics, Hazards & Adjustments, Physical & Psychosocial Development, Cognitive & Linguistic Development
-- ✅ **Block-1/Unit-4**: Early Childhood (EXTRACTED, needs enrichment) - 4 files
-  - Completed: Concept & Characteristics, Physical Development, Psychosocial Development, Cognitive & Linguistic Development
+- ✅ **Block-1**: Prenatal Through Early Childhood (100% ENRICHED) - 16 files
+  - Unit-1: Life Span Development Foundations (5 files)
+  - Unit-2: Prenatal Development (3 files)
+  - Unit-3: Development During Infancy (4 files)
+  - Unit-4: Early Childhood Development (4 files)
+- ✅ **Block-2**: Late Childhood (100% ENRICHED) - 6 files
+  - Unit-1: Physical & Cognitive Development (3 files)
+  - Unit-2: Social & Emotional Development (3 files)
+- ✅ **Block-3/Unit-1**: Adolescent Physical Changes (100% ENRICHED) - 4 files
+  - Completed: Developmental Stages, Puberty Overview, Male Physical Changes, Female Physical Changes
+- 🔄 **Block-3/Unit-2**: Cognitive & Psychosocial Development in Adolescence (IN PROGRESS)
 
-### Enrichment Statistics (As of Jan 30, 2025)
-- 📊 **876+** external resource links
-- 📚 **240+** Wikipedia articles linked
-- 🔬 **246+** research papers cited (2023-2024)
-- 🎥 **118+** educational videos embedded
+### Enrichment Statistics (As of Feb 12, 2025)
+- 📊 **904+** external resource links
+- 📚 **248+** Wikipedia articles linked
+- 🔬 **265+** research papers cited (2023-2024)
+- 🎥 **126+** educational videos embedded
 - 📈 **157+** interactive Mermaid diagrams
-- ✍️ **473+** self-assessment questions
-- 🧠 **167+** memory aids and mnemonics
-- 📝 **~305,000 words** of enriched content
+- ✍️ **500+** self-assessment questions
+- 🧠 **180+** memory aids and mnemonics
+- 📝 **~342,000 words** of enriched content
 
 ## 🎉 Major Milestones
 
@@ -177,7 +180,19 @@ npm run deploy
 
 ## 📝 Recent Updates
 
-**Latest: January 30, 2025**
+**Latest: February 12, 2025**
+- ✅ **Completed MPC-002/Block-3/Unit-1** (Adolescent Physical Changes) - FULLY ENRICHED
+  - 4 comprehensive files: Developmental stages, Puberty mechanisms, Male physical development, Female physical development
+  - 36,500 words with exceptional enrichment
+  - 38 external links, 12 Wikipedia articles, 15 research papers (2023-2024)
+  - 4 Mermaid diagrams (HPG/HPO axis), 30 self-assessment questions, 12 memory aids
+  - Topics: Adolescent stage characteristics, pubertal hormones (testosterone, estrogen), secondary sexual characteristics, menstruation, growth patterns, psychological impacts
+  - Quality score: 9-10/10 across all files
+  - Integration of latest research on puberty, hormones and mental health, environmental influences
+
+🎉 **MILESTONE: First Complete Unit in Block-3!**
+
+**Previous: January 30, 2025**
 - ✅ **Completed MPC-002/Block-1/Unit-3** (Development During Infancy) - ENRICHED
   - 4 comprehensive files: Concept & characteristics, Hazards & adjustments, Physical & psychosocial development, Cognitive & linguistic development
   - 17,000 words with full enrichment
@@ -207,7 +222,8 @@ npm run deploy
   - Covered: Conception, chromosomes, sex determination, genetic foundations
   - 10 external links, 5 Wikipedia articles, 3 research papers
 
-**Recent Completions (January 2025):**
+**Recent Completions (Jan-Feb 2025):**
+- ✅ MPC-002/Block-3/Unit-1: Adolescent Physical Changes (Feb 12) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-3: Development During Infancy (Jan 30) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-4: Early Childhood (Jan 30) - EXTRACTED
 - ✅ MPC-002/Block-1/Unit-2: Prenatal Development (Jan 28) - ENRICHED
@@ -293,6 +309,6 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: January 30, 2025  
-**Version**: 2.1 (MPC-002 Block-1 extraction complete)  
-**Status**: Active Development - MPC-002 Block-1/Unit-4 needs enrichment, then ready for Block-2
+**Last Updated**: February 12, 2025  
+**Version**: 2.3 (MPC-002 progressing: 7/16 units enriched)  
+**Status**: Active Development - MPC-002/Block-3/Unit-1 complete, proceeding with Unit-2
