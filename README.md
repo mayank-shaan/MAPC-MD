@@ -119,7 +119,7 @@ npm run deploy
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 27/97 units extracted (27.8%) • 31/97 enriched (32.0%) • **Total Files Created**: 111 MDX files • **~342,000 words**
+**Overall Progress**: 28/97 units extracted (28.9%) • 32/97 enriched (33.0%) • **Total Files Created**: 113 MDX files • **~362,000 words**
 
 ### MPC-001 - ✅ COMPLETE! (First Course)
 - ✅ **Block-1**: Foundations (4/4 units - 100%) - 8 files
@@ -138,17 +138,21 @@ npm run deploy
   - Unit-2: Social & Emotional Development (3 files)
 - ✅ **Block-3/Unit-1**: Adolescent Physical Changes (100% ENRICHED) - 4 files
   - Completed: Developmental Stages, Puberty Overview, Male Physical Changes, Female Physical Changes
-- 🔄 **Block-3/Unit-2**: Cognitive & Psychosocial Development in Adolescence (IN PROGRESS)
+- 🔄 **Block-3/Unit-2**: Cognitive Development in Adolescence (50% ENRICHED) - 2 of 4 files complete
+  - ✅ File 112: Cognitive Development Overview (8,900 words)
+  - ✅ File 113: Piaget's Formal Operations (10,800 words)
+  - ⏳ File 114: Information Processing (extracted, needs enrichment)
+  - ⏳ File 115: School Performance (extracted, needs enrichment)
 
-### Enrichment Statistics (As of Feb 12, 2025)
-- 📊 **904+** external resource links
-- 📚 **248+** Wikipedia articles linked
-- 🔬 **265+** research papers cited (2023-2024)
-- 🎥 **126+** educational videos embedded
-- 📈 **157+** interactive Mermaid diagrams
-- ✍️ **500+** self-assessment questions
-- 🧠 **180+** memory aids and mnemonics
-- 📝 **~342,000 words** of enriched content
+### Enrichment Statistics (As of Feb 17, 2025)
+- 📊 **916+** external resource links
+- 📚 **252+** Wikipedia articles linked
+- 🔬 **268+** research papers cited (2023-2024)
+- 🎥 **128+** educational videos embedded
+- 📈 **161+** interactive Mermaid diagrams
+- ✍️ **520+** self-assessment questions
+- 🧠 **190+** memory aids and mnemonics
+- 📝 **~362,000 words** of enriched content
 
 ## 🎉 Major Milestones
 
@@ -180,15 +184,26 @@ npm run deploy
 
 ## 📝 Recent Updates
 
-**Latest: February 12, 2025**
+**Latest: February 17, 2025**
+- 🔄 **MPC-002/Block-3/Unit-2** (Cognitive Development in Adolescence) - 50% ENRICHED
+  - ✅ File 112: Cognitive Development Overview (8,900 words) - ENRICHED
+    - Hypothetical-deductive reasoning, abstract thinking, metacognition
+    - 12 external links, 4 Wikipedia, 3 research papers, 3 diagrams
+  - ✅ File 113: Piaget's Formal Operations (10,800 words) - ENRICHED  
+    - Comprehensive coverage of formal operational stage
+    - Advanced cognitive capabilities across adolescent stages
+    - 12 external links, 4 Wikipedia, 3 research papers, 4 diagrams
+    - Quality score: 10/10
+  - ⏳ Files 114-115: Information Processing & School Performance (extracted, needs enrichment)
+
+**Previous: February 12, 2025**
 - ✅ **Completed MPC-002/Block-3/Unit-1** (Adolescent Physical Changes) - FULLY ENRICHED
   - 4 comprehensive files: Developmental stages, Puberty mechanisms, Male physical development, Female physical development
   - 36,500 words with exceptional enrichment
-  - 38 external links, 12 Wikipedia articles, 15 research papers (2023-2024)
-  - 4 Mermaid diagrams (HPG/HPO axis), 30 self-assessment questions, 12 memory aids
+  - 36 external links, 13 Wikipedia articles, 16 research papers (2023-2024)
+  - 4 Mermaid diagrams (HPG/HPO axis), 31 self-assessment questions, 11 memory aids
   - Topics: Adolescent stage characteristics, pubertal hormones (testosterone, estrogen), secondary sexual characteristics, menstruation, growth patterns, psychological impacts
   - Quality score: 9-10/10 across all files
-  - Integration of latest research on puberty, hormones and mental health, environmental influences
 
 🎉 **MILESTONE: First Complete Unit in Block-3!**
 
@@ -223,6 +238,7 @@ npm run deploy
   - 10 external links, 5 Wikipedia articles, 3 research papers
 
 **Recent Completions (Jan-Feb 2025):**
+- 🔄 MPC-002/Block-3/Unit-2: Cognitive Development (Feb 17) - 50% ENRICHED (2/4 files)
 - ✅ MPC-002/Block-3/Unit-1: Adolescent Physical Changes (Feb 12) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-3: Development During Infancy (Jan 30) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-4: Early Childhood (Jan 30) - EXTRACTED
@@ -309,6 +325,6 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: February 12, 2025  
-**Version**: 2.3 (MPC-002 progressing: 7/16 units enriched)  
-**Status**: Active Development - MPC-002/Block-3/Unit-1 complete, proceeding with Unit-2
+**Last Updated**: February 17, 2025  
+**Version**: 2.4 (MPC-002 progressing: 7.5/16 units enriched)  
+**Status**: Active Development - MPC-002/Block-3/Unit-2 in progress (2 of 4 files enriched)

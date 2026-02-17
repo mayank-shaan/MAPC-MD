@@ -2,20 +2,20 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 27,
-    "enriched": 31,
+    "extracted": 28,
+    "enriched": 32,
     "in_progress": {
       "unit": "MPC-002/Block-3/Unit-2",
-      "stage": "extraction"
+      "stage": "extracted"
     },
-    "remaining": 63,
-    "last_updated": "2025-02-12T09:15:00Z",
+    "remaining": 62,
+    "last_updated": "2025-02-17T15:45:00Z",
     "enrichment_stats": {
-      "total_external_links": 904,
-      "wikipedia_articles": 248,
-      "research_papers": 265,
-      "videos": 126,
-      "interactive_elements": 157
+      "total_external_links": 916,
+      "wikipedia_articles": 252,
+      "research_papers": 268,
+      "videos": 128,
+      "interactive_elements": 161
     }
   },
   "quality_standards": {
@@ -2325,9 +2325,9 @@
           "name": "Development During Adolescence",
           "units": {
             "Unit-1": {
-              "status": "in_progress",
+              "status": "enriched",
               "extraction_date": "2025-02-11",
-              "enrichment_date": "2025-02-11",
+              "enrichment_date": "2025-02-12",
               "pdf_path": "MPC-002/Block-3/Unit-1.pdf",
               "topics_extracted": [
                 "Adolescent Development Stages (Early, Middle, Late)",
@@ -2370,8 +2370,97 @@
                 },
                 {
                   "filename": "110-physical-changes-adolescent-males.mdx",
+                  "status": "enriched",
+                  "word_count": 8900,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "111-physical-changes-adolescent-females.mdx",
+                  "status": "enriched",
+                  "word_count": 8900,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 36,
+                "wikipedia_articles": 13,
+                "research_papers": 16,
+                "videos": 10,
+                "mermaid_diagrams": 4,
+                "self_assessments": 31,
+                "memory_aids": 11,
+                "files_completed": 4,
+                "files_pending": 0
+              }
+            },
+            "Unit-2": {
+              "status": "in_progress",
+              "extraction_date": "2025-02-12",
+              "enrichment_date": "2025-02-13",
+              "pdf_path": "MPC-002/Block-3/Unit-2.pdf",
+              "topics_extracted": [
+                "Cognitive Development in Adolescence",
+                "Piaget's Formal Operational Stage",
+                "Information Processing Theory",
+                "School Performance and Cognitive Development"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "112-cognitive-development-adolescence.mdx",
+                  "status": "enriched",
+                  "word_count": 8900,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "113-piaget-formal-operations.mdx",
+                  "status": "enriched",
+                  "word_count": 10800,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "114-information-processing-adolescence.mdx",
                   "status": "extracted",
-                  "word_count": 5100,
+                  "word_count": 4300,
                   "enrichment_score": null,
                   "quality_check": {
                     "external_sources": 0,
@@ -2385,9 +2474,9 @@
                   }
                 },
                 {
-                  "filename": "111-physical-changes-adolescent-females.mdx",
+                  "filename": "115-school-cognitive-development.mdx",
                   "status": "extracted",
-                  "word_count": 5300,
+                  "word_count": 3800,
                   "enrichment_score": null,
                   "quality_check": {
                     "external_sources": 0,
@@ -2402,24 +2491,16 @@
                 }
               ],
               "enrichment_quality": {
-                "total_external_links": 18,
-                "wikipedia_articles": 6,
-                "research_papers": 7,
-                "videos": 5,
-                "mermaid_diagrams": 2,
-                "self_assessments": 15,
-                "memory_aids": 5,
-                "files_completed": 2,
-                "files_pending": 2
+                "total_external_links": 12,
+                "wikipedia_articles": 4,
+                "research_papers": 3,
+                "videos": 2,
+                "mermaid_diagrams": 5,
+                "self_assessments": 7,
+                "memory_aids": 3,
+                "files_completed": 1,
+                "files_pending": 3
               }
-            },
-            "Unit-2": {
-              "status": "pending",
-              "extraction_date": null,
-              "enrichment_date": null,
-              "pdf_path": "MPC-002/Block-3/Unit-2.pdf",
-              "topics_extracted": [],
-              "mdx_files": []
             },
             "Unit-3": {
               "status": "pending",

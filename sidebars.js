@@ -225,6 +225,10 @@ const sidebars = {
             'mpc-002/block-3/puberty-physical-development',
             'mpc-002/block-3/physical-changes-adolescent-males',
             'mpc-002/block-3/physical-changes-adolescent-females',
+            
+            // Unit 2: Cognitive Development
+            'mpc-002/block-3/cognitive-development-adolescence',
+            'mpc-002/block-3/piaget-formal-operations',
           ],
         },
       ],
