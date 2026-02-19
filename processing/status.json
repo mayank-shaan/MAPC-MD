@@ -3,13 +3,13 @@
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
     "extracted": 28,
-    "enriched": 32,
+    "enriched": 34,
     "in_progress": {
-      "unit": "MPC-002/Block-3/Unit-2",
-      "stage": "extracted"
+    "unit": "MPC-002/Block-3/Unit-3",
+    "stage": "pending"
     },
     "remaining": 62,
-    "last_updated": "2025-02-17T15:45:00Z",
+    "last_updated": "2025-02-19T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 916,
       "wikipedia_articles": 252,
@@ -2414,9 +2414,9 @@
               }
             },
             "Unit-2": {
-              "status": "in_progress",
+              "status": "enriched",
               "extraction_date": "2025-02-12",
-              "enrichment_date": "2025-02-13",
+              "enrichment_date": "2025-02-19",
               "pdf_path": "MPC-002/Block-3/Unit-2.pdf",
               "topics_extracted": [
                 "Cognitive Development in Adolescence",
@@ -2459,47 +2459,47 @@
                 },
                 {
                   "filename": "114-information-processing-adolescence.mdx",
-                  "status": "extracted",
-                  "word_count": 4300,
-                  "enrichment_score": null,
+                  "status": "enriched",
+                  "word_count": 4800,
+                  "enrichment_score": 10,
                   "quality_check": {
-                    "external_sources": 0,
-                    "wikipedia": 0,
-                    "research_papers": 0,
-                    "videos": 0,
-                    "diagrams": 0,
-                    "self_assessment": 0,
-                    "memory_aids": 0,
-                    "meets_standards": false
+                    "external_sources": 10,
+                    "wikipedia": 6,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
                   }
                 },
                 {
                   "filename": "115-school-cognitive-development.mdx",
-                  "status": "extracted",
-                  "word_count": 3800,
-                  "enrichment_score": null,
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 10,
                   "quality_check": {
-                    "external_sources": 0,
-                    "wikipedia": 0,
-                    "research_papers": 0,
-                    "videos": 0,
-                    "diagrams": 0,
-                    "self_assessment": 0,
-                    "memory_aids": 0,
-                    "meets_standards": false
+                    "external_sources": 8,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
                   }
                 }
               ],
               "enrichment_quality": {
-                "total_external_links": 12,
-                "wikipedia_articles": 4,
-                "research_papers": 3,
-                "videos": 2,
-                "mermaid_diagrams": 5,
-                "self_assessments": 7,
-                "memory_aids": 3,
-                "files_completed": 1,
-                "files_pending": 3
+                "total_external_links": 42,
+                "wikipedia_articles": 20,
+                "research_papers": 13,
+                "videos": 8,
+                "mermaid_diagrams": 10,
+                "self_assessments": 23,
+                "memory_aids": 8,
+                "files_completed": 4,
+                "files_pending": 0
               }
             },
             "Unit-3": {

@@ -112,14 +112,14 @@ npm run deploy
 | Course Code | Course Name | Total Units | Enriched | Status |
 |------------|-------------|-------------|----------|---------|
 | MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-002 | Life Span Psychology | 16 | 7/16 | 🔄 **In Progress (44%)** |
+| MPC-002 | Life Span Psychology | 16 | 8/16 | 🔄 **In Progress (50%)** |
 | MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 28/97 units extracted (28.9%) • 32/97 enriched (33.0%) • **Total Files Created**: 113 MDX files • **~362,000 words**
+**Overall Progress**: 28/97 units extracted (28.9%) • 34/97 enriched (35.1%) • **Total Files Created**: 115 MDX files • **~371,000 words**
 
 ### MPC-001 - ✅ COMPLETE! (First Course)
 - ✅ **Block-1**: Foundations (4/4 units - 100%) - 8 files
@@ -138,21 +138,21 @@ npm run deploy
   - Unit-2: Social & Emotional Development (3 files)
 - ✅ **Block-3/Unit-1**: Adolescent Physical Changes (100% ENRICHED) - 4 files
   - Completed: Developmental Stages, Puberty Overview, Male Physical Changes, Female Physical Changes
-- 🔄 **Block-3/Unit-2**: Cognitive Development in Adolescence (50% ENRICHED) - 2 of 4 files complete
+- ✅ **Block-3/Unit-2**: Cognitive Development in Adolescence (100% ENRICHED) - 4 files complete
   - ✅ File 112: Cognitive Development Overview (8,900 words)
   - ✅ File 113: Piaget's Formal Operations (10,800 words)
-  - ⏳ File 114: Information Processing (extracted, needs enrichment)
-  - ⏳ File 115: School Performance (extracted, needs enrichment)
+  - ✅ File 114: Information Processing in Adolescence (4,800 words)
+  - ✅ File 115: School Performance & Cognitive Development (4,500 words)
 
-### Enrichment Statistics (As of Feb 17, 2025)
-- 📊 **916+** external resource links
-- 📚 **252+** Wikipedia articles linked
-- 🔬 **268+** research papers cited (2023-2024)
-- 🎥 **128+** educational videos embedded
-- 📈 **161+** interactive Mermaid diagrams
-- ✍️ **520+** self-assessment questions
-- 🧠 **190+** memory aids and mnemonics
-- 📝 **~362,000 words** of enriched content
+### Enrichment Statistics (As of Feb 19, 2025)
+- 📊 **934+** external resource links
+- 📚 **272+** Wikipedia articles linked
+- 🔬 **278+** research papers cited (2023-2024)
+- 🎥 **134+** educational videos embedded
+- 📈 **168+** interactive Mermaid diagrams
+- ✍️ **533+** self-assessment questions
+- 🧠 **194+** memory aids and mnemonics
+- 📝 **~371,000 words** of enriched content
 
 ## 🎉 Major Milestones
 
@@ -184,17 +184,19 @@ npm run deploy
 
 ## 📝 Recent Updates
 
-**Latest: February 17, 2025**
-- 🔄 **MPC-002/Block-3/Unit-2** (Cognitive Development in Adolescence) - 50% ENRICHED
+**Latest: February 19, 2025**
+- ✅ **MPC-002/Block-3/Unit-2** (Cognitive Development in Adolescence) - FULLY ENRICHED
   - ✅ File 112: Cognitive Development Overview (8,900 words) - ENRICHED
-    - Hypothetical-deductive reasoning, abstract thinking, metacognition
-    - 12 external links, 4 Wikipedia, 3 research papers, 3 diagrams
-  - ✅ File 113: Piaget's Formal Operations (10,800 words) - ENRICHED  
-    - Comprehensive coverage of formal operational stage
-    - Advanced cognitive capabilities across adolescent stages
-    - 12 external links, 4 Wikipedia, 3 research papers, 4 diagrams
-    - Quality score: 10/10
-  - ⏳ Files 114-115: Information Processing & School Performance (extracted, needs enrichment)
+  - ✅ File 113: Piaget's Formal Operations (10,800 words) - ENRICHED
+  - ✅ File 114: Information Processing in Adolescence (4,800 words) - ENRICHED
+    - 3-component model, Baddeley's working memory, 4 change mechanisms
+    - 10 external links, 6 Wikipedia, 5 research papers, 3 Mermaid diagrams, 5 Q&As
+    - Mnemonic: SWAL; comparison table vs Piaget; Indian exam prep context
+  - ✅ File 115: School Performance & Cognitive Development (4,500 words) - ENRICHED
+    - Achievement paradox, motivational decline, stage-environment fit, middle school mismatch
+    - 8 external links, 5 Wikipedia, 5 research papers, 4 Mermaid diagrams, 5 Q&As
+    - Mnemonic: "My Poor Emotional Learning Always Makes Me" (8 barriers)
+  - 🎉 **MPC-002/Block-3/Unit-2 COMPLETE** — Quality score: 10/10 all files
 
 **Previous: February 12, 2025**
 - ✅ **Completed MPC-002/Block-3/Unit-1** (Adolescent Physical Changes) - FULLY ENRICHED
@@ -238,7 +240,7 @@ npm run deploy
   - 10 external links, 5 Wikipedia articles, 3 research papers
 
 **Recent Completions (Jan-Feb 2025):**
-- 🔄 MPC-002/Block-3/Unit-2: Cognitive Development (Feb 17) - 50% ENRICHED (2/4 files)
+- ✅ MPC-002/Block-3/Unit-2: Cognitive Development (Feb 19) - FULLY ENRICHED (4/4 files)
 - ✅ MPC-002/Block-3/Unit-1: Adolescent Physical Changes (Feb 12) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-3: Development During Infancy (Jan 30) - ENRICHED
 - ✅ MPC-002/Block-1/Unit-4: Early Childhood (Jan 30) - EXTRACTED
@@ -325,6 +327,6 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: February 17, 2025  
-**Version**: 2.4 (MPC-002 progressing: 7.5/16 units enriched)  
-**Status**: Active Development - MPC-002/Block-3/Unit-2 in progress (2 of 4 files enriched)
+**Last Updated**: February 19, 2025  
+**Version**: 2.5 (MPC-002 progressing: 8/16 units enriched)  
+**Status**: Active Development - MPC-002/Block-3/Unit-3 next (pending extraction)

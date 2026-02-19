@@ -229,6 +229,8 @@ const sidebars = {
             // Unit 2: Cognitive Development
             'mpc-002/block-3/cognitive-development-adolescence',
             'mpc-002/block-3/piaget-formal-operations',
+            'mpc-002/block-3/information-processing-adolescence',
+            'mpc-002/block-3/school-cognitive-development',
           ],
         },
       ],
