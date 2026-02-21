@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 28,
-    "enriched": 34,
+    "extracted": 29,
+    "enriched": 40,
     "in_progress": {
-    "unit": "MPC-002/Block-3/Unit-3",
+    "unit": "MPC-002/Block-4/Unit-3",
     "stage": "pending"
     },
-    "remaining": 62,
-    "last_updated": "2025-02-19T12:00:00Z",
+    "remaining": 58,
+    "last_updated": "2025-02-21T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 916,
       "wikipedia_articles": 252,
@@ -2321,6 +2321,151 @@
             }
           }
         },
+        "Block-4": {
+          "name": "Adulthood and Ageing",
+          "units": {
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-21",
+              "enrichment_date": "2025-02-21",
+              "pdf_path": "MPC-002/Block-4/Unit-2.pdf",
+              "topics_extracted": [
+                "Cognitive Changes in Early Adulthood (Post-Formal Thought, Schaie, Perry)",
+                "Cognitive Changes in Middle Adulthood (Fluid/Crystallized Intelligence, Sternberg, Memory)",
+                "Cognitive Changes in Old Age (Memory Types, Wisdom, Death & Dying, Retirement)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "126-cognitive-changes-early-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "127-cognitive-changes-middle-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "128-cognitive-changes-old-age.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 12,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 5,
+                "self_assessments": 20,
+                "memory_aids": 3
+              }
+            },
+          "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-19",
+              "enrichment_date": "2025-02-19",
+              "pdf_path": "MPC-002/Block-4/Unit-1.pdf",
+              "topics_extracted": [
+                "Physical Changes in Early Adulthood (Ages 20-40)",
+                "Physical Changes in Middle Adulthood (Ages 40-65)",
+                "Physical Changes in Old Age (Ages 65+)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "123-physical-changes-early-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 4,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "124-physical-changes-middle-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "125-physical-changes-old-age.mdx",
+                  "status": "enriched",
+                  "word_count": 4800,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 6,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 15,
+                "research_papers": 15,
+                "videos": 9,
+                "mermaid_diagrams": 6,
+                "self_assessments": 20,
+                "memory_aids": 6
+              }
+            }
+          }
+        },
         "Block-3": {
           "name": "Development During Adolescence",
           "units": {
@@ -2503,20 +2648,162 @@
               }
             },
             "Unit-3": {
-              "status": "pending",
-              "extraction_date": null,
-              "enrichment_date": null,
+              "status": "enriched",
+              "extraction_date": "2025-02-19",
+              "enrichment_date": "2025-02-19",
               "pdf_path": "MPC-002/Block-3/Unit-3.pdf",
-              "topics_extracted": [],
-              "mdx_files": []
+              "topics_extracted": [
+                "Identity Development in Adolescence - Erikson's Framework",
+                "Marcia's Identity Statuses - Crisis and Commitment",
+                "Self-Concept and Self-Esteem in Adolescence",
+                "Social Development and Peer Group Relationships"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "116-identity-development-adolescence.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "117-marcia-identity-statuses.mdx",
+                  "status": "enriched",
+                  "word_count": 3400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "118-self-concept-self-esteem-adolescence.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "119-social-development-peer-relationships-adolescence.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 34,
+                "wikipedia_articles": 14,
+                "research_papers": 17,
+                "videos": 9,
+                "mermaid_diagrams": 7,
+                "self_assessments": 21,
+                "memory_aids": 9
+              }
             },
             "Unit-4": {
-              "status": "pending",
-              "extraction_date": null,
-              "enrichment_date": null,
+              "status": "enriched",
+              "extraction_date": "2025-02-19",
+              "enrichment_date": "2025-02-19",
               "pdf_path": "MPC-002/Block-3/Unit-4.pdf",
-              "topics_extracted": [],
-              "mdx_files": []
+              "topics_extracted": [
+                "Challenges and Issues in Adolescent Development",
+                "Autism in Adolescence - Interest, Avoidance, Insight",
+                "Coping with Loss of Normalcy and Acknowledging Sexuality",
+                "High-Risk Behaviours and Change of Viewpoint"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "120-challenges-issues-adolescent-development.mdx",
+                  "status": "enriched",
+                  "word_count": 3400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "121-adolescence-autism-sexuality-loss-normalcy.mdx",
+                  "status": "enriched",
+                  "word_count": 3600,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 1,
+                    "self_assessment": 5,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "122-high-risk-behaviours-adolescence.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 5,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 29,
+                "wikipedia_articles": 11,
+                "research_papers": 9,
+                "videos": 6,
+                "mermaid_diagrams": 4,
+                "self_assessments": 15,
+                "memory_aids": 3
+              }
             }
           }
         }

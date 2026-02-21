@@ -231,6 +231,31 @@ const sidebars = {
             'mpc-002/block-3/piaget-formal-operations',
             'mpc-002/block-3/information-processing-adolescence',
             'mpc-002/block-3/school-cognitive-development',
+
+            // Unit 3: Identity, Self-Concept, Self-Esteem, Peer Groups
+            'mpc-002/block-3/identity-development-adolescence',
+            'mpc-002/block-3/marcia-identity-statuses',
+            'mpc-002/block-3/self-concept-self-esteem-adolescence',
+            'mpc-002/block-3/social-development-peer-relationships-adolescence',
+
+            // Unit 4: Challenges and Issues in Adolescent Development
+            'mpc-002/block-3/challenges-issues-adolescent-development',
+            'mpc-002/block-3/adolescence-autism-sexuality-loss-normalcy',
+            'mpc-002/block-3/high-risk-behaviours-adolescence',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 4: Adulthood and Ageing',
+          items: [
+            // Unit 1: Physical Changes (Early, Middle, Old Age)
+            'mpc-002/block-4/physical-changes-early-adulthood',
+            'mpc-002/block-4/physical-changes-middle-adulthood',
+            'mpc-002/block-4/physical-changes-old-age',
+            // Unit 2: Cognitive Changes (Early, Middle, Old Age)
+            'mpc-002/block-4/cognitive-changes-early-adulthood',
+            'mpc-002/block-4/cognitive-changes-middle-adulthood',
+            'mpc-002/block-4/cognitive-changes-old-age',
           ],
         },
       ],
