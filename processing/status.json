@@ -3,19 +3,19 @@
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
     "extracted": 30,
-    "enriched": 43,
+    "enriched": 48,
     "in_progress": {
-    "unit": "MPC-002/Block-4/Unit-4",
-    "stage": "enriched"
+    "unit": "MPC-003/Block-2/Unit-2",
+    "stage": "pending"
     },
-    "remaining": 53,
-    "last_updated": "2025-02-21T14:00:00Z",
+    "remaining": 48,
+    "last_updated": "2025-02-23T12:00:00Z",
     "enrichment_stats": {
-      "total_external_links": 916,
-      "wikipedia_articles": 252,
-      "research_papers": 268,
-      "videos": 128,
-      "interactive_elements": 161
+      "total_external_links": 972,
+      "wikipedia_articles": 277,
+      "research_papers": 283,
+      "videos": 143,
+      "interactive_elements": 181
     }
   },
   "quality_standards": {
@@ -1375,17 +1375,17 @@
                 {
                   "filename": "60-types-characteristics-problems.mdx",
                   "status": "enriched",
-                  "word_count": 600,
-                  "enrichment_score": 7,
+                  "word_count": 2800,
+                  "enrichment_score": 9,
                   "quality_check": {
-                    "external_sources": 3,
-                    "wikipedia": 1,
-                    "research_papers": 0,
-                    "videos": 0,
-                    "diagrams": 1,
-                    "self_assessment": 3,
-                    "memory_aids": 1,
-                    "meets_standards": false
+                    "external_sources": 7,
+                    "wikipedia": 4,
+                    "research_papers": 2,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 12,
+                    "memory_aids": 3,
+                    "meets_standards": true
                   }
                 },
                 {
@@ -2955,6 +2955,278 @@
                 "mermaid_diagrams": 4,
                 "self_assessments": 25,
                 "memory_aids": 4
+              }
+            }
+          }
+        }
+      }
+    },
+    "MPC-003": {
+      "name": "Personality Theories and Assessment",
+      "total_units": 16,
+      "extracted_units": 6,
+      "enriched_units": 4,
+      "blocks": {
+        "Block-1": {
+          "name": "Introduction to Personality",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-1/Unit-1.pdf",
+              "topics_extracted": [
+                "Definition and Concept of Personality",
+                "Personality Development: Biological, Psychological, and Environmental Determinants"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "136-definition-concept-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "137-personality-development-determinants.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 24,
+                "wikipedia_articles": 10,
+                "research_papers": 6,
+                "videos": 6,
+                "mermaid_diagrams": 4,
+                "self_assessments": 12,
+                "memory_aids": 6
+              }
+            },
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-1/Unit-2.pdf",
+              "topics_extracted": [
+                "Type Approaches to Personality (Hippocrates, Sheldon, MBTI)",
+                "Allport and Cattell Trait Theories",
+                "Eysenck, Guilford, and the Big Five"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "138-type-approaches-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "139-allport-cattell-trait-theories.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 6,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "140-eysenck-guilford-big-five.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 6,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 6,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 36,
+                "wikipedia_articles": 17,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 8,
+                "self_assessments": 22,
+                "memory_aids": 12
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-1/Unit-3.pdf",
+              "topics_extracted": [
+                "Methods of Personality Assessment (Interviews, Projective Techniques)",
+                "Ink Blot Techniques (Rorschach, HIT, TAT, Sentence Completion)",
+                "Behavioural Assessment and Personality Inventories (MMPI-2)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "141-personality-assessment-methods.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 12,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ]
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-1/Unit-4.pdf",
+              "topics_extracted": [
+                "Genes and Personality: Nature vs Nurture Debate",
+                "Twin Studies, Adoption Studies, Family Studies",
+                "Person-Situation Controversy and Interactionist Approach",
+                "Nomothetic vs Idiographic Approaches",
+                "Cross-Cultural Issues and Five Factor Model Across Cultures",
+                "Theoretical Model Debates (8 fundamental issues)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "142-key-issues-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 12,
+                    "memory_aids": 5,
+                    "meets_standards": true
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Block-2": {
+          "name": "Psychodynamic Theories",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-2/Unit-1.pdf",
+              "topics_extracted": [
+                "Freud's Psychoanalytic Theory: Structure, Dynamics, Development",
+                "Karen Horney's Social Foundation of Personality",
+                "Sullivan's Interpersonal Theory of Personality"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "143-freud-psychoanalytic-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "144-karen-horney-personality-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "145-sullivan-interpersonal-theory-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 5,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 12,
+                "research_papers": 12,
+                "videos": 9,
+                "mermaid_diagrams": 9,
+                "self_assessments": 15,
+                "memory_aids": 10
               }
             }
           }

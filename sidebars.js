@@ -276,7 +276,35 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-003-personality/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'Block 1: Introduction to Personality',
+          items: [
+            // Unit 1: Definition and Concept of Personality
+            'mpc-003/block-1/definition-concept-personality',
+            'mpc-003/block-1/personality-development-determinants',
+            // Unit 2: Type and Trait Approaches
+            'mpc-003/block-1/type-approaches-personality',
+            'mpc-003/block-1/allport-cattell-trait-theories',
+            'mpc-003/block-1/eysenck-guilford-big-five',
+            // Unit 3: Assessment of Personality
+            'mpc-003/block-1/personality-assessment-methods',
+            // Unit 4: Key Issues in Personality
+            'mpc-003/block-1/key-issues-personality',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 2: Psychodynamic Theories',
+          items: [
+            // Unit 1: Psychodynamic Theory (Freud, Horney, Sullivan)
+            'mpc-003/block-2/freud-psychoanalytic-theory',
+            'mpc-003/block-2/karen-horney-personality-theory',
+            'mpc-003/block-2/sullivan-interpersonal-theory-personality',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
