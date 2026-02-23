@@ -261,6 +261,10 @@ const sidebars = {
             'mpc-002/block-4/family-life-cycle-career',
             'mpc-002/block-4/psychosocial-changes-middle-adulthood',
             'mpc-002/block-4/psychosocial-changes-old-age',
+            // Unit 4: Challenges and Issues in Ageing
+            'mpc-002/block-4/ageing-process-gender-differences',
+            'mpc-002/block-4/ageing-issues-early-middle-adulthood',
+            'mpc-002/block-4/ageing-issues-late-adulthood',
           ],
         },
       ],

@@ -6,9 +6,9 @@
     "enriched": 43,
     "in_progress": {
     "unit": "MPC-002/Block-4/Unit-4",
-    "stage": "pending"
+    "stage": "enriched"
     },
-    "remaining": 54,
+    "remaining": 53,
     "last_updated": "2025-02-21T14:00:00Z",
     "enrichment_stats": {
       "total_external_links": 916,
@@ -2324,6 +2324,77 @@
         "Block-4": {
           "name": "Adulthood and Ageing",
           "units": {
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-002/Block-4/Unit-4.pdf",
+              "topics_extracted": [
+                "Ageing Process and Gender Differences (Women and Men)",
+                "Ageing Issues in Early Adulthood - Identity, Intimacy, Relationships",
+                "Ageing Issues in Middle Adulthood - Health, Marriage, Divorce, Family",
+                "Ageing Issues in Late Adulthood - Chronic Disease, Mental Health, Elder Care"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "133-ageing-process-gender-differences.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "134-ageing-issues-early-middle-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "135-ageing-issues-late-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 32,
+                "wikipedia_articles": 13,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 7,
+                "self_assessments": 18,
+                "memory_aids": 9
+              }
+            },
             "Unit-2": {
               "status": "enriched",
               "extraction_date": "2025-02-21",
