@@ -256,6 +256,11 @@ const sidebars = {
             'mpc-002/block-4/cognitive-changes-early-adulthood',
             'mpc-002/block-4/cognitive-changes-middle-adulthood',
             'mpc-002/block-4/cognitive-changes-old-age',
+            // Unit 3: Psychosocial Changes (Early, Middle, Old Age)
+            'mpc-002/block-4/psychosocial-changes-early-adulthood',
+            'mpc-002/block-4/family-life-cycle-career',
+            'mpc-002/block-4/psychosocial-changes-middle-adulthood',
+            'mpc-002/block-4/psychosocial-changes-old-age',
           ],
         },
       ],

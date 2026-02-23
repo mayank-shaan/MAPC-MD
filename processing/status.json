@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 29,
-    "enriched": 40,
+    "extracted": 30,
+    "enriched": 43,
     "in_progress": {
-    "unit": "MPC-002/Block-4/Unit-3",
+    "unit": "MPC-002/Block-4/Unit-4",
     "stage": "pending"
     },
-    "remaining": 58,
-    "last_updated": "2025-02-21T12:00:00Z",
+    "remaining": 54,
+    "last_updated": "2025-02-21T14:00:00Z",
     "enrichment_stats": {
       "total_external_links": 916,
       "wikipedia_articles": 252,
@@ -2803,6 +2803,87 @@
                 "mermaid_diagrams": 4,
                 "self_assessments": 15,
                 "memory_aids": 3
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-21",
+              "enrichment_date": "2025-02-21",
+              "topics": ["Stage vs Contextual Theories", "Erikson Intimacy vs Isolation", "Levinson Seasons of Life", "Family Life Cycle", "Generativity vs Stagnation", "Ego Integrity vs Despair", "Reminiscence and Life Review"],
+              "mdx_files": [
+                {
+                  "filename": "129-psychosocial-changes-early-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "130-family-life-cycle-career.mdx",
+                  "status": "enriched",
+                  "word_count": 3100,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "131-psychosocial-changes-middle-adulthood.mdx",
+                  "status": "enriched",
+                  "word_count": 3400,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "132-psychosocial-changes-old-age.mdx",
+                  "status": "enriched",
+                  "word_count": 3600,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 7,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 43,
+                "wikipedia_articles": 15,
+                "research_papers": 12,
+                "videos": 12,
+                "mermaid_diagrams": 4,
+                "self_assessments": 25,
+                "memory_aids": 4
               }
             }
           }
