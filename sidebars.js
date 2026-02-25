@@ -302,6 +302,11 @@ const sidebars = {
             'mpc-003/block-2/freud-psychoanalytic-theory',
             'mpc-003/block-2/karen-horney-personality-theory',
             'mpc-003/block-2/sullivan-interpersonal-theory-personality',
+            // Unit 2: Social Cognitive Theory (Bandura)
+            'mpc-003/block-2/social-cognitive-theory-personality',
+            'mpc-003/block-2/reciprocal-determinism-bandura',
+            'mpc-003/block-2/self-system-self-efficacy-bandura',
+            'mpc-003/block-2/observational-vicarious-learning-bandura',
           ],
         },
       ],

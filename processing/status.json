@@ -5,10 +5,10 @@
     "extracted": 30,
     "enriched": 48,
     "in_progress": {
-    "unit": "MPC-003/Block-2/Unit-2",
+    "unit": "MPC-003/Block-2/Unit-3",
     "stage": "pending"
     },
-    "remaining": 48,
+    "remaining": 47,
     "last_updated": "2025-02-23T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
@@ -3159,6 +3159,93 @@
         "Block-2": {
           "name": "Psychodynamic Theories",
           "units": {
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-23",
+              "enrichment_date": "2025-02-23",
+              "pdf_path": "MPC-003/Block-2/Unit-2.pdf",
+              "topics_extracted": [
+                "Social Cognitive Theory - Main Tenets",
+                "Reciprocal Determinism (B-P-E Triadic Model)",
+                "Self-System and Self-Efficacy",
+                "Observational and Vicarious Learning"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "146-social-cognitive-theory-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "147-reciprocal-determinism-bandura.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "148-self-system-self-efficacy-bandura.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 2,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "149-observational-vicarious-learning-bandura.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 10,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 34,
+                "wikipedia_articles": 10,
+                "research_papers": 12,
+                "videos": 12,
+                "mermaid_diagrams": 8,
+                "self_assessments": 24,
+                "memory_aids": 9
+              }
+            },
             "Unit-1": {
               "status": "enriched",
               "extraction_date": "2025-02-23",
