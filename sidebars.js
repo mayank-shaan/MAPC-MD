@@ -307,6 +307,11 @@ const sidebars = {
             'mpc-003/block-2/reciprocal-determinism-bandura',
             'mpc-003/block-2/self-system-self-efficacy-bandura',
             'mpc-003/block-2/observational-vicarious-learning-bandura',
+            // Unit 3: Learning Theory (Pavlov and Skinner)
+            'mpc-003/block-2/pavlov-classical-conditioning-personality',
+            'mpc-003/block-2/skinner-operant-conditioning-personality',
+            'mpc-003/block-2/learning-theory-applications-behaviour-modification',
+            'mpc-003/block-2/learning-theory-comparison-evaluation',
           ],
         },
       ],
