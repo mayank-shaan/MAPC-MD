@@ -328,11 +328,11 @@ const sidebars = {
             'mpc-003/block-3/allport-proprium-selfhood',
             'mpc-003/block-3/allport-functional-autonomy-mature-personality',
             // Unit 2: Raymond Cattell — Trait Theory
-            'mpc-003/block-3/cattell-trait-theory-16pf',
+            'mpc-003/block-3/cattell-trait-theory-personality',
             // Unit 3: Hans Eysenck — Trait-Type Theory
-            'mpc-003/block-3/eysenck-trait-type-pen-model',
+            'mpc-003/block-3/eysenck-trait-type-theory-pen-model',
             // Unit 4: Big Five Factors
-            'mpc-003/block-3/big-five-ocean-personality-dimensions',
+            'mpc-003/block-3/big-five-personality-dimensions',
           ],
         },
       ],
