@@ -312,6 +312,11 @@ const sidebars = {
             'mpc-003/block-2/skinner-operant-conditioning-personality',
             'mpc-003/block-2/learning-theory-applications-behaviour-modification',
             'mpc-003/block-2/learning-theory-comparison-evaluation',
+            // Unit 4: Humanistic and Self Theory (Maslow and Rogers)
+            'mpc-003/block-2/humanistic-approach-personality',
+            'mpc-003/block-2/maslow-hierarchy-needs',
+            'mpc-003/block-2/maslow-self-actualisation-characteristics',
+            'mpc-003/block-2/rogers-person-centered-theory',
           ],
         },
       ],

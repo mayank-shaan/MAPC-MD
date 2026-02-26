@@ -25,13 +25,18 @@ mapc-study/
 ├── docs/                      # Study content
 │   ├── intro.mdx             # Welcome page
 │   ├── mpc-001/              # Cognitive Psychology ✅ COMPLETE
-│   │   ├── block-1/          # 4 units, 8 files
+│   │   ├── block-1/          # 4 units, 21 files
 │   │   ├── block-2/          # 4 units, 20 files
 │   │   ├── block-3/          # 4 units, 19 files
-│   │   └── block-4/          # 4 units, 30 files
-│   ├── mpc-002/              # Life Span Psychology 🔄 IN PROGRESS
-│   │   └── block-1/          # 4 units complete (extraction), 3 enriched
-│   ├── mpc-003/              # Personality ⏳ Pending
+│   │   └── block-4/          # 4 units, 18 files
+│   ├── mpc-002/              # Life Span Psychology ✅ COMPLETE
+│   │   ├── block-1/          # 4 units, 12 files
+│   │   ├── block-2/          # 4 units, 14 files
+│   │   ├── block-3/          # 4 units, 15 files
+│   │   └── block-4/          # 4 units, 12 files
+│   ├── mpc-003/              # Personality Theories 🔄 IN PROGRESS
+│   │   ├── block-1/          # 4 units, 7 files ✅
+│   │   └── block-2/          # 4 units, 15 files ✅
 │   ├── mpc-004/              # Social Psychology ⏳ Pending
 │   ├── mpc-005/              # Research Methods ⏳ Pending
 │   ├── mpc-006/              # Statistics ⏳ Pending
@@ -110,148 +115,133 @@ npm run deploy
 ## 📊 Course Progress
 
 | Course Code | Course Name | Total Units | Enriched | Status |
-|------------|-------------|-------------|----------|---------|
+|------------|-------------|-------------|----------|--------|
 | MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-002 | Life Span Psychology | 16 | 8/16 | 🔄 **In Progress (50%)** |
-| MPC-003 | Personality Theories & Assessment | 16 | 0/16 | ⏳ Pending |
+| MPC-002 | Life Span Psychology | 16 | 16/16 | ✅ **100% COMPLETE** |
+| MPC-003 | Personality Theories & Assessment | 16 | 8/16 | 🔄 **In Progress (50%)** |
 | MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
 | MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 28/97 units extracted (28.9%) • 34/97 enriched (35.1%) • **Total Files Created**: 115 MDX files • **~371,000 words**
+**Overall Progress**: 49/97 units enriched **(50.5% — past the halfway mark! 🎉)**  
+**Total MDX Files Created**: 157 files | **~500,000+ words of enriched content**
 
-### MPC-001 - ✅ COMPLETE! (First Course)
-- ✅ **Block-1**: Foundations (4/4 units - 100%) - 8 files
-- ✅ **Block-2**: Memory & Intelligence (4/4 units - 100%) - 20 files  
-- ✅ **Block-3**: Language & Cognition (4/4 units - 100%) - 19 files
-- ✅ **Block-4**: Problem Solving (4/4 units - 100%) - 30 files
+---
 
-### MPC-002 - 🔄 IN PROGRESS
-- ✅ **Block-1**: Prenatal Through Early Childhood (100% ENRICHED) - 16 files
+### MPC-001 — ✅ COMPLETE (16/16 units)
+
+- ✅ **Block-1**: Foundations of Cognitive Psychology (4/4 units) — 21 files
+- ✅ **Block-2**: Intelligence & Creativity (4/4 units) — 20 files
+- ✅ **Block-3**: Language & Cognition (4/4 units) — 19 files
+- ✅ **Block-4**: Problem Solving (4/4 units) — 18 files
+
+---
+
+### MPC-002 — ✅ COMPLETE (16/16 units)
+
+- ✅ **Block-1**: Prenatal Through Early Childhood (4/4 units) — 12 files
   - Unit-1: Life Span Development Foundations (5 files)
   - Unit-2: Prenatal Development (3 files)
   - Unit-3: Development During Infancy (4 files)
-  - Unit-4: Early Childhood Development (4 files)
-- ✅ **Block-2**: Late Childhood (100% ENRICHED) - 6 files
-  - Unit-1: Physical & Cognitive Development (3 files)
-  - Unit-2: Social & Emotional Development (3 files)
-- ✅ **Block-3/Unit-1**: Adolescent Physical Changes (100% ENRICHED) - 4 files
-  - Completed: Developmental Stages, Puberty Overview, Male Physical Changes, Female Physical Changes
-- ✅ **Block-3/Unit-2**: Cognitive Development in Adolescence (100% ENRICHED) - 4 files complete
-  - ✅ File 112: Cognitive Development Overview (8,900 words)
-  - ✅ File 113: Piaget's Formal Operations (10,800 words)
-  - ✅ File 114: Information Processing in Adolescence (4,800 words)
-  - ✅ File 115: School Performance & Cognitive Development (4,500 words)
+  - Unit-4: Early Childhood Development (4 files — files 90–93)
+- ✅ **Block-2**: Middle Childhood / Early School Years (4/4 units) — 14 files
+  - Unit-1: Physical Growth & Motor Development (4 files)
+  - Unit-2: Cognitive, Social, Moral & Emotional Development (4 files)
+  - Unit-3: School Aims & Value Education (2 files)
+  - Unit-4: Special Needs Children (4 files)
+- ✅ **Block-3**: Adolescence (4/4 units) — 15 files
+  - Unit-1: Physical Development in Adolescence (4 files)
+  - Unit-2: Cognitive Development in Adolescence (4 files)
+  - Unit-3: Identity, Self-Concept & Social Development (4 files)
+  - Unit-4: Challenges & High-Risk Behaviours (3 files)
+- ✅ **Block-4**: Adulthood & Ageing (4/4 units) — 12 files
+  - Unit-1: Physical Changes Across Adulthood (3 files)
+  - Unit-2: Cognitive Changes Across Adulthood (3 files)
+  - Unit-3: Psychosocial Changes Across Adulthood (4 files)
+  - Unit-4: Ageing Issues & Gender (3 files)
 
-### Enrichment Statistics (As of Feb 19, 2025)
-- 📊 **934+** external resource links
-- 📚 **272+** Wikipedia articles linked
-- 🔬 **278+** research papers cited (2023-2024)
-- 🎥 **134+** educational videos embedded
-- 📈 **168+** interactive Mermaid diagrams
-- ✍️ **533+** self-assessment questions
-- 🧠 **194+** memory aids and mnemonics
-- 📝 **~371,000 words** of enriched content
+---
+
+### MPC-003 — 🔄 IN PROGRESS (8/16 units enriched)
+
+- ✅ **Block-1**: Introduction to Personality (4/4 units) — 7 files
+  - Unit-1: Definition & Concept of Personality (2 files)
+  - Unit-2: Type & Trait Approaches — Allport, Cattell, Eysenck, Big Five (3 files)
+  - Unit-3: Personality Assessment Methods (1 file)
+  - Unit-4: Key Issues in Personality — Nature/Nurture, Cross-Cultural (1 file)
+- ✅ **Block-2**: Psychodynamic & Learning Theories (4/4 units) — 15 files
+  - Unit-1: Freud, Horney, Sullivan — Psychodynamic Theories (3 files)
+  - Unit-2: Bandura — Social Cognitive Theory (4 files)
+  - Unit-3: Pavlov & Skinner — Learning Theory of Personality (4 files)
+  - Unit-4: Maslow & Rogers — Humanistic and Self Theory (4 files) ← *latest*
+- ⏳ **Block-3**: Existential & Phenomenological Theories (0/4 units) — pending
+- ⏳ **Block-4**: Personality Assessment (0/4 units) — pending
+
+---
+
+## Enrichment Statistics (As of February 26, 2025)
+
+| Metric | Count |
+|--------|-------|
+| 🔗 External resource links | **1,010+** |
+| 📚 Wikipedia articles linked | **291+** |
+| 🔬 Research papers cited (2020–2024) | **299+** |
+| 🎥 Educational videos embedded | **155+** |
+| 📈 Mermaid diagrams | **187+** |
+| ✍️ Self-assessment questions | **565+** |
+| 🧠 Memory aids & mnemonics | **202+** |
+| 📝 Total enriched words | **~500,000+** |
+
+---
 
 ## 🎉 Major Milestones
 
-**🏆 January 21, 2025 - First Course Complete!**
-- ✅ **COMPLETED MPC-001: Cognitive Psychology, Learning and Memory**
-  - All 16 units fully extracted and enriched
-  - 77 comprehensive MDX files created (~240,000 words)
-  - First complete course in MAPC Study Portal!
-  - Quality score: 9-10/10 across all files
+**🏆 February 26, 2025 — HALFWAY MILESTONE!**
+- ✅ **49/97 units enriched — 50.5% complete**
+- ✅ **Completed MPC-003/Block-2/Unit-4**: Humanistic and Self Theory (Maslow & Rogers)
+  - 4 files: Humanistic Approach (Third Force), Maslow's Hierarchy of Needs, Self-Actualisation Characteristics, Rogers' Person-Centred Theory
+  - ~12,500 words | 38 external links | 14 Wikipedia | 16 research papers | 12 videos | 6 diagrams | 32 Q&As
+  - ✅ **MPC-003/Block-2 COMPLETE** — all 4 units done (15 files)
 
-**📚 January 30, 2025 - MPC-002 Block-1 Extraction Complete!**
-- ✅ **COMPLETED MPC-002/Block-1 EXTRACTION** (All 4 units)
-  - Unit-1: Life Span Development (5 files, ENRICHED)
-  - Unit-2: Prenatal Development (3 files, ENRICHED)
-  - Unit-3: Development During Infancy (4 files, ENRICHED)
-  - Unit-4: Early Childhood (4 files, EXTRACTED - needs enrichment)
-  - 16 comprehensive MDX files (~40,000 words total)
-  - Block-1 covers complete foundations from prenatal through early childhood
+**🏆 February 23, 2025 — Second Course Complete!**
+- ✅ **Completed MPC-002**: All 16 units fully enriched
+- ✅ **Completed MPC-003/Block-1**: All 4 units done (7 files)
+- ✅ **Started MPC-003/Block-2**: Psychodynamic & Learning Theories
 
-**📚 January 28, 2025 - Second Course Started!**
-- ✅ **COMPLETED MPC-002/Block-1/Unit-1: Life Span Development**
-  - 5 comprehensive files covering life-span foundations
-  - Topics: Development concepts, Baltes' theory, developmental stages, research methods
-  - 27,700 words with extensive enrichment
-  - Quality score: 9-10/10 across all files
-- 🔄 **STARTED MPC-002/Block-1/Unit-2: Prenatal Development**
-  - First file complete: Beginnings of Life & Genetics (6,800 words)
-  - Remaining: 3 files on prenatal stages, influences, and hazards
+**🏆 January 21, 2025 — First Course Complete!**
+- ✅ **Completed MPC-001**: All 16 units fully enriched
+  - 77 comprehensive MDX files (~240,000 words)
+  - Quality score: 9–10/10 across all files
+
+---
 
 ## 📝 Recent Updates
 
-**Latest: February 19, 2025**
-- ✅ **MPC-002/Block-3/Unit-2** (Cognitive Development in Adolescence) - FULLY ENRICHED
-  - ✅ File 112: Cognitive Development Overview (8,900 words) - ENRICHED
-  - ✅ File 113: Piaget's Formal Operations (10,800 words) - ENRICHED
-  - ✅ File 114: Information Processing in Adolescence (4,800 words) - ENRICHED
-    - 3-component model, Baddeley's working memory, 4 change mechanisms
-    - 10 external links, 6 Wikipedia, 5 research papers, 3 Mermaid diagrams, 5 Q&As
-    - Mnemonic: SWAL; comparison table vs Piaget; Indian exam prep context
-  - ✅ File 115: School Performance & Cognitive Development (4,500 words) - ENRICHED
-    - Achievement paradox, motivational decline, stage-environment fit, middle school mismatch
-    - 8 external links, 5 Wikipedia, 5 research papers, 4 Mermaid diagrams, 5 Q&As
-    - Mnemonic: "My Poor Emotional Learning Always Makes Me" (8 barriers)
-  - 🎉 **MPC-002/Block-3/Unit-2 COMPLETE** — Quality score: 10/10 all files
+### February 26, 2025 — MPC-003/Block-2/Unit-4 ✅
+**Humanistic and Self Theory (Maslow & Rogers)**
+- `154-humanistic-approach-personality.mdx` — Third Force origins, core humanistic assumptions, positive psychology, coaching psychology (~2,800 words)
+- `155-maslow-hierarchy-needs.mdx` — Five-level hierarchy with Mermaid pyramid diagram, D-needs vs B-needs, homeostatic principle, developmental trajectory, cross-cultural critique (~3,200 words)
+- `156-maslow-self-actualisation-characteristics.mdx` — All 18 characteristics of self-actualisers, peak experiences, metapathologies, comparison table, Kaufman's modern rethinking (~3,000 words)
+- `157-rogers-person-centered-theory.mdx` — Organism & phenomenal field, real vs ideal self, congruence/incongruence, conditions of worth, actualising tendency, full evaluation (~3,500 words)
+- Memory aids: PSBES, ROSCA, PARDSAUHES, THE THIRD FORCE mnemonics
+- Indian cultural context in all four files
 
-**Previous: February 12, 2025**
-- ✅ **Completed MPC-002/Block-3/Unit-1** (Adolescent Physical Changes) - FULLY ENRICHED
-  - 4 comprehensive files: Developmental stages, Puberty mechanisms, Male physical development, Female physical development
-  - 36,500 words with exceptional enrichment
-  - 36 external links, 13 Wikipedia articles, 16 research papers (2023-2024)
-  - 4 Mermaid diagrams (HPG/HPO axis), 31 self-assessment questions, 11 memory aids
-  - Topics: Adolescent stage characteristics, pubertal hormones (testosterone, estrogen), secondary sexual characteristics, menstruation, growth patterns, psychological impacts
-  - Quality score: 9-10/10 across all files
+### February 23, 2025 — MPC-003/Block-1 & Block-2 Units 1–3 ✅
+- MPC-003/Block-1 complete (4 units, 7 files): Personality definition, Type/Trait theories, Assessment methods, Key issues
+- MPC-003/Block-2/Unit-1 (3 files): Freud's psychoanalytic theory, Karen Horney, Sullivan's interpersonal theory
+- MPC-003/Block-2/Unit-2 (4 files): Bandura's social cognitive theory, reciprocal determinism, self-efficacy, observational learning
+- MPC-003/Block-2/Unit-3 (4 files): Pavlov classical conditioning, Skinner operant conditioning, behaviour modification, comparative evaluation
 
-🎉 **MILESTONE: First Complete Unit in Block-3!**
+### February 21, 2025 — MPC-002/Block-4 Units 2 & 3 ✅
+- Block-4/Unit-2: Cognitive changes across adulthood (post-formal thought, fluid/crystallised intelligence, wisdom)
+- Block-4/Unit-3: Psychosocial changes — Erikson's intimacy/generativity/integrity, Levinson's seasons, family life cycle
 
-**Previous: January 30, 2025**
-- ✅ **Completed MPC-002/Block-1/Unit-3** (Development During Infancy) - ENRICHED
-  - 4 comprehensive files: Concept & characteristics, Hazards & adjustments, Physical & psychosocial development, Cognitive & linguistic development
-  - 17,000 words with full enrichment
-  - 40 external links, 12 Wikipedia articles, 8 research papers (2023-2024)
-  - 9 Mermaid diagrams, 23 self-assessments, 17 memory aids
-  - Topics: Infancy period characteristics, four major adjustments, Erikson's trust vs mistrust, Piaget's sensorimotor stage, language development
+### February 19, 2025 — MPC-002/Block-3/Unit-2 ✅
+- Cognitive Development in Adolescence fully enriched (4 files, ~29,000 words)
+- Piaget's formal operations, information processing, school performance
 
-- ✅ **Completed MPC-002/Block-1/Unit-4** (Early Childhood) - EXTRACTED
-  - 4 files created: Concept & characteristics, Physical development, Psychosocial development, Cognitive & linguistic development  
-  - 10,500 words extracted (needs enrichment)
-  - Topics: Play age characteristics, physical growth patterns, Erikson's autonomy vs shame, Piaget's preoperational stage, vocabulary explosion
-
-- 🎉 **MILESTONE: MPC-002/Block-1 EXTRACTION COMPLETE** (All 4 units)
-  - 16 total files covering prenatal through early childhood
-  - 3 units fully enriched, 1 unit needs enrichment
-  - Ready to begin Block-2 after Unit-4 enrichment
-
-**Previous: January 28, 2025**
-- ✅ **Completed MPC-002/Block-1/Unit-1** (Life Span Development Foundations)
-  - 5 enriched files: Development concepts, Life-span perspectives, Stages & domains, Characteristics, Research methods
-  - 27,700 words total with comprehensive enrichment
-  - 68 external links, 28 Wikipedia articles, 32 research papers
-  - 10 Mermaid diagrams, 45 self-assessment questions
-  
-- 🔄 **Started MPC-002/Block-1/Unit-2** (Prenatal Development)
-  - File 1 complete: Beginnings of Life & Genetics (6,800 words)
-  - Covered: Conception, chromosomes, sex determination, genetic foundations
-  - 10 external links, 5 Wikipedia articles, 3 research papers
-
-**Recent Completions (Jan-Feb 2025):**
-- ✅ MPC-002/Block-3/Unit-2: Cognitive Development (Feb 19) - FULLY ENRICHED (4/4 files)
-- ✅ MPC-002/Block-3/Unit-1: Adolescent Physical Changes (Feb 12) - ENRICHED
-- ✅ MPC-002/Block-1/Unit-3: Development During Infancy (Jan 30) - ENRICHED
-- ✅ MPC-002/Block-1/Unit-4: Early Childhood (Jan 30) - EXTRACTED
-- ✅ MPC-002/Block-1/Unit-2: Prenatal Development (Jan 28) - ENRICHED
-- ✅ MPC-002/Block-1/Unit-1: Life Span Foundations (Jan 28) - ENRICHED
-- ✅ MPC-001/Block-4/Unit-4: Impediments to Problem Solving (Jan 21)
-- ✅ MPC-001/Block-4/Unit-3: Theoretical Approaches (Jan 16)
-- ✅ MPC-001/Block-4/Unit-2: Stages of Problem Solving (Jan 16)
-- ✅ MPC-001/Block-4/Unit-1: Nature of Problems (Jan 13)
-- ✅ MPC-001/Block-3/Unit-4: Language & Speech Disorders (Jan 13)
-- ✅ MPC-001/Block-3/Unit-3: Multilingualism (Jan 13)
+---
 
 ## 🎨 Features
 
@@ -263,8 +253,8 @@ npm run deploy
 - **Cultural Context**: Indian psychology perspectives where relevant
 
 ### Interactive Elements
-- **Mermaid Diagrams**: Flowcharts, concept maps, timelines
-- **Self-Assessments**: 3+ questions per file for active learning
+- **Mermaid Diagrams**: Flowcharts, concept maps, timelines, mindmaps
+- **Self-Assessments**: 3+ questions per file across three difficulty levels
 - **Memory Aids**: Mnemonics and acronyms for key concepts
 - **Cross-References**: Links between related topics
 - **External Resources**: Curated quality links
@@ -327,6 +317,6 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: February 19, 2025  
-**Version**: 2.5 (MPC-002 progressing: 8/16 units enriched)  
-**Status**: Active Development - MPC-002/Block-3/Unit-3 next (pending extraction)
+**Last Updated**: February 26, 2025  
+**Version**: 3.0 (50.5% complete — MPC-001 ✅, MPC-002 ✅, MPC-003 Block-1 & Block-2 ✅)  
+**Next Up**: MPC-003/Block-3 (Existential & Phenomenological Theories)
