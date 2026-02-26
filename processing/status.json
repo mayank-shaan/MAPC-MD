@@ -2964,8 +2964,8 @@
     "MPC-003": {
       "name": "Personality Theories and Assessment",
       "total_units": 16,
-      "extracted_units": 6,
-      "enriched_units": 4,
+      "extracted_units": 10,
+      "enriched_units": 10,
       "blocks": {
         "Block-1": {
           "name": "Introduction to Personality",
@@ -3490,6 +3490,189 @@
                 "mermaid_diagrams": 9,
                 "self_assessments": 15,
                 "memory_aids": 10
+              }
+            }
+          }
+        },
+        "Block-3": {
+          "name": "Dispositional and Trait Theories",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-26",
+              "enrichment_date": "2025-02-26",
+              "pdf_path": "MPC-003/Block-3/Unit-1.pdf",
+              "topics_extracted": [
+                "Gordon Allport: Definition of Personality and Traits",
+                "Allport's Proprium and Selfhood",
+                "Allport's Functional Autonomy and Mature Personality"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "158-allport-definition-personality-traits.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "159-allport-proprium-selfhood.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "160-allport-functional-autonomy-mature-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 3300,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 28,
+                "wikipedia_articles": 10,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 6,
+                "self_assessments": 18,
+                "memory_aids": 6
+              }
+            },
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-26",
+              "enrichment_date": "2025-02-26",
+              "pdf_path": "MPC-003/Block-3/Unit-2.pdf",
+              "topics_extracted": [
+                "Raymond Cattell: Trait Theory and 16PF"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "161-cattell-trait-theory-16pf.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 10,
+                "wikipedia_articles": 4,
+                "research_papers": 3,
+                "videos": 3,
+                "mermaid_diagrams": 2,
+                "self_assessments": 7,
+                "memory_aids": 3
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-26",
+              "enrichment_date": "2025-02-26",
+              "pdf_path": "MPC-003/Block-3/Unit-3.pdf",
+              "topics_extracted": [
+                "Hans Eysenck: Trait-Type PEN Model"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "162-eysenck-trait-type-pen-model.mdx",
+                  "status": "enriched",
+                  "word_count": 3600,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 10,
+                "wikipedia_articles": 4,
+                "research_papers": 3,
+                "videos": 3,
+                "mermaid_diagrams": 2,
+                "self_assessments": 7,
+                "memory_aids": 3
+              }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-26",
+              "enrichment_date": "2025-02-26",
+              "pdf_path": "MPC-003/Block-3/Unit-4.pdf",
+              "topics_extracted": [
+                "Big Five OCEAN Personality Dimensions"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "163-big-five-ocean-personality-dimensions.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 11,
+                "wikipedia_articles": 4,
+                "research_papers": 3,
+                "videos": 3,
+                "mermaid_diagrams": 2,
+                "self_assessments": 8,
+                "memory_aids": 3
               }
             }
           }

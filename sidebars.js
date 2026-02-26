@@ -319,6 +319,22 @@ const sidebars = {
             'mpc-003/block-2/rogers-person-centered-theory',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 3: Dispositional and Trait Theories',
+          items: [
+            // Unit 1: Gordon Allport — Dispositional Theory
+            'mpc-003/block-3/allport-definition-personality-traits',
+            'mpc-003/block-3/allport-proprium-selfhood',
+            'mpc-003/block-3/allport-functional-autonomy-mature-personality',
+            // Unit 2: Raymond Cattell — Trait Theory
+            'mpc-003/block-3/cattell-trait-theory-16pf',
+            // Unit 3: Hans Eysenck — Trait-Type Theory
+            'mpc-003/block-3/eysenck-trait-type-pen-model',
+            // Unit 4: Big Five Factors
+            'mpc-003/block-3/big-five-ocean-personality-dimensions',
+          ],
+        },
       ],
     },
     {
