@@ -5,10 +5,10 @@
     "extracted": 42,
     "enriched": 63,
     "in_progress": {
-    "unit": "MPC-004/Block-3/Unit-4",
+    "unit": "MPC-004/Block-4/Unit-1",
     "stage": "pending"
     },
-    "remaining": 29,
+    "remaining": 28,
     "last_updated": "2025-02-27T14:30:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
@@ -3958,6 +3958,78 @@
         "Block-3": {
           "name": "Attitudes, Stereotypes, Prejudice and Discrimination",
           "units": {
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-3/Unit-4.pdf",
+              "topics_extracted": [
+                "Nature and Forms of Social Conflict (Overt, Objective, Subjective)",
+                "Methods of Conflict Resolution (Superordinate Goals, Compromise, Special Norms, Prosocial Behaviour, Scientific Approaches)",
+                "Blake and Mouton Strategies and Two-Dimensional Model",
+                "Third-Party Intervention",
+                "Group Conflict in Indian Society (Tribal, Caste, Communal, Labour)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "216-nature-forms-social-conflict.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "217-methods-conflict-resolution.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "218-blake-mouton-two-dimensional-conflict-model.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 15,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 6,
+                "self_assessments": 27,
+                "memory_aids": 6
+              }
+            },
             "Unit-3": {
               "status": "enriched",
               "extraction_date": "2025-02-27",

@@ -435,6 +435,10 @@ const sidebars = {
             'mpc-004/block-3/characteristics-types-prejudice',
             'mpc-004/block-3/discrimination-development-maintenance-prejudice',
             'mpc-004/block-3/manifestation-reducing-prejudice-discrimination',
+            // Unit 4: Social Conflict and Its Resolution
+            'mpc-004/block-3/nature-forms-social-conflict',
+            'mpc-004/block-3/methods-conflict-resolution',
+            'mpc-004/block-3/blake-mouton-two-dimensional-conflict-model',
           ],
         },
       ],
