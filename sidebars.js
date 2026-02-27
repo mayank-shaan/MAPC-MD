@@ -347,9 +347,13 @@ const sidebars = {
             'mpc-003/block-4/self-report-personality-inventories',
             'mpc-003/block-4/faking-social-desirability-self-report',
             'mpc-003/block-4/important-personality-inventories',
-            // Unit 3 (or continuation): Projective Techniques and Behavioural Assessment
+            // Unit 3: Projective Techniques and Behavioural Assessment
             'mpc-003/block-4/projective-techniques-classification',
             'mpc-003/block-4/behavioural-assessment-methods',
+            // Unit 4: Other Measures of Personality
+            'mpc-003/block-4/mmpi-mcmi-neo-pi-personality-inventories',
+            'mpc-003/block-4/rorschach-holtzman-inkblot-tests',
+            'mpc-003/block-4/tat-cat-sat-apperception-tests',
           ],
         },
       ],
@@ -361,7 +365,43 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-004-social/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'Block 1: Introduction to Social Psychology',
+          items: [
+            // Unit 1: Nature and Concept of Social Psychology
+            'mpc-004/block-1/nature-concept-social-psychology',
+            'mpc-004/block-1/historical-development-social-psychology',
+            'mpc-004/block-1/social-psychology-related-disciplines',
+            // Unit 2: Social Cognition and Attribution Theory
+            'mpc-004/block-1/person-perception-social-cognition',
+            'mpc-004/block-1/attribution-theory-kelley-jones-davis',
+            'mpc-004/block-1/attribution-errors-biases',
+            'mpc-004/block-1/attribution-education-self-perception',
+            // Unit 3: Methods of Social Psychology
+            'mpc-004/block-1/research-methods-social-psychology-overview',
+            'mpc-004/block-1/experimental-method-social-psychology',
+            'mpc-004/block-1/ethnography-meta-analysis-social-psychology',
+            // Unit 4: Current Trends and Ethical Issues
+            'mpc-004/block-1/social-psychology-applications',
+            'mpc-004/block-1/cognitive-multicultural-perspectives',
+            'mpc-004/block-1/sociobiology-evolutionary-social-psychology',
+            'mpc-004/block-1/ethical-issues-social-psychology-research',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 2: Process of Social Influence',
+          items: [
+            // Unit 1: Concept of Social Influence
+            'mpc-004/block-2/concept-social-influence-theories',
+            'mpc-004/block-2/conformity-asch-experiment',
+            'mpc-004/block-2/compliance-cialdini-principles-strategies',
+            'mpc-004/block-2/obedience-milgram-stanford-hofling',
+          ],
+        },
+      ],
     },
     {
       type: 'category',

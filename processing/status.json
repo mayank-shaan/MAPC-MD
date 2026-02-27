@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 33,
-    "enriched": 51,
+    "extracted": 40,
+    "enriched": 61,
     "in_progress": {
-    "unit": "MPC-003/Block-4/Unit-4",
+    "unit": "MPC-004/Block-2/Unit-2",
     "stage": "pending"
     },
-    "remaining": 41,
-    "last_updated": "2025-02-27T00:00:00Z",
+    "remaining": 35,
+    "last_updated": "2025-02-27T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
       "wikipedia_articles": 277,
@@ -2964,8 +2964,8 @@
     "MPC-003": {
       "name": "Personality Theories and Assessment",
       "total_units": 16,
-      "extracted_units": 13,
-      "enriched_units": 13,
+      "extracted_units": 16,
+      "enriched_units": 16,
       "blocks": {
         "Block-1": {
           "name": "Introduction to Personality",
@@ -3691,6 +3691,76 @@
                 "self_assessments": 14,
                 "memory_aids": 6
               }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-003/Block-4/Unit-4.pdf",
+              "topics_extracted": [
+                "MMPI, MCMI-III, and NEO-PI-R: Major Personality Inventories",
+                "Rorschach Psychodiagnostic Test and HIT Inkblot Technique",
+                "TAT, CAT, and SAT Apperception Tests"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "172-mmpi-mcmi-neo-pi-personality-inventories.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 6,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 15,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "173-rorschach-holtzman-inkblot-tests.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 14,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "174-tat-cat-sat-apperception-tests.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 6,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 16,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 15,
+                "research_papers": 17,
+                "videos": 9,
+                "mermaid_diagrams": 7,
+                "self_assessments": 45,
+                "memory_aids": 10
+              }
             }
           }
         },
@@ -3873,6 +3943,434 @@
                 "mermaid_diagrams": 2,
                 "self_assessments": 8,
                 "memory_aids": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "MPC-004": {
+      "name": "Advanced Social Psychology",
+      "total_units": 16,
+      "extracted_units": 5,
+      "enriched_units": 5,
+      "blocks": {
+        "Block-2": {
+          "name": "Process of Social Influence",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-2/Unit-1.pdf",
+              "topics_extracted": [
+                "Concept of Social Influence - French & Raven Power, ELM, Social Impact Theory",
+                "Conformity - Asch Line Experiment, Informational vs Normative Influence",
+                "Compliance - Cialdini's 6 Principles, FITD, DITF, Low-Ball, Ingratiation",
+                "Obedience - Milgram, Stanford Prison Experiment, Hofling Hospital Study"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "189-concept-social-influence-theories.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "190-conformity-asch-experiment.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "191-compliance-cialdini-principles-strategies.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "192-obedience-milgram-stanford-hofling.mdx",
+                  "status": "enriched",
+                  "word_count": 4500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 48,
+                "wikipedia_articles": 20,
+                "research_papers": 16,
+                "videos": 12,
+                "mermaid_diagrams": 9,
+                "self_assessments": 35,
+                "memory_aids": 12
+              }
+            }
+          }
+        },
+        "Block-1": {
+          "name": "Introduction to Social Psychology",
+          "units": {
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-1/Unit-2.pdf",
+              "topics_extracted": [
+                "Person Perception and Social Cognition",
+                "Cognitive Algebra: Additive and Averaging Models",
+                "Impression Formation: Schemas and Prototypes",
+                "Attribution Theory: Kelley and Jones-Davis",
+                "Attribution Errors: FAE, Halo Effect, Positivity Bias",
+                "Attribution in Education: Weiner's Theory",
+                "Self-Perception Theory: Bem",
+                "Social Comparison Theory: Festinger"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "178-person-perception-social-cognition.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "179-attribution-theory-kelley-jones-davis.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "180-attribution-errors-biases.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "181-attribution-education-self-perception.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 6,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 37,
+                "wikipedia_articles": 20,
+                "research_papers": 13,
+                "videos": 11,
+                "mermaid_diagrams": 9,
+                "self_assessments": 30,
+                "memory_aids": 8
+              }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-1/Unit-4.pdf",
+              "topics_extracted": [
+                "Social Psychology Applications: Population, Health, Environmental, I-O, Legal",
+                "Growing Influence of Cognitive Perspective",
+                "Multicultural Perspective in Social Psychology",
+                "Sociobiology and Evolutionary Social Psychology",
+                "Ethical Issues: Deception, Informed Consent, Debriefing, Minimal Risk"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "185-social-psychology-applications.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 6,
+                    "research_papers": 4,
+                    "videos": 4,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "186-cognitive-multicultural-perspectives.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "187-sociobiology-evolutionary-social-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "188-ethical-issues-social-psychology-research.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 11,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 42,
+                "wikipedia_articles": 19,
+                "research_papers": 13,
+                "videos": 12,
+                "mermaid_diagrams": 8,
+                "self_assessments": 38,
+                "memory_aids": 8
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-1/Unit-3.pdf",
+              "topics_extracted": [
+                "Social Psychological Approach: Needs and Aims",
+                "Observational and Correlational Methods",
+                "Experimental Method and Experimental Designs",
+                "Quasi-Experimental Method",
+                "Threats to Validity in Experimental Research",
+                "Ethnography: Characteristics, Steps, and Special Concepts",
+                "Meta-Analysis as a Synthesis Tool"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "182-research-methods-social-psychology-overview.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "183-experimental-method-social-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "184-ethnography-meta-analysis-social-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 10,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 30,
+                "wikipedia_articles": 15,
+                "research_papers": 15,
+                "videos": 9,
+                "mermaid_diagrams": 8,
+                "self_assessments": 30,
+                "memory_aids": 9
+              }
+            },
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-1/Unit-1.pdf",
+              "topics_extracted": [
+                "Nature and Concept of Social Psychology",
+                "Historical Development of Social Psychology",
+                "Social Psychology and Related Disciplines"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "175-nature-concept-social-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 12,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "176-historical-development-social-psychology.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 4,
+                    "diagrams": 3,
+                    "self_assessment": 12,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "177-social-psychology-related-disciplines.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 12,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 34,
+                "wikipedia_articles": 14,
+                "research_papers": 12,
+                "videos": 10,
+                "mermaid_diagrams": 8,
+                "self_assessments": 36,
+                "memory_aids": 12
               }
             }
           }
