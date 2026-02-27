@@ -5,11 +5,11 @@
     "extracted": 30,
     "enriched": 48,
     "in_progress": {
-    "unit": "MPC-003/Block-3",
+    "unit": "MPC-003/Block-4/Unit-2",
     "stage": "pending"
     },
-    "remaining": 45,
-    "last_updated": "2025-02-26T12:00:00Z",
+    "remaining": 44,
+    "last_updated": "2025-02-27T00:00:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
       "wikipedia_articles": 277,
@@ -3489,6 +3489,83 @@
                 "videos": 9,
                 "mermaid_diagrams": 9,
                 "self_assessments": 15,
+                "memory_aids": 10
+              }
+            }
+          }
+        },
+        "Block-4": {
+          "name": "Introduction to Assessment and Testing",
+          "units": {
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-003/Block-4/Unit-1.pdf",
+              "topics_extracted": [
+                "History of Personality Assessment (Ancient to Modern)",
+                "OSS, MBTI, German/British Assessment Centres",
+                "Meaning and Purpose of Personality Assessment",
+                "Four Types of Traits: Social, Motives, Personal Conceptions, Adjustment",
+                "Testing and Measurement: Standardisation, Norms, Reliability, Validity"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "164-history-personality-assessment.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "165-meaning-purpose-personality-assessment.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "166-testing-measurement-concepts-personality.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 10,
+                    "memory_aids": 4,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 24,
+                "wikipedia_articles": 15,
+                "research_papers": 9,
+                "videos": 9,
+                "mermaid_diagrams": 6,
+                "self_assessments": 26,
                 "memory_aids": 10
               }
             }

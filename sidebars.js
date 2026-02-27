@@ -335,6 +335,16 @@ const sidebars = {
             'mpc-003/block-3/big-five-personality-dimensions',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 4: Introduction to Assessment and Testing',
+          items: [
+            // Unit 1: Introduction to Assessment and Testing
+            'mpc-003/block-4/history-personality-assessment',
+            'mpc-003/block-4/meaning-purpose-personality-assessment',
+            'mpc-003/block-4/testing-measurement-concepts-personality',
+          ],
+        },
       ],
     },
     {
