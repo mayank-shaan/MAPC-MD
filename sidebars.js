@@ -237,6 +237,7 @@ const sidebars = {
             'mpc-002/block-3/marcia-identity-statuses',
             'mpc-002/block-3/self-concept-self-esteem-adolescence',
             'mpc-002/block-3/social-development-peer-relationships-adolescence',
+            'mpc-002/block-3/social-development-peer-groups',
 
             // Unit 4: Challenges and Issues in Adolescent Development
             'mpc-002/block-3/challenges-issues-adolescent-development',
@@ -328,11 +329,11 @@ const sidebars = {
             'mpc-003/block-3/allport-proprium-selfhood',
             'mpc-003/block-3/allport-functional-autonomy-mature-personality',
             // Unit 2: Raymond Cattell — Trait Theory
-            'mpc-003/block-3/cattell-trait-theory-16pf',
+            'mpc-003/block-3/cattell-trait-theory-personality',
             // Unit 3: Hans Eysenck — Trait-Type Theory
-            'mpc-003/block-3/eysenck-trait-type-pen-model',
+            'mpc-003/block-3/eysenck-trait-type-theory-pen-model',
             // Unit 4: Big Five Factors
-            'mpc-003/block-3/big-five-ocean-personality-dimensions',
+            'mpc-003/block-3/big-five-personality-dimensions',
           ],
         },
         {
@@ -385,7 +386,7 @@ const sidebars = {
             'mpc-004/block-1/ethnography-meta-analysis-social-psychology',
             // Unit 4: Current Trends and Ethical Issues
             'mpc-004/block-1/social-psychology-applications',
-            'mpc-004/block-1/cognitive-multicultural-perspectives',
+            'mpc-004/block-1/cognitive-multicultural-perspectives-social-psychology',
             'mpc-004/block-1/sociobiology-evolutionary-social-psychology',
             'mpc-004/block-1/ethical-issues-social-psychology-research',
           ],
@@ -399,6 +400,9 @@ const sidebars = {
             'mpc-004/block-2/conformity-asch-experiment',
             'mpc-004/block-2/compliance-cialdini-principles-strategies',
             'mpc-004/block-2/obedience-milgram-stanford-hofling',
+            // Unit 2: Pro-social Behaviour
+            'mpc-004/block-2/prosocial-behaviour-altruism-foundations',
+            'mpc-004/block-2/prosocial-behaviour-emergency-situations',
           ],
         },
       ],
