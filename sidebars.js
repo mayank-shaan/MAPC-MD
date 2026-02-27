@@ -403,6 +403,19 @@ const sidebars = {
             // Unit 2: Pro-social Behaviour
             'mpc-004/block-2/prosocial-behaviour-altruism-foundations',
             'mpc-004/block-2/prosocial-behaviour-emergency-situations',
+            'mpc-004/block-2/factors-affecting-helping-behaviour',
+            'mpc-004/block-2/theoretical-perspectives-prosocial-behaviour',
+            'mpc-004/block-2/reciprocity-social-norms-current-trends',
+            // Unit 3: Interpersonal Attraction
+            'mpc-004/block-2/interpersonal-attraction-physical-attractiveness',
+            'mpc-004/block-2/proximity-propinquity-heider-balance-theory',
+            'mpc-004/block-2/similarity-complementarity-interpersonal-attraction',
+            'mpc-004/block-2/explaining-interpersonal-attraction-theories',
+            // Unit 4: Aggression and Violence
+            'mpc-004/block-2/aggression-nature-types-measurement',
+            'mpc-004/block-2/causes-aggressive-behaviour',
+            'mpc-004/block-2/theories-aggression-comprehensive',
+            'mpc-004/block-2/intervention-reduce-aggression',
           ],
         },
       ],

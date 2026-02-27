@@ -5,10 +5,10 @@
     "extracted": 40,
     "enriched": 61,
     "in_progress": {
-    "unit": "MPC-004/Block-2/Unit-2",
+    "unit": "MPC-004/Block-3/Unit-1",
     "stage": "pending"
     },
-    "remaining": 35,
+    "remaining": 32,
     "last_updated": "2025-02-27T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
@@ -3958,6 +3958,285 @@
         "Block-2": {
           "name": "Process of Social Influence",
           "units": {
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-2/Unit-2.pdf",
+              "topics_extracted": [
+                "Pro-social Behaviour, Altruism, and Historical Context (Kitty Genovese)",
+                "Pro-social Behaviour in Emergency Situations (5-Step Model)",
+                "12 Factors Affecting Helping Behaviour",
+                "Theoretical Perspectives (Social Learning, Motivation, Social Identity, Biological)",
+                "Negative-State Relief, Empathy-Altruism, Reciprocity, and Current Trends"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "193-prosocial-behaviour-altruism-foundations.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 4,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "194-prosocial-behaviour-emergency-situations.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "195-factors-affecting-helping-behaviour.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "196-theoretical-perspectives-prosocial-behaviour.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 5,
+                    "self_assessment": 9,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "197-reciprocity-social-norms-current-trends.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 8,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 46,
+                "wikipedia_articles": 18,
+                "research_papers": 21,
+                "videos": 15,
+                "mermaid_diagrams": 16,
+                "self_assessments": 40,
+                "memory_aids": 12
+              }
+            },
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-2/Unit-3.pdf",
+              "topics_extracted": [
+                "Physical Attractiveness and the Beauty Stereotype",
+                "Proximity/Propinquity Effects and Heider's Balance Theory",
+                "Similarity and Complementarity in Attraction",
+                "Social Exchange, Evolutionary, Reciprocal Liking, and Reward Theories"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "198-interpersonal-attraction-physical-attractiveness.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "199-proximity-propinquity-heider-balance-theory.mdx",
+                  "status": "enriched",
+                  "word_count": 3000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 6,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "200-similarity-complementarity-interpersonal-attraction.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 7,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "201-explaining-interpersonal-attraction-theories.mdx",
+                  "status": "enriched",
+                  "word_count": 3500,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 5,
+                    "videos": 3,
+                    "diagrams": 1,
+                    "self_assessment": 8,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 32,
+                "wikipedia_articles": 12,
+                "research_papers": 20,
+                "videos": 12,
+                "mermaid_diagrams": 4,
+                "self_assessments": 28,
+                "memory_aids": 8
+              }
+            },
+            "Unit-4": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-2/Unit-4.pdf",
+              "topics_extracted": [
+                "Nature and Types of Aggression (Clinical, Instrumental/Hostile, Proactive/Reactive, Positive/Negative)",
+                "Measurement of Aggression (Rating scales, self-report, observer-based, justice system)",
+                "Causes of Aggression (Neurophysiological, Biological, Genes, Parenting, Environmental Stressors)",
+                "Theories of Aggression (Psychodynamic, Frustration-Aggression, Cognitive Neo-Association, Social Learning, Script, Excitation Transfer, Social Interaction, SIP, GAM)",
+                "Interventions to Reduce Aggression (Parent training, videotape programmes, hyperactivity management, school interventions)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "202-aggression-nature-types-measurement.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "203-causes-aggressive-behaviour.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "204-theories-of-aggression.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 10,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "205-intervention-reduce-aggression.mdx",
+                  "status": "enriched",
+                  "word_count": 2800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 37,
+                "wikipedia_articles": 14,
+                "research_papers": 12,
+                "videos": 10,
+                "mermaid_diagrams": 13,
+                "self_assessments": 37,
+                "memory_aids": 8
+              }
+            },
             "Unit-1": {
               "status": "enriched",
               "extraction_date": "2025-02-27",
