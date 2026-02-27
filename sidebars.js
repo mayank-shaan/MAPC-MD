@@ -418,6 +418,21 @@ const sidebars = {
             'mpc-004/block-2/intervention-reduce-aggression',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 3: Attitudes, Stereotypes, Prejudice and Discrimination',
+          items: [
+            // Unit 1: Introduction to Attitude and Stereotypes
+            'mpc-004/block-3/nature-of-attitudes',
+            'mpc-004/block-3/theories-attitude-organisation',
+            'mpc-004/block-3/stereotypes-prejudice-discrimination',
+            // Unit 2: Formation of Attitude and Attitude Change
+            'mpc-004/block-3/factors-attitude-formation',
+            'mpc-004/block-3/attitude-change-overview',
+            'mpc-004/block-3/persuasive-communication-attitude-change',
+            'mpc-004/block-3/attitude-change-models-applications',
+          ],
+        },
       ],
     },
     {

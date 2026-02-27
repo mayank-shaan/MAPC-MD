@@ -2,13 +2,13 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 40,
-    "enriched": 61,
+    "extracted": 41,
+    "enriched": 62,
     "in_progress": {
-    "unit": "MPC-004/Block-3/Unit-1",
+    "unit": "MPC-004/Block-3/Unit-3",
     "stage": "pending"
     },
-    "remaining": 32,
+    "remaining": 30,
     "last_updated": "2025-02-27T12:00:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
@@ -3952,9 +3952,172 @@
     "MPC-004": {
       "name": "Advanced Social Psychology",
       "total_units": 16,
-      "extracted_units": 5,
-      "enriched_units": 5,
+      "extracted_units": 6,
+      "enriched_units": 6,
       "blocks": {
+        "Block-3": {
+          "name": "Attitudes, Stereotypes, Prejudice and Discrimination",
+          "units": {
+            "Unit-2": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-3/Unit-2.pdf",
+              "topics_extracted": [
+                "Factors of Attitude Formation (Need Satisfaction, Social Learning, Group Affiliations, Cultural Factors, Personality, Stereotypes)",
+                "Types of Attitude Change (Congruent vs Incongruent)",
+                "Mechanisms of Attitude Change (Reference Groups, Group Affiliations, Additional Information, Enforced Contact)",
+                "Persuasive Communication (Source Credibility, Attractiveness, Fear Appeals, One-Sided vs Two-Sided, Primacy-Recency, Channel, Audience)",
+                "Modern Models: ELM, Cognitive Dissonance, Reactance Theory"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "209-factors-attitude-formation.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 11,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "210-attitude-change-overview.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "211-persuasive-communication-attitude-change.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 3,
+                    "videos": 3,
+                    "diagrams": 5,
+                    "self_assessment": 9,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "212-attitude-change-models-applications.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 4,
+                    "self_assessment": 9,
+                    "memory_aids": 1,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 45,
+                "wikipedia_articles": 19,
+                "research_papers": 13,
+                "videos": 10,
+                "mermaid_diagrams": 17,
+                "self_assessments": 36,
+                "memory_aids": 5
+              }
+            },
+            "Unit-1": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-3/Unit-1.pdf",
+              "topics_extracted": [
+                "Nature of Attitudes: Components, Characteristics, Attitude-Belief Distinction",
+                "Theories of Attitude Organisation: Heider, Katz, Kelman",
+                "Stereotypes: Characteristics, Development, Social Functions, vs Prejudice"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "206-nature-of-attitudes.mdx",
+                  "status": "enriched",
+                  "word_count": 3200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 8,
+                    "wikipedia": 3,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 2,
+                    "self_assessment": 12,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "207-theories-attitude-organisation.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 9,
+                    "wikipedia": 4,
+                    "research_papers": 3,
+                    "videos": 2,
+                    "diagrams": 4,
+                    "self_assessment": 12,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "208-stereotypes-prejudice-discrimination.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 5,
+                    "research_papers": 4,
+                    "videos": 2,
+                    "diagrams": 3,
+                    "self_assessment": 12,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 27,
+                "wikipedia_articles": 12,
+                "research_papers": 10,
+                "videos": 6,
+                "mermaid_diagrams": 9,
+                "self_assessments": 36,
+                "memory_aids": 7
+              }
+            }
+          }
+        },
         "Block-2": {
           "name": "Process of Social Influence",
           "units": {
