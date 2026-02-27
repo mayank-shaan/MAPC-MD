@@ -2,14 +2,14 @@
   "metadata": {
     "project": "MAPC Study Portal",
     "total_pdfs": 97,
-    "extracted": 41,
-    "enriched": 62,
+    "extracted": 42,
+    "enriched": 63,
     "in_progress": {
-    "unit": "MPC-004/Block-3/Unit-3",
+    "unit": "MPC-004/Block-3/Unit-4",
     "stage": "pending"
     },
-    "remaining": 30,
-    "last_updated": "2025-02-27T12:00:00Z",
+    "remaining": 29,
+    "last_updated": "2025-02-27T14:30:00Z",
     "enrichment_stats": {
       "total_external_links": 972,
       "wikipedia_articles": 277,
@@ -3958,6 +3958,79 @@
         "Block-3": {
           "name": "Attitudes, Stereotypes, Prejudice and Discrimination",
           "units": {
+            "Unit-3": {
+              "status": "enriched",
+              "extraction_date": "2025-02-27",
+              "enrichment_date": "2025-02-27",
+              "pdf_path": "MPC-004/Block-3/Unit-3.pdf",
+              "topics_extracted": [
+                "Characteristics of Prejudice (Acquired, Emotional, Irrational, Functional, Unrealistic)",
+                "Types of Prejudice (Racial, Sex, Caste, Language, Religious)",
+                "Discrimination: Definition, Exchange Theory, Without Prejudice",
+                "Development & Maintenance of Prejudice (Structural, Historical, Situational, Psychodynamic)",
+                "Manifestation of Prejudice (Withdrawal to Extermination)",
+                "Methods of Reducing Prejudice (Contact, Education, Legislation, etc.)"
+              ],
+              "mdx_files": [
+                {
+                  "filename": "213-characteristics-types-prejudice.mdx",
+                  "status": "enriched",
+                  "word_count": 3800,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 6,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "214-discrimination-development-maintenance-prejudice.mdx",
+                  "status": "enriched",
+                  "word_count": 4200,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 12,
+                    "wikipedia": 7,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 3,
+                    "self_assessment": 9,
+                    "memory_aids": 3,
+                    "meets_standards": true
+                  }
+                },
+                {
+                  "filename": "215-manifestation-reducing-prejudice-discrimination.mdx",
+                  "status": "enriched",
+                  "word_count": 4000,
+                  "enrichment_score": 9,
+                  "quality_check": {
+                    "external_sources": 10,
+                    "wikipedia": 6,
+                    "research_papers": 4,
+                    "videos": 3,
+                    "diagrams": 2,
+                    "self_assessment": 9,
+                    "memory_aids": 2,
+                    "meets_standards": true
+                  }
+                }
+              ],
+              "enrichment_quality": {
+                "total_external_links": 34,
+                "wikipedia_articles": 19,
+                "research_papers": 12,
+                "videos": 9,
+                "mermaid_diagrams": 8,
+                "self_assessments": 27,
+                "memory_aids": 7
+              }
+            },
             "Unit-2": {
               "status": "enriched",
               "extraction_date": "2025-02-27",

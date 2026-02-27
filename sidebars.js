@@ -405,7 +405,7 @@ const sidebars = {
             'mpc-004/block-2/prosocial-behaviour-emergency-situations',
             'mpc-004/block-2/factors-affecting-helping-behaviour',
             'mpc-004/block-2/theoretical-perspectives-prosocial-behaviour',
-            'mpc-004/block-2/reciprocity-social-norms-current-trends',
+            'mpc-004/block-2/prosocial-behaviour-current-trends-reciprocity',
             // Unit 3: Interpersonal Attraction
             'mpc-004/block-2/interpersonal-attraction-physical-attractiveness',
             'mpc-004/block-2/proximity-propinquity-heider-balance-theory',
@@ -431,6 +431,10 @@ const sidebars = {
             'mpc-004/block-3/attitude-change-overview',
             'mpc-004/block-3/persuasive-communication-attitude-change',
             'mpc-004/block-3/attitude-change-models-applications',
+            // Unit 3: Prejudice and Discrimination
+            'mpc-004/block-3/characteristics-types-prejudice',
+            'mpc-004/block-3/discrimination-development-maintenance-prejudice',
+            'mpc-004/block-3/manifestation-reducing-prejudice-discrimination',
           ],
         },
       ],
