@@ -441,6 +441,27 @@ const sidebars = {
             'mpc-004/block-3/blake-mouton-two-dimensional-conflict-model',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 4: Group Dynamics',
+          items: [
+            // Unit 1: Introduction to Group, Formation and Types
+            'mpc-004/block-4/group-definition-meaning-features',
+            'mpc-004/block-4/group-characteristics-formation',
+            'mpc-004/block-4/group-formation-theories-rules',
+            'mpc-004/block-4/types-groups-structure',
+            // Unit 2: Group Dynamics
+            'mpc-004/block-4/group-dynamics-definition-concept',
+            'mpc-004/block-4/communication-cohesion-group-dynamics',
+            'mpc-004/block-4/social-integration-culture-groups',
+            'mpc-004/block-4/group-development-models',
+            // Unit 3: Social Identity, Crowding and Crowd Behaviour
+            'mpc-004/block-4/social-identity-theory',
+            'mpc-004/block-4/crowd-definition-types',
+            'mpc-004/block-4/crowd-behaviour-theories',
+            'mpc-004/block-4/collective-behaviour-mob-audience',
+          ],
+        },
       ],
     },
     {
