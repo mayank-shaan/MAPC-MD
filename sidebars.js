@@ -328,11 +328,11 @@ const sidebars = {
             'mpc-003/block-3/allport-proprium-selfhood',
             'mpc-003/block-3/allport-functional-autonomy-mature-personality',
             // Unit 2: Raymond Cattell — Trait Theory
-            'mpc-003/block-3/cattell-trait-theory-personality',
+            'mpc-003/block-3/cattell-trait-theory-16pf',
             // Unit 3: Hans Eysenck — Trait-Type Theory
-            'mpc-003/block-3/eysenck-trait-type-theory-pen-model',
+            'mpc-003/block-3/eysenck-trait-type-pen-model',
             // Unit 4: Big Five Factors
-            'mpc-003/block-3/big-five-personality-dimensions',
+            'mpc-003/block-3/big-five-ocean-personality-dimensions',
           ],
         },
         {
@@ -343,6 +343,13 @@ const sidebars = {
             'mpc-003/block-4/history-personality-assessment',
             'mpc-003/block-4/meaning-purpose-personality-assessment',
             'mpc-003/block-4/testing-measurement-concepts-personality',
+            // Unit 2: Self-Report Inventories
+            'mpc-003/block-4/self-report-personality-inventories',
+            'mpc-003/block-4/faking-social-desirability-self-report',
+            'mpc-003/block-4/important-personality-inventories',
+            // Unit 3 (or continuation): Projective Techniques and Behavioural Assessment
+            'mpc-003/block-4/projective-techniques-classification',
+            'mpc-003/block-4/behavioural-assessment-methods',
           ],
         },
       ],
