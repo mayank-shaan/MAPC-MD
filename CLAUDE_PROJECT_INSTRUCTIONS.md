@@ -19,8 +19,17 @@ Transform IGNOU MAPC psychology PDFs into comprehensive, enriched study material
 Project Root:     /Users/msd/Work/Repositories/mapc-study/
 Source PDFs:      /Users/msd/Work/Repositories/mapc-study/static/pdfs/
 Content:          /Users/msd/Work/Repositories/mapc-study/docs/
-Status Tracking:  /Users/msd/Work/Repositories/mapc-study/processing/status.json
+Status Index:     /Users/msd/Work/Repositories/mapc-study/processing/status-index.json
+Course Details:   /Users/msd/Work/Repositories/mapc-study/processing/courses/<course-id>.json
 ```
+
+> **How tracking is split (replaces the old monolithic status.json):**
+>
+> | File | Size | When to read |
+> |------|------|--------------|
+> | `processing/status-index.json` | ~2 KB | **Always** — start of every session |
+> | `processing/courses/mpc-XXX.json` | ~300 B | Only when working on that specific course |
+> | MDX frontmatter `status` / `quality_check` fields | per file | Updated inline as each file is created/enriched |
 
 ---
 
@@ -64,10 +73,10 @@ PDF Tools:read_pdf_content
 
 1. Read PDF with PDF Tools connector
 2. Identify 3-5 main topics
-3. Create MDX files with FULL content
-4. Mark as `"extracted"` in status.json
+3. Create MDX files with FULL content (set `status: extracted` in each file's frontmatter)
+4. Update the unit in `processing/courses/<course>.json` to `"extracted"`
 
-### Stage 2: ENRICHMENT  
+### Stage 2: ENRICHMENT
 **Goal**: Transform into exceptional learning resource
 
 1. Add 5+ external resources per file
@@ -78,7 +87,8 @@ PDF Tools:read_pdf_content
 6. Add memory aids/mnemonics
 7. Include real-world applications
 8. Expand to 2,000+ words
-9. Mark as `"enriched"` in status.json
+9. Set `status: enriched` + `quality_check` in each MDX file's frontmatter
+10. Update unit status in `processing/courses/<course>.json`
 
 ---
 
@@ -87,33 +97,40 @@ PDF Tools:read_pdf_content
 ### `continue`
 Process next pending unit through both stages.
 
-1. **Check Status** → Read `processing/status.json`, find next pending unit
-2. **Load PDF** → Use `PDF Tools:read_pdf_content`
+1. **Check Queue** → Read `processing/status-index.json` (tiny, ~2 KB). Take `pending_queue[0]` as the next unit. Set `in_progress` to that unit.
+2. **Load PDF** → Use `PDF Tools:read_pdf_content` on the corresponding PDF (path = `static/pdfs/<pdf_dir>/<Block>/<Unit>.pdf`)
 3. **Extract Content** → Create 3-5 MDX files with full PDF content
-4. **Enrich Each File** → Add all required resources, diagrams, assessments
+4. **Enrich Each File** → Add all required resources, diagrams, assessments. Set `status: enriched` + `quality_check` block in each file's frontmatter.
 5. **Update Sidebar** → Use `Filesystem:edit_file` on `sidebars.js`
-6. **Update Status** → Use `Filesystem:edit_file` on `status.json`
-7. **Report Progress** → Show files created with enrichment stats
+6. **Update Course File** → Open `processing/courses/<course-id>.json`, change the unit's value from `"pending"` → `"enriched"`.
+7. **Update Index** → In `processing/status-index.json`: remove the unit from `pending_queue`, increment `stats.enriched`, decrement `stats.pending`, set `in_progress: null`.
+8. **Report Progress** → Show files created with enrichment stats
 
 ---
 
 ### `status`
 Show current processing progress.
 
+**Workflow:**
+1. Read `processing/status-index.json` → get overall counts and pending queue
+2. Optionally read each `processing/courses/*.json` for block-level detail
+
 **Output:**
 ```
 📊 MAPC Study Portal Status
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
-Total PDFs: 97
-Extracted: X | Enriched: Y | Pending: Z
+Total Units: 97 | Enriched: 64 | Pending: 33
 
-Current Course: MPC-001 Cognitive Psychology
-├── Block-1: 3/4 units enriched
-├── Block-2: 0/4 units (pending)
-└── ...
+MPC-001 Cognitive Psychology    ✅ 16/16
+MPC-002 Life Span Psychology    ✅ 16/16
+MPC-003 Personality Theories    ✅ 16/16
+MPC-004 Social Psychology       ✅ 16/16
+MPC-005 Research Methods        ⏳  0/16
+MPC-006 Statistics              ⏳  0/16
+MPCL-007 Practicals             ⏳  0/1
 
-In Progress: MPC-001/Block-1/Unit-4 (extraction)
-Next Up: MPC-001/Block-2/Unit-1
+In Progress: none
+Next Up:     MPC-005/Block-1/Unit-1
 ```
 
 ---
@@ -124,15 +141,16 @@ Re-enrich a specific unit to meet quality standards.
 **Usage:** `enrich MPC-001/Block-1/Unit-3`
 
 **Workflow:**
-1. Read existing MDX files for the unit
-2. Check current enrichment levels against standards
-3. Add missing elements (videos, diagrams, research, etc.)
-4. Expand content if under 2,000 words
-5. Update `status.json` with new quality_check data
-6. Mark as `"enriched"` when all standards met
+1. Read `processing/courses/<course-id>.json` → confirm the unit exists and its current status
+2. Glob `docs/<course>/block-X/*.mdx` to find all MDX files for this unit
+3. Read each file: check `quality_check` in frontmatter and scan content for gaps
+4. Add missing elements (videos, diagrams, research papers, etc.)
+5. Expand content if under 2,000 words
+6. Update each file's frontmatter: set `status: enriched` and fill in the full `quality_check` block
+7. Update `processing/courses/<course-id>.json` → set unit to `"enriched"` if not already
 
 **Use when:**
-- Files marked as `"extracted"` need enrichment
+- Files need enrichment to meet quality standards
 - Quality check shows `meets_standards: false`
 - User wants to improve existing content
 
@@ -193,9 +211,10 @@ Validate unit for data consistency and PDF coverage.
 - No duplicate file numbers?
 
 **4. Status Consistency**
-- status.json matches actual files?
-- Word counts accurate?
-- Quality check data current?
+- MDX frontmatter `status: enriched` set?
+- `quality_check.meets_standards: true` in frontmatter?
+- `processing/courses/<course>.json` shows unit as `"enriched"`?
+- Unit absent from `pending_queue` in `status-index.json`?
 
 **Output:**
 ```
@@ -281,8 +300,21 @@ last_updated: YYYY-MM-DD
 estimated_time: X min
 difficulty: basic|intermediate|advanced
 exam_importance: low|medium|high
+status: enriched
+enrichment_score: 9
+quality_check:
+  external_sources: 10
+  wikipedia: 3
+  research_papers: 2
+  videos: 2
+  diagrams: 2
+  self_assessment: 5
+  memory_aids: 3
+  meets_standards: true
 ---
 ```
+
+> `status`, `enrichment_score`, and `quality_check` **must be filled in** for every new file. This replaces per-file tracking in the old `status.json`.
 
 ### File Naming
 - Format: `XX-topic-name.mdx` (e.g., `12-memory-brain-systems.mdx`)
@@ -322,56 +354,95 @@ MPCL-007: /pdfs/MPCL-007%20Practicals%20Experimental%20Psychology%20and%20Psycho
 
 ## 📊 Status Tracking
 
-### status.json Structure
+Status is split across three lightweight layers — no single file ever grows large.
+
+### Layer 1 — `processing/status-index.json` (always tiny, ~2 KB)
+
+Read this at the start of every session to find the next unit.
+
 ```json
 {
-  "metadata": {
-    "total_pdfs": 97,
-    "extracted": 3,
-    "enriched": 3,
-    "in_progress": {
-      "unit": "MPC-001/Block-1/Unit-4",
-      "stage": "extraction"
-    }
+  "last_updated": "2025-02-27",
+  "stats": {
+    "total_units": 97,
+    "enriched": 64,
+    "pending": 33
   },
-  "courses": {
-    "MPC-001": {
-      "blocks": {
-        "Block-1": {
-          "units": {
-            "Unit-3": {
-              "status": "enriched",
-              "extraction_date": "2024-12-14",
-              "enrichment_date": "2024-12-14",
-              "mdx_files": [
-                {
-                  "filename": "12-memory-brain-systems.mdx",
-                  "status": "enriched",
-                  "word_count": 2500,
-                  "quality_check": {
-                    "external_sources": 10,
-                    "wikipedia": 3,
-                    "videos": 3,
-                    "diagrams": 2,
-                    "self_assessment": 4,
-                    "meets_standards": true
-                  }
-                }
-              ]
-            }
-          }
-        }
-      }
+  "in_progress": null,
+  "pending_queue": [
+    "MPC-005/Block-1/Unit-1",
+    "MPC-005/Block-1/Unit-2",
+    "..."
+  ]
+}
+```
+
+**Queue maintenance rules (automatic):**
+- `pending_queue` is an ordered list — always process `pending_queue[0]` next
+- After enriching a unit: remove it from the front of the queue, increment `stats.enriched`, decrement `stats.pending`
+- Set `in_progress` to the unit being worked on; reset to `null` when done
+- **Never skip** a queue item — the order matches the processing order in the PDFs folder
+
+---
+
+### Layer 2 — `processing/courses/<course-id>.json` (one per course, ~300 B each)
+
+Read only when working on that course. Tracks unit-level status.
+
+```json
+{
+  "id": "MPC-005",
+  "name": "Research Methods",
+  "pdf_dir": "MPC-005 Research Methods",
+  "docs_path": "docs/mpc-005",
+  "blocks": {
+    "Block-1": {
+      "Unit-1": "enriched",
+      "Unit-2": "pending",
+      "Unit-3": "pending",
+      "Unit-4": "pending"
     }
   }
 }
 ```
 
-### Status Types
-- **"pending"** - Not yet processed
-- **"extracted"** - PDF content captured, needs enrichment
-- **"enriched"** - Meets all quality standards
-- **"error"** - Processing failed
+**Update rule:** When a unit is fully enriched, change its value to `"enriched"`.
+
+---
+
+### Layer 3 — MDX Frontmatter (quality data lives with the content)
+
+Every MDX file carries its own enrichment metadata — no separate lookup needed.
+
+```yaml
+---
+id: topic-name-kebab-case
+title: Full Topic Title
+sidebar_label: Short Label
+tags: [tag1, tag2]
+description: SEO description (150 chars)
+last_updated: YYYY-MM-DD
+estimated_time: X min
+difficulty: basic|intermediate|advanced
+exam_importance: low|medium|high
+status: enriched
+enrichment_score: 9
+quality_check:
+  external_sources: 10
+  wikipedia: 3
+  research_papers: 2
+  videos: 2
+  diagrams: 2
+  self_assessment: 5
+  memory_aids: 3
+  meets_standards: true
+---
+```
+
+**Status values:**
+- `pending` — PDF not yet processed
+- `extracted` — MDX files created, enrichment not complete
+- `enriched` — Meets all quality standards ✅
 
 ---
 
@@ -413,11 +484,14 @@ Progress: 3/97 PDFs (3.1%)
 | Don't | Do |
 |-------|-----|
 | Use bash for file operations | Use Filesystem MCP |
-| Mark "extracted" as complete | Only mark "enriched" when standards met |
+| Mark `status: enriched` before standards are met | Only set when `meets_standards: true` |
 | Create files under 2,000 words | Expand to comprehensive coverage |
 | Skip enrichment to move faster | Prioritize learner value |
 | Forget sidebar updates | Update immediately after creating files |
 | Use duplicate file numbers | Number sequentially |
+| Read the old `status.json` | Read `status-index.json` (tiny) instead |
+| Write quality metrics to a separate tracking file | Write `quality_check` into the MDX frontmatter |
+| Manually compute what's pending | Trust the `pending_queue` — it's the single source of truth |
 
 ---
 
