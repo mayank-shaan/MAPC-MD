@@ -471,7 +471,19 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-005-research/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'Block 1: Basic Concepts in Research',
+          items: [
+            // Unit 1: Basic Process/Concept in Research
+            'mpc-005/block-1/definition-meaning-research',
+            'mpc-005/block-1/research-process-discovery-justification',
+            'mpc-005/block-1/research-process-steps',
+            'mpc-005/block-1/importance-research-psychology',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
