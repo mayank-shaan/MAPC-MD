@@ -1,0 +1,32 @@
+{
+  "id": "MPC-005",
+  "name": "Research Methods",
+  "pdf_dir": "MPC-005 Research Methods",
+  "docs_path": "docs/mpc-005",
+  "blocks": {
+    "Block-1": {
+      "Unit-1": "pending",
+      "Unit-2": "pending",
+      "Unit-3": "pending",
+      "Unit-4": "pending"
+    },
+    "Block-2": {
+      "Unit-1": "pending",
+      "Unit-2": "pending",
+      "Unit-3": "pending",
+      "Unit-4": "pending"
+    },
+    "Block-3": {
+      "Unit-1": "pending",
+      "Unit-2": "pending",
+      "Unit-3": "pending",
+      "Unit-4": "pending"
+    },
+    "Block-4": {
+      "Unit-1": "pending",
+      "Unit-2": "pending",
+      "Unit-3": "pending",
+      "Unit-4": "pending"
+    }
+  }
+}

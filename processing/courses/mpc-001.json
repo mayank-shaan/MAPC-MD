@@ -1,0 +1,32 @@
+{
+  "id": "MPC-001",
+  "name": "Cognitive Psychology, Learning and Memory",
+  "pdf_dir": "MPC-001 Cognitive Psychology, Learning and Memory",
+  "docs_path": "docs/mpc-001",
+  "blocks": {
+    "Block-1": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-2": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-3": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-4": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    }
+  }
+}

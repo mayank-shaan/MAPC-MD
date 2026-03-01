@@ -1,0 +1,32 @@
+{
+  "id": "MPC-003",
+  "name": "Personality Theories and Assessment",
+  "pdf_dir": "MPC-003 Personality Theories and Assessment",
+  "docs_path": "docs/mpc-003",
+  "blocks": {
+    "Block-1": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-2": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-3": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    },
+    "Block-4": {
+      "Unit-1": "enriched",
+      "Unit-2": "enriched",
+      "Unit-3": "enriched",
+      "Unit-4": "enriched"
+    }
+  }
+}
