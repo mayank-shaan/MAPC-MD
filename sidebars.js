@@ -479,6 +479,27 @@ const sidebars = {
             // Unit 1: Survey Research
             'mpc-005/block-2/survey-research-concept-steps-instruments',
             'mpc-005/block-2/survey-types-questions-precautions',
+            // Unit 2: Ex-Post Facto Research
+            'mpc-005/block-2/ex-post-facto-concept-characteristics',
+            'mpc-005/block-2/ex-post-facto-vs-experimental-causal-inference',
+            'mpc-005/block-2/ex-post-facto-steps-strengths-post-hoc-fallacy',
+            // Unit 3: Experimental Research (Field Experiment)
+            'mpc-005/block-2/experimental-research-field-experiments',
+            'mpc-005/block-2/research-design-objectives-criteria',
+            'mpc-005/block-2/types-experimental-research-designs',
+            // Unit 4: Case Study
+            'mpc-005/block-2/case-study-nature-criteria-types',
+            'mpc-005/block-2/case-study-steps-ways-misconceptions',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 3: Research Design',
+          items: [
+            // Unit 1: Single Factor Design
+            'mpc-005/block-3/research-design-meaning-function-terminology',
+            'mpc-005/block-3/single-factor-between-group-designs',
+            'mpc-005/block-3/single-factor-within-subject-designs',
           ],
         },
         {
