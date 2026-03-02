@@ -484,6 +484,10 @@ const sidebars = {
             // Unit 2: Reliability and Validity
             'mpc-005/block-1/reliability-concepts-methods',
             'mpc-005/block-1/validity-types-threats',
+            // Unit 3: Variables and Constructs
+            'mpc-005/block-1/variables-meaning-types-sor',
+            'mpc-005/block-1/extraneous-confounded-active-attribute-variables',
+            'mpc-005/block-1/constructs-intervening-hypothetical',
           ],
         },
       ],
