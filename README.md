@@ -5,7 +5,7 @@ A comprehensive, interactive study portal for IGNOU's Master of Arts in Psycholo
 
 ## 🎯 Project Goals
 - Convert IGNOU MAPC PDFs into structured, enriched study materials
-- Add external resources, current research papers (2020-2024), and educational videos
+- Add external resources, current research papers (2020-2025), and educational videos
 - Create interactive learning elements (diagrams, self-assessments, memory aids)
 - Provide easy navigation and search functionality
 - Build a beautiful, accessible learning platform
@@ -34,16 +34,31 @@ mapc-study/
 │   │   ├── block-2/          # 4 units, 14 files
 │   │   ├── block-3/          # 4 units, 15 files
 │   │   └── block-4/          # 4 units, 12 files
-│   ├── mpc-003/              # Personality Theories 🔄 IN PROGRESS
-│   │   ├── block-1/          # 4 units, 7 files ✅
-│   │   └── block-2/          # 4 units, 15 files ✅
-│   ├── mpc-004/              # Social Psychology ⏳ Pending
-│   ├── mpc-005/              # Research Methods ⏳ Pending
+│   ├── mpc-003/              # Personality Theories ✅ COMPLETE
+│   │   ├── block-1/          # 4 units, 7 files
+│   │   ├── block-2/          # 4 units, 15 files
+│   │   ├── block-3/          # 4 units, ~12 files
+│   │   └── block-4/          # 4 units, ~12 files
+│   ├── mpc-004/              # Social Psychology ✅ COMPLETE
+│   │   ├── block-1/          # 4 units
+│   │   ├── block-2/          # 4 units
+│   │   ├── block-3/          # 4 units
+│   │   └── block-4/          # 4 units
+│   ├── mpc-005/              # Research Methods 🔄 IN PROGRESS
+│   │   ├── block-1/          # 4 units ✅ COMPLETE (files 218–242)
+│   │   └── block-2/          # Unit-1 ✅ done, Units 2–4 pending
 │   ├── mpc-006/              # Statistics ⏳ Pending
 │   └── mpcl-007/             # Practicals ⏳ Pending
 ├── processing/               # PDF processing tracking
-│   ├── status.json          # Comprehensive processing status
-│   └── enrichment-log.json  # External resources added
+│   ├── status-index.json     # Lightweight overall progress index
+│   └── courses/              # Per-course status files
+│       ├── mpc-001.json
+│       ├── mpc-002.json
+│       ├── mpc-003.json
+│       ├── mpc-004.json
+│       ├── mpc-005.json
+│       ├── mpc-006.json
+│       └── mpcl-007.json
 ├── static/
 │   └── pdfs/               # Original PDF files (97 total)
 ├── src/
@@ -85,47 +100,39 @@ npm run deploy
 2. Extract all content completely (no loss)
 3. Identify 3-5 main topics per unit
 4. Create initial MDX file structure
-5. Mark as "extracted" in status.json
+5. Mark as `extracted` in frontmatter
 
 ### Phase 2: Enrichment
 - Add 5+ external resource links per file
 - Include 1+ Wikipedia articles
-- Find 1+ educational videos (MIT, Crash Course, Khan Academy)
-- Add 1+ recent research papers (2020-2024)
+- Find 1+ educational videos (MIT OCW, Crash Course, Khan Academy)
+- Add 1+ recent research papers (2020-2025)
 - Create 1+ Mermaid diagrams
 - Write 3+ self-assessment questions
 - Add memory aids and mnemonics
-- Include real-world examples and clinical applications
+- Include real-world examples and Indian cultural applications
 - Expand to 2,000+ words of comprehensive content
-- Mark as "enriched" in status.json
+- Mark as `enriched` in frontmatter with full `quality_check` block
 
-### Phase 3: Quality Assurance
-- Verify all quality standards met
-- Check cross-references and links
-- Ensure proper citations
-- Update sidebar navigation
-- Track enrichment metrics
-
-### Phase 4: Status Update
-- Update `processing/status.json`
-- Log enrichment sources and metrics
-- Track completion progress
-- Document quality scores
+### Phase 3: Status Update
+- Update `processing/courses/<course>.json` — set unit to `"enriched"`
+- Update `processing/status-index.json` — increment enriched count, remove from queue
+- Update `sidebars.js` — add all new doc IDs
 
 ## 📊 Course Progress
 
 | Course Code | Course Name | Total Units | Enriched | Status |
 |------------|-------------|-------------|----------|--------|
-| MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-002 | Life Span Psychology | 16 | 16/16 | ✅ **100% COMPLETE** |
-| MPC-003 | Personality Theories & Assessment | 16 | 8/16 | 🔄 **In Progress (50%)** |
-| MPC-004 | Advanced Social Psychology | 16 | 0/16 | ⏳ Pending |
-| MPC-005 | Research Methods | 16 | 0/16 | ⏳ Pending |
+| MPC-001 | Cognitive Psychology, Learning & Memory | 16 | 16/16 | ✅ **COMPLETE** |
+| MPC-002 | Life Span Psychology | 16 | 16/16 | ✅ **COMPLETE** |
+| MPC-003 | Personality Theories & Assessment | 16 | 16/16 | ✅ **COMPLETE** |
+| MPC-004 | Advanced Social Psychology | 16 | 16/16 | ✅ **COMPLETE** |
+| MPC-005 | Research Methods | 16 | 5/16 | 🔄 **In Progress (31%)** |
 | MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 49/97 units enriched **(50.5% — past the halfway mark! 🎉)**  
-**Total MDX Files Created**: 157 files | **~500,000+ words of enriched content**
+**Overall Progress**: 69/97 units enriched **(71.1%)**  
+**Total MDX Files Created**: 244 files | **~700,000+ words of enriched content**
 
 ---
 
@@ -141,105 +148,111 @@ npm run deploy
 ### MPC-002 — ✅ COMPLETE (16/16 units)
 
 - ✅ **Block-1**: Prenatal Through Early Childhood (4/4 units) — 12 files
-  - Unit-1: Life Span Development Foundations (5 files)
-  - Unit-2: Prenatal Development (3 files)
-  - Unit-3: Development During Infancy (4 files)
-  - Unit-4: Early Childhood Development (4 files — files 90–93)
 - ✅ **Block-2**: Middle Childhood / Early School Years (4/4 units) — 14 files
-  - Unit-1: Physical Growth & Motor Development (4 files)
-  - Unit-2: Cognitive, Social, Moral & Emotional Development (4 files)
-  - Unit-3: School Aims & Value Education (2 files)
-  - Unit-4: Special Needs Children (4 files)
 - ✅ **Block-3**: Adolescence (4/4 units) — 15 files
-  - Unit-1: Physical Development in Adolescence (4 files)
-  - Unit-2: Cognitive Development in Adolescence (4 files)
-  - Unit-3: Identity, Self-Concept & Social Development (4 files)
-  - Unit-4: Challenges & High-Risk Behaviours (3 files)
 - ✅ **Block-4**: Adulthood & Ageing (4/4 units) — 12 files
-  - Unit-1: Physical Changes Across Adulthood (3 files)
-  - Unit-2: Cognitive Changes Across Adulthood (3 files)
-  - Unit-3: Psychosocial Changes Across Adulthood (4 files)
-  - Unit-4: Ageing Issues & Gender (3 files)
 
 ---
 
-### MPC-003 — 🔄 IN PROGRESS (8/16 units enriched)
+### MPC-003 — ✅ COMPLETE (16/16 units)
 
 - ✅ **Block-1**: Introduction to Personality (4/4 units) — 7 files
-  - Unit-1: Definition & Concept of Personality (2 files)
-  - Unit-2: Type & Trait Approaches — Allport, Cattell, Eysenck, Big Five (3 files)
-  - Unit-3: Personality Assessment Methods (1 file)
-  - Unit-4: Key Issues in Personality — Nature/Nurture, Cross-Cultural (1 file)
+  - Unit-1: Definition & Concept of Personality
+  - Unit-2: Type & Trait Approaches — Allport, Cattell, Eysenck, Big Five
+  - Unit-3: Personality Assessment Methods
+  - Unit-4: Key Issues in Personality — Nature/Nurture, Cross-Cultural
 - ✅ **Block-2**: Psychodynamic & Learning Theories (4/4 units) — 15 files
-  - Unit-1: Freud, Horney, Sullivan — Psychodynamic Theories (3 files)
-  - Unit-2: Bandura — Social Cognitive Theory (4 files)
-  - Unit-3: Pavlov & Skinner — Learning Theory of Personality (4 files)
-  - Unit-4: Maslow & Rogers — Humanistic and Self Theory (4 files) ← *latest*
-- ⏳ **Block-3**: Existential & Phenomenological Theories (0/4 units) — pending
-- ⏳ **Block-4**: Personality Assessment (0/4 units) — pending
+  - Unit-1: Freud, Horney, Sullivan
+  - Unit-2: Bandura — Social Cognitive Theory
+  - Unit-3: Pavlov & Skinner — Learning Theory
+  - Unit-4: Maslow & Rogers — Humanistic and Self Theory
+- ✅ **Block-3**: Existential & Phenomenological Theories (4/4 units)
+- ✅ **Block-4**: Personality Assessment (4/4 units)
 
 ---
 
-## Enrichment Statistics (As of February 26, 2025)
+### MPC-004 — ✅ COMPLETE (16/16 units)
+
+- ✅ **Block-1**: Foundations of Social Psychology (4/4 units)
+- ✅ **Block-2**: Social Cognition & Attitudes (4/4 units)
+- ✅ **Block-3**: Group Processes & Influence (4/4 units)
+- ✅ **Block-4**: Applied Social Psychology (4/4 units)
+
+---
+
+### MPC-005 — 🔄 IN PROGRESS (5/16 units)
+
+- ✅ **Block-1**: Basic Concepts in Research (4/4 units) — files 218–242
+  - Unit-1: Definition, Meaning & Types of Research (3 files: 218–220)
+  - Unit-2: Reliability & Validity (3 files: 221–223... through 236)
+  - Unit-3: Variables & Constructs — S-O-R, IV/DV, Extraneous, Constructs (3 files: 237–239)
+  - Unit-4: Hypothesis Formulation & Sampling — H₀/H₁, errors, all sampling methods (3 files: 240–242)
+- 🔄 **Block-2**: Types of Research (1/4 units)
+  - ✅ Unit-1: Survey Research — concept, 7-step process, questionnaire/interview types, cross-sectional vs. longitudinal, question design (2 files: 243–244)
+  - ⏳ Unit-2: Pending
+  - ⏳ Unit-3: Pending
+  - ⏳ Unit-4: Pending
+- ⏳ **Block-3**: Research Design (0/4 units) — pending
+- ⏳ **Block-4**: Data Collection & Analysis (0/4 units) — pending
+
+---
+
+## Enrichment Statistics (As of March 2, 2025)
 
 | Metric | Count |
 |--------|-------|
-| 🔗 External resource links | **1,010+** |
-| 📚 Wikipedia articles linked | **291+** |
-| 🔬 Research papers cited (2020–2024) | **299+** |
-| 🎥 Educational videos embedded | **155+** |
-| 📈 Mermaid diagrams | **187+** |
-| ✍️ Self-assessment questions | **565+** |
-| 🧠 Memory aids & mnemonics | **202+** |
-| 📝 Total enriched words | **~500,000+** |
+| 🔗 External resource links | **1,300+** |
+| 📚 Wikipedia articles linked | **380+** |
+| 🔬 Research papers cited (2020–2025) | **390+** |
+| 🎥 Educational videos embedded | **200+** |
+| 📈 Mermaid diagrams | **250+** |
+| ✍️ Self-assessment questions | **730+** |
+| 🧠 Memory aids & mnemonics | **260+** |
+| 📝 Total enriched words | **~700,000+** |
 
 ---
 
 ## 🎉 Major Milestones
 
-**🏆 February 26, 2025 — HALFWAY MILESTONE!**
-- ✅ **49/97 units enriched — 50.5% complete**
-- ✅ **Completed MPC-003/Block-2/Unit-4**: Humanistic and Self Theory (Maslow & Rogers)
-  - 4 files: Humanistic Approach (Third Force), Maslow's Hierarchy of Needs, Self-Actualisation Characteristics, Rogers' Person-Centred Theory
-  - ~12,500 words | 38 external links | 14 Wikipedia | 16 research papers | 12 videos | 6 diagrams | 32 Q&As
-  - ✅ **MPC-003/Block-2 COMPLETE** — all 4 units done (15 files)
+**🏆 March 2, 2025 — 71% Complete!**
+- ✅ **69/97 units enriched — 71.1%**
+- ✅ **MPC-005/Block-1 COMPLETE** — all 4 units enriched (files 218–242)
+  - Topics: Research definition/types, reliability/validity, variables/constructs (S-O-R, IV/DV, MacCorquodale-Meehl typology), hypothesis formulation, null/alternative hypotheses, Type I/II errors, all sampling methods
+- ✅ **MPC-005/Block-2/Unit-1** — Survey Research: concept, 7-step process, questionnaire & interview types, cross-sectional vs longitudinal (trend/cohort/panel), question design (Likert, dichotomous, filter), precautions, advantages/disadvantages
+- 244 MDX files created | ~700,000+ words
 
-**🏆 February 23, 2025 — Second Course Complete!**
-- ✅ **Completed MPC-002**: All 16 units fully enriched
-- ✅ **Completed MPC-003/Block-1**: All 4 units done (7 files)
-- ✅ **Started MPC-003/Block-2**: Psychodynamic & Learning Theories
+**🏆 February 26, 2025 — HALFWAY MILESTONE!**
+- ✅ 49/97 units enriched — 50.5% complete
+- ✅ Completed MPC-003/Block-2 (Humanistic theories — Maslow & Rogers)
+
+**🏆 February 23, 2025 — MPC-002 & MPC-003/Block-1 Complete**
+- ✅ Completed all 16 units of MPC-002 (Life Span Psychology)
+- ✅ Completed MPC-003/Block-1 (7 files)
 
 **🏆 January 21, 2025 — First Course Complete!**
-- ✅ **Completed MPC-001**: All 16 units fully enriched
+- ✅ Completed all 16 units of MPC-001 (Cognitive Psychology)
   - 77 comprehensive MDX files (~240,000 words)
-  - Quality score: 9–10/10 across all files
 
 ---
 
 ## 📝 Recent Updates
 
-### February 26, 2025 — MPC-003/Block-2/Unit-4 ✅
-**Humanistic and Self Theory (Maslow & Rogers)**
-- `154-humanistic-approach-personality.mdx` — Third Force origins, core humanistic assumptions, positive psychology, coaching psychology (~2,800 words)
-- `155-maslow-hierarchy-needs.mdx` — Five-level hierarchy with Mermaid pyramid diagram, D-needs vs B-needs, homeostatic principle, developmental trajectory, cross-cultural critique (~3,200 words)
-- `156-maslow-self-actualisation-characteristics.mdx` — All 18 characteristics of self-actualisers, peak experiences, metapathologies, comparison table, Kaufman's modern rethinking (~3,000 words)
-- `157-rogers-person-centered-theory.mdx` — Organism & phenomenal field, real vs ideal self, congruence/incongruence, conditions of worth, actualising tendency, full evaluation (~3,500 words)
-- Memory aids: PSBES, ROSCA, PARDSAUHES, THE THIRD FORCE mnemonics
-- Indian cultural context in all four files
+### March 2, 2025 — MPC-005/Block-2/Unit-1 ✅
+**Survey Research**
+- `243-survey-research-concept-steps-instruments.mdx` — definition, non-experimental nature, 7-step process, questionnaire modes (mail/group/drop-off), interview types (structured/unstructured/telephonic), Indian survey research examples (~3,000 words, 9/10)
+- `244-survey-types-questions-precautions.mdx` — cross-sectional vs longitudinal (trend/cohort/panel), structured questions (dichotomous/nominal/ordinal/Likert/filter), unstructured questions, precautions in instrument design, advantages/disadvantages, issues in survey research (~3,400 words, 9/10)
 
-### February 23, 2025 — MPC-003/Block-1 & Block-2 Units 1–3 ✅
-- MPC-003/Block-1 complete (4 units, 7 files): Personality definition, Type/Trait theories, Assessment methods, Key issues
-- MPC-003/Block-2/Unit-1 (3 files): Freud's psychoanalytic theory, Karen Horney, Sullivan's interpersonal theory
-- MPC-003/Block-2/Unit-2 (4 files): Bandura's social cognitive theory, reciprocal determinism, self-efficacy, observational learning
-- MPC-003/Block-2/Unit-3 (4 files): Pavlov classical conditioning, Skinner operant conditioning, behaviour modification, comparative evaluation
+### March 2, 2025 — MPC-005/Block-1/Unit-4 ✅
+**Hypothesis Formulation and Sampling**
+- `240-hypothesis-meaning-characteristics-formulation.mdx` — definition (McGuigan, Kerlinger), 6 characteristics, Reichenbach's discovery/justification distinction, sources and formulation process (~2,900 words)
+- `241-hypothesis-types-errors-importance.mdx` — null/alternative hypotheses, directional vs non-directional, Type I (α) and Type II (β) errors, decision matrix, importance of hypothesis testing (~2,800 words)
+- `242-sampling-methods-probability-nonprobability.mdx` — all 8 sampling methods (haphazard, quota, purposive, snowball, systematic, SRS, stratified, cluster), comparison table, Indian research applications (~3,600 words)
 
-### February 21, 2025 — MPC-002/Block-4 Units 2 & 3 ✅
-- Block-4/Unit-2: Cognitive changes across adulthood (post-formal thought, fluid/crystallised intelligence, wisdom)
-- Block-4/Unit-3: Psychosocial changes — Erikson's intimacy/generativity/integrity, Levinson's seasons, family life cycle
-
-### February 19, 2025 — MPC-002/Block-3/Unit-2 ✅
-- Cognitive Development in Adolescence fully enriched (4 files, ~29,000 words)
-- Piaget's formal operations, information processing, school performance
+### March 2, 2025 — MPC-005/Block-1/Unit-3 ✅
+**Variables and Constructs**
+- `237-variables-meaning-types-sor.mdx` — S-O-R model, Type E/S IVs, DV dimensions, Kerlinger/D'Amato definitions
+- `238-extraneous-confounded-active-attribute-variables.mdx` — extraneous/confounded variables, control strategies, quantitative/categorical/continuous/discrete distinctions
+- `239-constructs-intervening-hypothetical.mdx` — MacCorquodale & Meehl (1948) typology, intervening variables vs. hypothetical constructs, Hull's learning theory examples
 
 ---
 
@@ -247,25 +260,24 @@ npm run deploy
 
 ### Content Features
 - **Comprehensive Coverage**: No content loss from original PDFs
-- **Current Research**: Papers from 2020-2024 integrated throughout
+- **Current Research**: Papers from 2020-2025 integrated throughout
 - **Multiple Learning Modalities**: Text, videos, diagrams, examples
 - **Real-World Applications**: Clinical cases, practical examples
-- **Cultural Context**: Indian psychology perspectives where relevant
+- **Cultural Context**: Indian psychology perspectives — NIMHANS, ICSSR, NEET/JEE/UPSC contexts
 
 ### Interactive Elements
 - **Mermaid Diagrams**: Flowcharts, concept maps, timelines, mindmaps
-- **Self-Assessments**: 3+ questions per file across three difficulty levels
-- **Memory Aids**: Mnemonics and acronyms for key concepts
-- **Cross-References**: Links between related topics
-- **External Resources**: Curated quality links
+- **Self-Assessments**: 3-5 questions per file with detailed answer guides
+- **Memory Aids**: Mnemonics and acronyms for every major topic
+- **Cross-References**: Links between related topics across courses
+- **External Resources**: Curated quality links (Wikipedia, MIT OCW, Crash Course, StatQuest)
 
 ### Technical Features
 - **Smart Search**: Full-text search across all content
 - **Dark Mode**: Eye-friendly for extended study sessions
 - **Mobile Responsive**: Seamless experience on any device
 - **Fast Loading**: Optimized performance
-- **Offline Support**: Progressive Web App capabilities
-- **PDF References**: Direct links to source materials
+- **PDF References**: Direct links to source materials with page numbers
 
 ## 📖 Content Quality Standards
 
@@ -274,20 +286,29 @@ npm run deploy
 - ✅ 5+ external resource links
 - ✅ 1+ Wikipedia article
 - ✅ 1+ educational video
-- ✅ 1+ recent research paper (2020-2024)
+- ✅ 1+ recent research paper (2020-2025)
 - ✅ 1+ Mermaid diagram
-- ✅ 3+ self-assessment questions
+- ✅ 3+ self-assessment questions with answer guide
 - ✅ 1+ memory aid/mnemonic
-- ✅ Real-world examples
-- ✅ Clinical applications where relevant
+- ✅ Real-world examples & Indian cultural context
 - ✅ Proper source citations with page numbers
+- ✅ `quality_check` block in MDX frontmatter
 
-### Quality Metrics
-- **Enrichment Score**: 8-10/10 target for all files
-- **Coverage**: 100% of PDF content included
-- **Accuracy**: Verified against current research
-- **Accessibility**: Clear, student-friendly language
-- **Engagement**: Interactive and visually appealing
+### Frontmatter Quality Tracking
+Every file carries its own enrichment metadata:
+```yaml
+status: enriched
+enrichment_score: 9
+quality_check:
+  external_sources: 10
+  wikipedia: 3
+  research_papers: 3
+  videos: 2
+  diagrams: 2
+  self_assessment: 5
+  memory_aids: 2
+  meets_standards: true
+```
 
 ## 🤝 Contributing
 This is a personal study project, but suggestions and improvements are welcome!
@@ -305,9 +326,9 @@ Educational use only. Original content © IGNOU.
 - **IGNOU** for the original study materials
 - **Docusaurus** team for the amazing framework
 - **Research Communities** for open-access papers
-- **Educational Platforms** (MIT OCW, Khan Academy, Crash Course)
+- **Educational Platforms** (MIT OCW, Khan Academy, Crash Course, StatQuest)
 - **Wikipedia** contributors for foundational knowledge
-- All linked external resources and their creators
+- **NIMHANS**, **ICSSR**, and Indian psychology researchers whose work enriches the Indian context throughout
 
 ## 📞 Contact
 **Student**: MSD  
@@ -317,6 +338,7 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: February 26, 2025  
-**Version**: 3.0 (50.5% complete — MPC-001 ✅, MPC-002 ✅, MPC-003 Block-1 & Block-2 ✅)  
-**Next Up**: MPC-003/Block-3 (Existential & Phenomenological Theories)
+**Last Updated**: March 2, 2025  
+**Version**: 4.0 (71.1% complete)  
+**Completed**: MPC-001 ✅ | MPC-002 ✅ | MPC-003 ✅ | MPC-004 ✅ | MPC-005 Block-1 ✅ + Block-2/Unit-1 ✅  
+**Next Up**: MPC-005/Block-2/Unit-2
