@@ -474,6 +474,15 @@ const sidebars = {
       items: [
         {
           type: 'category',
+          label: 'Block 2: Types of Research',
+          items: [
+            // Unit 1: Survey Research
+            'mpc-005/block-2/survey-research-concept-steps-instruments',
+            'mpc-005/block-2/survey-types-questions-precautions',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Block 1: Basic Concepts in Research',
           items: [
             // Unit 1: Basic Process/Concept in Research
@@ -488,6 +497,10 @@ const sidebars = {
             'mpc-005/block-1/variables-meaning-types-sor',
             'mpc-005/block-1/extraneous-confounded-active-attribute-variables',
             'mpc-005/block-1/constructs-intervening-hypothetical',
+            // Unit 4: Hypothesis Formulation and Sampling
+            'mpc-005/block-1/hypothesis-meaning-characteristics-formulation',
+            'mpc-005/block-1/hypothesis-types-errors-importance',
+            'mpc-005/block-1/sampling-methods-probability-nonprobability',
           ],
         },
       ],
