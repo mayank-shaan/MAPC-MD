@@ -481,6 +481,9 @@ const sidebars = {
             'mpc-005/block-1/research-process-discovery-justification',
             'mpc-005/block-1/research-process-steps',
             'mpc-005/block-1/importance-research-psychology',
+            // Unit 2: Reliability and Validity
+            'mpc-005/block-1/reliability-concepts-methods',
+            'mpc-005/block-1/validity-types-threats',
           ],
         },
       ],
