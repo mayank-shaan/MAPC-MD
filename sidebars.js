@@ -500,6 +500,14 @@ const sidebars = {
             'mpc-005/block-3/research-design-meaning-function-terminology',
             'mpc-005/block-3/single-factor-between-group-designs',
             'mpc-005/block-3/single-factor-within-subject-designs',
+            // Unit 2: Factorial Design
+            'mpc-005/block-3/factorial-design-meaning-concepts',
+            'mpc-005/block-3/factorial-design-types-layouts',
+            'mpc-005/block-3/factorial-design-advantages-limitations',
+            // Unit 3: Quasi-Experimental Design
+            'mpc-005/block-3/quasi-experimental-design-meaning-types',
+            'mpc-005/block-3/quasi-experimental-design-specific-types',
+            'mpc-005/block-3/quasi-experimental-advantages-limitations',
           ],
         },
         {
