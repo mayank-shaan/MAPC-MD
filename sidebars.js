@@ -521,7 +521,7 @@ const sidebars = {
             // Unit 1: Qualitative Research and Ethnography
             'mpc-005/block-4/qualitative-research-meaning-types',
             'mpc-005/block-4/ethnography-meaning-concepts-terms',
-            'mpc-005/block-4/ethnography-steps-types-ethics',
+            'mpc-005/block-4/ethnography-steps-types-ethics-qualitative',
           ],
         },
         {
