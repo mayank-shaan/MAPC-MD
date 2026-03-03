@@ -504,10 +504,24 @@ const sidebars = {
             'mpc-005/block-3/factorial-design-meaning-concepts',
             'mpc-005/block-3/factorial-design-types-layouts',
             'mpc-005/block-3/factorial-design-advantages-limitations',
+            // Unit 4: Correlational and Causal Comparative Design
+            'mpc-005/block-3/correlational-research-design-meaning-types',
+            'mpc-005/block-3/causal-comparative-research-design',
+            'mpc-005/block-3/comparing-research-designs-correlational-causal-comparative',
             // Unit 3: Quasi-Experimental Design
             'mpc-005/block-3/quasi-experimental-design-meaning-types',
             'mpc-005/block-3/quasi-experimental-design-specific-types',
             'mpc-005/block-3/quasi-experimental-advantages-limitations',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 4: Qualitative Research in Psychology',
+          items: [
+            // Unit 1: Qualitative Research and Ethnography
+            'mpc-005/block-4/qualitative-research-meaning-types',
+            'mpc-005/block-4/ethnography-meaning-concepts-terms',
+            'mpc-005/block-4/ethnography-steps-types-ethics',
           ],
         },
         {
