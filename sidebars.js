@@ -532,6 +532,11 @@ const sidebars = {
             'mpc-005/block-4/theories-steps-discourse-analysis',
             'mpc-005/block-4/critical-discourse-analysis',
             'mpc-005/block-4/content-analysis-methods-applications',
+            // Unit 4: Reporting and Evaluating in Qualitative Research
+            'mpc-005/block-4/evaluating-analysing-qualitative-data',
+            'mpc-005/block-4/interpreting-qualitative-data',
+            'mpc-005/block-4/preparing-qualitative-research-report',
+            'mpc-005/block-4/dos-donts-qualitative-research-quality',
           ],
         },
         {
