@@ -5,7 +5,7 @@
   "docs_path": "docs/mpc-006",
   "blocks": {
     "Block-1": {
-      "Unit-1": "pending",
+      "Unit-1": "enriched",
       "Unit-2": "pending",
       "Unit-3": "pending",
       "Unit-4": "pending"

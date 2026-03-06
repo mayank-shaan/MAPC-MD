@@ -570,7 +570,19 @@ const sidebars = {
         type: 'doc',
         id: 'mpc-006-statistics/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'Block 1: Parametric and Non-Parametric Statistics',
+          items: [
+            // Unit 1: Parametric and Non-Parametric Statistics
+            'mpc-006/block-1/parametric-nonparametric-foundations',
+            'mpc-006/block-1/assumptions-scales-measurement',
+            'mpc-006/block-1/parametric-tests-t-f-pearson',
+            'mpc-006/block-1/nonparametric-tests-chi-square-mann-whitney',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
