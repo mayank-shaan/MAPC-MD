@@ -1,4 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -6,6 +8,14 @@ const config = {
   tagline: 'Master of Arts in Psychology - IGNOU Study Materials',
   favicon: 'img/favicon.ico',
   url: 'https://mapc-msd.vercel.app', // Update with your domain
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-odtC+0UpeXW0k7G/eVEexM+pU7cLIR/Cz1bMPqFMzAUMdB07FPh4aCgCEtLXHLv',
+      crossorigin: 'anonymous',
+    },
+  ],
   baseUrl: '/',
   organizationName: 'msd', // Your GitHub username
   projectName: 'mapc-msd',
@@ -49,6 +59,8 @@ const config = {
           editUrl: 'https://github.com/yourusername/mapc-study/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false, // Disable blog
         theme: {

@@ -580,6 +580,11 @@ const sidebars = {
             'mpc-006/block-1/assumptions-scales-measurement',
             'mpc-006/block-1/parametric-tests-t-f-pearson',
             'mpc-006/block-1/nonparametric-tests-chi-square-mann-whitney',
+            // Unit 2: Descriptive and Inferential Statistics
+            'mpc-006/block-1/descriptive-statistics-data-organisation',
+            'mpc-006/block-1/graphical-diagrammatic-data-presentation',
+            'mpc-006/block-1/central-tendency-dispersion-skewness',
+            'mpc-006/block-1/inferential-statistics-hypothesis-testing',
           ],
         },
       ],
