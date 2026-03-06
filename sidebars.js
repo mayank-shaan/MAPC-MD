@@ -589,6 +589,10 @@ const sidebars = {
             'mpc-006/block-1/hypothesis-testing-logic-process',
             'mpc-006/block-1/type-i-type-ii-errors-alpha-beta',
             'mpc-006/block-1/one-tailed-two-tailed-decision-errors',
+            // Unit 4: Setting Up Levels of Significance
+            'mpc-006/block-1/levels-of-significance-confidence-limits',
+            'mpc-006/block-1/standard-error-sample-size-z-t-decision',
+            'mpc-006/block-1/setting-up-significance-steps-critical-region',
           ],
         },
       ],
