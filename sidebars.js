@@ -527,6 +527,11 @@ const sidebars = {
             'mpc-005/block-4/grounded-theory-methods-steps',
             'mpc-005/block-4/grounded-theory-coding-types',
             'mpc-005/block-4/grounded-theory-relevance-implications-criticism',
+            // Unit 3: Discourse Analysis & Content Analysis
+            'mpc-005/block-4/discourse-analysis-foundations',
+            'mpc-005/block-4/theories-steps-discourse-analysis',
+            'mpc-005/block-4/critical-discourse-analysis',
+            'mpc-005/block-4/content-analysis-methods-applications',
           ],
         },
         {
