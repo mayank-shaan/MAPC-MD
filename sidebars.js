@@ -585,6 +585,10 @@ const sidebars = {
             'mpc-006/block-1/graphical-diagrammatic-data-presentation',
             'mpc-006/block-1/central-tendency-dispersion-skewness',
             'mpc-006/block-1/inferential-statistics-hypothesis-testing',
+            // Unit 3: Type I and Type II Errors
+            'mpc-006/block-1/hypothesis-testing-logic-process',
+            'mpc-006/block-1/type-i-type-ii-errors-alpha-beta',
+            'mpc-006/block-1/one-tailed-two-tailed-decision-errors',
           ],
         },
       ],
