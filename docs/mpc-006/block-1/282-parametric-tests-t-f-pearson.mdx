@@ -49,7 +49,7 @@ When multiple large random samples (N > 30) are drawn from a population, their m
 
 The SEM tells us how much sample means are expected to deviate from the population mean:
 
-$$SE_M = \frac{\sigma}{\sqrt{N}}$$
+**SE_M = σ / √N**
 
 Where:
 - σ = Standard deviation of the population
@@ -83,7 +83,7 @@ When comparing means from **two independent groups** with **large samples** (N >
 
 The **Standard Error of the Difference between Means** (σ_dM) is:
 
-$$\sigma_{dM} = \sqrt{\sigma_{M1}^2 + \sigma_{M2}^2}$$
+**σ_dM = √(σ_M1² + σ_M2²)**
 
 Where σ_M1 and σ_M2 are the standard errors of the means of Sample 1 and Sample 2 respectively.
 
@@ -101,7 +101,7 @@ Means are **dependent/correlated** when obtained from:
 
 The formula for correlated means:
 
-$$t = \frac{M_1 - M_2}{\sqrt{\sigma_{M1}^2 + \sigma_{M2}^2 - 2r_{12}\sigma_{M1}\sigma_{M2}}}$$
+**t = (M₁ - M₂) / √(σ_M1² + σ_M2² - 2r₁₂σ_M1σ_M2)**
 
 Where:
 - M₁, M₂ = Means of initial and final testing
@@ -123,7 +123,7 @@ When we have more than two groups, using multiple t-tests inflates the **Type I 
 
 ### F-statistic
 
-$$F = \frac{\text{Variance Between Groups}}{\text{Variance Within Groups}}$$
+**F = Variance Between Groups / Variance Within Groups**
 
 - If the null hypothesis is true (all means equal), F ≈ 1
 - If group means differ meaningfully, the numerator increases → F > 1
@@ -135,7 +135,7 @@ $$F = \frac{\text{Variance Between Groups}}{\text{Variance Within Groups}}$$
 2. **Random sampling** from subpopulations — randomisation is the "keystone" of ANOVA
 3. **Homogeneity of variances** — tested using **F-max test**:
 
-$$F_{max} = \frac{\text{Largest Variance}}{\text{Smallest Variance}}$$
+**F_max = Largest Variance / Smallest Variance**
 
 If computed F-max < critical F-max at p = .05, variances are homogeneous.
 
@@ -173,7 +173,7 @@ The solution is **Fisher's Z transformation** — converting r to a Z coefficien
 - Use a conversion table (Fisher's r-to-Z table) to find Z for any r
 - The SE of Z depends only on N:
 
-$$SE_Z = \frac{1}{\sqrt{N-3}}$$
+**SE_Z = 1 / √(N - 3)**
 
 This is elegant: the standard error of the Fisher Z coefficient is a simple function only of sample size.
 
@@ -181,15 +181,15 @@ This is elegant: the standard error of the Fisher Z coefficient is a simple func
 
 To test whether a single correlation is significantly different from zero, convert r to Z and compute:
 
-$$CR = \frac{Z_1 - Z_2}{SE_{DZ}}$$
+**CR = (Z₁ - Z₂) / SE_DZ**
 
 ### Comparing Two Correlations (Independent Samples)
 
 When testing whether two r values from **different, independent samples** differ significantly:
 
-$$SE_{DZ} = \sqrt{\frac{1}{N_1 - 3} + \frac{1}{N_2 - 3}}$$
+**SE_DZ = √(1/(N₁ - 3) + 1/(N₂ - 3))**
 
-$$CR = \frac{Z_1 - Z_2}{SE_{DZ}}$$
+**CR = (Z₁ - Z₂) / SE_DZ**
 
 **Example**: A researcher finds r = .65 between anxiety and performance in Sample 1 (N = 50) and r = .42 in Sample 2 (N = 48). Are these correlations significantly different from each other?
 
@@ -269,5 +269,5 @@ Parametric statistical tests form the core toolkit of psychological research. Th
 
 ---
 
-*Previous ←* [Assumptions & Scales of Measurement](/mpc-006-statistics/block-1/assumptions-scales-measurement)  
-*Next →* [Non-Parametric Tests: Chi-Square, Median, Mann-Whitney, Sign Test, Wilcoxon](/mpc-006-statistics/block-1/nonparametric-tests-chi-square-mann-whitney)
+*Previous ←* [Assumptions & Scales of Measurement](/mpc-006/block-1/assumptions-scales-measurement)  
+*Next →* [Non-Parametric Tests: Chi-Square, Median, Mann-Whitney, Sign Test, Wilcoxon](/mpc-006/block-1/nonparametric-tests-chi-square-mann-whitney)
