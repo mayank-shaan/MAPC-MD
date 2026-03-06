@@ -522,6 +522,11 @@ const sidebars = {
             'mpc-005/block-4/qualitative-research-meaning-types',
             'mpc-005/block-4/ethnography-meaning-concepts-terms',
             'mpc-005/block-4/ethnography-steps-types-ethics-qualitative',
+            // Unit 2: Grounded Theory
+            'mpc-005/block-4/grounded-theory-foundations',
+            'mpc-005/block-4/grounded-theory-methods-steps',
+            'mpc-005/block-4/grounded-theory-coding-types',
+            'mpc-005/block-4/grounded-theory-relevance-implications-criticism',
           ],
         },
         {

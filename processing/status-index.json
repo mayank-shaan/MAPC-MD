@@ -1,15 +1,14 @@
 {
-  "last_updated": "2025-03-02",
+  "last_updated": "2026-03-06",
   "_note": "Lightweight index — quality metrics live in each MDX file's frontmatter. Full unit history in processing/courses/*.json",
   "stats": {
     "total_units": 97,
-    "enriched": 77,
+    "enriched": 78,
     "extracted": 0,
-    "pending": 20
+    "pending": 19
   },
   "in_progress": null,
   "pending_queue": [
-    "MPC-005/Block-4/Unit-2",
     "MPC-005/Block-4/Unit-3",
     "MPC-005/Block-4/Unit-4",
     "MPC-006/Block-1/Unit-1",
