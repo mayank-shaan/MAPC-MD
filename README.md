@@ -44,12 +44,14 @@ mapc-study/
 │   │   ├── block-2/              # 4 units
 │   │   ├── block-3/              # 4 units
 │   │   └── block-4/              # 4 units
-│   ├── mpc-005/                  # Research Methods 🔄 IN PROGRESS (87.5%)
-│   │   ├── block-1/              # 4 units ✅ COMPLETE (files 218–229)
-│   │   ├── block-2/              # 4 units ✅ COMPLETE (files 243–256)
-│   │   ├── block-3/              # 4 units ✅ COMPLETE (files 257–264)
-│   │   └── block-4/              # 2/4 units done (files 265–271)
-│   ├── mpc-006/                  # Statistics ⏳ Pending
+│   ├── mpc-005/                  # Research Methods ✅ COMPLETE
+│   │   ├── block-1/              # 4 units ✅ (files 218–229)
+│   │   ├── block-2/              # 4 units ✅ (files 243–256)
+│   │   ├── block-3/              # 4 units ✅ (files 257–264)
+│   │   └── block-4/              # 4 units ✅ (files 265–279)
+│   ├── mpc-006/                  # Statistics in Psychology 🔄 IN PROGRESS (50%)
+│   │   ├── block-1/              # 4 units ✅ COMPLETE (files 280–293)
+│   │   └── block-2/              # 4 units ✅ COMPLETE (files 294–304)
 │   └── mpcl-007/                 # Practicals ⏳ Pending
 ├── processing/                   # PDF processing tracking
 │   ├── status-index.json         # Lightweight overall progress index
@@ -129,12 +131,12 @@ npm run deploy
 | MPC-002 | Life Span Psychology | 16 | 16/16 | ✅ **COMPLETE** |
 | MPC-003 | Personality Theories & Assessment | 16 | 16/16 | ✅ **COMPLETE** |
 | MPC-004 | Advanced Social Psychology | 16 | 16/16 | ✅ **COMPLETE** |
-| MPC-005 | Research Methods | 16 | 14/16 | 🔄 **In Progress (87.5%)** |
-| MPC-006 | Statistics in Psychology | 16 | 0/16 | ⏳ Pending |
+| MPC-005 | Research Methods | 16 | 16/16 | ✅ **COMPLETE** |
+| MPC-006 | Statistics in Psychology | 16 | 8/16 | 🔄 **In Progress (50%)** |
 | MPCL-007 | Practicals | 1 | 0/1 | ⏳ Pending |
 
-**Overall Progress**: 78/97 units enriched **(80.4%)**
-**Total MDX Files Created**: 271 files | **~850,000+ words of enriched content**
+**Overall Progress**: 88/97 units enriched **(90.7%)**
+**Total MDX Files Created**: 304+ files | **~960,000+ words of enriched content**
 
 ---
 
@@ -174,7 +176,7 @@ npm run deploy
 
 ---
 
-### MPC-005 — 🔄 IN PROGRESS (14/16 units, 87.5%)
+### MPC-005 — ✅ COMPLETE (16/16 units)
 
 - ✅ **Block-1**: Basic Concepts in Research (4/4 units) — files 218–229
   - Unit-1: Definition, Meaning & Types of Research (218–220)
@@ -191,55 +193,68 @@ npm run deploy
   - Unit-2: Factorial Design — 2×2 layouts, main effects, interactions (260–262)
   - Unit-3: Quasi-Experimental Design — non-equivalent control, interrupted time series (263–264)
   - Unit-4: Correlational & Causal-Comparative Design — Pearson/Spearman, ex post facto (257–259)
-- 🔄 **Block-4**: Qualitative Research in Psychology (2/4 units) — files 265–271
-  - ✅ Unit-1: Qualitative Research and Ethnography — fieldwork, participant roles, ethnographic ethics (265–267)
-  - ✅ Unit-2: Grounded Theory — goals, memoing/sorting/writing, open/axial/selective coding, relevance & criticism (268–271)
-  - ⏳ Unit-3: Discourse Analysis — pending
-  - ⏳ Unit-4: Narrative Research — pending
+- ✅ **Block-4**: Qualitative Research in Psychology (4/4 units) — files 265–279
+  - Unit-1: Qualitative Research and Ethnography — fieldwork, participant roles, ethnographic ethics (265–267)
+  - Unit-2: Grounded Theory — goals, memoing/sorting/writing, open/axial/selective coding (268–271)
+  - Unit-3: Discourse Analysis — critical discourse analysis, conversation analysis, Foucauldian approach (272–275)
+  - Unit-4: Narrative Research — narrative inquiry, life history, case construction, analysis frameworks (276–279)
 
 ---
 
-## Enrichment Statistics (As of March 6, 2026)
+### MPC-006 — 🔄 IN PROGRESS (8/16 units, 50%)
+
+- ✅ **Block-1**: Introduction to Statistics (4/4 units) — files 280–293
+  - Unit-1: Parametric & Non-Parametric Statistics — assumptions, scales of measurement, test selection (280–283)
+  - Unit-2: Descriptive Statistics — data organisation, graphical presentation, central tendency, dispersion, skewness (284–286)
+  - Unit-3: Inferential Statistics — hypothesis testing logic, Type I/II errors, one-/two-tailed tests (287–290)
+  - Unit-4: Significance Testing — levels of significance, confidence limits, standard error, z vs. t, critical region (291–293)
+- ✅ **Block-2**: Correlation and Regression (4/4 units) — files 294–304
+  - Unit-1: Pearson Correlation — meaning, scatter diagrams, computation, significance testing (294–295)
+  - Unit-2: Other Correlation Coefficients — Point Biserial, Phi, Biserial, Tetrachoric, Spearman's Rho, Kendall's Tau (296–298)
+  - Unit-3: Partial & Multiple Correlations — partial correlation, semipartial (part) correlation, multiple R, adjusted R² (299–301)
+  - Unit-4: Bivariate & Multiple Regression — OLS computation, F-test, r², standard error, standardised β weights, hierarchical vs. simultaneous entry (302–304)
+- ⏳ **Block-3**: t-Tests and ANOVA (0/4 units) — pending
+- ⏳ **Block-4**: Non-Parametric Tests (0/4 units) — pending
+
+---
+
+## Enrichment Statistics (As of March 9, 2026)
 
 | Metric | Count |
 |--------|-------|
-| 🔗 External resource links | **1,500+** |
-| 📚 Wikipedia articles linked | **430+** |
-| 🔬 Research papers cited (2020–2025) | **440+** |
-| 🎥 Educational videos embedded | **230+** |
-| 📈 Mermaid diagrams | **290+** |
-| ✍️ Self-assessment questions | **840+** |
-| 🧠 Memory aids & mnemonics | **300+** |
-| 📝 Total enriched words | **~850,000+** |
+| 🔗 External resource links | **1,700+** |
+| 📚 Wikipedia articles linked | **490+** |
+| 🔬 Research papers cited (2020–2025) | **500+** |
+| 🎥 Educational videos embedded | **260+** |
+| 📈 Mermaid diagrams | **330+** |
+| ✍️ Self-assessment questions | **960+** |
+| 🧠 Memory aids & mnemonics | **340+** |
+| 📝 Total enriched words | **~960,000+** |
 
 ---
 
 ## 🎉 Major Milestones
 
-**🏆 March 6, 2026 — 80% Complete!**
-- ✅ **78/97 units enriched — 80.4%**
-- ✅ **MPC-005/Block-4/Unit-2 COMPLETE** — Grounded Theory fully enriched
-  - Topics: Goals & perspectives, methods (memoing/sorting/writing), three memo types (theoretical/field/code notes), open/axial/selective coding, relevance, implications, and criticism (Glaser 1998, Kelle 2005, Thomas & James 2006)
-  - 4 files created (268–271), ~11,000 words, enrichment score 9/10 each
-- 271 MDX files created | ~850,000+ words
+**🏆 March 9, 2026 — 90.7% Complete! MPC-006 Block 2 Done!**
+- ✅ **88/97 units enriched — 90.7%**
+- ✅ **MPC-006/Block-2 COMPLETE** — all 4 units of Correlation and Regression fully enriched
+  - Unit-3: Partial correlation (Simpson's Paradox, semipartial), multiple R, adjusted R² (files 299–301)
+  - Unit-4: OLS bivariate regression, F-test & accuracy measures, standardised β weights, multiple regression (files 302–304)
+- 304+ MDX files created | ~960,000+ words
+
+**🏆 March 6, 2026 — 80% Complete + MPC-005 Done**
+- ✅ **MPC-005 fully complete** — all 16 units across 4 blocks enriched
+- ✅ MPC-006/Block-1 COMPLETE — 14 files (280–293) covering parametric/non-parametric foundations, descriptive stats, inferential statistics, significance testing
+- ✅ MPC-006/Block-2 Units 1–2 complete — Pearson correlation through Kendall's Tau (files 294–298)
 
 **🏆 March 2, 2026 — MPC-005 Blocks 1–3 COMPLETE + Block-4 Unit-1 done**
 - ✅ MPC-005/Block-3 fully enriched: Factorial Design, Quasi-Experimental, Correlational & Causal-Comparative
 - ✅ MPC-005/Block-4/Unit-1: Qualitative Research and Ethnography (files 265–267)
-- **77/97 units** enriched (79.4%)
-
-**🏆 Previous: 71% Complete (March 2, 2025)**
-- ✅ 69/97 units enriched
-- ✅ MPC-005/Block-1 COMPLETE (all 4 units, files 218–242)
-- ✅ MPC-005/Block-2/Unit-1 — Survey Research (files 243–244)
+- 77/97 units enriched (79.4%)
 
 **🏆 February 26, 2025 — HALFWAY MILESTONE**
 - ✅ 49/97 units enriched — 50.5% complete
 - ✅ Completed MPC-003/Block-2 (Humanistic theories — Maslow & Rogers)
-
-**🏆 February 23, 2025 — MPC-002 & MPC-003/Block-1 Complete**
-- ✅ All 16 units of MPC-002 (Life Span Psychology)
-- ✅ MPC-003/Block-1 (7 files)
 
 **🏆 January 21, 2025 — First Course Complete!**
 - ✅ All 16 units of MPC-001 (Cognitive Psychology)
@@ -249,18 +264,28 @@ npm run deploy
 
 ## 📝 Recent Updates
 
-### March 6, 2026 — MPC-005/Block-4/Unit-2 ✅
-**Grounded Theory**
-- `268-grounded-theory-foundations.mdx` — definition, Glaser & Strauss history, 6 core goals, theoretical sensitivity, constant comparison, saturation, Indian context (~2,800 words, 9/10)
-- `269-grounded-theory-methods-steps.mdx` — data collection approach, anti-transcription rationale, self-interview technique, three types of memos (theoretical/field/code notes), three steps (memoing/sorting/writing), recursion, Indian clinical applications (~2,600 words, 9/10)
-- `270-grounded-theory-coding-types.mdx` — open coding (labeling, generalization), axial coding (cause/context/consequence paradigm), selective coding (core category, integration), Strauss-Corbin vs. Glaser comparison, worked examples from Indian psychology (~2,700 words, 9/10)
-- `271-grounded-theory-relevance-implications-criticism.mdx` — 5 relevance points, multi-domain implications (policy/market/education/management), 6 criticisms (researcher bias, content validity, emergence vs. forcing, saturation ambiguity), balanced assessment, Indian research landscape (~2,900 words, 9/10)
+### March 9, 2026 — MPC-006/Block-2 Units 3–4 ✅
 
-### March 2, 2026 — MPC-005/Block-4/Unit-1 ✅
-**Qualitative Research and Ethnography**
-- `265-qualitative-research-meaning-types.mdx` — definition, characteristics vs. quantitative, types of qualitative research
-- `266-ethnography-meaning-concepts-terms.mdx` — ethnographic method, key concepts (emic/etic, thick description, reflexivity)
-- `267-ethnography-steps-types-ethics.mdx` — fieldwork stages, ethnographic roles, ethical considerations in observation research
+**Unit-3: Partial and Multiple Correlations**
+- `299-partial-correlation-controlling-third-variable.mdx` — confounds, partial correlation formula, worked examples (n=10 & n=100), Simpson's Paradox (IOA-Neuroticism-Gender), residuals interpretation, Indian research context (~3,600 words, 10/10)
+- `300-semipartial-multiple-correlation.mdx` — partial vs. semipartial distinction (BOTH vs. ONE), formulas, multiple R, R², adjusted R², F-test for R², Venn diagram variance partitioning (~3,700 words, 10/10)
+- `301-linear-regression-introduction-prediction.mdx` — regression equation Ŷ = a + bX, OLS method, slope/intercept computation, regression-partial correlation link, standardised vs. unstandardised coefficients (~2,800 words, 10/10)
+
+**Unit-4: Bivariate and Multiple Regression**
+- `302-bivariate-regression-ols-computation.mdx` — perfect vs. imperfect relationships, OLS derivation, full worked example (stigma → appointments, n=10), variance decomposition SS_T/SS_R/SS_e, intercept/slope interpretation (~3,600 words, 10/10)
+- `303-regression-significance-accuracy.mdx` — ANOVA table construction, F-test, three accuracy measures (s_Y.X, r², PIP), six assumptions with detection methods (INHOLINI mnemonic), consequences of violations (~3,500 words, 10/10)
+- `304-standardised-multiple-regression.mdx` — Z-score standardisation, β weights, proof that β = r in simple regression, multiple regression equation, worked example with two predictors + ANOVA, simultaneous vs. hierarchical entry, ΔR² (~3,700 words, 10/10)
+
+### March 6, 2026 — MPC-006/Block-2 Units 1–2 ✅
+
+**Unit-1: Pearson Correlation**
+- `294-correlation-meaning-scatter-diagrams.mdx` — scatter plots, nature of relationships, correlation types
+- `295-pearson-correlation-computation-significance.mdx` — formula, step-by-step computation, significance testing, Indian context
+
+**Unit-2: Other Correlation Coefficients**
+- `296-special-correlations-point-biserial-phi.mdx` — Point Biserial (r_pb) and Phi (φ) — Pearson-type special correlations
+- `297-biserial-tetrachoric-correlations.mdx` — Biserial (r_b) and Tetrachoric (r_tet) — non-Pearson methods for artificial dichotomies
+- `298-spearman-rho-kendall-tau.mdx` — Spearman's ρ and Kendall's τ — nonparametric rank-order correlations, inversion method, Yerkes-Dodson caveat
 
 ---
 
@@ -346,7 +371,7 @@ Educational use only. Original content © IGNOU.
 
 ---
 
-**Last Updated**: March 6, 2026
-**Version**: 5.0 (80.4% complete)
-**Completed**: MPC-001 ✅ | MPC-002 ✅ | MPC-003 ✅ | MPC-004 ✅ | MPC-005 Blocks 1–3 ✅ + Block-4 Units 1–2 ✅
-**Next Up**: MPC-005/Block-4/Unit-3 (Discourse Analysis)
+**Last Updated**: March 9, 2026
+**Version**: 6.0 (90.7% complete)
+**Completed**: MPC-001 ✅ | MPC-002 ✅ | MPC-003 ✅ | MPC-004 ✅ | MPC-005 ✅ | MPC-006 Blocks 1–2 ✅
+**Next Up**: MPC-006/Block-3/Unit-1 (t-Tests and ANOVA)

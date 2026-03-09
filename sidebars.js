@@ -595,6 +595,27 @@ const sidebars = {
             'mpc-006/block-1/setting-up-significance-steps-critical-region',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 2: Correlation and Regression',
+          items: [
+            // Unit 1: Product Moment Coefficient of Correlation
+            'mpc-006/block-2/correlation-meaning-scatter-diagrams',
+            'mpc-006/block-2/pearson-correlation-computation-significance',
+            // Unit 2: Other Types of Correlation (Phi Coefficient)
+            'mpc-006/block-2/special-correlations-point-biserial-phi',
+            'mpc-006/block-2/biserial-tetrachoric-correlations',
+            'mpc-006/block-2/spearman-rho-kendall-tau',
+            // Unit 3: Partial and Multiple Correlations
+            'mpc-006/block-2/partial-correlation-controlling-third-variable',
+            'mpc-006/block-2/semipartial-multiple-correlation',
+            'mpc-006/block-2/linear-regression-introduction-prediction',
+            // Unit 4: Bivariate and Multiple Regression
+            'mpc-006/block-2/bivariate-regression-ols-computation',
+            'mpc-006/block-2/regression-significance-accuracy',
+            'mpc-006/block-2/standardised-multiple-regression',
+          ],
+        },
       ],
     },
     {
