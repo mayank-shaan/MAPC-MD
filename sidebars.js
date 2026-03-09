@@ -616,6 +616,17 @@ const sidebars = {
             'mpc-006/block-2/standardised-multiple-regression',
           ],
         },
+        {
+          type: 'category',
+          label: 'Block 3: Normal Distribution',
+          items: [
+            // Unit 1: Characteristics of Normal Distribution
+            'mpc-006/block-3/normal-distribution-concept-properties',
+            'mpc-006/block-3/npc-table-z-scores-standard-normal',
+            'mpc-006/block-3/npc-practical-applications-psychology-education',
+            'mpc-006/block-3/skewness-kurtosis-non-normal-distributions',
+          ],
+        },
       ],
     },
     {
