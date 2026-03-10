@@ -350,5 +350,3 @@ Adding a predictor (even a random one) can never decrease R². This is why **adj
 ## Summary
 
 **Standardised regression** transforms both X and Y to Z-scores, eliminating the intercept and producing **β (beta) weights** that are directly comparable across predictors with different scales. In simple regression, β = r (Pearson's correlation). In **multiple regression**, a single equation with k predictors (Ŷ = a + b₁X₁ + b₂X₂ + ⋯ + b_kX_k) uses **partial coefficients** — each b reflects the unique contribution of its predictor holding all others constant. Overall model significance is tested via the **F-test** (ANOVA table, df_num = k, df_denom = n−k−1); individual predictor significance uses t-tests. **R²** (proportion of variance explained) always increases with more predictors, so **adjusted R²** is preferred. Predictors can be entered **simultaneously** or **hierarchically** (ΔR² reveals unique contributions at each step). Regression describes statistical associations, not causality.
-
-➡️ *Next: [MPC-006 Block 3 — t-Tests and ANOVA](/mpc-006/block-3/)*
