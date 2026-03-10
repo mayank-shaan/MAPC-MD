@@ -642,6 +642,18 @@ const sidebars = {
           items: [
             // Unit 1: Rationale for Non-Parametric Statistics
             'mpc-006/block-4/non-parametric-statistics-rationale',
+            // Unit 2: Mann-Whitney U Test and Wilcoxon Matched-Pairs Signed-Ranks Test
+            'mpc-006/block-4/mann-whitney-u-test',
+            'mpc-006/block-4/wilcoxon-matched-pairs-signed-ranks',
+            'mpc-006/block-4/parametric-vs-nonparametric-two-sample',
+            // Unit 3: Kruskal-Wallis Analysis of Variance
+            'mpc-006/block-4/kruskal-wallis-anova-introduction',
+            'mpc-006/block-4/kruskal-wallis-step-by-step-procedure',
+            'mpc-006/block-4/anova-vs-kruskal-wallis-comparison',
+            // Unit 4: Chi-Square and Kendall Rank Correlation
+            'mpc-006/block-4/correlation-concepts-parametric-nonparametric',
+            'mpc-006/block-4/kendall-tau-rank-order-correlation',
+            'mpc-006/block-4/chi-square-test-goodness-of-fit-independence',
           ],
         },
       ],
