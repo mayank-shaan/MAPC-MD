@@ -625,6 +625,11 @@ const sidebars = {
             'mpc-006/block-3/npc-table-z-scores-standard-normal',
             'mpc-006/block-3/npc-practical-applications-psychology-education',
             'mpc-006/block-3/skewness-kurtosis-non-normal-distributions',
+            // Unit 2: Significance of Mean Differences, Standard Error of the Mean
+            'mpc-006/block-3/parameters-statistics-standard-error',
+            'mpc-006/block-3/fiduciary-limits-population-estimation',
+            'mpc-006/block-3/significance-difference-two-means',
+            'mpc-006/block-3/t-test-independent-correlated-samples',
           ],
         },
       ],
