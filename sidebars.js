@@ -630,6 +630,8 @@ const sidebars = {
             'mpc-006/block-3/fiduciary-limits-population-estimation',
             'mpc-006/block-3/significance-difference-two-means',
             'mpc-006/block-3/t-test-independent-correlated-samples',
+            // Unit 3: One-Way Analysis of Variance
+            'mpc-006/block-3/one-way-anova',
           ],
         },
       ],
