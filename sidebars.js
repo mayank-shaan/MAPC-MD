@@ -632,6 +632,16 @@ const sidebars = {
             'mpc-006/block-3/t-test-independent-correlated-samples',
             // Unit 3: One-Way Analysis of Variance
             'mpc-006/block-3/one-way-anova',
+            // Unit 4: Two-Way Analysis of Variance
+            'mpc-006/block-3/two-way-anova',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Block 4: Non-Parametric Statistics',
+          items: [
+            // Unit 1: Rationale for Non-Parametric Statistics
+            'mpc-006/block-4/non-parametric-statistics-rationale',
           ],
         },
       ],
