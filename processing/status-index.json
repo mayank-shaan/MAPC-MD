@@ -3,12 +3,10 @@
   "_note": "Lightweight index — quality metrics live in each MDX file's frontmatter. Full unit history in processing/courses/*.json",
   "stats": {
     "total_units": 97,
-    "enriched": 96,
+    "enriched": 97,
     "extracted": 0,
-    "pending": 1
+    "pending": 0
   },
   "in_progress": null,
-  "pending_queue": [
-    "MPCL-007/Project"
-  ]
+  "pending_queue": []
 }

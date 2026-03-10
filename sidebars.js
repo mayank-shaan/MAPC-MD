@@ -665,7 +665,12 @@ const sidebars = {
         type: 'doc',
         id: 'mpcl-007-practicals/index',
       },
-      items: [],
+      items: [
+        // Practicum Handbook — Intelligence, Personality & Social Tests
+        'mpcl-007-practicals/practicum-intelligence-personality-tests',
+        // Practicum Handbook — Sociometry, Experiments & Report Format
+        'mpcl-007-practicals/practicum-sociometry-experiments-report-format',
+      ],
     },
   ],
 };
