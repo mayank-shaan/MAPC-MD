@@ -8,6 +8,85 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '📝 Exam Preparation',
+      items: [
+        {
+          type: 'category',
+          label: 'MPC-001: Cognitive Psychology',
+          link: {
+            type: 'doc',
+            id: 'exam-prep/mpc-001/mpc-001-exam-prep',
+          },
+          items: [
+            'exam-prep/mpc-001/mpc-001-topic-analysis',
+            {
+              type: 'category',
+              label: '🔴 High Priority Topics',
+              link: {
+                type: 'doc',
+                id: 'exam-prep/mpc-001/mpc-001-high-priority-topics',
+              },
+              items: [
+                'exam-prep/mpc-001/questions/mpc-001-memory-systems',
+                'exam-prep/mpc-001/questions/mpc-001-memory-models',
+                'exam-prep/mpc-001/questions/mpc-001-intelligence-theories-factor',
+                'exam-prep/mpc-001/questions/mpc-001-gardners-multiple-intelligences',
+                'exam-prep/mpc-001/questions/mpc-001-sternbergs-triarchic-theory',
+                'exam-prep/mpc-001/questions/mpc-001-spearmans-two-factor-theory',
+                'exam-prep/mpc-001/questions/mpc-001-guilford-structure-of-intellect',
+                'exam-prep/mpc-001/questions/mpc-001-pass-theory-intelligence',
+                'exam-prep/mpc-001/questions/mpc-001-problem-solving-definition-types',
+                'exam-prep/mpc-001/questions/mpc-001-problem-solving-strategies',
+                'exam-prep/mpc-001/questions/mpc-001-problem-solving-factors',
+                'exam-prep/mpc-001/questions/mpc-001-blocks-to-problem-solving',
+                'exam-prep/mpc-001/questions/mpc-001-creativity-meaning-aspects-stages',
+                'exam-prep/mpc-001/questions/mpc-001-creativity-intelligence-relationship',
+                'exam-prep/mpc-001/questions/mpc-001-investment-confluence-creativity',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🟡 Medium Priority Topics',
+              link: {
+                type: 'doc',
+                id: 'exam-prep/mpc-001/mpc-001-medium-priority-topics',
+              },
+              items: [
+                'exam-prep/mpc-001/questions/mpc-001-information-processing',
+                'exam-prep/mpc-001/questions/mpc-001-levels-of-processing',
+                'exam-prep/mpc-001/questions/mpc-001-neuropsychology-learning-memory',
+                'exam-prep/mpc-001/questions/mpc-001-intelligence-testing-measurement',
+                'exam-prep/mpc-001/questions/mpc-001-cognitive-development',
+                'exam-prep/mpc-001/questions/mpc-001-language-structure-functions',
+                'exam-prep/mpc-001/questions/mpc-001-language-acquisition',
+                'exam-prep/mpc-001/questions/mpc-001-language-comprehension-models',
+                'exam-prep/mpc-001/questions/mpc-001-multilingualism',
+                'exam-prep/mpc-001/questions/mpc-001-newell-approach-ai',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🟢 Low Priority Topics',
+              link: {
+                type: 'doc',
+                id: 'exam-prep/mpc-001/mpc-001-low-priority-topics',
+              },
+              items: [
+                'exam-prep/mpc-001/questions/mpc-001-research-methods',
+                'exam-prep/mpc-001/questions/mpc-001-cognitive-psychology-history-definition',
+                'exam-prep/mpc-001/questions/mpc-001-key-issues-cognitive-psychology',
+                'exam-prep/mpc-001/questions/mpc-001-innateness-theory-language',
+                'exam-prep/mpc-001/questions/mpc-001-language-disorders-aphasia',
+                'exam-prep/mpc-001/questions/mpc-001-speech-disorders',
+                'exam-prep/mpc-001/questions/mpc-001-learning-disabilities',
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'MPC-001: Cognitive Psychology',
       link: {
         type: 'doc',
