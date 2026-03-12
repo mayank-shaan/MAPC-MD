@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2017, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2017-Jun-A1", "section": "A", "text": "Explain the principles of information processing. Describe Sternberg's information processing approach.", "marks": "6+4", "topics": ["Information Processing", "Sternberg's Information Processing Approach"] },
+    { "id": "2017-Jun-A2", "section": "A", "text": "Critically discuss Das, Naglier's and Kirby's PASS theory.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2017-Jun-A3", "section": "A", "text": "Give a comparative account of behaviouristic theory and innateness theory of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2017-Jun-A4", "section": "A", "text": "Explain the information processing and computer simulation approach to problem solving.", "marks": 10, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2017-Jun-B5", "section": "B", "text": "Explain the research methods in cognitive psychology.", "marks": 6, "topics": ["Research Methods in Cognitive Psychology"] },
+    { "id": "2017-Jun-B6", "section": "B", "text": "Describe the animal models of memory.", "marks": 6, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2017-Jun-B7", "section": "B", "text": "What is apraxia of speech?", "marks": 6, "topics": ["Speech Disorders"] },
+    { "id": "2017-Jun-B8", "section": "B", "text": "Describe Guilford's structure of intellect theory.", "marks": 6, "topics": ["Guilford's Structure of Intellect"] },
+    { "id": "2017-Jun-B9", "section": "B", "text": "Explain the measurement of creativity.", "marks": 6, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2017-Jun-C10", "section": "C", "text": "Neuroscience and cognitive psychology.", "marks": 3, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2017-Jun-C11", "section": "C", "text": "Dyspraxia.", "marks": 3, "topics": ["Speech Disorders"] },
+    { "id": "2017-Jun-C12", "section": "C", "text": "Vernon's hierarchical theory.", "marks": 3, "topics": ["Intelligence Theories - Factor Theories"] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2015, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2015-Jun-A1", "section": "A", "text": "Define cognitive psychology. Analyse the research methods in cognitive psychology.", "marks": "2+8", "topics": ["Cognitive Psychology - History & Definition", "Research Methods in Cognitive Psychology"] },
+    { "id": "2015-Jun-A2", "section": "A", "text": "Critically evaluate the PASS theory.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2015-Jun-A3", "section": "A", "text": "Describe the acquisition of a second language.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2015-Jun-A4", "section": "A", "text": "Discuss Newell's approach to problem solving.", "marks": 10, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2015-Jun-B5", "section": "B", "text": "Differentiate between STM and LTM.", "marks": 6, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2015-Jun-B6", "section": "B", "text": "Compare and contrast algorithms and heuristics.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2015-Jun-B7", "section": "B", "text": "Explain Thurstone's Primary Mental Abilities Theory.", "marks": 6, "topics": ["Intelligence Theories - Factor Theories"] },
+    { "id": "2015-Jun-B8", "section": "B", "text": "Explain Apraxia of Speech.", "marks": 6, "topics": ["Speech Disorders"] },
+    { "id": "2015-Jun-B9", "section": "B", "text": "Describe the various types of bilingualism.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2015-Jun-C10", "section": "C", "text": "Role of hippocampus in memory.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2015-Jun-C11", "section": "C", "text": "Functional fixedness.", "marks": 3, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2015-Jun-C12", "section": "C", "text": "The concept of IQ.", "marks": 3, "topics": ["Intelligence Testing & Measurement"] }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "course_id": "MPC-001",
+  "course_name": "Cognitive Psychology, Learning and Memory",
+  "analysis_date": "2025-03-12",
+  "years_analyzed": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+  "sessions_analyzed": ["June","December"],
+  "total_papers": 28,
+  "total_questions_extracted": 316,
+  "status": "analyzed",
+
+  "exam_format_note": "Format changed in 2015. Pre-2015: Single section, answer any 5 of 10 (all 10 marks). From 2015: 3-section format: Section A (2×10=20), Section B (4×6=24), Section C (2×3=6).",
+
+  "repeated_questions": [
+    {
+      "question_text": "Discuss/Explain Newell's approach to problem solving (including AI in problem solving)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "December", "context": "short note - Artificial intelligence"},
+        {"year": 2013, "session": "June", "text": "Critically evaluate the utility of artificial intelligence in problem solving"},
+        {"year": 2014, "session": "June", "text": "short note - Artificial intelligence"},
+        {"year": 2015, "session": "June", "text": "Discuss Newell's approach to problem solving"},
+        {"year": 2015, "session": "December", "text": "Explain the information processing approach to problem solving"},
+        {"year": 2017, "session": "December", "text": "Discuss Newell's approach to problem solving. Explain the role of artificial intelligence in problem solving"},
+        {"year": 2019, "session": "December", "text": "Critically discuss Newell's approach to problem solving"},
+        {"year": 2019, "session": "June", "text": "Critically discuss the role of artificial intelligence in problem-solving"},
+        {"year": 2020, "session": "December", "text": "Describe Newell's approach to problem solving"},
+        {"year": 2021, "session": "December", "text": "Discuss Newell's approach to problem-solving"}
+      ],
+      "topic": "Problem Solving - Newell's Approach & AI",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss/Explain the Investment and Confluence Theory of Creativity",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2012, "session": "December"},
+        {"year": 2014, "session": "December"},
+        {"year": 2016, "session": "June"},
+        {"year": 2019, "session": "June"},
+        {"year": 2020, "session": "December"},
+        {"year": 2020, "session": "June", "context": "aspects and theory of creativity"},
+        {"year": 2023, "session": "June"}
+      ],
+      "topic": "Investment & Confluence Theory of Creativity",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss/Explain the PASS Theory of Intelligence",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "G and S factor theory and J.P. Dass theory"},
+        {"year": 2013, "session": "June", "text": "constructs borrowed by PASS theory"},
+        {"year": 2014, "session": "June", "text": "Analyze the significance of the PASS theory"},
+        {"year": 2015, "session": "June", "text": "Critically evaluate the PASS theory"},
+        {"year": 2017, "session": "June", "text": "Critically discuss Das, Naglier's and Kirby's PASS theory"},
+        {"year": 2017, "session": "December", "text": "Discuss the PASS theory of intelligence"},
+        {"year": 2022, "session": "June", "text": "Provide a critical evaluation of PASS theory"},
+        {"year": 2023, "session": "December", "text": "Discuss critically the PASS theory"}
+      ],
+      "topic": "PASS Theory of Intelligence",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss the Levels of Processing Model by Craik and Lockhart",
+      "times_repeated": 6,
+      "appearances": [
+        {"year": 2012, "session": "June"},
+        {"year": 2013, "session": "December"},
+        {"year": 2016, "session": "December"},
+        {"year": 2020, "session": "December"},
+        {"year": 2022, "session": "December"},
+        {"year": 2024, "session": "December"}
+      ],
+      "topic": "Levels of Processing Model",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Describe/Discuss the blocks to problem solving (emotional, intellectual, cultural, environmental)",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2012, "session": "December", "text": "impediments to problem solving"},
+        {"year": 2013, "session": "December", "text": "functional fixedness (short note)"},
+        {"year": 2014, "session": "December", "text": "environmental and cultural blocks"},
+        {"year": 2015, "session": "June", "text": "functional fixedness (short note)"},
+        {"year": 2016, "session": "June", "text": "environmental and cultural blocks"},
+        {"year": 2018, "session": "June", "text": "emotional and intellectual blocks"},
+        {"year": 2018, "session": "December", "text": "perceptual, cultural and emotional blocks"},
+        {"year": 2019, "session": "December", "text": "intellectual blocks and emotional blocks"},
+        {"year": 2020, "session": "December", "text": "cultural blocks"},
+        {"year": 2021, "session": "December", "text": "emotional blocks"},
+        {"year": 2022, "session": "June", "text": "cultural blocks"},
+        {"year": 2023, "session": "June", "text": "cultural blocks"},
+        {"year": 2024, "session": "December", "text": "environmental and cultural blocks"}
+      ],
+      "topic": "Blocks to Problem Solving",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss the behaviouristic and innateness theories of language acquisition (compare/contrast)",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "Innateness theory (long)"},
+        {"year": 2011, "session": "December", "text": "Behaviouristic theory"},
+        {"year": 2012, "session": "June", "text": "short note reference"},
+        {"year": 2013, "session": "June", "text": "compare behaviouristic and innateness"},
+        {"year": 2015, "session": "December", "text": "compare behaviouristic and innateness"},
+        {"year": 2017, "session": "June", "text": "comparative account"},
+        {"year": 2017, "session": "December", "text": "behaviouristic theory"},
+        {"year": 2021, "session": "December", "text": "compare behaviouristic and innate theory"},
+        {"year": 2023, "session": "June", "text": "Innateness theory by Chomsky"},
+        {"year": 2024, "session": "June", "text": "Innateness theory of language acquisition"}
+      ],
+      "topic": "Language Acquisition",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Describe/Explain/Discuss the stages and strategies/techniques of problem solving",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "December", "text": "strategies for problem solving"},
+        {"year": 2012, "session": "June", "text": "strategies of problem solving"},
+        {"year": 2013, "session": "December"},
+        {"year": 2018, "session": "June", "text": "stages and strategies"},
+        {"year": 2018, "session": "December", "text": "strategies of problem solving"},
+        {"year": 2019, "session": "December", "text": "strategies of problem solving"},
+        {"year": 2020, "session": "December", "text": "strategies and techniques"},
+        {"year": 2022, "session": "June", "text": "stages and strategies"},
+        {"year": 2022, "session": "December", "text": "stages and strategies"},
+        {"year": 2023, "session": "December", "text": "specific techniques"},
+        {"year": 2024, "session": "December", "text": "techniques in problem solving"}
+      ],
+      "topic": "Problem Solving Strategies & Techniques",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss Guilford's Structure of Intellect (SOI) theory",
+      "times_repeated": 6,
+      "appearances": [
+        {"year": 2014, "session": "December"},
+        {"year": 2017, "session": "June", "text": "B section"},
+        {"year": 2018, "session": "June"},
+        {"year": 2022, "session": "June"},
+        {"year": 2023, "session": "December"},
+        {"year": 2024, "session": "December"}
+      ],
+      "topic": "Guilford's Structure of Intellect",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss Spearman's two-factor theory of intelligence (critical appraisal)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "G and S factor theory"},
+        {"year": 2011, "session": "December", "text": "critically evaluate two factor theory"},
+        {"year": 2012, "session": "December", "text": "critical appraisal"},
+        {"year": 2013, "session": "December", "text": "critical appraisal"},
+        {"year": 2015, "session": "December", "text": "short note g-factor s-factor"},
+        {"year": 2018, "session": "December", "text": "compare Spearman and Thurstone"},
+        {"year": 2020, "session": "June", "text": "Spearman's two-factor theory B section"},
+        {"year": 2021, "session": "December", "text": "short note"},
+        {"year": 2024, "session": "June", "text": "critical appraisal"}
+      ],
+      "topic": "Spearman's Two-Factor Theory",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss/Explain the meaning, aspects and stages of creativity",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "stages of creativity"},
+        {"year": 2011, "session": "December", "text": "short note aspects of creativity"},
+        {"year": 2012, "session": "June", "text": "meaning and aspects"},
+        {"year": 2013, "session": "December", "text": "meaning and aspects, relation to intelligence"},
+        {"year": 2014, "session": "December", "text": "stages of creativity"},
+        {"year": 2015, "session": "December", "text": "define creativity, measurement"},
+        {"year": 2017, "session": "December", "text": "meaning and stages"},
+        {"year": 2019, "session": "December", "text": "meaning and aspects"},
+        {"year": 2019, "session": "June", "text": "meaning and aspects B section"},
+        {"year": 2021, "session": "June", "text": "meaning and stages"},
+        {"year": 2022, "session": "December", "text": "meaning and stages"},
+        {"year": 2024, "session": "December", "text": "meaning, aspects and stages"}
+      ],
+      "topic": "Creativity - Meaning, Aspects & Stages",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Describe/Discuss memory models (Atkinson-Shiffrin, Waugh-Norman, primary/secondary)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "Atkinson-Shiffrin model"},
+        {"year": 2012, "session": "December", "text": "Waugh and Norman's model"},
+        {"year": 2014, "session": "June", "text": "Atkinson Shiffrin stage model"},
+        {"year": 2017, "session": "December", "text": "Waugh and Norman's model"},
+        {"year": 2018, "session": "December", "text": "Atkinson and Shiffrin's stage model"},
+        {"year": 2020, "session": "June", "text": "models of primary and secondary memory"},
+        {"year": 2021, "session": "June", "text": "comparative analysis Atkinson-Shiffrin and Waugh-Norman"},
+        {"year": 2022, "session": "June", "text": "Waugh and Norman's model B section"},
+        {"year": 2024, "session": "December", "text": "short note Waugh and Norman"}
+      ],
+      "topic": "Memory Models",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss/Explain Gardner's Theory of Multiple Intelligences",
+      "times_repeated": 6,
+      "appearances": [
+        {"year": 2011, "session": "December", "text": "Discuss the theories of Multiple Intelligence"},
+        {"year": 2012, "session": "June", "text": "Describe Gardner's Theory of Multiple Intelligence"},
+        {"year": 2013, "session": "June", "text": "short note Multiple Intelligences"},
+        {"year": 2014, "session": "June", "text": "Gardner's views on intelligence"},
+        {"year": 2016, "session": "June", "text": "Gardner's theory - describe and evaluate"},
+        {"year": 2021, "session": "December", "text": "Gardner's theory and its implications"}
+      ],
+      "topic": "Gardner's Multiple Intelligences",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss the principles of information processing",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2013, "session": "June"},
+        {"year": 2015, "session": "December"},
+        {"year": 2016, "session": "December", "text": "B section"},
+        {"year": 2017, "session": "December", "text": "B section"},
+        {"year": 2020, "session": "December"},
+        {"year": 2022, "session": "December", "text": "B section"},
+        {"year": 2024, "session": "June", "text": "A section"},
+        {"year": 2022, "session": "June", "text": "short note"}
+      ],
+      "topic": "Information Processing",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss the history/meaning/definition of cognitive psychology and its key issues",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "June"},
+        {"year": 2011, "session": "December"},
+        {"year": 2013, "session": "June"},
+        {"year": 2013, "session": "December"},
+        {"year": 2016, "session": "December"},
+        {"year": 2017, "session": "December", "text": "key issues B section"},
+        {"year": 2018, "session": "December", "text": "key issues B section"},
+        {"year": 2021, "session": "December", "text": "key issues B section"},
+        {"year": 2022, "session": "December"},
+        {"year": 2023, "session": "December"},
+        {"year": 2024, "session": "June"},
+        {"year": 2024, "session": "December"}
+      ],
+      "topic": "Cognitive Psychology - History & Definition",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss multilingualism (meaning, types, benefits, relationship with thinking)",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "December", "text": "short note multilingualism and thinking"},
+        {"year": 2012, "session": "December"},
+        {"year": 2013, "session": "June"},
+        {"year": 2014, "session": "June"},
+        {"year": 2015, "session": "June", "text": "types of bilingualism"},
+        {"year": 2017, "session": "December", "text": "single vs dual system B section"},
+        {"year": 2018, "session": "June"},
+        {"year": 2018, "session": "December", "text": "single vs dual system B section"},
+        {"year": 2019, "session": "December"},
+        {"year": 2022, "session": "December", "text": "multilingualism and thinking B section"},
+        {"year": 2023, "session": "June"},
+        {"year": 2023, "session": "December", "text": "single vs dual system B section"},
+        {"year": 2024, "session": "December"}
+      ],
+      "topic": "Multilingualism",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss speech disorders (types, apraxia, dysarthria, dyspraxia)",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "developmental phonological disorders"},
+        {"year": 2011, "session": "December"},
+        {"year": 2013, "session": "June"},
+        {"year": 2014, "session": "June"},
+        {"year": 2015, "session": "June", "text": "Apraxia of Speech B section"},
+        {"year": 2016, "session": "June"},
+        {"year": 2017, "session": "June", "text": "apraxia B section"},
+        {"year": 2020, "session": "December", "text": "speech sound disorders B section"},
+        {"year": 2021, "session": "December"},
+        {"year": 2023, "session": "June"},
+        {"year": 2024, "session": "June", "text": "short note dyspraxia"}
+      ],
+      "topic": "Speech Disorders",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Describe/Explain the neuropsychological/neurological basis of learning and memory",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "June"},
+        {"year": 2012, "session": "December"},
+        {"year": 2013, "session": "June"},
+        {"year": 2014, "session": "December"},
+        {"year": 2019, "session": "December", "text": "memory consolidation and hippocampus (short note)"},
+        {"year": 2020, "session": "December", "text": "hippocampus (short note)"},
+        {"year": 2022, "session": "December", "text": "memory consolidation and hippocampus (short note)"},
+        {"year": 2023, "session": "June", "text": "cellular bases B section"},
+        {"year": 2024, "session": "December"}
+      ],
+      "topic": "Neuropsychology of Learning & Memory",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss research methods in cognitive psychology",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "December"},
+        {"year": 2013, "session": "June"},
+        {"year": 2015, "session": "June"},
+        {"year": 2017, "session": "June", "text": "B section"},
+        {"year": 2018, "session": "June", "text": "B section"},
+        {"year": 2018, "session": "December"},
+        {"year": 2022, "session": "June", "text": "B section"},
+        {"year": 2024, "session": "December", "text": "combined with meaning"}
+      ],
+      "topic": "Research Methods in Cognitive Psychology",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss Sternberg's Triarchic Theory of Intelligence",
+      "times_repeated": 5,
+      "appearances": [
+        {"year": 2012, "session": "June"},
+        {"year": 2016, "session": "June", "text": "B section"},
+        {"year": 2019, "session": "June"},
+        {"year": 2021, "session": "June"},
+        {"year": 2024, "session": "June", "text": "B section - three components"}
+      ],
+      "topic": "Sternberg's Triarchic Theory of Intelligence",
+      "priority": "high"
+    },
+    {
+      "question_text": "Discuss/Explain aphasia and its types",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "short note"},
+        {"year": 2012, "session": "June"},
+        {"year": 2013, "session": "December", "text": "short note"},
+        {"year": 2014, "session": "June", "text": "short note"},
+        {"year": 2018, "session": "December", "text": "Broca's vs Wernicke's"},
+        {"year": 2020, "session": "June"},
+        {"year": 2022, "session": "June"},
+        {"year": 2022, "session": "December", "text": "types of aphasia B section"},
+        {"year": 2023, "session": "December", "text": "short note"}
+      ],
+      "topic": "Language Disorders & Aphasia",
+      "priority": "high"
+    },
+    {
+      "question_text": "Discuss memory systems: sensory memory, STM, LTM (differentiate/explain)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "June", "text": "short note STM"},
+        {"year": 2015, "session": "June", "text": "STM vs LTM B section"},
+        {"year": 2015, "session": "December", "text": "short note sensory memory"},
+        {"year": 2018, "session": "June", "text": "nature of STM and LTM B section"},
+        {"year": 2019, "session": "December", "text": "short note STM vs LTM"},
+        {"year": 2021, "session": "June", "text": "short note sensory memory"},
+        {"year": 2021, "session": "December", "text": "differentiate B section"},
+        {"year": 2022, "session": "December", "text": "short note Miller's magic number"},
+        {"year": 2023, "session": "June", "text": "explain all three B section"}
+      ],
+      "topic": "Memory Systems (STM, LTM, Sensory)",
+      "priority": "high"
+    },
+    {
+      "question_text": "Discuss/Explain intelligence testing and measurement (Stanford-Binet, Wechsler, Alfred Binet)",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "December", "text": "Wechsler Intelligence Scale"},
+        {"year": 2012, "session": "June", "text": "measurement of intelligence"},
+        {"year": 2012, "session": "December", "text": "Stanford Binet Test"},
+        {"year": 2013, "session": "June", "text": "intelligence tests and measurement"},
+        {"year": 2013, "session": "December", "text": "Stanford Binet Scales"},
+        {"year": 2015, "session": "December", "text": "Alfred Binet contribution"},
+        {"year": 2016, "session": "June", "text": "history of measurement"},
+        {"year": 2016, "session": "June", "text": "short note Wechsler's scales"},
+        {"year": 2021, "session": "June", "text": "Alfred Binet contribution"},
+        {"year": 2023, "session": "December", "text": "IQ and Alfred Binet"},
+        {"year": 2024, "session": "December", "text": "short note Alfred Binet"}
+      ],
+      "topic": "Intelligence Testing & Measurement",
+      "priority": "high"
+    },
+    {
+      "question_text": "Describe/Discuss the stages of language acquisition in children",
+      "times_repeated": 6,
+      "appearances": [
+        {"year": 2012, "session": "December"},
+        {"year": 2013, "session": "June", "text": "behaviouristic & innateness comparison"},
+        {"year": 2014, "session": "June"},
+        {"year": 2015, "session": "June", "text": "second language acquisition"},
+        {"year": 2017, "session": "December", "text": "stages of language acquisition A section"},
+        {"year": 2019, "session": "December", "text": "B section"},
+        {"year": 2024, "session": "June", "text": "B section"}
+      ],
+      "topic": "Language Acquisition",
+      "priority": "high"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Discuss/Explain the blocks to problem solving (emotional, intellectual, cultural, environmental)",
+    "count": 13,
+    "percentage": 46.4,
+    "topic": "Blocks to Problem Solving"
+  },
+
+  "topics": [
+    {
+      "topic_name": "Problem Solving Strategies & Techniques",
+      "question_count": 29,
+      "papers_appeared": 27,
+      "percentage_papers": 96.4,
+      "priority": "high",
+      "sessions_june": 14,
+      "sessions_december": 15,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Blocks to Problem Solving",
+      "question_count": 22,
+      "papers_appeared": 22,
+      "percentage_papers": 78.6,
+      "priority": "high",
+      "sessions_june": 10,
+      "sessions_december": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Creativity - Meaning, Aspects & Stages",
+      "question_count": 24,
+      "papers_appeared": 23,
+      "percentage_papers": 82.1,
+      "priority": "high",
+      "sessions_june": 12,
+      "sessions_december": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Investment & Confluence Theory of Creativity",
+      "question_count": 8,
+      "papers_appeared": 8,
+      "percentage_papers": 28.6,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 4,
+      "years_appeared": ["2012","2014","2016","2019","2020","2023"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Cognitive Psychology - History & Definition",
+      "question_count": 22,
+      "papers_appeared": 22,
+      "percentage_papers": 78.6,
+      "priority": "high",
+      "sessions_june": 10,
+      "sessions_december": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Key Issues in Cognitive Psychology",
+      "question_count": 12,
+      "papers_appeared": 12,
+      "percentage_papers": 42.9,
+      "priority": "high",
+      "sessions_june": 5,
+      "sessions_december": 7,
+      "years_appeared": ["2013","2016","2017","2018","2019","2020","2021","2022","2024"],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Information Processing",
+      "question_count": 20,
+      "papers_appeared": 20,
+      "percentage_papers": 71.4,
+      "priority": "high",
+      "sessions_june": 9,
+      "sessions_december": 11,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Sternberg's Information Processing Approach",
+      "question_count": 6,
+      "papers_appeared": 6,
+      "percentage_papers": 21.4,
+      "priority": "medium",
+      "sessions_june": 4,
+      "sessions_december": 2,
+      "years_appeared": ["2015","2017","2020","2024"],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Research Methods in Cognitive Psychology",
+      "question_count": 14,
+      "papers_appeared": 14,
+      "percentage_papers": 50.0,
+      "priority": "high",
+      "sessions_june": 8,
+      "sessions_december": 6,
+      "years_appeared": ["2011","2012","2013","2015","2017","2018","2022","2024"],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Memory Models",
+      "question_count": 16,
+      "papers_appeared": 16,
+      "percentage_papers": 57.1,
+      "priority": "high",
+      "sessions_june": 8,
+      "sessions_december": 8,
+      "years_appeared": ["2011","2012","2013","2014","2016","2017","2018","2020","2021","2022","2024"],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Memory Systems (STM, LTM, Sensory)",
+      "question_count": 16,
+      "papers_appeared": 16,
+      "percentage_papers": 57.1,
+      "priority": "high",
+      "sessions_june": 8,
+      "sessions_december": 8,
+      "years_appeared": ["2011","2013","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Levels of Processing Model",
+      "question_count": 7,
+      "papers_appeared": 7,
+      "percentage_papers": 25.0,
+      "priority": "high",
+      "sessions_june": 2,
+      "sessions_december": 5,
+      "years_appeared": ["2012","2013","2016","2020","2022","2024"],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Neuropsychology of Learning & Memory",
+      "question_count": 17,
+      "papers_appeared": 17,
+      "percentage_papers": 60.7,
+      "priority": "high",
+      "sessions_june": 8,
+      "sessions_december": 9,
+      "years_appeared": ["2011","2012","2013","2014","2015","2017","2019","2020","2021","2022","2023","2024"],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "PASS Theory of Intelligence",
+      "question_count": 10,
+      "papers_appeared": 10,
+      "percentage_papers": 35.7,
+      "priority": "high",
+      "sessions_june": 6,
+      "sessions_december": 4,
+      "years_appeared": ["2011","2013","2014","2015","2017","2022","2023"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Spearman's Two-Factor Theory",
+      "question_count": 11,
+      "papers_appeared": 11,
+      "percentage_papers": 39.3,
+      "priority": "high",
+      "sessions_june": 5,
+      "sessions_december": 6,
+      "years_appeared": ["2011","2012","2013","2015","2018","2020","2021","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Gardner's Multiple Intelligences",
+      "question_count": 13,
+      "papers_appeared": 12,
+      "percentage_papers": 42.9,
+      "priority": "high",
+      "sessions_june": 6,
+      "sessions_december": 6,
+      "years_appeared": ["2011","2012","2013","2014","2016","2017","2019","2021","2022","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Guilford's Structure of Intellect",
+      "question_count": 8,
+      "papers_appeared": 8,
+      "percentage_papers": 28.6,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 4,
+      "years_appeared": ["2014","2017","2018","2022","2023","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Intelligence Theories - Factor Theories",
+      "question_count": 9,
+      "papers_appeared": 9,
+      "percentage_papers": 32.1,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 5,
+      "years_appeared": ["2011","2015","2016","2017","2018","2019","2020","2021"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Sternberg's Triarchic Theory of Intelligence",
+      "question_count": 7,
+      "papers_appeared": 7,
+      "percentage_papers": 25.0,
+      "priority": "high",
+      "sessions_june": 5,
+      "sessions_december": 2,
+      "years_appeared": ["2012","2016","2019","2021","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Intelligence Testing & Measurement",
+      "question_count": 16,
+      "papers_appeared": 15,
+      "percentage_papers": 53.6,
+      "priority": "high",
+      "sessions_june": 7,
+      "sessions_december": 8,
+      "years_appeared": ["2011","2012","2013","2015","2016","2021","2023","2024"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Creativity - Intelligence Relationship",
+      "question_count": 9,
+      "papers_appeared": 9,
+      "percentage_papers": 32.1,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 5,
+      "years_appeared": ["2011","2013","2014","2018","2019","2021","2022"],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Language Acquisition",
+      "question_count": 17,
+      "papers_appeared": 17,
+      "percentage_papers": 60.7,
+      "priority": "high",
+      "sessions_june": 9,
+      "sessions_december": 8,
+      "years_appeared": ["2011","2012","2013","2014","2015","2017","2019","2021","2022","2024"],
+      "related_units": ["Block-3","Block-4"]
+    },
+    {
+      "topic_name": "Innateness Theory of Language Acquisition",
+      "question_count": 7,
+      "papers_appeared": 7,
+      "percentage_papers": 25.0,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 3,
+      "years_appeared": ["2011","2018","2020","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Language Structure & Functions",
+      "question_count": 12,
+      "papers_appeared": 11,
+      "percentage_papers": 39.3,
+      "priority": "high",
+      "sessions_june": 6,
+      "sessions_december": 5,
+      "years_appeared": ["2011","2012","2013","2015","2018","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Language Comprehension Models",
+      "question_count": 6,
+      "papers_appeared": 6,
+      "percentage_papers": 21.4,
+      "priority": "medium",
+      "sessions_june": 2,
+      "sessions_december": 4,
+      "years_appeared": ["2013","2016","2019","2022"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Language Disorders & Aphasia",
+      "question_count": 14,
+      "papers_appeared": 14,
+      "percentage_papers": 50.0,
+      "priority": "high",
+      "sessions_june": 7,
+      "sessions_december": 7,
+      "years_appeared": ["2011","2012","2013","2014","2018","2020","2021","2022","2023"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Speech Disorders",
+      "question_count": 16,
+      "papers_appeared": 16,
+      "percentage_papers": 57.1,
+      "priority": "high",
+      "sessions_june": 9,
+      "sessions_december": 7,
+      "years_appeared": ["2011","2013","2014","2015","2016","2017","2020","2021","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Multilingualism",
+      "question_count": 18,
+      "papers_appeared": 18,
+      "percentage_papers": 64.3,
+      "priority": "high",
+      "sessions_june": 8,
+      "sessions_december": 10,
+      "years_appeared": ["2011","2012","2013","2014","2015","2017","2018","2019","2022","2023","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Problem Solving - Definition & Types",
+      "question_count": 14,
+      "papers_appeared": 14,
+      "percentage_papers": 50.0,
+      "priority": "high",
+      "sessions_june": 7,
+      "sessions_december": 7,
+      "years_appeared": ["2011","2013","2014","2016","2017","2019","2021","2022","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Problem Solving - Newell's Approach & AI",
+      "question_count": 14,
+      "papers_appeared": 13,
+      "percentage_papers": 46.4,
+      "priority": "high",
+      "sessions_june": 7,
+      "sessions_december": 7,
+      "years_appeared": ["2011","2013","2014","2015","2017","2019","2020","2021"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Problem Solving - Factors & Blocks",
+      "question_count": 8,
+      "papers_appeared": 8,
+      "percentage_papers": 28.6,
+      "priority": "high",
+      "sessions_june": 4,
+      "sessions_december": 4,
+      "years_appeared": ["2012","2013","2014","2019","2020","2021"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Learning Disabilities",
+      "question_count": 4,
+      "papers_appeared": 4,
+      "percentage_papers": 14.3,
+      "priority": "medium",
+      "sessions_june": 2,
+      "sessions_december": 2,
+      "years_appeared": ["2011","2012","2016","2024"],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Cognitive Development",
+      "question_count": 2,
+      "papers_appeared": 2,
+      "percentage_papers": 7.1,
+      "priority": "low",
+      "sessions_june": 1,
+      "sessions_december": 1,
+      "years_appeared": ["2021"],
+      "related_units": ["Block-1"]
+    }
+  ],
+
+  "priority_distribution": {
+    "high": 28,
+    "medium": 3,
+    "low": 1
+  },
+
+  "top_10_topics_by_papers": [
+    { "rank": 1, "topic": "Problem Solving Strategies & Techniques", "papers": 27, "pct": 96.4 },
+    { "rank": 2, "topic": "Creativity - Meaning, Aspects & Stages", "papers": 23, "pct": 82.1 },
+    { "rank": 3, "topic": "Cognitive Psychology - History & Definition", "papers": 22, "pct": 78.6 },
+    { "rank": 4, "topic": "Blocks to Problem Solving", "papers": 22, "pct": 78.6 },
+    { "rank": 5, "topic": "Information Processing", "papers": 20, "pct": 71.4 },
+    { "rank": 6, "topic": "Multilingualism", "papers": 18, "pct": 64.3 },
+    { "rank": 7, "topic": "Language Acquisition", "papers": 17, "pct": 60.7 },
+    { "rank": 8, "topic": "Neuropsychology of Learning & Memory", "papers": 17, "pct": 60.7 },
+    { "rank": 9, "topic": "Memory Models", "papers": 16, "pct": 57.1 },
+    { "rank": 10, "topic": "Memory Systems (STM, LTM, Sensory)", "papers": 16, "pct": 57.1 }
+  ],
+
+  "session_patterns": {
+    "note": "Topics appear consistently across both sessions. No major June vs December divergence found.",
+    "june_heavy": ["Research Methods in Cognitive Psychology", "PASS Theory of Intelligence", "Sternberg's Triarchic Theory"],
+    "december_heavy": ["Levels of Processing Model", "Key Issues in Cognitive Psychology"],
+    "balanced": ["Creativity", "Problem Solving", "Memory", "Language topics"]
+  }
+}

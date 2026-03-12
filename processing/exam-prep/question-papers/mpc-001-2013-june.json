@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2013, "session": "June", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2013-Jun-Q1", "section": "main", "text": "What are the key issues in the study of cognitive Psychology? Discuss the distinctive research methods of cognitive psychology.", "marks": "5+5", "topics": ["Key Issues in Cognitive Psychology", "Research Methods in Cognitive Psychology"] },
+    { "id": "2013-Jun-Q2", "section": "main", "text": "What are the principles of information processing? Discuss the Cognitive Information Processing Model (CIPM) of learning.", "marks": "5+5", "topics": ["Information Processing"] },
+    { "id": "2013-Jun-Q3", "section": "main", "text": "What are the neurological issues related to memory? Describe the neural process of learning and memory.", "marks": "5+5", "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2013-Jun-Q4", "section": "main", "text": "Discuss the constructs that have been borrowed by PASS theory from the fields of neurology and information processing.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2013-Jun-Q5", "section": "main", "text": "Define intelligence tests and explain the theoretical background of measurement of intelligence.", "marks": 10, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2013-Jun-Q6", "section": "main", "text": "Compare and contrast the behaviouristic and innateness theories of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2013-Jun-Q7", "section": "main", "text": "Describe the various processes involved in multilingualism.", "marks": 10, "topics": ["Multilingualism"] },
+    { "id": "2013-Jun-Q8", "section": "main", "text": "Compare and contrast the speech errors made by individuals in different speech disorders.", "marks": 10, "topics": ["Speech Disorders"] },
+    { "id": "2013-Jun-Q9", "section": "main", "text": "Critically evaluate the utility of artificial intelligence in problem solving.", "marks": 10, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2013-Jun-Q10a", "section": "main", "text": "Multiple Intelligences (short note)", "marks": 5, "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2013-Jun-Q10b", "section": "main", "text": "Intellectual blocks in problem solving (short note)", "marks": 5, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2013-Jun-Q10c", "section": "main", "text": "Aspects of creativity (short note)", "marks": 5, "topics": ["Creativity - Meaning, Aspects & Stages"] }
+  ]
+}

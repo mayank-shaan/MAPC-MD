@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2019, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2019-Jun-A1", "section": "A", "text": "Define problem solving. Differentiate between well-defined and ill-defined problems.", "marks": "4+6", "topics": ["Problem Solving - Definition & Types"] },
+    { "id": "2019-Jun-A2", "section": "A", "text": "What is creativity? Discuss the investment and confluence theory of creativity.", "marks": "2+8", "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2019-Jun-A3", "section": "A", "text": "Analyze Sternberg's triarchic theory of intelligence. Critically evaluate triarchic theory of intelligence.", "marks": "8+2", "topics": ["Sternberg's Triarchic Theory of Intelligence"] },
+    { "id": "2019-Jun-A4", "section": "A", "text": "What is problem-solving? Critically discuss the role of artificial intelligence in problem-solving.", "marks": "3+7", "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2019-Jun-B5", "section": "B", "text": "Explain Kintsch's model of comprehension.", "marks": 6, "topics": ["Language Comprehension Models"] },
+    { "id": "2019-Jun-B6", "section": "B", "text": "What is information processing? Describe Bloom's taxonomy of cognitive domain.", "marks": "2+4", "topics": ["Information Processing"] },
+    { "id": "2019-Jun-B7", "section": "B", "text": "Explain the information processing approach to learning and memory.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2019-Jun-B8", "section": "B", "text": "Discuss the meaning and aspects of creativity.", "marks": 6, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2019-Jun-B9", "section": "B", "text": "Describe problem-solving behaviour. Explain the role of mental set and functional fixedness in problem-solving.", "marks": "3+3", "topics": ["Blocks to Problem Solving"] },
+    { "id": "2019-Jun-C10", "section": "C", "text": "Additive vs. subtractive bilingualism.", "marks": 3, "topics": ["Multilingualism"] },
+    { "id": "2019-Jun-C11", "section": "C", "text": "Role of hippocampus in memory.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2019-Jun-C12", "section": "C", "text": "Hebbian learning.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] }
+  ]
+}

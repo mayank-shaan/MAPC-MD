@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2012, "session": "December", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2012-Dec-Q1", "section": "main", "text": "Define Intelligence. Give a critical appraisal of two-factor theory.", "marks": "4+6", "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2012-Dec-Q2", "section": "main", "text": "Critically discuss the Investment and Confluence Theory of Creativity.", "marks": 10, "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2012-Dec-Q3", "section": "main", "text": "Describe the various impediments to problem solving.", "marks": 10, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2012-Dec-Q4", "section": "main", "text": "What do you mean by multilingualism? Discuss the application multilingualism.", "marks": "3+7", "topics": ["Multilingualism"] },
+    { "id": "2012-Dec-Q5", "section": "main", "text": "Discuss the stages of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2012-Dec-Q6", "section": "main", "text": "How do we measure Intelligence? Describe the Stanford Binet Test.", "marks": "3+7", "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2012-Dec-Q7", "section": "main", "text": "Discuss Waugh and Norman's model of primary and secondary memory.", "marks": 10, "topics": ["Memory Models"] },
+    { "id": "2012-Dec-Q8", "section": "main", "text": "Discuss the neuropsychological basis of learning.", "marks": 10, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2012-Dec-Q9a", "section": "main", "text": "Factors affecting problem solving (short note)", "marks": 5, "topics": ["Problem Solving - Factors & Blocks"] },
+    { "id": "2012-Dec-Q9b", "section": "main", "text": "Speech Acts (short note)", "marks": 5, "topics": ["Language Structure & Functions"] },
+    { "id": "2012-Dec-Q10a", "section": "main", "text": "Long Term Memory (short note)", "marks": 5, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2012-Dec-Q10b", "section": "main", "text": "Bloom's Taxonomy of Cognitive Domain (short note)", "marks": 5, "topics": ["Information Processing"] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2016, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2016-Jun-A1", "section": "A", "text": "Describe the environmental blocks and cultural blocks to problem solving with suitable examples.", "marks": "5+5", "topics": ["Blocks to Problem Solving"] },
+    { "id": "2016-Jun-A2", "section": "A", "text": "Discuss the investment and confluence theory of creativity.", "marks": 10, "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2016-Jun-A3", "section": "A", "text": "Describe and evaluate Gardner's theory of multiple intelligences.", "marks": "7+3", "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2016-Jun-A4", "section": "A", "text": "What is speech disorder? Discuss the various characteristics of Apraxia of Speech and Dysarthria.", "marks": "2+4+4", "topics": ["Speech Disorders"] },
+    { "id": "2016-Jun-B5", "section": "B", "text": "Discuss the pedagogical strategies for enhancing problem solving skills.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2016-Jun-B6", "section": "B", "text": "Explain the Level Of Recall (LOR) described by Zinchenko.", "marks": 6, "topics": ["Memory Models"] },
+    { "id": "2016-Jun-B7", "section": "B", "text": "Describe Sternberg's Triarchic theory of intelligence.", "marks": 6, "topics": ["Sternberg's Triarchic Theory of Intelligence"] },
+    { "id": "2016-Jun-B8", "section": "B", "text": "Briefly discuss the history of measurement of intelligence.", "marks": 6, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2016-Jun-B9", "section": "B", "text": "Describe dyslexia as a language based learning disability.", "marks": 6, "topics": ["Learning Disabilities"] },
+    { "id": "2016-Jun-C10", "section": "C", "text": "Stages involved in creative discoveries.", "marks": 3, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2016-Jun-C11", "section": "C", "text": "Difference between episodic and semantic memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2016-Jun-C12", "section": "C", "text": "Wechsler's Intelligence Scales.", "marks": 3, "topics": ["Intelligence Testing & Measurement"] }
+  ]
+}

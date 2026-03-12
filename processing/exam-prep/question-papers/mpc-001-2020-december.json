@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2020, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2020-Dec-A1", "section": "A", "text": "Explain the principles of information processing. Describe the role of information processing in learning and memory.", "marks": "4+6", "topics": ["Information Processing"] },
+    { "id": "2020-Dec-A2", "section": "A", "text": "Discuss the investment and confluence theory of creativity.", "marks": 10, "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2020-Dec-A3", "section": "A", "text": "Give a comparative account of general factor theories and multi-factor theories of intelligence.", "marks": 10, "topics": ["Intelligence Theories - Factor Theories"] },
+    { "id": "2020-Dec-A4", "section": "A", "text": "Discuss the strategies and techniques for problem solving.", "marks": "4+6", "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2020-Dec-B5", "section": "B", "text": "Explain the levels of processing model by Craik and Lockhart.", "marks": 6, "topics": ["Levels of Processing Model"] },
+    { "id": "2020-Dec-B6", "section": "B", "text": "Describe the key issues in the study of Cognitive Psychology.", "marks": 6, "topics": ["Key Issues in Cognitive Psychology"] },
+    { "id": "2020-Dec-B7", "section": "B", "text": "Explain the cultural blocks of problem solving.", "marks": 6, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2020-Dec-B8", "section": "B", "text": "Describe Newell's approach to problem solving.", "marks": 6, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2020-Dec-B9", "section": "B", "text": "Explain speech sound disorders.", "marks": 6, "topics": ["Speech Disorders"] },
+    { "id": "2020-Dec-C10", "section": "C", "text": "Hippocampus.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2020-Dec-C11", "section": "C", "text": "Concept of IQ.", "marks": 3, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2020-Dec-C12", "section": "C", "text": "Einstellung.", "marks": 3, "topics": ["Blocks to Problem Solving"] }
+  ]
+}

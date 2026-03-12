@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2020, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2020-Jun-A1", "section": "A", "text": "Explain the models of primary and secondary memory.", "marks": 10, "topics": ["Memory Models"] },
+    { "id": "2020-Jun-A2", "section": "A", "text": "Discuss the domains of cognitive psychology.", "marks": 10, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2020-Jun-A3", "section": "A", "text": "Discuss the stages and factors affecting problem solving.", "marks": 10, "topics": ["Problem Solving Strategies & Techniques", "Problem Solving - Factors & Blocks"] },
+    { "id": "2020-Jun-A4", "section": "A", "text": "Explain the aspects and theory of creativity.", "marks": 10, "topics": ["Creativity - Meaning, Aspects & Stages", "Investment & Confluence Theory of Creativity"] },
+    { "id": "2020-Jun-B5", "section": "B", "text": "Discuss the Sternberg's information processing approach.", "marks": 6, "topics": ["Sternberg's Information Processing Approach"] },
+    { "id": "2020-Jun-B6", "section": "B", "text": "Describe the stages of creativity and its measurement.", "marks": "3+3", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2020-Jun-B7", "section": "B", "text": "Describe Spearman's two-factor theory of intelligence.", "marks": 6, "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2020-Jun-B8", "section": "B", "text": "Explain aphasia as a language disorder.", "marks": 6, "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2020-Jun-B9", "section": "B", "text": "Explain the importance of cultural blocks in problem solving.", "marks": 6, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2020-Jun-C10", "section": "C", "text": "Dysarthria.", "marks": 3, "topics": ["Speech Disorders"] },
+    { "id": "2020-Jun-C11", "section": "C", "text": "Alzheimer's disease.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2020-Jun-C12", "section": "C", "text": "Innateness theory.", "marks": 3, "topics": ["Innateness Theory of Language Acquisition"] }
+  ]
+}

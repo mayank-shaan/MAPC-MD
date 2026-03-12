@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2019, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2019-Dec-A1", "section": "A", "text": "Explain the process of information processing. Discuss the theories of information processing.", "marks": "3+7", "topics": ["Information Processing"] },
+    { "id": "2019-Dec-A2", "section": "A", "text": "Discuss the meaning and aspects of creativity. Explain how creativity and intelligence are related.", "marks": "6+4", "topics": ["Creativity - Meaning, Aspects & Stages", "Creativity - Intelligence Relationship"] },
+    { "id": "2019-Dec-A3", "section": "A", "text": "Discuss the intellectual blocks and emotional blocks to problem solving.", "marks": "5+5", "topics": ["Blocks to Problem Solving"] },
+    { "id": "2019-Dec-A4", "section": "A", "text": "Critically discuss Newell's approach to problem solving.", "marks": 10, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2019-Dec-B5", "section": "B", "text": "Explain the key issues of Cognitive Psychology.", "marks": 6, "topics": ["Key Issues in Cognitive Psychology"] },
+    { "id": "2019-Dec-B6", "section": "B", "text": "Discuss the strategies of problem solving.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2019-Dec-B7", "section": "B", "text": "Discuss the benefits of multilingualism.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2019-Dec-B8", "section": "B", "text": "Describe the stages of language acquisition in children.", "marks": 6, "topics": ["Language Acquisition"] },
+    { "id": "2019-Dec-B9", "section": "B", "text": "Explain the significance of artificial intelligence in problem solving.", "marks": 6, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2019-Dec-C10", "section": "C", "text": "Difference between short-term and long-term memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2019-Dec-C11", "section": "C", "text": "Memory consolidation and Hippocampus.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2019-Dec-C12", "section": "C", "text": "Existential Intelligence.", "marks": 3, "topics": ["Gardner's Multiple Intelligences"] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2015, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2015-Dec-A1", "section": "A", "text": "Critically evaluate Sternberg's information processing approach.", "marks": 10, "topics": ["Sternberg's Information Processing Approach"] },
+    { "id": "2015-Dec-A2", "section": "A", "text": "Define Creativity. Explain the measurement of creativity.", "marks": "3+7", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2015-Dec-A3", "section": "A", "text": "Compare and contrast the behaviouristic theory and the innateness theory of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2015-Dec-A4", "section": "A", "text": "Explain the information processing approach to problem solving.", "marks": 10, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2015-Dec-B5", "section": "B", "text": "Describe the domains of cognitive psychology.", "marks": 6, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2015-Dec-B6", "section": "B", "text": "Explain the principles of information processing.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2015-Dec-B7", "section": "B", "text": "Discuss the contribution of Alfred Binet in the field of Measurement of Intelligence.", "marks": 6, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2015-Dec-B8", "section": "B", "text": "Describe heuristics as a strategy of problem solving.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2015-Dec-B9", "section": "B", "text": "Discuss the higher levels of linguistic analysis.", "marks": 6, "topics": ["Language Structure & Functions"] },
+    { "id": "2015-Dec-C10", "section": "C", "text": "Sensory Memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2015-Dec-C11", "section": "C", "text": "g-factor and s-factor.", "marks": 3, "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2015-Dec-C12", "section": "C", "text": "Dysprosody.", "marks": 3, "topics": ["Speech Disorders"] }
+  ]
+}

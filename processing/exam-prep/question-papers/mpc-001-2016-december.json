@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2016, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2016-Dec-A1", "section": "A", "text": "What are the key issues in Cognitive Psychology? Discuss the current status of Cognitive Psychology as a branch in Psychology.", "marks": "7+3", "topics": ["Key Issues in Cognitive Psychology", "Cognitive Psychology - History & Definition"] },
+    { "id": "2016-Dec-A2", "section": "A", "text": "Discuss the Levels of Processing Model by Craik and Lockhart.", "marks": 10, "topics": ["Levels of Processing Model"] },
+    { "id": "2016-Dec-A3", "section": "A", "text": "Explain Wickelgren's General Problem Solving Strategies.", "marks": 10, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2016-Dec-A4", "section": "A", "text": "Discuss Kintsch's model of comprehension of language processing.", "marks": 10, "topics": ["Language Comprehension Models"] },
+    { "id": "2016-Dec-B5", "section": "B", "text": "Describe the various types of problems.", "marks": 6, "topics": ["Problem Solving - Definition & Types"] },
+    { "id": "2016-Dec-B6", "section": "B", "text": "Explain the principles of the information processing system.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2016-Dec-B7", "section": "B", "text": "Describe Torrance Test of Creative Thinking.", "marks": 6, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2016-Dec-B8", "section": "B", "text": "Explain the various aspects of creativity.", "marks": 6, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2016-Dec-B9", "section": "B", "text": "Discuss Vernon's Hierarchical theory of intelligence.", "marks": 6, "topics": ["Intelligence Theories - Factor Theories"] },
+    { "id": "2016-Dec-C10", "section": "C", "text": "Thinking Aloud.", "marks": 3, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2016-Dec-C11", "section": "C", "text": "Working Memory.", "marks": 3, "topics": ["Memory Models"] },
+    { "id": "2016-Dec-C12", "section": "C", "text": "Naturalistic Intelligence.", "marks": 3, "topics": ["Gardner's Multiple Intelligences"] }
+  ]
+}
