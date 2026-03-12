@@ -1,0 +1,74 @@
+{
+  "last_updated": "2025-03-12",
+  "total_courses": 7,
+  "courses_analyzed": 0,
+  "courses_content_created": 0,
+  "total_questions_analyzed": 0,
+  "courses": {
+    "MPC-001": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-002": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-003": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-004": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-005": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-006": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPCL-007": {
+      "status": "pending",
+      "years_analyzed": 0,
+      "total_questions": 0,
+      "topics_identified": 0,
+      "analysis_date": null,
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    }
+  },
+  "in_progress": null,
+  "notes": "Status values: pending, extracting, analyzed, creating_content, content_created"
+}
