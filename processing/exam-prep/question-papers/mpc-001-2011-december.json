@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2011, "session": "December", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2011-Dec-Q1", "section": "main", "text": "Discuss Research methods and domains of Cognitive Psychology.", "marks": 10, "topics": ["Cognitive Psychology - History & Definition", "Research Methods in Cognitive Psychology"] },
+    { "id": "2011-Dec-Q2", "section": "main", "text": "Discuss information processing in learning and memory.", "marks": 10, "topics": ["Information Processing"] },
+    { "id": "2011-Dec-Q3", "section": "main", "text": "Discuss the theories of Multiple Intelligence.", "marks": 10, "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2011-Dec-Q4", "section": "main", "text": "Critically evaluate the two factor theory of intelligence.", "marks": 10, "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2011-Dec-Q5", "section": "main", "text": "What are the different types of Wechsler Intelligence Scale? Describe the subtests of Wechsler Adult Intelligence Scale (WAIS).", "marks": "3+7", "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2011-Dec-Q6", "section": "main", "text": "Discuss the Behaviouristic theory of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2011-Dec-Q7", "section": "main", "text": "What are the functions of language? Discuss structure of language.", "marks": "5+5", "topics": ["Language Structure & Functions"] },
+    { "id": "2011-Dec-Q8", "section": "main", "text": "What do you mean by speech disorder? Describe the different types of speech disorder.", "marks": 10, "topics": ["Speech Disorders"] },
+    { "id": "2011-Dec-Q9", "section": "main", "text": "Define problem solving. Discuss the strategies (techniques) for problem solving.", "marks": "3+7", "topics": ["Problem Solving - Definition & Types", "Problem Solving Strategies & Techniques"] },
+    { "id": "2011-Dec-Q10a", "section": "main", "text": "Aspects of creativity (short note)", "marks": 5, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2011-Dec-Q10b", "section": "main", "text": "Multilingualism and thinking (short note)", "marks": 5, "topics": ["Multilingualism"] },
+    { "id": "2011-Dec-Q10c", "section": "main", "text": "Functional fixedness (short note)", "marks": 5, "topics": ["Blocks to Problem Solving"] }
+  ]
+}

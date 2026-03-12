@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2014, "session": "June", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2014-Jun-Q1", "section": "main", "text": "Describe the domains of cognitive psychology. Differentiate between cognitive psychology and cognitive science.", "marks": "7+3", "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2014-Jun-Q2", "section": "main", "text": "Discuss Atkinson and Shiffrin's stage model of memory.", "marks": 10, "topics": ["Memory Models"] },
+    { "id": "2014-Jun-Q3", "section": "main", "text": "Define intelligence. Illustrate Gardner's views on intelligence.", "marks": "2+8", "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2014-Jun-Q4", "section": "main", "text": "Analyze the significance of the PASS theory of intelligence.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2014-Jun-Q5", "section": "main", "text": "What do you mean by problem solving? Describe the factors affecting problem solving.", "marks": "5+5", "topics": ["Problem Solving - Definition & Types", "Problem Solving - Factors & Blocks"] },
+    { "id": "2014-Jun-Q6", "section": "main", "text": "Give an account of the stages of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2014-Jun-Q7", "section": "main", "text": "What is multilingualism? Discuss the key issues about multilingualism in India.", "marks": 10, "topics": ["Multilingualism"] },
+    { "id": "2014-Jun-Q8", "section": "main", "text": "Describe the various types of speech disorders.", "marks": 10, "topics": ["Speech Disorders"] },
+    { "id": "2014-Jun-Q9", "section": "main", "text": "Discuss the stages of creative thinking. How are creativity and problem solving related?", "marks": "7+3", "topics": ["Creativity - Meaning, Aspects & Stages", "Creativity - Intelligence Relationship"] },
+    { "id": "2014-Jun-Q10a", "section": "main", "text": "Aphasia (short note)", "marks": 5, "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2014-Jun-Q10b", "section": "main", "text": "Means-ends analysis (short note)", "marks": 5, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2014-Jun-Q10c", "section": "main", "text": "Artificial intelligence (short note)", "marks": 5, "topics": ["Problem Solving - Newell's Approach & AI"] }
+  ]
+}

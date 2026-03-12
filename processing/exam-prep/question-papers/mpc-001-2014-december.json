@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2014, "session": "December", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2014-Dec-Q1", "section": "main", "text": "Discuss the Cognitive Information Processing (CIP) Model of Learning.", "marks": 10, "topics": ["Information Processing"] },
+    { "id": "2014-Dec-Q2", "section": "main", "text": "Describe Bloom's Taxonomy of cognitive domain with example.", "marks": 10, "topics": ["Information Processing"] },
+    { "id": "2014-Dec-Q3", "section": "main", "text": "Describe Guilford's structure of intellect model of intelligence.", "marks": 10, "topics": ["Guilford's Structure of Intellect"] },
+    { "id": "2014-Dec-Q4", "section": "main", "text": "Describe the stages of creativity. How will you relate creativity and intelligence?", "marks": "7+3", "topics": ["Creativity - Meaning, Aspects & Stages", "Creativity - Intelligence Relationship"] },
+    { "id": "2014-Dec-Q5", "section": "main", "text": "Discuss the meaning, types and stages of problem solving.", "marks": "4+3+3", "topics": ["Problem Solving - Definition & Types", "Problem Solving Strategies & Techniques"] },
+    { "id": "2014-Dec-Q6", "section": "main", "text": "Critically analyze any one theory of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2014-Dec-Q7", "section": "main", "text": "Analyze the environmental and cultural blocks of problem solving with examples.", "marks": 10, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2014-Dec-Q8", "section": "main", "text": "Discuss the neurological issues related to memory.", "marks": 10, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2014-Dec-Q9", "section": "main", "text": "Examine the Investment and Confluence Theory of Creativity.", "marks": 10, "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2014-Dec-Q10a", "section": "main", "text": "Autism (short note)", "marks": 5, "topics": ["Speech Disorders"] },
+    { "id": "2014-Dec-Q10b", "section": "main", "text": "Productive Problem Solving (short note)", "marks": 5, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2014-Dec-Q10c", "section": "main", "text": "Key issues in cognitive psychology (short note)", "marks": 5, "topics": ["Key Issues in Cognitive Psychology"] }
+  ]
+}

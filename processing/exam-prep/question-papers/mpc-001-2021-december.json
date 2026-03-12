@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2021, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2021-Dec-A1", "section": "A", "text": "Differentiate between language disorders and speech disorders. Describe the types of speech disorders.", "marks": "2+8", "topics": ["Speech Disorders", "Language Disorders & Aphasia"] },
+    { "id": "2021-Dec-A2", "section": "A", "text": "Compare and contrast behaviouristic theory and innate theory of language acquisition.", "marks": 10, "topics": ["Language Acquisition"] },
+    { "id": "2021-Dec-A3", "section": "A", "text": "Explain the relationship between creativity and problem solving. Describe the stages involved in creative discoveries.", "marks": "5+5", "topics": ["Creativity - Intelligence Relationship", "Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2021-Dec-A4", "section": "A", "text": "Discuss Gardner's theory of multiple intelligences and its implications.", "marks": 10, "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2021-Dec-B5", "section": "B", "text": "Differentiate between sensory memory, short-term memory and long-term memory.", "marks": 6, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2021-Dec-B6", "section": "B", "text": "Explain the key issues in cognitive psychology with their implications in understanding human behaviour.", "marks": 6, "topics": ["Key Issues in Cognitive Psychology"] },
+    { "id": "2021-Dec-B7", "section": "B", "text": "Describe the different types of emotional blocks which affect problem-solving.", "marks": 6, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2021-Dec-B8", "section": "B", "text": "Discuss Newell's approach to problem-solving.", "marks": 6, "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2021-Dec-B9", "section": "B", "text": "Differentiate between algorithm and heuristic strategies for problem solving.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2021-Dec-C10", "section": "C", "text": "Thurston's primary mental abilities.", "marks": 3, "topics": ["Intelligence Theories - Factor Theories"] },
+    { "id": "2021-Dec-C11", "section": "C", "text": "Spearman's two-factor theory.", "marks": 3, "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2021-Dec-C12", "section": "C", "text": "Differences between surface structure and deep structure in sentences.", "marks": 3, "topics": ["Language Structure & Functions"] }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2013, "session": "December", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2013-Dec-Q1", "section": "main", "text": "Describe Cognitive Psychology as it is today. Discuss the main domains of Cognitive Psychology.", "marks": 10, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2013-Dec-Q2", "section": "main", "text": "Describe the development of memory with reference to information processing.", "marks": 10, "topics": ["Information Processing", "Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2013-Dec-Q3", "section": "main", "text": "Critically evaluate the level of processing model of memory.", "marks": 10, "topics": ["Levels of Processing Model"] },
+    { "id": "2013-Dec-Q4", "section": "main", "text": "Define intelligence and present a critical appraisal of two factor theory of intelligence.", "marks": 10, "topics": ["Spearman's Two-Factor Theory"] },
+    { "id": "2013-Dec-Q5", "section": "main", "text": "Describe the development of Stanford Binet Scales. Explain the structure and interpretation of Stanford-Binet Scales.", "marks": "5+5", "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2013-Dec-Q6", "section": "main", "text": "Explain the meaning and aspects of creativity and describe how creativity is related to intelligence.", "marks": 10, "topics": ["Creativity - Meaning, Aspects & Stages", "Creativity - Intelligence Relationship"] },
+    { "id": "2013-Dec-Q7", "section": "main", "text": "What are the different processes involved in language comprehension?", "marks": 10, "topics": ["Language Comprehension Models"] },
+    { "id": "2013-Dec-Q8", "section": "main", "text": "What are the functions of language? Discuss structure of language.", "marks": "5+5", "topics": ["Language Structure & Functions"] },
+    { "id": "2013-Dec-Q9", "section": "main", "text": "What are the role of various type of thinking involved in solving different kinds of problems?", "marks": 10, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2013-Dec-Q10a", "section": "main", "text": "Strategy in problem solving (short note)", "marks": 5, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2013-Dec-Q10b", "section": "main", "text": "Functional fixedness (short note)", "marks": 5, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2013-Dec-Q10c", "section": "main", "text": "Types of memory (short note)", "marks": 5, "topics": ["Memory Systems (STM, LTM, Sensory)"] }
+  ]
+}
