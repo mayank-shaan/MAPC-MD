@@ -6,14 +6,15 @@ This guide will help you complete the Clerk authentication setup for the MAPC St
 
 The following files have been created and configured:
 
-1. **`package.json`** - Clerk dependency added (`@clerk/react`)
-2. **`src/theme/Root.js`** - Clerk provider wrapper
-3. **`src/components/AuthGate.js`** - Login screen and content protection
-4. **`src/components/UserButton.js`** - User profile button for navbar
-5. **`src/theme/Layout/index.js`** - Wraps all pages with auth protection
-6. **`src/theme/Navbar/Content/index.js`** - Adds user button to navbar
-7. **`.env.example`** - Template for environment variables
-8. **`.gitignore`** - Already configured to exclude `.env.local`
+1. **`package.json`** - Clerk dependency added (`@clerk/react`) and `dotenv` for environment variables
+2. **`docusaurus.config.js`** - Configured to load `.env.local` using dotenv
+3. **`src/theme/Root.js`** - Clerk provider wrapper
+4. **`src/components/AuthGate.js`** - Login screen and content protection
+5. **`src/components/UserButton.js`** - User profile button for navbar
+6. **`src/theme/Layout/index.js`** - Wraps all pages with auth protection
+7. **`src/theme/Navbar/Content/index.js`** - Adds user button to navbar
+8. **`.env.example`** - Template for environment variables
+9. **`.gitignore`** - Already configured to exclude `.env.local`
 
 ## 🚀 What You Need To Do
 
