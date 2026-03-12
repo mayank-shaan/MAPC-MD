@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2017, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2017-Dec-A1", "section": "A", "text": "Discuss the PASS theory of intelligence and highlight its theoretical foundation.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2017-Dec-A2", "section": "A", "text": "Explain the meaning of creativity and describe the stages of creativity.", "marks": "4+6", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2017-Dec-A3", "section": "A", "text": "Describe the stages of language acquisition. Explain the behaviouristic theory of language acquisition.", "marks": "5+5", "topics": ["Language Acquisition"] },
+    { "id": "2017-Dec-A4", "section": "A", "text": "Discuss Newell's approach to problem solving. Explain the role of artificial intelligence in problem solving.", "marks": "6+4", "topics": ["Problem Solving - Newell's Approach & AI"] },
+    { "id": "2017-Dec-B5", "section": "B", "text": "Discuss the key issues in the study of cognitive psychology.", "marks": 6, "topics": ["Key Issues in Cognitive Psychology"] },
+    { "id": "2017-Dec-B6", "section": "B", "text": "Explain the principles of information processing.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2017-Dec-B7", "section": "B", "text": "Explain Waugh and Norman's model of primary and secondary memory.", "marks": 6, "topics": ["Memory Models"] },
+    { "id": "2017-Dec-B8", "section": "B", "text": "Explain the single system versus dual system hypotheses in reference to multilingualism.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2017-Dec-B9", "section": "B", "text": "Explain the 'backward search' and 'thinking aloud' as techniques of problem solving.", "marks": "3+3", "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2017-Dec-C10", "section": "C", "text": "Miller's magic number.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2017-Dec-C11", "section": "C", "text": "Bodily-kinesthetic intelligence.", "marks": 3, "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2017-Dec-C12", "section": "C", "text": "'Well-defined' and 'ill-defined' problem.", "marks": 3, "topics": ["Problem Solving - Definition & Types"] }
+  ]
+}

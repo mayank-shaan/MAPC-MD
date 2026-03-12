@@ -1,0 +1,20 @@
+{
+  "course": "MPC-001", "year": 2011, "session": "June", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2011-Jun-Q1", "section": "main", "text": "What do you mean by cognitive psychology? Describe the different domains of cognitive psychology.", "marks": "3+7", "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2011-Jun-Q2", "section": "main", "text": "Describe Atkinson and Shiffrin's Information Processing model of Memory.", "marks": 10, "topics": ["Memory Models"] },
+    { "id": "2011-Jun-Q3", "section": "main", "text": "Elucidate the neuropsychological basis of learning and memory.", "marks": 10, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2011-Jun-Q4", "section": "main", "text": "Critically discuss the G and S factor theory and J.P. Dass theory of Intelligence.", "marks": "5+5", "topics": ["Spearman's Two-Factor Theory", "PASS Theory of Intelligence"] },
+    { "id": "2011-Jun-Q5", "section": "main", "text": "Discuss the Nature of Intelligence. Delineate the historical perspective on individual differences and human ability.", "marks": "5+5", "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2011-Jun-Q6", "section": "main", "text": "What do you mean by creativity? Explain the different stages of creativity.", "marks": "2+8", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2011-Jun-Q7", "section": "main", "text": "Critically discuss the Innateness theory of language acquisition.", "marks": 10, "topics": ["Innateness Theory of Language Acquisition"] },
+    { "id": "2011-Jun-Q8", "section": "main", "text": "What are developmental phonological disorders? Discuss specific language impairment.", "marks": "5+5", "topics": ["Speech Disorders", "Learning Disabilities"] },
+    { "id": "2011-Jun-Q9a", "section": "main", "text": "The stages of problem solving (short note)", "marks": 5, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2011-Jun-Q9b", "section": "main", "text": "Characteristics of well defined and ill defined problems (short note)", "marks": 5, "topics": ["Problem Solving - Definition & Types"] },
+    { "id": "2011-Jun-Q9c", "section": "main", "text": "Aphasia (short note)", "marks": 5, "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2011-Jun-Q10a", "section": "main", "text": "Short Term Memory (short note)", "marks": 5, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2011-Jun-Q10b", "section": "main", "text": "Creativity and Intelligence (short note)", "marks": 5, "topics": ["Creativity - Intelligence Relationship"] },
+    { "id": "2011-Jun-Q10c", "section": "main", "text": "Surface structure and Deep structure (short note)", "marks": 5, "topics": ["Language Structure & Functions"] }
+  ]
+}

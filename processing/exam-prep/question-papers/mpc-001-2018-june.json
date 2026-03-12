@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2018, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2018-Jun-A1", "section": "A", "text": "Evaluate the Structure-of-Intellect (SOI) theory of intelligence given by Guilford.", "marks": 10, "topics": ["Guilford's Structure of Intellect"] },
+    { "id": "2018-Jun-A2", "section": "A", "text": "Discuss the stages and strategies of problem solving.", "marks": "3+7", "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2018-Jun-A3", "section": "A", "text": "Describe the basic units of language. Explain the higher levels of linguistic analysis.", "marks": "2+8", "topics": ["Language Structure & Functions"] },
+    { "id": "2018-Jun-A4", "section": "A", "text": "Discuss the emotional and intellectual blocks to problem solving.", "marks": "5+5", "topics": ["Blocks to Problem Solving"] },
+    { "id": "2018-Jun-B5", "section": "B", "text": "Explain the research methods in cognitive psychology.", "marks": 6, "topics": ["Research Methods in Cognitive Psychology"] },
+    { "id": "2018-Jun-B6", "section": "B", "text": "Discuss the nature of short term memory and long term memory.", "marks": 6, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2018-Jun-B7", "section": "B", "text": "Explain the three elements of language expression and communication.", "marks": 6, "topics": ["Language Structure & Functions"] },
+    { "id": "2018-Jun-B8", "section": "B", "text": "Discuss the meaning and structure of multilingualism.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2018-Jun-B9", "section": "B", "text": "Explain aphasia.", "marks": 6, "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2018-Jun-C10", "section": "C", "text": "Cognitive neuroscience.", "marks": 3, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2018-Jun-C11", "section": "C", "text": "Schemas.", "marks": 3, "topics": ["Information Processing"] },
+    { "id": "2018-Jun-C12", "section": "C", "text": "Language acquisition device.", "marks": 3, "topics": ["Innateness Theory of Language Acquisition"] }
+  ]
+}

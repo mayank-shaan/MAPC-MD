@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2021, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2021-Jun-A1", "section": "A", "text": "Provide a comparative analysis of Models of Memory given by Atkinson-Shiffrin and Waugh-Norman.", "marks": 10, "topics": ["Memory Models"] },
+    { "id": "2021-Jun-A2", "section": "A", "text": "Describe the nature of problem solving. Discuss the typologies of problems and factors affecting problem solving.", "marks": "3+3+4", "topics": ["Problem Solving - Definition & Types", "Problem Solving - Factors & Blocks"] },
+    { "id": "2021-Jun-A3", "section": "A", "text": "Explain the meaning of creativity and describe its various stages.", "marks": "5+5", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2021-Jun-A4", "section": "A", "text": "Define Intelligence. Explain Sternberg's triarchic theory of intelligence.", "marks": "3+7", "topics": ["Sternberg's Triarchic Theory of Intelligence"] },
+    { "id": "2021-Jun-B5", "section": "B", "text": "Explain Bloom's taxonomy of cognitive domain.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2021-Jun-B6", "section": "B", "text": "Describe the domains of cognitive psychology.", "marks": 6, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2021-Jun-B7", "section": "B", "text": "Describe the contribution of Alfred Binet to the measurement of intelligence.", "marks": 6, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2021-Jun-B8", "section": "B", "text": "Explain logical-mathematical and bodily-kinesthetic intelligence in Gardner's theory.", "marks": "3+3", "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2021-Jun-B9", "section": "B", "text": "Elaborate on the intellectual blocks to problem solving.", "marks": 6, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2021-Jun-C10", "section": "C", "text": "Sensory Memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2021-Jun-C11", "section": "C", "text": "Culture-free Tests.", "marks": 3, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2021-Jun-C12", "section": "C", "text": "Concrete Operational Stage.", "marks": 3, "topics": ["Cognitive Development"] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2023, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2023-Dec-A1", "section": "A", "text": "Explain the meaning of cognitive psychology. Provide a brief history of cognitive psychology.", "marks": "3+7", "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2023-Dec-A2", "section": "A", "text": "Discuss critically the PASS theory of intelligence.", "marks": 10, "topics": ["PASS Theory of Intelligence"] },
+    { "id": "2023-Dec-A3", "section": "A", "text": "Explain Guilford's structure of intellect theory.", "marks": 10, "topics": ["Guilford's Structure of Intellect"] },
+    { "id": "2023-Dec-A4", "section": "A", "text": "Explain the specific techniques for problem solving.", "marks": 10, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2023-Dec-B5", "section": "B", "text": "Describe the three storage systems of memory.", "marks": 6, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2023-Dec-B6", "section": "B", "text": "Explain the concept of intelligence quotient (I.Q.). Discuss the contribution of Alfred Binet towards intelligence testing.", "marks": "2+4", "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2023-Dec-B7", "section": "B", "text": "Explain the three elements of language expression as given in the analysis by Clark and Clark.", "marks": 6, "topics": ["Language Structure & Functions"] },
+    { "id": "2023-Dec-B8", "section": "B", "text": "Analyse single-system vs. dual-system hypotheses of language.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2023-Dec-B9", "section": "B", "text": "Describe the stages in creative discoveries.", "marks": 6, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2023-Dec-C10", "section": "C", "text": "Cognitive neuroscience.", "marks": 3, "topics": ["Cognitive Psychology - History & Definition"] },
+    { "id": "2023-Dec-C11", "section": "C", "text": "Bloom's taxonomy of cognitive domain.", "marks": 3, "topics": ["Information Processing"] },
+    { "id": "2023-Dec-C12", "section": "C", "text": "Aphasia.", "marks": 3, "topics": ["Language Disorders & Aphasia"] }
+  ]
+}

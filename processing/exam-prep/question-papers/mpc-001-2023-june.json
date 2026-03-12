@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2023, "session": "June", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2023-Jun-A1", "section": "A", "text": "Critically discuss the investment and confluence theory of creativity.", "marks": 10, "topics": ["Investment & Confluence Theory of Creativity"] },
+    { "id": "2023-Jun-A2", "section": "A", "text": "Describe various speech disorders.", "marks": 10, "topics": ["Speech Disorders"] },
+    { "id": "2023-Jun-A3", "section": "A", "text": "Explain the concept and the benefits of multilingualism.", "marks": 10, "topics": ["Multilingualism"] },
+    { "id": "2023-Jun-A4", "section": "A", "text": "Describe the characteristics of difficult problems. Discuss the models and methods for effective problem solving.", "marks": "3+7", "topics": ["Problem Solving - Definition & Types", "Problem Solving Strategies & Techniques"] },
+    { "id": "2023-Jun-B5", "section": "B", "text": "Explain the cellular bases of learning and memory.", "marks": 6, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2023-Jun-B6", "section": "B", "text": "Explain sensory memory, short-term memory and long-term memory.", "marks": 6, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2023-Jun-B7", "section": "B", "text": "Discuss the factors affecting problem solving.", "marks": 6, "topics": ["Problem Solving - Factors & Blocks"] },
+    { "id": "2023-Jun-B8", "section": "B", "text": "Critically discuss the theory of Innateness by Noam Chomsky.", "marks": 6, "topics": ["Innateness Theory of Language Acquisition"] },
+    { "id": "2023-Jun-B9", "section": "B", "text": "Explain the cultural blocks to problem solving.", "marks": 6, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2023-Jun-C10", "section": "C", "text": "Procedural and declarative memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2023-Jun-C11", "section": "C", "text": "Typologies of problems.", "marks": 3, "topics": ["Problem Solving - Definition & Types"] },
+    { "id": "2023-Jun-C12", "section": "C", "text": "Existential intelligence.", "marks": 3, "topics": ["Gardner's Multiple Intelligences"] }
+  ]
+}

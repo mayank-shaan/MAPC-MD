@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2018, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2018-Dec-A1", "section": "A", "text": "What is intelligence? Compare and Contrast Spearman's Two factor theory and Thurstone's Group factor theory of intelligence.", "marks": "3+7", "topics": ["Spearman's Two-Factor Theory", "Intelligence Theories - Factor Theories"] },
+    { "id": "2018-Dec-A2", "section": "A", "text": "Discuss the various research methods in cognitive psychology.", "marks": 10, "topics": ["Research Methods in Cognitive Psychology"] },
+    { "id": "2018-Dec-A3", "section": "A", "text": "Describe the stages of creativity. Explain the relationship between intelligence and creativity.", "marks": "5+5", "topics": ["Creativity - Meaning, Aspects & Stages", "Creativity - Intelligence Relationship"] },
+    { "id": "2018-Dec-A4", "section": "A", "text": "Describe Haynes' model and Hall's model for effective problem solving. Discuss the perceptual, cultural and emotional blocks to problem solving.", "marks": "2+8", "topics": ["Problem Solving Strategies & Techniques", "Blocks to Problem Solving"] },
+    { "id": "2018-Dec-B5", "section": "B", "text": "Define aphasia. Differentiate between Broca's aphasia and Wernicke's aphasia.", "marks": "2+4", "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2018-Dec-B6", "section": "B", "text": "Explain Atkinson and Shiffrin's stage model of memory.", "marks": 6, "topics": ["Memory Models"] },
+    { "id": "2018-Dec-B7", "section": "B", "text": "Discuss the key issues in the study of cognitive psychology.", "marks": 6, "topics": ["Key Issues in Cognitive Psychology"] },
+    { "id": "2018-Dec-B8", "section": "B", "text": "Explain the single-system versus dual-system hypotheses regarding acquisition of second language.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2018-Dec-B9", "section": "B", "text": "Discuss the strategies of problem solving and point out their advantages and disadvantages.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2018-Dec-C10", "section": "C", "text": "Episodic versus Semantic memory.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2018-Dec-C11", "section": "C", "text": "Language acquisition device.", "marks": 3, "topics": ["Innateness Theory of Language Acquisition"] },
+    { "id": "2018-Dec-C12", "section": "C", "text": "Autism.", "marks": 3, "topics": ["Speech Disorders"] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-001", "year": 2022, "session": "December", "extraction_date": "2025-03-12",
+  "questions": [
+    { "id": "2022-Dec-A1", "section": "A", "text": "Provide a historical overview of cognitive psychology. Discuss the key issues in the study of cognitive psychology.", "marks": "6+4", "topics": ["Cognitive Psychology - History & Definition", "Key Issues in Cognitive Psychology"] },
+    { "id": "2022-Dec-A2", "section": "A", "text": "Describe the stages and strategies of problem solving.", "marks": "3+7", "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2022-Dec-A3", "section": "A", "text": "Discuss the meaning and stages of creativity.", "marks": 10, "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2022-Dec-A4", "section": "A", "text": "Explain the comprehensive model of language processing.", "marks": 10, "topics": ["Language Comprehension Models"] },
+    { "id": "2022-Dec-B5", "section": "B", "text": "Explain the levels of processing model by Craik and Lockhart.", "marks": 6, "topics": ["Levels of Processing Model"] },
+    { "id": "2022-Dec-B6", "section": "B", "text": "Describe the principles of information processing.", "marks": 6, "topics": ["Information Processing"] },
+    { "id": "2022-Dec-B7", "section": "B", "text": "Describe the various types of aphasia.", "marks": 6, "topics": ["Language Disorders & Aphasia"] },
+    { "id": "2022-Dec-B8", "section": "B", "text": "Discuss the relationship between multilingualism and thinking.", "marks": 6, "topics": ["Multilingualism"] },
+    { "id": "2022-Dec-B9", "section": "B", "text": "Explain any three techniques of problem-solving.", "marks": 6, "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2022-Dec-C10", "section": "C", "text": "Memory Consolidation and Hippocampus.", "marks": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2022-Dec-C11", "section": "C", "text": "Miller's Magic number.", "marks": 3, "topics": ["Memory Systems (STM, LTM, Sensory)"] },
+    { "id": "2022-Dec-C12", "section": "C", "text": "Bodily-Kinesthetic Intelligence.", "marks": 3, "topics": ["Gardner's Multiple Intelligences"] }
+  ]
+}

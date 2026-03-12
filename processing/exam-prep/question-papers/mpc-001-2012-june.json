@@ -1,0 +1,18 @@
+{
+  "course": "MPC-001", "year": 2012, "session": "June", "extraction_date": "2025-03-12",
+  "note": "Pre-2015 format: Answer any 5 of 10, all 10 marks, ~500 words each",
+  "questions": [
+    { "id": "2012-Jun-Q1", "section": "main", "text": "Discuss critically the measurement of intelligence.", "marks": 10, "topics": ["Intelligence Testing & Measurement"] },
+    { "id": "2012-Jun-Q2", "section": "main", "text": "Explain Sternberg's Triarchic Theory of intelligence.", "marks": 10, "topics": ["Sternberg's Triarchic Theory of Intelligence"] },
+    { "id": "2012-Jun-Q3", "section": "main", "text": "Discuss the various strategies of problem solving.", "marks": "3+7", "topics": ["Problem Solving Strategies & Techniques"] },
+    { "id": "2012-Jun-Q4", "section": "main", "text": "What do you mean by Learning Disability? Discuss the characteristic features and types of learning disabilities.", "marks": "2+4+4", "topics": ["Learning Disabilities"] },
+    { "id": "2012-Jun-Q5", "section": "main", "text": "Explain in detail the structure of language.", "marks": 10, "topics": ["Language Structure & Functions"] },
+    { "id": "2012-Jun-Q6", "section": "main", "text": "Define Information Processing. Describe Craik and Lockhart's Level-of-Processing Model.", "marks": "3+7", "topics": ["Information Processing", "Levels of Processing Model"] },
+    { "id": "2012-Jun-Q7", "section": "main", "text": "Discuss the meaning and aspects of creativity.", "marks": "5+5", "topics": ["Creativity - Meaning, Aspects & Stages"] },
+    { "id": "2012-Jun-Q8", "section": "main", "text": "Describe Gardner's Theory of Multiple Intelligence.", "marks": 10, "topics": ["Gardner's Multiple Intelligences"] },
+    { "id": "2012-Jun-Q9a", "section": "main", "text": "Functional Fixedness (short note)", "marks": 5, "topics": ["Blocks to Problem Solving"] },
+    { "id": "2012-Jun-Q9b", "section": "main", "text": "Alzheimer's Disease (short note)", "marks": 5, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2012-Jun-Q10a", "section": "main", "text": "Research Methods in Cognitive Psychology (short note)", "marks": 5, "topics": ["Research Methods in Cognitive Psychology"] },
+    { "id": "2012-Jun-Q10b", "section": "main", "text": "Primary Memory and Secondary Memory (short note)", "marks": 5, "topics": ["Memory Models"] }
+  ]
+}

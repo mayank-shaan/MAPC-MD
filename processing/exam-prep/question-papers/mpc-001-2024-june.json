@@ -1,0 +1,27 @@
+{
+  "course": "MPC-001",
+  "year": 2024,
+  "session": "June",
+  "extraction_date": "2025-03-12",
+  "exam_format": "3-section",
+  "total_marks": 50,
+  "sections": {
+    "A": { "instruction": "Answer any TWO in ~450 words each", "marks_per_q": 10, "total": 20 },
+    "B": { "instruction": "Answer any FOUR in ~250 words each", "marks_per_q": 6, "total": 24 },
+    "C": { "instruction": "Write short notes on any TWO in ~100 words each", "marks_per_q": 3, "total": 6 }
+  },
+  "questions": [
+    { "id": "2024-Jun-A1", "section": "A", "number": 1, "text": "Describe the principles of information processing. Explain Sternberg's information processing approach.", "marks": "4+6", "marks_total": 10, "topics": ["Information Processing", "Sternberg's Information Processing Approach"] },
+    { "id": "2024-Jun-A2", "section": "A", "number": 2, "text": "Explain cognitive psychology with a focus of neurocognitive revolution. Discuss the key issues in cognitive psychology.", "marks": "4+6", "marks_total": 10, "topics": ["Cognitive Psychology - History & Definition", "Key Issues in Cognitive Psychology"] },
+    { "id": "2024-Jun-A3", "section": "A", "number": 3, "text": "Describe Spearman's two-factor theory of intelligence. Provide critical appraisal of his theory as given by Thorndike, Thomson and Thurstone.", "marks": 10, "marks_total": 10, "topics": ["Spearman's Two-Factor Theory", "Intelligence Theories - Critical Appraisal"] },
+    { "id": "2024-Jun-A4", "section": "A", "number": 4, "text": "Critically analyse the innateness theory of language acquisition.", "marks": 10, "marks_total": 10, "topics": ["Innateness Theory of Language Acquisition"] },
+    { "id": "2024-Jun-B5", "section": "B", "number": 5, "text": "Describe the principal areas of research in cognitive psychology.", "marks": 6, "marks_total": 6, "topics": ["Research Methods in Cognitive Psychology"] },
+    { "id": "2024-Jun-B6", "section": "B", "number": 6, "text": "Explain the three components of triarchic theory of intelligence by Sternberg.", "marks": 6, "marks_total": 6, "topics": ["Sternberg's Triarchic Theory of Intelligence"] },
+    { "id": "2024-Jun-B7", "section": "B", "number": 7, "text": "Describe the stages of language acquisition and explain the building blocks of language.", "marks": "4+2", "marks_total": 6, "topics": ["Language Acquisition", "Structure of Language"] },
+    { "id": "2024-Jun-B8", "section": "B", "number": 8, "text": "Define problem solving. Describe the types of problems.", "marks": "2+4", "marks_total": 6, "topics": ["Problem Solving - Definition & Types"] },
+    { "id": "2024-Jun-B9", "section": "B", "number": 9, "text": "Explain the traditional approach and Gestalt's approach to problem solving.", "marks": 6, "marks_total": 6, "topics": ["Problem Solving Approaches"] },
+    { "id": "2024-Jun-C10", "section": "C", "number": 10, "text": "Dyspraxia", "marks": 3, "marks_total": 3, "topics": ["Speech Disorders"] },
+    { "id": "2024-Jun-C11", "section": "C", "number": 11, "text": "Cellular bases of learning and memory", "marks": 3, "marks_total": 3, "topics": ["Neuropsychology of Learning & Memory"] },
+    { "id": "2024-Jun-C12", "section": "C", "number": 12, "text": "Bodily-kinesthetic intelligence", "marks": 3, "marks_total": 3, "topics": ["Gardner's Multiple Intelligences"] }
+  ]
+}
