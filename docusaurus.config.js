@@ -1,6 +1,10 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import dotenv from 'dotenv';
+
+// Load environment variables from .env.local
+dotenv.config({ path: '.env.local' });
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -8,11 +12,16 @@ const config = {
   tagline: 'Master of Arts in Psychology - IGNOU Study Materials',
   favicon: 'img/favicon.ico',
   url: 'https://mapc-msd.vercel.app', // Update with your domain
+  
+  // Custom fields for environment variables
+  customFields: {
+    clerkPublishableKey: process.env.CLERK_PUBLISHABLE_KEY || '',
+  },
+  
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
       type: 'text/css',
-      integrity: 'sha384-odtC+0UpeXW0k7G/eVEexM+pU7cLIR/Cz1bMPqFMzAUMdB07FPh4aCgCEtLXHLv',
       crossorigin: 'anonymous',
     },
   ],
@@ -128,6 +137,7 @@ const config = {
           //   position: 'right',
           // },
         ],
+        hideOnScroll: false,
       },
       
       footer: {
