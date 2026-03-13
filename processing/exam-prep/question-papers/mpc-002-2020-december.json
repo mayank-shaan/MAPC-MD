@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2020, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2020-Dec-A1", "section": "A", "text": "Describe the characteristics of infancy. Discuss the cognitive and linguistic development during this period.", "marks": "3+7", "topic": "Infancy"},
+    {"id": "2020-Dec-A2", "section": "A", "text": "Discuss information processing approach to cognitive development during adolescence.", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2020-Dec-A3", "section": "A", "text": "Describe social development in children during early school years.", "marks": 10, "topic": "Social Development"},
+    {"id": "2020-Dec-A4", "section": "A", "text": "Discuss psychosocial changes during old age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2020-Dec-B5", "section": "B", "text": "Describe life span perspective to human development. Explain the various issues in life span development.", "marks": "3+3", "topic": "Issues in Lifespan Development"},
+    {"id": "2020-Dec-B6", "section": "B", "text": "Discuss identity development in adolescents.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2020-Dec-B7", "section": "B", "text": "Discuss motor development during early school years (6-11 years). Describe the physical disorders that arise during this period.", "marks": "3+3", "topic": "Motor Development"},
+    {"id": "2020-Dec-B8", "section": "B", "text": "Discuss the cognitive change during old age.", "marks": 6, "topic": "Cognitive Development in Late Adulthood"},
+    {"id": "2020-Dec-B9", "section": "B", "text": "Elucidate the characteristics of life span development.", "marks": 6, "topic": "Issues in Lifespan Development"},
+    {"id": "2020-Dec-C10", "section": "C", "text": "Period of zygote.", "marks": 3, "topic": "Prenatal Development"},
+    {"id": "2020-Dec-C11", "section": "C", "text": "Egocentrism in adolescence.", "marks": 3, "topic": "Adolescence"},
+    {"id": "2020-Dec-C12", "section": "C", "text": "Decentralization.", "marks": 3, "topic": "Piaget's Cognitive Development"}
+  ]
+}

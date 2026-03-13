@@ -1,9 +1,9 @@
 {
   "last_updated": "2025-03-13",
   "total_courses": 7,
-  "courses_analyzed": 1,
-  "courses_content_created": 1,
-  "total_questions_analyzed": 316,
+  "courses_analyzed": 2,
+  "courses_content_created": 2,
+  "total_questions_analyzed": 632,
   "courses": {
     "MPC-001": {
       "status": "content_created",
@@ -23,13 +23,66 @@
         "question_answer_pages": 32
       }
     },
-    "MPC-002": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 },
+    "MPC-002": {
+      "status": "content_created",
+      "years_analyzed": 14,
+      "papers_analyzed": 27,
+      "papers_note": "28 papers available; 2023-June unreadable (image scan)",
+      "total_questions": 316,
+      "topics_identified": 29,
+      "high_priority_topics": 13,
+      "medium_priority_topics": 14,
+      "low_priority_topics": 2,
+      "most_repeated_question": "Discuss identity crisis and Marcia's identity statuses during adolescence (15 appearances, 55.6%)",
+      "analysis_date": "2025-03-13",
+      "content_creation_date": "2025-03-13",
+      "mdx_files_created": 32,
+      "mdx_breakdown": {
+        "index": 1,
+        "topic_analysis": 1,
+        "high_priority_topics": 1,
+        "medium_priority_topics": 1,
+        "low_priority_topics": 1,
+        "question_answer_pages": 27
+      },
+      "question_answer_pages": [
+        "identity-development-adolescence",
+        "adolescence",
+        "moral-development",
+        "piagets-cognitive-development",
+        "prenatal-development",
+        "psychosocial-development-late-adulthood",
+        "ageing-late-adulthood",
+        "infancy",
+        "information-processing-approach",
+        "learning-disability",
+        "issues-lifespan-development",
+        "middle-adulthood",
+        "early-childhood",
+        "cognitive-development-adulthood",
+        "language-development",
+        "theories-lifespan-development",
+        "research-methods-lifespan",
+        "psychosocial-development-adulthood",
+        "motor-development",
+        "growth-and-development",
+        "social-development",
+        "family-life-cycle",
+        "intellectual-disability",
+        "self-concept-self-esteem",
+        "school-skills",
+        "exceptional-children",
+        "cognitive-development-late-adulthood",
+        "adhd",
+        "attachment",
+        "late-adulthood"
+      ]
+    },
     "MPC-003": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 },
-    "MPC-004": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 },
-    "MPC-005": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 },
-    "MPC-006": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 },
-    "MPCL-007": { "status": "pending", "years_analyzed": 0, "total_questions": 0, "topics_identified": 0, "analysis_date": null, "content_creation_date": null, "mdx_files_created": 0 }
+    "MPC-004": { "status": "pending" },
+    "MPC-005": { "status": "pending" },
+    "MPC-006": { "status": "pending" },
+    "MPCL-007": { "status": "pending" }
   },
-  "in_progress": null,
-  "notes": "Status values: pending, extracting, analyzed, creating_content, content_created"
+  "in_progress": null
 }

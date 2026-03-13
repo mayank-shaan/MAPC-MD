@@ -1,0 +1,18 @@
+{
+  "course": "MPC-002", "year": 2014, "session": "June", "extraction_date": "2025-03-13",
+  "note": "Old format: answer any 5 of 10",
+  "questions": [
+    {"id": "2014-Jun-Q1", "text": "Define the concept of human development. Discuss growth and development with relevant examples.", "marks": "3+7", "topic": "Growth and Development"},
+    {"id": "2014-Jun-Q2", "text": "Elucidate the concept of infancy period. Discuss Erikson's theory of psychosocial development during infancy period.", "marks": "4+6", "topic": "Infancy"},
+    {"id": "2014-Jun-Q3", "text": "Define and describe early childhood period. What are the various psychological and physical hazards that a child has to face during early years?", "marks": "5+5", "topic": "Early Childhood"},
+    {"id": "2014-Jun-Q4a", "text": "Developmental milestones in early school years.", "marks": 5, "topic": "Motor Development"},
+    {"id": "2014-Jun-Q4b", "text": "Piagetian Conservation Tasks.", "marks": 5, "topic": "Piaget's Cognitive Development"},
+    {"id": "2014-Jun-Q5", "text": "How does cognitive development influence school performance during adolescence? Support your answers with relevant examples.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2014-Jun-Q6", "text": "Give an account of psychosocial development during adolescence.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2014-Jun-Q7", "text": "What is Attention Deficit Hyperactivity Disorder? Discuss the remedial measures for ADHD programmes at school and families.", "marks": "5+5", "topic": "ADHD"},
+    {"id": "2014-Jun-Q8", "text": "Discuss the various ageing issues and challenges of mid-adulthood.", "marks": 10, "topic": "Middle Adulthood"},
+    {"id": "2014-Jun-Q9", "text": "What are the psychosocial changes that occur in late adulthood period?", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2014-Jun-Q10a", "text": "Marcia's Identity Statuses.", "marks": 5, "topic": "Identity Development in Adolescence"},
+    {"id": "2014-Jun-Q10b", "text": "Negative self-concept in adolescence.", "marks": 5, "topic": "Self-Concept and Self-Esteem"}
+  ]
+}

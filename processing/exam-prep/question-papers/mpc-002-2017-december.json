@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2017, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2017-Dec-A1", "section": "A", "text": "Discuss the characteristics and hazards during early childhood.", "marks": "4+6", "topic": "Early Childhood"},
+    {"id": "2017-Dec-A2", "section": "A", "text": "Describe social development during early childhood.", "marks": 10, "topic": "Social Development"},
+    {"id": "2017-Dec-A3", "section": "A", "text": "Discuss the causes underlying acknowledging sexuality and high risk behaviours during adolescence.", "marks": "6+4", "topic": "Adolescence"},
+    {"id": "2017-Dec-A4", "section": "A", "text": "Describe the cognitive changes during middle adulthood.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2017-Dec-B5", "section": "B", "text": "Discuss the phenomenon of growth and development of children.", "marks": 6, "topic": "Growth and Development"},
+    {"id": "2017-Dec-B6", "section": "B", "text": "Explain cognitive development during infancy.", "marks": 6, "topic": "Infancy"},
+    {"id": "2017-Dec-B7", "section": "B", "text": "Explain the 3 Rs in elementary education.", "marks": 6, "topic": "School Skills"},
+    {"id": "2017-Dec-B8", "section": "B", "text": "Discuss Marcia's concept of self.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2017-Dec-B9", "section": "B", "text": "Elucidate the family life cycle during adulthood.", "marks": 6, "topic": "Family Life Cycle"},
+    {"id": "2017-Dec-C10", "section": "C", "text": "Sequential and Time Lag Method.", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2017-Dec-C11", "section": "C", "text": "Any two environmental influences during prenatal period.", "marks": 3, "topic": "Prenatal Development"},
+    {"id": "2017-Dec-C12", "section": "C", "text": "Gifted and talented children.", "marks": 3, "topic": "Exceptional Children"}
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "course_id": "MPC-002",
+  "course_name": "Life Span Psychology / Life Span Development",
+  "analysis_date": "2025-03-13",
+  "years_analyzed": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+  "sessions_analyzed": ["June", "December"],
+  "total_papers": 27,
+  "total_papers_note": "28 papers available; 2023-June was unreadable (image-only scan), so 27 papers successfully extracted",
+  "total_questions_extracted": 316,
+  "status": "analyzed",
+
+  "paper_format_note": "Format changed over time. Pre-2015: 10 questions, answer any 5. From 2015 onwards: 3-section format (Section A: 2 of 4 long questions @10 marks; Section B: 4 of 5 medium questions @6 marks; Section C: 2 of 3 short notes @3 marks). Total marks always 50.",
+
+  "repeated_questions": [
+    {
+      "question_text": "Discuss psychosocial changes during old age / late adulthood",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2012, "session": "June", "id": "2012-Jun-Q9"},
+        {"year": 2013, "session": "December", "id": "2013-Dec-Q9"},
+        {"year": 2015, "session": "June", "id": "2015-Jun-Q8"},
+        {"year": 2016, "session": "December", "id": "2016-Dec-A1"},
+        {"year": 2019, "session": "December", "id": "2019-Dec-A3"},
+        {"year": 2020, "session": "December", "id": "2020-Dec-A4"},
+        {"year": 2022, "session": "December", "id": "2022-Dec-A4"},
+        {"year": 2023, "session": "December", "id": "2023-Dec-A4"}
+      ],
+      "topic": "Psychosocial Development in Late Adulthood",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss Piaget's and Kohlberg's theories of moral development (comparison)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2011, "session": "December", "id": "2011-Dec-Q10b"},
+        {"year": 2012, "session": "June", "id": "2012-Jun-Q10a"},
+        {"year": 2013, "session": "June", "id": "2013-Jun-Q10b"},
+        {"year": 2015, "session": "December", "id": "2015-Dec-B9"},
+        {"year": 2016, "session": "June", "id": "2016-Jun-A2"},
+        {"year": 2020, "session": "June", "id": "2020-Jun-A4"},
+        {"year": 2021, "session": "December", "id": "2021-Dec-A3"},
+        {"year": 2023, "session": "December", "id": "2023-Dec-A2"},
+        {"year": 2024, "session": "December", "id": "2024-Dec-A3"}
+      ],
+      "topic": "Moral Development",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss identity crisis and Marcia's identity statuses during adolescence",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "June", "id": "2011-Jun-Q10a"},
+        {"year": 2011, "session": "December", "id": "2011-Dec-Q6"},
+        {"year": 2013, "session": "June", "id": "2013-Jun-Q6"},
+        {"year": 2014, "session": "June", "id": "2014-Jun-Q10a"},
+        {"year": 2014, "session": "December", "id": "2014-Dec-Q6"},
+        {"year": 2015, "session": "December", "id": "2015-Dec-A3"},
+        {"year": 2016, "session": "December", "id": "2016-Dec-A4"},
+        {"year": 2017, "session": "December", "id": "2017-Dec-B8"},
+        {"year": 2018, "session": "June", "id": "2018-Jun-B8"},
+        {"year": 2019, "session": "December", "id": "2019-Dec-B7"},
+        {"year": 2020, "session": "December", "id": "2020-Dec-B6"},
+        {"year": 2021, "session": "December", "id": "2021-Dec-B5"},
+        {"year": 2022, "session": "June", "id": "2022-Jun-B7"},
+        {"year": 2022, "session": "December", "id": "2022-Dec-B7"},
+        {"year": 2024, "session": "June", "id": "2024-Jun-B7"}
+      ],
+      "topic": "Identity Development in Adolescence",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss issues and challenges of ageing / late adulthood",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2012, "session": "December", "id": "2012-Dec-Q9"},
+        {"year": 2013, "session": "June", "id": "2013-Jun-Q8"},
+        {"year": 2014, "session": "December", "id": "2014-Dec-Q10"},
+        {"year": 2019, "session": "June", "id": "2019-Jun-B9"},
+        {"year": 2020, "session": "June", "id": "2020-Jun-B9"},
+        {"year": 2021, "session": "December", "id": "2021-Dec-A4"},
+        {"year": 2024, "session": "December", "id": "2024-Dec-B7"}
+      ],
+      "topic": "Ageing and Late Adulthood",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss information processing approach to cognitive development (adolescence)",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2012, "session": "June", "id": "2012-Jun-Q5"},
+        {"year": 2013, "session": "December", "id": "2013-Dec-Q6"},
+        {"year": 2015, "session": "June", "id": "2015-Jun-Q3"},
+        {"year": 2020, "session": "December", "id": "2020-Dec-A2"},
+        {"year": 2021, "session": "December", "id": "2021-Dec-A1"},
+        {"year": 2022, "session": "June", "id": "2022-Jun-A3"},
+        {"year": 2024, "session": "June", "id": "2024-Jun-A4"}
+      ],
+      "topic": "Information Processing Approach",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss characteristics and hazards during infancy / psychosocial development in infancy",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "December", "id": "2011-Dec-Q2"},
+        {"year": 2012, "session": "December", "id": "2012-Dec-Q2"},
+        {"year": 2015, "session": "June", "id": "2015-Jun-Q1"},
+        {"year": 2016, "session": "December", "id": "2016-Dec-A2"},
+        {"year": 2018, "session": "December", "id": "2018-Dec-A2"},
+        {"year": 2019, "session": "December", "id": "2019-Dec-A4"},
+        {"year": 2020, "session": "December", "id": "2020-Dec-A1"},
+        {"year": 2022, "session": "December", "id": "2022-Dec-A2"}
+      ],
+      "topic": "Infancy",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "What are the challenges of adolescence / issues in adolescence",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2011, "session": "December", "id": "2011-Dec-Q5"},
+        {"year": 2012, "session": "June", "id": "2012-Jun-Q6"},
+        {"year": 2012, "session": "December", "id": "2012-Dec-Q5"},
+        {"year": 2013, "session": "June", "id": "2013-Jun-Q7"},
+        {"year": 2014, "session": "June", "id": "2014-Jun-Q6"},
+        {"year": 2015, "session": "June", "id": "2015-Jun-Q4"},
+        {"year": 2018, "session": "June", "id": "2018-Jun-A3"},
+        {"year": 2023, "session": "December", "id": "2023-Dec-B5"}
+      ],
+      "topic": "Adolescence",
+      "priority": "very_high"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Discuss identity crisis and Marcia's identity statuses during adolescence",
+    "count": 15,
+    "percentage": 55.6,
+    "topic": "Identity Development in Adolescence"
+  },
+
+  "topics": [
+    {
+      "topic_name": "Adolescence",
+      "slug": "adolescence",
+      "frequency": 38,
+      "percentage": 12.0,
+      "priority": "high",
+      "papers_appeared": 25,
+      "sessions_appeared": {"june": 14, "december": 11},
+      "repeated_questions_count": 8,
+      "key_subtopics": ["Challenges of adolescence", "High-risk behaviour", "Sexuality acknowledgement", "Egocentrism", "Puberty", "Growth spurt", "Early adolescence"],
+      "sample_questions": [
+        "Discuss the various challenges during the adolescence stage.",
+        "Discuss the causes underlying acknowledging sexuality and high risk behaviours during adolescence.",
+        "Explain high risk behaviour and coping with the loss of normalcy during adolescence."
+      ]
+    },
+    {
+      "topic_name": "Identity Development in Adolescence",
+      "slug": "identity-development-adolescence",
+      "frequency": 28,
+      "percentage": 8.9,
+      "priority": "high",
+      "papers_appeared": 22,
+      "sessions_appeared": {"june": 11, "december": 11},
+      "repeated_questions_count": 15,
+      "key_subtopics": ["Marcia's identity statuses", "Identity crisis", "Self-concept vs self-esteem", "Negative self-concept", "Identity resolution"],
+      "sample_questions": [
+        "Define and describe identity and identity crisis in adolescence.",
+        "Explain identity and identity status according to James Marcia.",
+        "Explain the concept of identity crisis and describe Marcia's identity status during adolescence."
+      ]
+    },
+    {
+      "topic_name": "Piaget's Cognitive Development",
+      "slug": "piagets-cognitive-development",
+      "frequency": 32,
+      "percentage": 10.1,
+      "priority": "high",
+      "papers_appeared": 24,
+      "sessions_appeared": {"june": 12, "december": 12},
+      "repeated_questions_count": 6,
+      "key_subtopics": ["Middle childhood cognitive development", "Cognitive development in adolescence", "Conservation tasks / decentration", "Concrete operational stage", "Assimilation and accommodation", "Concept formation"],
+      "sample_questions": [
+        "Elucidate Piaget's concepts of cognitive development in middle childhood.",
+        "Explain Piaget's idea of cognitive development during adolescence.",
+        "Discuss briefly Piaget's concept of cognitive development in children between 6-11 years."
+      ]
+    },
+    {
+      "topic_name": "Moral Development",
+      "slug": "moral-development",
+      "frequency": 22,
+      "percentage": 7.0,
+      "priority": "high",
+      "papers_appeared": 18,
+      "sessions_appeared": {"june": 9, "december": 9},
+      "repeated_questions_count": 9,
+      "key_subtopics": ["Piaget's moral development", "Kohlberg's theory", "Comparison of Piaget and Kohlberg", "Social cognition"],
+      "sample_questions": [
+        "Compare Piaget's and Kohlberg's theories of moral development.",
+        "Examine Jean Piaget's and Lawrence Kohlberg's theories of moral development during school years.",
+        "Explain Piaget's and Kohlberg's ideas on moral development."
+      ]
+    },
+    {
+      "topic_name": "Psychosocial Development in Late Adulthood",
+      "slug": "psychosocial-development-late-adulthood",
+      "frequency": 20,
+      "percentage": 6.3,
+      "priority": "high",
+      "papers_appeared": 17,
+      "sessions_appeared": {"june": 7, "december": 10},
+      "repeated_questions_count": 8,
+      "key_subtopics": ["Psychosocial changes in old age", "Ego integrity vs despair", "Erikson's stage 8", "Issues in late adulthood", "Retirement and leisure"],
+      "sample_questions": [
+        "Discuss psychosocial changes during old age.",
+        "Discuss the challenges and issues in ageing process.",
+        "What are the issues and challenges in old age (late adulthood)?"
+      ]
+    },
+    {
+      "topic_name": "Ageing and Late Adulthood",
+      "slug": "ageing-late-adulthood",
+      "frequency": 22,
+      "percentage": 7.0,
+      "priority": "high",
+      "papers_appeared": 18,
+      "sessions_appeared": {"june": 10, "december": 8},
+      "repeated_questions_count": 8,
+      "key_subtopics": ["Ageing process", "Gender differences in ageing", "Ageing issues and challenges", "Cognitive changes in old age", "Late adulthood"],
+      "sample_questions": [
+        "Discuss adulthood and aging. What are the issues and challenges of aging in late adulthood?",
+        "Elucidate the ageing issues and challenges in late adulthood.",
+        "Discuss the challenges and issues in ageing process."
+      ]
+    },
+    {
+      "topic_name": "Information Processing Approach",
+      "slug": "information-processing-approach",
+      "frequency": 16,
+      "percentage": 5.1,
+      "priority": "high",
+      "papers_appeared": 14,
+      "sessions_appeared": {"june": 8, "december": 6},
+      "repeated_questions_count": 7,
+      "key_subtopics": ["Information processing in adolescence", "Information processing and cognitive development"],
+      "sample_questions": [
+        "What is information processing approach to cognitive development during adolescence?",
+        "Discuss information processing approach in cognitive development.",
+        "Examine information processing approach to cognitive development during adolescence."
+      ]
+    },
+    {
+      "topic_name": "Prenatal Development",
+      "slug": "prenatal-development",
+      "frequency": 22,
+      "percentage": 7.0,
+      "priority": "high",
+      "papers_appeared": 18,
+      "sessions_appeared": {"june": 10, "december": 8},
+      "repeated_questions_count": 4,
+      "key_subtopics": ["Stages of prenatal development", "Environmental influences on prenatal development", "Genetic influences", "Period of zygote/foetus", "Rh incompatibility"],
+      "sample_questions": [
+        "Discuss the characteristics and periods of prenatal development.",
+        "Describe the various environmental influences during prenatal development.",
+        "What are the characteristics of prenatal development? Describe the stages of prenatal development."
+      ]
+    },
+    {
+      "topic_name": "Infancy",
+      "slug": "infancy",
+      "frequency": 20,
+      "percentage": 6.3,
+      "priority": "high",
+      "papers_appeared": 16,
+      "sessions_appeared": {"june": 7, "december": 9},
+      "repeated_questions_count": 8,
+      "key_subtopics": ["Characteristics of infancy", "Psychosocial development in infancy", "Hazards during infancy", "Cognitive development in infancy", "Adjustments during infancy"],
+      "sample_questions": [
+        "What are the major characteristics of infancy period? Discuss psychosocial development during infancy period.",
+        "Describe the characteristics of infancy. Discuss the cognitive and linguistic development during this period.",
+        "Describe the characteristics and hazards during infancy period."
+      ]
+    },
+    {
+      "topic_name": "Learning Disability",
+      "slug": "learning-disability",
+      "frequency": 18,
+      "percentage": 5.7,
+      "priority": "high",
+      "papers_appeared": 15,
+      "sessions_appeared": {"june": 8, "december": 7},
+      "repeated_questions_count": 5,
+      "key_subtopics": ["Definition and characteristics", "Causes of learning disability", "Identification process", "Remedial programmes", "Types of LD"],
+      "sample_questions": [
+        "What is learning disability? Discuss the identification process and remedial program for learning disability.",
+        "Define learning disability. Discuss the characteristics and remedial programmes for children with learning disability.",
+        "Discuss the identification process and remedial programme for learning disability."
+      ]
+    },
+    {
+      "topic_name": "Issues in Lifespan Development",
+      "slug": "issues-lifespan-development",
+      "frequency": 18,
+      "percentage": 5.7,
+      "priority": "high",
+      "papers_appeared": 14,
+      "sessions_appeared": {"june": 7, "december": 7},
+      "repeated_questions_count": 4,
+      "key_subtopics": ["Characteristics of lifespan development", "Issues in lifespan", "Nature vs nurture", "Interacting forces", "Stages of development", "Definition"],
+      "sample_questions": [
+        "Discuss Lifespan Perspectives. Highlight the main issues in life span development.",
+        "What are the issues in lifespan development? Discuss the interacting forces that combine to shape human development.",
+        "Elucidate the characteristics of life span development. Discuss the obstacles in studying life span development."
+      ]
+    },
+    {
+      "topic_name": "Middle Adulthood",
+      "slug": "middle-adulthood",
+      "frequency": 16,
+      "percentage": 5.1,
+      "priority": "high",
+      "papers_appeared": 14,
+      "sessions_appeared": {"june": 7, "december": 7},
+      "repeated_questions_count": 4,
+      "key_subtopics": ["Developmental tasks", "Psychosocial changes", "Generativity vs stagnation", "Ageing issues in middle adulthood", "Levinson's seasons of life"],
+      "sample_questions": [
+        "Discuss psychosocial changes during middle-adulthood stage, highlighting the developmental tasks during this stage.",
+        "Discuss the developmental tasks of middle adulthood.",
+        "Differentiate between generativity and stagnation. Discuss developmental tasks of middle adulthood."
+      ]
+    },
+    {
+      "topic_name": "Cognitive Development in Adulthood",
+      "slug": "cognitive-development-adulthood",
+      "frequency": 16,
+      "percentage": 5.1,
+      "priority": "high",
+      "papers_appeared": 13,
+      "sessions_appeared": {"june": 7, "december": 6},
+      "repeated_questions_count": 4,
+      "key_subtopics": ["Cognitive changes in early adulthood", "Cognitive changes in middle adulthood", "Crystallised intelligence", "Fluid intelligence"],
+      "sample_questions": [
+        "Discuss the cognitive changes during middle adulthood.",
+        "Describe the cognitive changes during early and middle adulthood.",
+        "Elucidate the cognitive changes during middle adulthood period."
+      ]
+    },
+    {
+      "topic_name": "Psychosocial Development in Adulthood",
+      "slug": "psychosocial-development-adulthood",
+      "frequency": 14,
+      "percentage": 4.4,
+      "priority": "medium",
+      "papers_appeared": 12,
+      "sessions_appeared": {"june": 6, "december": 6},
+      "repeated_questions_count": 3,
+      "key_subtopics": ["Erikson's and Levinson's theories", "Psychosocial changes in early adulthood", "Attachment patterns in adulthood", "Dreams and mentors"],
+      "sample_questions": [
+        "How does Erikson's and Levinson's theory highlight the psychosocial changes during early adulthood?",
+        "Explain psychosocial changes during early adulthood.",
+        "Discuss the theories of psychosocial changes during early adulthood."
+      ]
+    },
+    {
+      "topic_name": "Early Childhood",
+      "slug": "early-childhood",
+      "frequency": 16,
+      "percentage": 5.1,
+      "priority": "high",
+      "papers_appeared": 13,
+      "sessions_appeared": {"june": 7, "december": 6},
+      "repeated_questions_count": 3,
+      "key_subtopics": ["Characteristics of early childhood", "Physical and psychological hazards", "Psychosocial development", "Motor development in early childhood"],
+      "sample_questions": [
+        "Discuss the characteristics and hazards during early childhood.",
+        "Define and describe early childhood period. What are the various psychological and physical hazards?",
+        "Discuss the Characteristics of early childhood. Elucidate the physical and psychosocial development in early childhood."
+      ]
+    },
+    {
+      "topic_name": "Language Development",
+      "slug": "language-development",
+      "frequency": 16,
+      "percentage": 5.1,
+      "priority": "high",
+      "papers_appeared": 13,
+      "sessions_appeared": {"june": 7, "december": 6},
+      "repeated_questions_count": 3,
+      "key_subtopics": ["Components of language development", "Language development in infancy", "Phonology and semantics", "Grammar", "Language in school years"],
+      "sample_questions": [
+        "Define infancy period. Elucidate the four components of language development of children.",
+        "Discuss the main components of language development.",
+        "Discuss language development during infancy."
+      ]
+    },
+    {
+      "topic_name": "Theories of Lifespan Development",
+      "slug": "theories-lifespan-development",
+      "frequency": 14,
+      "percentage": 4.4,
+      "priority": "medium",
+      "papers_appeared": 12,
+      "sessions_appeared": {"june": 7, "december": 5},
+      "repeated_questions_count": 3,
+      "key_subtopics": ["Stage theories vs contextual approach", "Levinson's theory", "Erikson's psychosocial theory", "Life events approach"],
+      "sample_questions": [
+        "Delineate the differences between stage theory and contextual approach with reference to adulthood.",
+        "Describe the development during adult years in terms of stage vs contextual theories.",
+        "Compare the stage theories and contextual theories of human development."
+      ]
+    },
+    {
+      "topic_name": "Social Development",
+      "slug": "social-development",
+      "frequency": 12,
+      "percentage": 3.8,
+      "priority": "medium",
+      "papers_appeared": 10,
+      "sessions_appeared": {"june": 5, "december": 5},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Social development in childhood", "Social development in adolescence", "Role of peer group", "Role of school"],
+      "sample_questions": [
+        "Discuss social development of children between 6-11 years of age.",
+        "Elucidate the process of social development during adolescence.",
+        "Describe social development during early childhood."
+      ]
+    },
+    {
+      "topic_name": "Research Methods in Lifespan",
+      "slug": "research-methods-lifespan",
+      "frequency": 14,
+      "percentage": 4.4,
+      "priority": "medium",
+      "papers_appeared": 12,
+      "sessions_appeared": {"june": 6, "december": 6},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Obstacles in studying lifespan", "Longitudinal vs cross-sectional", "Sequential method", "Time lag method", "Research techniques"],
+      "sample_questions": [
+        "Discuss the various methods and obstacles in studying life span development.",
+        "Briefly discuss the special techniques and obstacles in studying life span development.",
+        "Discuss Lifespan Perspectives. Highlight the main issues in life span development."
+      ]
+    },
+    {
+      "topic_name": "Motor Development",
+      "slug": "motor-development",
+      "frequency": 14,
+      "percentage": 4.4,
+      "priority": "medium",
+      "papers_appeared": 11,
+      "sessions_appeared": {"june": 6, "december": 5},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Motor development in early childhood", "Motor development 6-11 years", "Fine vs gross motor coordination", "Physical disorders in 6-11 years", "Cerebral palsy"],
+      "sample_questions": [
+        "Explain motor development during early childhood.",
+        "Discuss motor development during early school years (6-11 years).",
+        "Describe the motor development that takes place during mid-childhood."
+      ]
+    },
+    {
+      "topic_name": "Growth and Development",
+      "slug": "growth-and-development",
+      "frequency": 12,
+      "percentage": 3.8,
+      "priority": "medium",
+      "papers_appeared": 10,
+      "sessions_appeared": {"june": 6, "december": 4},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Definition and differentiation", "Major areas of development", "Significant facts about development"],
+      "sample_questions": [
+        "Differentiate between growth and development. Discuss the main areas in which children's growth and development takes place.",
+        "What is Life Span Development? Explain the important facts to understand the pattern of development.",
+        "Define the concept of human development. Discuss growth and development with relevant examples."
+      ]
+    },
+    {
+      "topic_name": "Family Life Cycle",
+      "slug": "family-life-cycle",
+      "frequency": 10,
+      "percentage": 3.2,
+      "priority": "medium",
+      "papers_appeared": 9,
+      "sessions_appeared": {"june": 5, "december": 4},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Family life cycle during adulthood", "Levinson's seasons of life", "Attachment and romantic relationships"],
+      "sample_questions": [
+        "Elucidate the family life cycle during adulthood.",
+        "Discuss the application of family life cycle approach during adulthood.",
+        "Explain the family cycle approach for adulthood."
+      ]
+    },
+    {
+      "topic_name": "Intellectual Disability",
+      "slug": "intellectual-disability",
+      "frequency": 10,
+      "percentage": 3.2,
+      "priority": "medium",
+      "papers_appeared": 9,
+      "sessions_appeared": {"june": 5, "december": 4},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Mental retardation definition", "Identification process", "Remedial programmes", "Teaching strategies"],
+      "sample_questions": [
+        "Define Mental Retardation. Discuss the identification process and remedial programme for a Mentally Retarded Child.",
+        "Discuss the remedial measures and teaching strategies for intellectual disability (mental retardation).",
+        "Define mental retardation. Discuss the remedial teaching strategies for children suffering from mental retardation."
+      ]
+    },
+    {
+      "topic_name": "Self-Concept and Self-Esteem",
+      "slug": "self-concept-self-esteem",
+      "frequency": 10,
+      "percentage": 3.2,
+      "priority": "medium",
+      "papers_appeared": 9,
+      "sessions_appeared": {"june": 5, "december": 4},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Self-concept vs self-esteem", "Negative self-concept in adolescents", "Self-esteem in adolescence"],
+      "sample_questions": [
+        "Differentiate between self-concept and self-esteem. Describe the signs of negative self-concept in adolescence.",
+        "Define Self-concept. Describe the signs of negative self-concept in adolescents.",
+        "Discuss identity, self-concept and self-esteem in adolescents."
+      ]
+    },
+    {
+      "topic_name": "Cognitive Development in Late Adulthood",
+      "slug": "cognitive-development-late-adulthood",
+      "frequency": 8,
+      "percentage": 2.5,
+      "priority": "medium",
+      "papers_appeared": 7,
+      "sessions_appeared": {"june": 3, "december": 4},
+      "repeated_questions_count": 2,
+      "key_subtopics": ["Cognitive changes in old age", "Fluid vs crystallised intelligence"],
+      "sample_questions": [
+        "Describe cognitive changes during old age.",
+        "How does old age affect cognitive development?",
+        "Discuss the cognitive change during old age."
+      ]
+    },
+    {
+      "topic_name": "Emotional Development",
+      "slug": "emotional-development",
+      "frequency": 8,
+      "percentage": 2.5,
+      "priority": "medium",
+      "papers_appeared": 7,
+      "sessions_appeared": {"june": 4, "december": 3},
+      "repeated_questions_count": 1,
+      "key_subtopics": ["Common emotions in childhood", "Emotional development in school years", "Common emotional patterns"],
+      "sample_questions": [
+        "Discuss emotional development during early school years.",
+        "Describe the development of common emotions during childhood.",
+        "Describe the common emotional patterns during the early school years."
+      ]
+    },
+    {
+      "topic_name": "ADHD",
+      "slug": "adhd",
+      "frequency": 6,
+      "percentage": 1.9,
+      "priority": "medium",
+      "papers_appeared": 5,
+      "sessions_appeared": {"june": 3, "december": 2},
+      "repeated_questions_count": 1,
+      "key_subtopics": ["Symptoms of ADHD", "Identification and management", "Remedial programmes"],
+      "sample_questions": [
+        "What is Attention Deficit Hyperactivity Disorder? Discuss the remedial measures for ADHD programmes at school and families.",
+        "What are the main symptoms of Attention Deficit Hyperactivity Disorder? Suggest methods for identification and its management.",
+        "Discuss the identification and management of ADHD."
+      ]
+    },
+    {
+      "topic_name": "School Skills",
+      "slug": "school-skills",
+      "frequency": 10,
+      "percentage": 3.2,
+      "priority": "medium",
+      "papers_appeared": 9,
+      "sessions_appeared": {"june": 5, "december": 4},
+      "repeated_questions_count": 1,
+      "key_subtopics": ["Basic school skills (3 Rs)", "Value education", "Educational excursion", "Learning to read/write/math"],
+      "sample_questions": [
+        "Describe the basic school skills during early school years (6-11 years).",
+        "What is value education? Explain its importance.",
+        "Explain the 3 Rs in elementary education."
+      ]
+    },
+    {
+      "topic_name": "Exceptional Children",
+      "slug": "exceptional-children",
+      "frequency": 8,
+      "percentage": 2.5,
+      "priority": "medium",
+      "papers_appeared": 7,
+      "sessions_appeared": {"june": 4, "december": 3},
+      "repeated_questions_count": 1,
+      "key_subtopics": ["Gifted and talented children", "Exceptional children", "Role of teacher"],
+      "sample_questions": [
+        "Gifted and Talented children",
+        "Role of teacher in education of gifted and talented children",
+        "Exceptional children"
+      ]
+    },
+    {
+      "topic_name": "Attachment",
+      "slug": "attachment",
+      "frequency": 4,
+      "percentage": 1.3,
+      "priority": "low",
+      "papers_appeared": 4,
+      "sessions_appeared": {"june": 2, "december": 2},
+      "repeated_questions_count": 1,
+      "key_subtopics": ["Types of attachment patterns", "Attachment in infancy", "Romantic relationships"],
+      "sample_questions": [
+        "Types of attachment patterns",
+        "Explain attachment patterns and romantic relationships during adulthood."
+      ]
+    },
+    {
+      "topic_name": "Late Adulthood",
+      "slug": "late-adulthood",
+      "frequency": 4,
+      "percentage": 1.3,
+      "priority": "low",
+      "papers_appeared": 4,
+      "sessions_appeared": {"june": 2, "december": 2},
+      "key_subtopics": ["Retirement and leisure", "Ego integrity vs despair"],
+      "sample_questions": [
+        "Retirement and Leisure",
+        "Ego Integrity vs. Despair."
+      ]
+    }
+  ],
+
+  "priority_distribution": {
+    "high": 13,
+    "medium": 14,
+    "low": 2
+  },
+
+  "session_patterns": {
+    "december_favoured_topics": ["Psychosocial changes in old age", "Infancy characteristics", "Cognitive changes old age"],
+    "june_favoured_topics": ["Prenatal development", "Information processing", "Adolescence challenges"],
+    "balanced_topics": ["Identity/Marcia", "Moral development", "Learning disability", "Piaget's cognitive development"]
+  },
+
+  "exam_format_current": {
+    "sections": 3,
+    "section_A": {"questions": 4, "answer": 2, "marks_each": 10, "word_limit": 450, "total": 20},
+    "section_B": {"questions": 5, "answer": 4, "marks_each": 6, "word_limit": 250, "total": 24},
+    "section_C": {"questions": 3, "answer": 2, "marks_each": 3, "word_limit": 100, "total": 6},
+    "grand_total": 50
+  }
+}

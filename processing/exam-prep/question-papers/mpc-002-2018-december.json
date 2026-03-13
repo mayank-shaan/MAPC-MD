@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2018, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2018-Dec-A1", "section": "A", "text": "Discuss the various methods and obstacles in studying life span development.", "marks": "5+5", "topic": "Research Methods in Lifespan"},
+    {"id": "2018-Dec-A2", "section": "A", "text": "Describe psychosocial development during infancy.", "marks": 10, "topic": "Infancy"},
+    {"id": "2018-Dec-A3", "section": "A", "text": "Describe social development during childhood.", "marks": 10, "topic": "Social Development"},
+    {"id": "2018-Dec-A4", "section": "A", "text": "Discuss psychosocial changes during middle-adulthood stage, highlighting the developmental tasks during this stage.", "marks": 10, "topic": "Middle Adulthood"},
+    {"id": "2018-Dec-B5", "section": "B", "text": "Explain motor development during early childhood.", "marks": 6, "topic": "Motor Development"},
+    {"id": "2018-Dec-B6", "section": "B", "text": "Elucidate the role of school in development of a child.", "marks": 6, "topic": "Social Development"},
+    {"id": "2018-Dec-B7", "section": "B", "text": "Discuss the cognitive development during adolescence.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2018-Dec-B8", "section": "B", "text": "How do adolescents acknowledge sexuality?", "marks": 6, "topic": "Adolescence"},
+    {"id": "2018-Dec-B9", "section": "B", "text": "Explain the concept of ageing. Discuss ageing issues during middle-adulthood.", "marks": "2+4", "topic": "Middle Adulthood"},
+    {"id": "2018-Dec-C10", "section": "C", "text": "Rh incompatibility.", "marks": 3, "topic": "Prenatal Development"},
+    {"id": "2018-Dec-C11", "section": "C", "text": "Concept formation.", "marks": 3, "topic": "Piaget's Cognitive Development"},
+    {"id": "2018-Dec-C12", "section": "C", "text": "Gifted and talented children.", "marks": 3, "topic": "Exceptional Children"}
+  ]
+}

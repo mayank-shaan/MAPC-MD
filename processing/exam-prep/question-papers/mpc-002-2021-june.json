@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2021, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2021-Jun-A1", "section": "A", "text": "Describe the characteristics and stages of prenatal development.", "marks": "3+7", "topic": "Prenatal Development"},
+    {"id": "2021-Jun-A2", "section": "A", "text": "Discuss the application of family life cycle approach during adulthood.", "marks": 10, "topic": "Family Life Cycle"},
+    {"id": "2021-Jun-A3", "section": "A", "text": "Elucidate the characteristics and causes of learning disability. Discuss remedial programmes for learning disability.", "marks": "4+6", "topic": "Learning Disability"},
+    {"id": "2021-Jun-A4", "section": "A", "text": "Discuss the cognitive changes in middle adulthood and late adulthood.", "marks": "5+5", "topic": "Cognitive Development in Adulthood"},
+    {"id": "2021-Jun-B5", "section": "B", "text": "Discuss Piaget's approach on cognitive development during adolescence.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2021-Jun-B6", "section": "B", "text": "Define Self-concept. Describe the signs of negative self-concept in adolescents.", "marks": "2+4", "topic": "Self-Concept and Self-Esteem"},
+    {"id": "2021-Jun-B7", "section": "B", "text": "Explain the main components of language development.", "marks": 6, "topic": "Language Development"},
+    {"id": "2021-Jun-B8", "section": "B", "text": "Define Motor Development. Differentiate between fine motor coordination and gross motor coordination.", "marks": "2+4", "topic": "Motor Development"},
+    {"id": "2021-Jun-B9", "section": "B", "text": "Describe the development of common emotions during childhood.", "marks": 6, "topic": "Emotional Development"},
+    {"id": "2021-Jun-C10", "section": "C", "text": "Hazards during infancy", "marks": 3, "topic": "Infancy"},
+    {"id": "2021-Jun-C11", "section": "C", "text": "Concept formation", "marks": 3, "topic": "Piaget's Cognitive Development"},
+    {"id": "2021-Jun-C12", "section": "C", "text": "Role of teacher in education of gifted and talented children", "marks": 3, "topic": "Exceptional Children"}
+  ]
+}

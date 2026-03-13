@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2020, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2020-Jun-A1", "section": "A", "text": "Discuss the Characteristics of early childhood. Elucidate the physical and psychosocial development in early childhood.", "marks": "3+7", "topic": "Early Childhood"},
+    {"id": "2020-Jun-A2", "section": "A", "text": "Explain cognitive development during adolescence with special emphasis on Piaget's theoretical approach.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2020-Jun-A3", "section": "A", "text": "Describe development during adult years. Compare the stage theories and the contextual approach to development during this period.", "marks": "4+6", "topic": "Theories of Lifespan Development"},
+    {"id": "2020-Jun-A4", "section": "A", "text": "Critically analyse Piaget's and Kohlberg's theories of moral development during school years.", "marks": 10, "topic": "Moral Development"},
+    {"id": "2020-Jun-B5", "section": "B", "text": "Discuss the concept of growth and development. Describe its major areas.", "marks": "3+3", "topic": "Growth and Development"},
+    {"id": "2020-Jun-B6", "section": "B", "text": "Describe the characteristics and major adjustments during infancy.", "marks": "3+3", "topic": "Infancy"},
+    {"id": "2020-Jun-B7", "section": "B", "text": "Differentiate between self-concept and self-esteem in adolescents and elucidate the signs of negative self-concept in them.", "marks": "3+3", "topic": "Self-Concept and Self-Esteem"},
+    {"id": "2020-Jun-B8", "section": "B", "text": "Discuss the causes of learning disability and suggest remedial programmes for it.", "marks": "3+3", "topic": "Learning Disability"},
+    {"id": "2020-Jun-B9", "section": "B", "text": "Elucidate the ageing issues and challenges in late adulthood.", "marks": 6, "topic": "Ageing and Late Adulthood"},
+    {"id": "2020-Jun-C10", "section": "C", "text": "Longitudinal vs. Cross-sectional method.", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2020-Jun-C11", "section": "C", "text": "Psychological hazards during early childhood.", "marks": 3, "topic": "Early Childhood"},
+    {"id": "2020-Jun-C12", "section": "C", "text": "Ego Integrity vs. Despair.", "marks": 3, "topic": "Psychosocial Development in Late Adulthood"}
+  ]
+}

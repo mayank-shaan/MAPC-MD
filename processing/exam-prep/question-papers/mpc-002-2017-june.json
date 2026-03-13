@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2017, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2017-Jun-A1", "section": "A", "text": "What are the characteristics of prenatal development? Describe the stages of prenatal development.", "marks": "3+7", "topic": "Prenatal Development"},
+    {"id": "2017-Jun-A2", "section": "A", "text": "Describe the basic school skills during early school years (6-11 years).", "marks": 10, "topic": "School Skills"},
+    {"id": "2017-Jun-A3", "section": "A", "text": "Differentiate between self-concept and self-esteem. Describe the signs of negative self-concept in adolescence.", "marks": "4+6", "topic": "Self-Concept and Self-Esteem"},
+    {"id": "2017-Jun-A4", "section": "A", "text": "Describe the cognitive changes during early and middle adulthood.", "marks": "5+5", "topic": "Cognitive Development in Adulthood"},
+    {"id": "2017-Jun-B5", "section": "B", "text": "Elucidate the four components of language development.", "marks": 6, "topic": "Language Development"},
+    {"id": "2017-Jun-B6", "section": "B", "text": "Explain emotional development during early school years.", "marks": 6, "topic": "Emotional Development"},
+    {"id": "2017-Jun-B7", "section": "B", "text": "What is value education? Explain its importance.", "marks": "3+3", "topic": "School Skills"},
+    {"id": "2017-Jun-B8", "section": "B", "text": "Describe cognitive development during adolescence.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2017-Jun-B9", "section": "B", "text": "Explain attachment patterns and romantic relationships during adulthood.", "marks": 6, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2017-Jun-C10", "section": "C", "text": "Any three obstacles in studying life span development.", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2017-Jun-C11", "section": "C", "text": "Kohlberg's theory of moral development.", "marks": 3, "topic": "Moral Development"},
+    {"id": "2017-Jun-C12", "section": "C", "text": "Puberty.", "marks": 3, "topic": "Adolescence"}
+  ]
+}

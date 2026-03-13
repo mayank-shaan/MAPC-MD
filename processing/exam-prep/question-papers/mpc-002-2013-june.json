@@ -1,0 +1,16 @@
+{
+  "course": "MPC-002", "year": 2013, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2013-Jun-Q1", "text": "Elucidate the characteristics of life span development. Discuss the obstacles in studying life span development.", "marks": 10, "topic": "Issues in Lifespan Development"},
+    {"id": "2013-Jun-Q2", "text": "Discuss early childhood and its characteristics.", "marks": 10, "topic": "Early Childhood"},
+    {"id": "2013-Jun-Q3", "text": "Discuss the stage of prenatal development and highlight the genetic influences on prenatal development.", "marks": 10, "topic": "Prenatal Development"},
+    {"id": "2013-Jun-Q4", "text": "According to Piaget's discuss the cognitive development during school years.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2013-Jun-Q5", "text": "Define mental retardation. Discuss the remedial teaching strategies for children suffering from mental retardation.", "marks": 10, "topic": "Intellectual Disability"},
+    {"id": "2013-Jun-Q6", "text": "What is Marcia's concept of self? How is identity crisis resolved in adolescence?", "marks": "3+7", "topic": "Identity Development in Adolescence"},
+    {"id": "2013-Jun-Q7", "text": "What are the various challenges in the developmental stage of adolescence?", "marks": 10, "topic": "Adolescence"},
+    {"id": "2013-Jun-Q8", "text": "Discuss adulthood and aging. What are the issues and challenges of aging in late adulthood?", "marks": 10, "topic": "Ageing and Late Adulthood"},
+    {"id": "2013-Jun-Q9", "text": "Discuss the physical changes and developmental tasks in middle adulthood period.", "marks": 10, "topic": "Middle Adulthood"},
+    {"id": "2013-Jun-Q10a", "text": "Erikson's theory of Psychosocial development.", "marks": 5, "topic": "Theories of Lifespan Development"},
+    {"id": "2013-Jun-Q10b", "text": "Kohlberg's moral development theory.", "marks": 5, "topic": "Moral Development"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2014, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2014-Dec-Q1", "text": "Explain the concept of Human Development. Discuss the various obstacles in studying Life Span Development.", "marks": "4+6", "topic": "Issues in Lifespan Development"},
+    {"id": "2014-Dec-Q2a", "text": "Stages of prenatal development", "marks": 5, "topic": "Prenatal Development"},
+    {"id": "2014-Dec-Q2b", "text": "Common behavioural disorders during early school years.", "marks": 5, "topic": "Motor Development"},
+    {"id": "2014-Dec-Q3", "text": "Describe the physical and cognitive development during early childhood.", "marks": "4+6", "topic": "Early Childhood"},
+    {"id": "2014-Dec-Q4", "text": "Elucidate Piaget's concept of cognitive development in middle-childhood period.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2014-Dec-Q5", "text": "How does social development play a crucial role in forming a child's personality? Support your answers with relevant examples.", "marks": 10, "topic": "Social Development"},
+    {"id": "2014-Dec-Q6", "text": "Discuss in detail the concept of self identity. Also discuss the identity crisis during adolescent phase of life.", "marks": "5+5", "topic": "Identity Development in Adolescence"},
+    {"id": "2014-Dec-Q7", "text": "Define Mental Retardation. Discuss the identification process and remedial programme for a Mentally Retarded Child.", "marks": "3+2+5", "topic": "Intellectual Disability"},
+    {"id": "2014-Dec-Q8a", "text": "Cognitive development in adolescence.", "marks": 5, "topic": "Piaget's Cognitive Development"},
+    {"id": "2014-Dec-Q8b", "text": "Cognitive changes in old age.", "marks": 5, "topic": "Cognitive Development in Late Adulthood"},
+    {"id": "2014-Dec-Q9", "text": "What are the various psychosocial changes during mid-adulthood period?", "marks": 10, "topic": "Middle Adulthood"},
+    {"id": "2014-Dec-Q10", "text": "Write an essay on ageing process, with special reference to gender differences.", "marks": 10, "topic": "Ageing and Late Adulthood"}
+  ]
+}

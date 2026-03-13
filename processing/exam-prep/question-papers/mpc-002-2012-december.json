@@ -1,0 +1,16 @@
+{
+  "course": "MPC-002", "year": 2012, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2012-Dec-Q1", "text": "What do you understand by Life Span Development? Briefly discuss the special techniques and obstacles in studying life span development.", "marks": "2+4+4", "topic": "Issues in Lifespan Development"},
+    {"id": "2012-Dec-Q2", "text": "What are the major characteristics of infancy period? Discuss psychosocial development during infancy period.", "marks": "3+7", "topic": "Infancy"},
+    {"id": "2012-Dec-Q3", "text": "Describe Piaget's approach to cognitive development during adolescence.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2012-Dec-Q4", "text": "Elucidate the process of social development during adolescence.", "marks": 10, "topic": "Social Development"},
+    {"id": "2012-Dec-Q5", "text": "Define and describe the issues and challenges faced by an adolescent.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2012-Dec-Q6", "text": "Describe the cognitive changes occurring in early adulthood period.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2012-Dec-Q7", "text": "Discuss psychosocial changes during middle adulthood period.", "marks": 10, "topic": "Middle Adulthood"},
+    {"id": "2012-Dec-Q8", "text": "Discuss the ageing process.", "marks": 10, "topic": "Ageing and Late Adulthood"},
+    {"id": "2012-Dec-Q9", "text": "What are the ageing issues and challenges in late adulthood?", "marks": 10, "topic": "Ageing and Late Adulthood"},
+    {"id": "2012-Dec-Q10a", "text": "Motor development (6-11 years)", "marks": 5, "topic": "Motor Development"},
+    {"id": "2012-Dec-Q10b", "text": "Identification process and remedial measures for mentally retarded children.", "marks": 5, "topic": "Intellectual Disability"}
+  ]
+}

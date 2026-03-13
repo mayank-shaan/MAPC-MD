@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2015, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2015-Dec-A1", "section": "A", "text": "Discuss the characteristics and types of hazards during early childhood.", "marks": "5+5", "topic": "Early Childhood"},
+    {"id": "2015-Dec-A2", "section": "A", "text": "Elucidate Piaget's concepts of cognitive development in middle childhood.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2015-Dec-A3", "section": "A", "text": "Comment on identity crisis in adolescence. How can it be resolved?", "marks": "6+4", "topic": "Identity Development in Adolescence"},
+    {"id": "2015-Dec-A4", "section": "A", "text": "Discuss the cognitive changes during middle adulthood.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2015-Dec-B5", "section": "B", "text": "What are the characteristics of prenatal development? How can environmental influences affect the development of an infant?", "marks": "3+3", "topic": "Prenatal Development"},
+    {"id": "2015-Dec-B6", "section": "B", "text": "Describe the development during adult years in terms of stage vs contextual theories.", "marks": 6, "topic": "Theories of Lifespan Development"},
+    {"id": "2015-Dec-B7", "section": "B", "text": "Briefly describe the family life cycle during adulthood.", "marks": 6, "topic": "Family Life Cycle"},
+    {"id": "2015-Dec-B8", "section": "B", "text": "Write a note on coping with loss of normalcy during adolescence.", "marks": 6, "topic": "Adolescence"},
+    {"id": "2015-Dec-B9", "section": "B", "text": "Compare Piaget's and Kohlberg's theories of moral development.", "marks": 6, "topic": "Moral Development"},
+    {"id": "2015-Dec-C10", "section": "C", "text": "Longitudinal and Cross-sectional study", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2015-Dec-C11", "section": "C", "text": "Cognitive development in infancy", "marks": 3, "topic": "Infancy"},
+    {"id": "2015-Dec-C12", "section": "C", "text": "Characteristics of adolescence", "marks": 3, "topic": "Adolescence"}
+  ]
+}

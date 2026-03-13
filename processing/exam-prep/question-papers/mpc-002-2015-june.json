@@ -1,0 +1,18 @@
+{
+  "course": "MPC-002", "year": 2015, "session": "June", "extraction_date": "2025-03-13",
+  "note": "2015 used older format: 10 questions, answer any 5, equal marks",
+  "questions": [
+    {"id": "2015-Jun-Q1", "text": "Elucidate the psychosocial development in infancy.", "marks": 10, "topic": "Infancy"},
+    {"id": "2015-Jun-Q2", "text": "Describe the motor development that takes place during mid-childhood.", "marks": 10, "topic": "Motor Development"},
+    {"id": "2015-Jun-Q3", "text": "Examine information processing approach to cognitive development during adolescence.", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2015-Jun-Q4", "text": "Discuss the various challenges during the adolescence stage.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2015-Jun-Q5", "text": "Examine the role of peer group on social development during school years.", "marks": 10, "topic": "Social Development"},
+    {"id": "2015-Jun-Q6", "text": "Elucidate the cognitive changes during middle adulthood.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2015-Jun-Q7", "text": "Discuss the psychosocial changes during early adulthood with reference to Levinson's seasons of life theory.", "marks": 10, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2015-Jun-Q8", "text": "Briefly discuss the psychosocial changes during old age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2015-Jun-Q9", "text": "Describe the common emotional patterns during the early school years.", "marks": 10, "topic": "Emotional Development"},
+    {"id": "2015-Jun-Q10a", "text": "Obstacles in studying life span development", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2015-Jun-Q10b", "text": "Phonology and Semantics", "marks": 3, "topic": "Language Development"},
+    {"id": "2015-Jun-Q10c", "text": "Gifted and Talented children", "marks": 3, "topic": "Exceptional Children"}
+  ]
+}
