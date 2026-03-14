@@ -2,7 +2,7 @@
   "last_updated": "2026-03-14",
   "total_courses": 7,
   "courses_analyzed": 6,
-  "courses_content_created": 3,
+  "courses_content_created": 4,
   "total_questions_analyzed": 1642,
   "courses": {
     "MPC-001": {
@@ -70,7 +70,16 @@
       }
     },
     "MPC-004": {
-      "status": "analyzed",
+      "status": "content_created",
+      "content_creation_date": "2026-03-14",
+      "mdx_files_created": 19,
+      "mdx_breakdown": {
+        "index": 1,
+        "topic_analysis": 1,
+        "high_priority_topics": 1,
+        "medium_priority_topics": 1,
+        "question_answer_pages": 15
+      },
       "years_analyzed": 14,
       "papers_analyzed": 28,
       "papers_note": "All 28 papers readable. Format: 2011-2014 old (answer any 5 of 10, 10 marks each); 2015-2024 three-section (Sec A: 2×10, Sec B: 4×6, Sec C: 2×3).",

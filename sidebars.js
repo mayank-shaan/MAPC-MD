@@ -229,6 +229,52 @@ const sidebars = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'MPC-004: Advanced Social Psychology',
+          link: {
+            type: 'doc',
+            id: 'exam-prep/mpc-004/mpc-004-exam-prep',
+          },
+          items: [
+            'exam-prep/mpc-004/mpc-004-topic-analysis',
+            {
+              type: 'category',
+              label: '🔴 High Priority Topics',
+              link: {
+                type: 'doc',
+                id: 'exam-prep/mpc-004/mpc-004-high-priority-topics',
+              },
+              items: [
+                'exam-prep/mpc-004/questions/mpc-004-prejudice-and-discrimination',
+                'exam-prep/mpc-004/questions/mpc-004-group-dynamics',
+                'exam-prep/mpc-004/questions/mpc-004-attitudes',
+                'exam-prep/mpc-004/questions/mpc-004-conformity-and-obedience',
+                'exam-prep/mpc-004/questions/mpc-004-research-methods',
+                'exam-prep/mpc-004/questions/mpc-004-person-perception-and-attribution',
+                'exam-prep/mpc-004/questions/mpc-004-aggression',
+                'exam-prep/mpc-004/questions/mpc-004-social-conflict',
+                'exam-prep/mpc-004/questions/mpc-004-interpersonal-attraction',
+                'exam-prep/mpc-004/questions/mpc-004-pro-social-behaviour',
+                'exam-prep/mpc-004/questions/mpc-004-collective-crowd-behaviour',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🟡 Medium Priority Topics',
+              link: {
+                type: 'doc',
+                id: 'exam-prep/mpc-004/mpc-004-medium-priority-topics',
+              },
+              items: [
+                'exam-prep/mpc-004/questions/mpc-004-cooperation-and-competition',
+                'exam-prep/mpc-004/questions/mpc-004-self-perception',
+                'exam-prep/mpc-004/questions/mpc-004-social-identity',
+                'exam-prep/mpc-004/questions/mpc-004-nature-scope-history',
+              ],
+            },
+          ],
+        },
       ],
     },
     {
