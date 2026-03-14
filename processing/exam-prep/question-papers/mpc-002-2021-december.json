@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2021, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2021-Dec-A1", "section": "A", "text": "Explain information processing approach to cognitive development.", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2021-Dec-A2", "section": "A", "text": "Discuss the psychosocial changes during early adulthood.", "marks": 10, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2021-Dec-A3", "section": "A", "text": "Give a comparative account of Piaget and Kohlberg's theory of moral development.", "marks": 10, "topic": "Moral Development"},
+    {"id": "2021-Dec-A4", "section": "A", "text": "Discuss the challenges and issues in ageing process.", "marks": 10, "topic": "Ageing and Late Adulthood"},
+    {"id": "2021-Dec-B5", "section": "B", "text": "Explain identity and identity status according to James Marcia.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2021-Dec-B6", "section": "B", "text": "Discuss the environmental influences during prenatal development.", "marks": 6, "topic": "Prenatal Development"},
+    {"id": "2021-Dec-B7", "section": "B", "text": "Discuss the identification and management of ADHD.", "marks": 6, "topic": "ADHD"},
+    {"id": "2021-Dec-B8", "section": "B", "text": "Discuss the characteristic features of concrete operational stage of cognitive development.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2021-Dec-B9", "section": "B", "text": "Compare the stage theories and contextual theories of human development.", "marks": 6, "topic": "Theories of Lifespan Development"},
+    {"id": "2021-Dec-C10", "section": "C", "text": "High-risk behaviour in adolescence.", "marks": 3, "topic": "Adolescence"},
+    {"id": "2021-Dec-C11", "section": "C", "text": "Value education.", "marks": 3, "topic": "School Skills"},
+    {"id": "2021-Dec-C12", "section": "C", "text": "Effective teaching strategies for children with intellectual disability (MR).", "marks": 3, "topic": "Intellectual Disability"}
+  ]
+}

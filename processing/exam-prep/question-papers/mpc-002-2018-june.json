@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2018, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2018-Jun-A1", "section": "A", "text": "Explain the concept of development. Describe the various areas of growth and development.", "marks": "4+6", "topic": "Growth and Development"},
+    {"id": "2018-Jun-A2", "section": "A", "text": "Explain Piaget's theory of cognitive development during mid-childhood period.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2018-Jun-A3", "section": "A", "text": "Describe the various challenges of adolescence.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2018-Jun-A4", "section": "A", "text": "How does Erikson's and Levinson's theory highlight the psychosocial changes during early adulthood?", "marks": 10, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2018-Jun-B5", "section": "B", "text": "Discuss the various environmental influences during prenatal development.", "marks": 6, "topic": "Prenatal Development"},
+    {"id": "2018-Jun-B6", "section": "B", "text": "Explain linguistic development during infancy.", "marks": 6, "topic": "Language Development"},
+    {"id": "2018-Jun-B7", "section": "B", "text": "Discuss the various disorders in physical development during 6-11 years of age.", "marks": 6, "topic": "Motor Development"},
+    {"id": "2018-Jun-B8", "section": "B", "text": "Describe the process of development of identity and its crisis during adolescence.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2018-Jun-B9", "section": "B", "text": "Explain the concept of ageing. Discuss ageing issues during early adulthood.", "marks": "3+3", "topic": "Ageing and Late Adulthood"},
+    {"id": "2018-Jun-C10", "section": "C", "text": "Period of foetus", "marks": 3, "topic": "Prenatal Development"},
+    {"id": "2018-Jun-C11", "section": "C", "text": "Educational excursion", "marks": 3, "topic": "School Skills"},
+    {"id": "2018-Jun-C12", "section": "C", "text": "Remedial programmes for Learning Disability", "marks": 3, "topic": "Learning Disability"}
+  ]
+}

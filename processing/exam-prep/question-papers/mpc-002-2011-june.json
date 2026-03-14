@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2011, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2011-Jun-Q1", "text": "Discuss Lifespan Perspectives. Highlight the main issues in life span development.", "marks": "5+5", "topic": "Issues in Lifespan Development"},
+    {"id": "2011-Jun-Q2", "text": "Discuss the features of prenatal period. Elaborate the main stages of prenatal development.", "marks": "5+5", "topic": "Prenatal Development"},
+    {"id": "2011-Jun-Q3", "text": "Discuss briefly Piaget's concept of cognitive development in children between 6-11 years.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2011-Jun-Q4", "text": "Discuss social development of children between 6-11 years of age.", "marks": 10, "topic": "Social Development"},
+    {"id": "2011-Jun-Q5", "text": "What are the main symptoms of Attention Deficit Hyperactivity Disorder? Suggest methods for identification and its management.", "marks": "2+3+5", "topic": "ADHD"},
+    {"id": "2011-Jun-Q6", "text": "Describe the physical and cognitive changes in adolescence.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2011-Jun-Q7", "text": "Discuss cognitive changes taking place in middle adulthood period.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2011-Jun-Q8", "text": "Discuss Ageing process. Describe the differences in ageing process in males and females.", "marks": "5+5", "topic": "Ageing and Late Adulthood"},
+    {"id": "2011-Jun-Q9", "text": "Discuss the theories of psychosocial changes during early adulthood.", "marks": 10, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2011-Jun-Q10a", "text": "Identity in adolescence.", "marks": 5, "topic": "Identity Development in Adolescence"},
+    {"id": "2011-Jun-Q10b", "text": "Self-Esteem in adolescence.", "marks": 5, "topic": "Self-Concept and Self-Esteem"},
+    {"id": "2011-Jun-Q10c", "text": "Physical development in early childhood.", "marks": 5, "topic": "Early Childhood"}
+  ]
+}

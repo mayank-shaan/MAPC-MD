@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2022, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2022-Jun-A1", "section": "A", "text": "What is Life Span Development? Explain the important facts to understand the pattern of development.", "marks": "3+7", "topic": "Issues in Lifespan Development"},
+    {"id": "2022-Jun-A2", "section": "A", "text": "Explain cognitive development during middle childhood.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2022-Jun-A3", "section": "A", "text": "Discuss information processing theory of cognitive development.", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2022-Jun-A4", "section": "A", "text": "Explain the family cycle approach for adulthood.", "marks": 10, "topic": "Family Life Cycle"},
+    {"id": "2022-Jun-B5", "section": "B", "text": "Elucidate the main components of language development in infancy.", "marks": 6, "topic": "Language Development"},
+    {"id": "2022-Jun-B6", "section": "B", "text": "Define early childhood. Discuss the hazards during early childhood.", "marks": "2+4", "topic": "Early Childhood"},
+    {"id": "2022-Jun-B7", "section": "B", "text": "Explain Marcia's identity statuses.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2022-Jun-B8", "section": "B", "text": "Discuss how adolescents acknowledge sexuality.", "marks": 6, "topic": "Adolescence"},
+    {"id": "2022-Jun-B9", "section": "B", "text": "Discuss ageing issues and challenges during middle adulthood.", "marks": "3+3", "topic": "Middle Adulthood"},
+    {"id": "2022-Jun-C10", "section": "C", "text": "Educational Excursion", "marks": 3, "topic": "School Skills"},
+    {"id": "2022-Jun-C11", "section": "C", "text": "Disorders in Physical Development during 6-11 years of age", "marks": 3, "topic": "Motor Development"},
+    {"id": "2022-Jun-C12", "section": "C", "text": "Learning Disability", "marks": 3, "topic": "Learning Disability"}
+  ]
+}

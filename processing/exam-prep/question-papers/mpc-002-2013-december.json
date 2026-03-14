@@ -1,0 +1,16 @@
+{
+  "course": "MPC-002", "year": 2013, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2013-Dec-Q1", "text": "Differentiate between growth and development. Describe briefly the different periods of human development.", "marks": "5+5", "topic": "Growth and Development"},
+    {"id": "2013-Dec-Q2", "text": "Define infancy period. Elaborate the main components of language development.", "marks": "3+7", "topic": "Language Development"},
+    {"id": "2013-Dec-Q3", "text": "Write an essay on physical development of the children during early school years.", "marks": 10, "topic": "Motor Development"},
+    {"id": "2013-Dec-Q4", "text": "What do you understand by learning disabilities? Discuss characteristics and causes of learning disabilities.", "marks": 10, "topic": "Learning Disability"},
+    {"id": "2013-Dec-Q5", "text": "Define and describe the period of adolescence. What are the changes that occur in males during this period?", "marks": "5+5", "topic": "Adolescence"},
+    {"id": "2013-Dec-Q6", "text": "Discuss the information processing approach to cognitive development during adolescence.", "marks": "5+5", "topic": "Information Processing Approach"},
+    {"id": "2013-Dec-Q7", "text": "What are the high risk behaviours? Give suitable examples and discuss the remedial measures and preventive measures for adolescents.", "marks": "3+7", "topic": "Adolescence"},
+    {"id": "2013-Dec-Q8", "text": "Discuss critically the cognitive changes in early and middle adulthood.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2013-Dec-Q9", "text": "Explain stage versus life events approach. Discuss the psycho-social changes that occur during old-age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2013-Dec-Q10a", "text": "Process of Assimilation and Accommodation in Piaget's theory of cognitive development.", "marks": 5, "topic": "Piaget's Cognitive Development"},
+    {"id": "2013-Dec-Q10b", "text": "Exceptional children.", "marks": 5, "topic": "Exceptional Children"}
+  ]
+}

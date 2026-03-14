@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2011, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2011-Dec-Q1", "text": "Discuss the major issues and research methods for life span development.", "marks": "5+5", "topic": "Research Methods in Lifespan"},
+    {"id": "2011-Dec-Q2", "text": "What are the characteristics of infancy period? Elucidate the psychosocial development during infancy period.", "marks": "5+5", "topic": "Infancy"},
+    {"id": "2011-Dec-Q3", "text": "What do you mean by cognitive development? Discuss the cognitive development during early school year.", "marks": "5+5", "topic": "Piaget's Cognitive Development"},
+    {"id": "2011-Dec-Q4", "text": "Define Learning Disability. How would you identify learning disability in children? Suggest remedial program for learning disability.", "marks": "2+3+5", "topic": "Learning Disability"},
+    {"id": "2011-Dec-Q5", "text": "Critically evaluate the challenges during adolescence period.", "marks": 10, "topic": "Adolescence"},
+    {"id": "2011-Dec-Q6", "text": "Discuss identity, self-concept and self-esteem in adolescents.", "marks": "3+3+4", "topic": "Identity Development in Adolescence"},
+    {"id": "2011-Dec-Q7", "text": "What do you understand by developmental task? Discuss various developmental tasks of middle adulthood.", "marks": "3+7", "topic": "Middle Adulthood"},
+    {"id": "2011-Dec-Q8", "text": "What are the major cognitive changes occurring during the adulthood period?", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2011-Dec-Q9", "text": "What are the issues and challenges in old age (late adulthood)?", "marks": 10, "topic": "Ageing and Late Adulthood"},
+    {"id": "2011-Dec-Q10a", "text": "Retirement and Leisure", "marks": 5, "topic": "Late Adulthood"},
+    {"id": "2011-Dec-Q10b", "text": "Kohlberg's theory of moral development.", "marks": 5, "topic": "Moral Development"},
+    {"id": "2011-Dec-Q10c", "text": "Egocentrism in Adolescents", "marks": 5, "topic": "Adolescence"}
+  ]
+}

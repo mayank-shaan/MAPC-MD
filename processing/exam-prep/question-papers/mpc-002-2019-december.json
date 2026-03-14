@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2019, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2019-Dec-A1", "section": "A", "text": "Discuss the characteristics and periods of prenatal development.", "marks": 10, "topic": "Prenatal Development"},
+    {"id": "2019-Dec-A2", "section": "A", "text": "Explain Piaget's concepts of cognitive development during middle childhood.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2019-Dec-A3", "section": "A", "text": "Discuss psychosocial changes during late adulthood.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2019-Dec-A4", "section": "A", "text": "Define infancy. Discuss the various psychosocial development during infancy.", "marks": 10, "topic": "Infancy"},
+    {"id": "2019-Dec-B5", "section": "B", "text": "Discuss growth and development. Discuss the various areas in which a child's growth and development takes place.", "marks": "2+4", "topic": "Growth and Development"},
+    {"id": "2019-Dec-B6", "section": "B", "text": "Explain motor development during early childhood.", "marks": 6, "topic": "Motor Development"},
+    {"id": "2019-Dec-B7", "section": "B", "text": "Explain the process of developing identity and identity crisis during adolescence.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2019-Dec-B8", "section": "B", "text": "Discuss the theories of psychosocial changes during early adulthood.", "marks": "3+3", "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2019-Dec-B9", "section": "B", "text": "Discuss the ageing process in late adulthood.", "marks": 6, "topic": "Ageing and Late Adulthood"},
+    {"id": "2019-Dec-C10", "section": "C", "text": "Time Lag method vs. Longitudinal method.", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2019-Dec-C11", "section": "C", "text": "Developing math skills as a basic school skill.", "marks": 3, "topic": "School Skills"},
+    {"id": "2019-Dec-C12", "section": "C", "text": "Growth spurt.", "marks": 3, "topic": "Adolescence"}
+  ]
+}

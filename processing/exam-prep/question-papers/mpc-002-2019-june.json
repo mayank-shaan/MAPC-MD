@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2019, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2019-Jun-A1", "section": "A", "text": "Define life span development. Discuss the various stages and characteristics of life span development.", "marks": "3+7", "topic": "Issues in Lifespan Development"},
+    {"id": "2019-Jun-A2", "section": "A", "text": "Discuss the physical, psychosocial and cognitive development in early childhood.", "marks": 10, "topic": "Early Childhood"},
+    {"id": "2019-Jun-A3", "section": "A", "text": "Define learning disability. Discuss the characteristics and remedial programmes for children with learning disability.", "marks": "2+8", "topic": "Learning Disability"},
+    {"id": "2019-Jun-A4", "section": "A", "text": "Delineate the cognitive changes during adulthood stage.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2019-Jun-B5", "section": "B", "text": "Define infancy. Discuss the characteristics and adjustments during this stage.", "marks": "2+4", "topic": "Infancy"},
+    {"id": "2019-Jun-B6", "section": "B", "text": "Define social cognition. Discuss Piaget's concepts on moral development.", "marks": "2+4", "topic": "Moral Development"},
+    {"id": "2019-Jun-B7", "section": "B", "text": "Elucidate the cognitive development during adolescence.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2019-Jun-B8", "section": "B", "text": "Explain the key concepts of Levinson's theory for adult development.", "marks": 6, "topic": "Theories of Lifespan Development"},
+    {"id": "2019-Jun-B9", "section": "B", "text": "Explain ageing issues and challenges during late adulthood stages.", "marks": 6, "topic": "Ageing and Late Adulthood"},
+    {"id": "2019-Jun-C10", "section": "C", "text": "Obstacles in studying life span development.", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2019-Jun-C11", "section": "C", "text": "Semantics and grammar.", "marks": 3, "topic": "Language Development"},
+    {"id": "2019-Jun-C12", "section": "C", "text": "Concept formation.", "marks": 3, "topic": "Piaget's Cognitive Development"}
+  ]
+}

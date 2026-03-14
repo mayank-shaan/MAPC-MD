@@ -1,0 +1,18 @@
+{
+  "course": "MPC-002", "year": 2023, "session": "December", "extraction_date": "2025-03-13",
+  "exam_duration": "2 hours", "maximum_marks": 50, "format": "3-section",
+  "questions": [
+    {"id": "2023-Dec-A1", "section": "A", "text": "Define life span development. Discuss the environmental influences that affect the development of an infant.", "marks": "3+7", "topic": "Issues in Lifespan Development"},
+    {"id": "2023-Dec-A2", "section": "A", "text": "Compare Piaget's and Kohlberg's idea of moral development.", "marks": 10, "topic": "Moral Development"},
+    {"id": "2023-Dec-A3", "section": "A", "text": "Explain Piaget's idea of cognitive development during adolescence.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2023-Dec-A4", "section": "A", "text": "Discuss psychosocial changes during old age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2023-Dec-B5", "section": "B", "text": "Explain high risk behaviour and coping with the loss of normalcy during adolescence.", "marks": 6, "topic": "Adolescence"},
+    {"id": "2023-Dec-B6", "section": "B", "text": "Discuss the identification process and remedial programme for learning disability.", "marks": "3+3", "topic": "Learning Disability"},
+    {"id": "2023-Dec-B7", "section": "B", "text": "Explain the main cause for lack of self-esteem and signs of negative self concept during adolescence.", "marks": "3+3", "topic": "Self-Concept and Self-Esteem"},
+    {"id": "2023-Dec-B8", "section": "B", "text": "Discuss the developmental tasks of middle adulthood.", "marks": 6, "topic": "Middle Adulthood"},
+    {"id": "2023-Dec-B9", "section": "B", "text": "Explain family life approach during adulthood.", "marks": 6, "topic": "Family Life Cycle"},
+    {"id": "2023-Dec-C10", "section": "C", "text": "Main factors that influence height and weight in early childhood.", "marks": 3, "topic": "Early Childhood"},
+    {"id": "2023-Dec-C11", "section": "C", "text": "Grammar and semantics.", "marks": 3, "topic": "Language Development"},
+    {"id": "2023-Dec-C12", "section": "C", "text": "Common emotional pattern in childhood.", "marks": 3, "topic": "Emotional Development"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "course": "MPC-002", "year": 2024, "session": "December", "extraction_date": "2025-03-13",
+  "exam_duration": "2 hours", "maximum_marks": 50, "format": "3-section",
+  "questions": [
+    {"id": "2024-Dec-A1", "section": "A", "text": "What are the issues in lifespan development? Discuss the interacting forces that combine to shape human development.", "marks": "6+4", "topic": "Issues in Lifespan Development"},
+    {"id": "2024-Dec-A2", "section": "A", "text": "Explain psychosocial changes during early adulthood.", "marks": 10, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2024-Dec-A3", "section": "A", "text": "Explain Piaget's and Kohlberg's ideas on moral development.", "marks": 10, "topic": "Moral Development"},
+    {"id": "2024-Dec-A4", "section": "A", "text": "Elucidate the environmental influences during prenatal development.", "marks": 10, "topic": "Prenatal Development"},
+    {"id": "2024-Dec-B5", "section": "B", "text": "Discuss the characteristics and hazards during early childhood years.", "marks": "3+3", "topic": "Early Childhood"},
+    {"id": "2024-Dec-B6", "section": "B", "text": "Describe the cognitive changes during early adulthood.", "marks": 6, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2024-Dec-B7", "section": "B", "text": "Discuss the ageing issues and challenges during middle adulthood.", "marks": 6, "topic": "Ageing and Late Adulthood"},
+    {"id": "2024-Dec-B8", "section": "B", "text": "Discuss the challenges of acknowledging sexuality during adolescence.", "marks": 6, "topic": "Adolescence"},
+    {"id": "2024-Dec-B9", "section": "B", "text": "Explain motor development during early school years.", "marks": 6, "topic": "Motor Development"},
+    {"id": "2024-Dec-C10", "section": "C", "text": "Learning to write as a basic school skill.", "marks": 3, "topic": "School Skills"},
+    {"id": "2024-Dec-C11", "section": "C", "text": "Characteristics of children with learning disability.", "marks": 3, "topic": "Learning Disability"},
+    {"id": "2024-Dec-C12", "section": "C", "text": "Types of attachment patterns.", "marks": 3, "topic": "Attachment"}
+  ]
+}

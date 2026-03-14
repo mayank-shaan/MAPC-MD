@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2022, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2022-Dec-A1", "section": "A", "text": "Explain the issues in life span development. Discuss the significant facts to understand the patterns of development.", "marks": "5+5", "topic": "Issues in Lifespan Development"},
+    {"id": "2022-Dec-A2", "section": "A", "text": "Describe the characteristics and hazards during infancy period.", "marks": "5+5", "topic": "Infancy"},
+    {"id": "2022-Dec-A3", "section": "A", "text": "Explain cognitive development during middle childhood.", "marks": 10, "topic": "Piaget's Cognitive Development"},
+    {"id": "2022-Dec-A4", "section": "A", "text": "Discuss psychosocial changes during old age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2022-Dec-B5", "section": "B", "text": "Explain the different stages of prenatal development.", "marks": 6, "topic": "Prenatal Development"},
+    {"id": "2022-Dec-B6", "section": "B", "text": "Describe cognitive changes during old age.", "marks": 6, "topic": "Cognitive Development in Late Adulthood"},
+    {"id": "2022-Dec-B7", "section": "B", "text": "Explain identity crisis. Describe Marcia's identity status.", "marks": "2+4", "topic": "Identity Development in Adolescence"},
+    {"id": "2022-Dec-B8", "section": "B", "text": "Discuss Levinson's seasons of life theory.", "marks": 6, "topic": "Theories of Lifespan Development"},
+    {"id": "2022-Dec-B9", "section": "B", "text": "Describe psychosocial changes during middle adulthood.", "marks": 6, "topic": "Middle Adulthood"},
+    {"id": "2022-Dec-C10", "section": "C", "text": "Factors affecting height and weight during early school years.", "marks": 3, "topic": "Early Childhood"},
+    {"id": "2022-Dec-C11", "section": "C", "text": "Basic school skills.", "marks": 3, "topic": "School Skills"},
+    {"id": "2022-Dec-C12", "section": "C", "text": "Egocentrism in adolescence.", "marks": 3, "topic": "Adolescence"}
+  ]
+}

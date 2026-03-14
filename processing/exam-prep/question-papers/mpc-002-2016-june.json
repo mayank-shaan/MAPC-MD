@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2016, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2016-Jun-A1", "section": "A", "text": "Delineate the differences between stage theory and contextual approach with reference to adulthood.", "marks": 10, "topic": "Theories of Lifespan Development"},
+    {"id": "2016-Jun-A2", "section": "A", "text": "Examine Jean Piaget's and Lawrence Kohlberg's theories of moral development during school years.", "marks": "5+5", "topic": "Moral Development"},
+    {"id": "2016-Jun-A3", "section": "A", "text": "Explain psychological and physical hazards during early childhood. Discuss Erikson's theory of psychosocial development during this stage.", "marks": "5+5", "topic": "Early Childhood"},
+    {"id": "2016-Jun-A4", "section": "A", "text": "Discuss emotional development during early school years.", "marks": 10, "topic": "Emotional Development"},
+    {"id": "2016-Jun-B5", "section": "B", "text": "Elucidate the family life cycle during adulthood.", "marks": 6, "topic": "Family Life Cycle"},
+    {"id": "2016-Jun-B6", "section": "B", "text": "What is learning disability (LD)? What are the remedial programmes for students with LD?", "marks": "3+3", "topic": "Learning Disability"},
+    {"id": "2016-Jun-B7", "section": "B", "text": "Discuss the main components of language development.", "marks": 6, "topic": "Language Development"},
+    {"id": "2016-Jun-B8", "section": "B", "text": "Discuss James Marcia's model of identity status.", "marks": 6, "topic": "Identity Development in Adolescence"},
+    {"id": "2016-Jun-B9", "section": "B", "text": "Describe the periods of prenatal development.", "marks": 6, "topic": "Prenatal Development"},
+    {"id": "2016-Jun-C10", "section": "C", "text": "Crystallised Intelligence", "marks": 3, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2016-Jun-C11", "section": "C", "text": "Longitudinal method vs Cross sectional method", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2016-Jun-C12", "section": "C", "text": "Early Adolescence", "marks": 3, "topic": "Adolescence"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "course": "MPC-002", "year": 2016, "session": "December", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2016-Dec-A1", "section": "A", "text": "Discuss psychosocial changes during old age.", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2016-Dec-A2", "section": "A", "text": "Explain the characteristic features of infancy period. Describe the physical and psychological hazards during this stage.", "marks": "5+5", "topic": "Infancy"},
+    {"id": "2016-Dec-A3", "section": "A", "text": "Elucidate concept formation and language development during early school years.", "marks": 10, "topic": "Language Development"},
+    {"id": "2016-Dec-A4", "section": "A", "text": "Define and describe identity and identity crisis in adolescence.", "marks": 10, "topic": "Identity Development in Adolescence"},
+    {"id": "2016-Dec-B5", "section": "B", "text": "Differentiate between generativity and stagnation. Discuss developmental tasks of middle adulthood.", "marks": "3+3", "topic": "Middle Adulthood"},
+    {"id": "2016-Dec-B6", "section": "B", "text": "Write a note on disorders of physical development during 6-11 years of age.", "marks": 6, "topic": "Motor Development"},
+    {"id": "2016-Dec-B7", "section": "B", "text": "What do you mean by value education. Explain the importance of educational excursion.", "marks": "4+2", "topic": "School Skills"},
+    {"id": "2016-Dec-B8", "section": "B", "text": "Discuss school performance and cognitive development during adolescence.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2016-Dec-B9", "section": "B", "text": "Explain Kohlberg's theory of moral development.", "marks": 6, "topic": "Moral Development"},
+    {"id": "2016-Dec-C10", "section": "C", "text": "Fluid Intelligence", "marks": 3, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2016-Dec-C11", "section": "C", "text": "Dreams and Mentors", "marks": 3, "topic": "Psychosocial Development in Adulthood"},
+    {"id": "2016-Dec-C12", "section": "C", "text": "Cerebral Palsy", "marks": 3, "topic": "Motor Development"}
+  ]
+}

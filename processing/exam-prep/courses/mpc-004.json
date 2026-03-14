@@ -1,0 +1,632 @@
+{
+  "course_id": "MPC-004",
+  "course_name": "Advanced Social Psychology",
+  "analysis_date": "2026-03-14",
+  "years_analyzed": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+  "sessions_analyzed": ["June","December"],
+  "total_papers": 28,
+  "total_questions": 280,
+  "status": "analyzed",
+
+  "paper_format_note": "Two formats. 2011-2014 (old): Answer any 5 of 10 questions, 10 marks each, ~500 words. 2015-2024 (new three-section): Sec A answer any 2 of 4 × 10 marks = 20; Sec B answer any 4 of 5 × 6 marks = 24; Sec C write short notes on any 2 of 3 × 3 marks = 6. Total 50 marks in both formats.",
+
+  "repeated_questions": [
+    {
+      "question_text": "Discuss the methods of reducing prejudice and discrimination",
+      "times_repeated": 14,
+      "appearances": [
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "A"},
+        {"year": 2016, "session": "December", "section": "B"},
+        {"year": 2017, "session": "December", "section": "B"},
+        {"year": 2018, "session": "June", "section": "B"},
+        {"year": 2019, "session": "June", "section": "A"},
+        {"year": 2020, "session": "June", "section": "B"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2022, "session": "December", "section": "A"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2024, "session": "June", "section": "B"}
+      ],
+      "topic": "Prejudice and Discrimination",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss factors affecting attitude formation / factors that contribute to attitude formation",
+      "times_repeated": 13,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2017, "session": "December", "section": "B"},
+        {"year": 2018, "session": "December", "section": "A"},
+        {"year": 2019, "session": "June", "section": "B"},
+        {"year": 2019, "session": "June", "section": "B"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "December", "section": "A"},
+        {"year": 2023, "session": "June", "section": "B"},
+        {"year": 2023, "session": "December", "section": "B"}
+      ],
+      "topic": "Attitudes",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss the nature and forms of social conflict and methods of conflict resolution",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "December", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2018, "session": "June", "section": "A"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2022, "session": "December", "section": "A"},
+        {"year": 2023, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "A"}
+      ],
+      "topic": "Social Conflict",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define/discuss conformity and factors that increase conformity / Asch's study on conformity",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2023, "session": "December", "section": "A"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2024, "session": "December", "section": "B"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"}
+      ],
+      "topic": "Conformity and Obedience",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss obedience / experimental studies of human obedience (Milgram)",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2016, "session": "December", "section": "A"},
+        {"year": 2017, "session": "December", "section": "B"},
+        {"year": 2018, "session": "June", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2023, "session": "December", "section": "C"},
+        {"year": 2024, "session": "December", "section": "B"}
+      ],
+      "topic": "Conformity and Obedience",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define/discuss interpersonal attraction and factors affecting it",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2013, "session": "June", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2016, "session": "December", "section": "B"},
+        {"year": 2017, "session": "December", "section": "A"},
+        {"year": 2018, "session": "December", "section": "A"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2023, "session": "June", "section": "B"},
+        {"year": 2024, "session": "December", "section": "A"}
+      ],
+      "topic": "Interpersonal Attraction",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss theories of aggression / causes and nature of aggression",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2012, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2016, "session": "June", "section": "B"},
+        {"year": 2017, "session": "June", "section": "B"},
+        {"year": 2018, "session": "June", "section": "A"},
+        {"year": 2020, "session": "June", "section": "A"},
+        {"year": 2021, "session": "December", "section": "A"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2024, "session": "June", "section": "A"},
+        {"year": 2024, "session": "December", "section": "B"}
+      ],
+      "topic": "Aggression",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define group and discuss its characteristics / features / types / formation / rules",
+      "times_repeated": 14,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2016, "session": "June", "section": "B"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2023, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "A"},
+        {"year": 2024, "session": "December", "section": "B"}
+      ],
+      "topic": "Group Dynamics",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Pro-social behaviour / theories / factors affecting helping behaviour",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2017, "session": "December", "section": "A"},
+        {"year": 2020, "session": "June", "section": "B"},
+        {"year": 2021, "session": "June", "section": "A"},
+        {"year": 2022, "session": "December", "section": "A"},
+        {"year": 2024, "session": "June", "section": "A"}
+      ],
+      "topic": "Pro-social Behaviour",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Errors in attribution / attribution theory",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2014, "session": "June", "section": "B"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2017, "session": "December", "section": "A"},
+        {"year": 2019, "session": "June", "section": "B"},
+        {"year": 2019, "session": "December", "section": "A"},
+        {"year": 2020, "session": "June", "section": "B"},
+        {"year": 2020, "session": "December", "section": "B"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2023, "session": "December", "section": "A"}
+      ],
+      "topic": "Person Perception and Attribution",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Bem's self-perception theory",
+      "times_repeated": 8,
+      "appearances": [
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2016, "session": "December", "section": "B"},
+        {"year": 2018, "session": "June", "section": "B"},
+        {"year": 2019, "session": "June", "section": "B"},
+        {"year": 2020, "session": "December", "section": "B"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2023, "session": "June", "section": "B"}
+      ],
+      "topic": "Self-Perception",
+      "priority": "high"
+    },
+    {
+      "question_text": "Discuss the concept, importance and role of group dynamics",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2013, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "A"},
+        {"year": 2017, "session": "June", "section": "B"},
+        {"year": 2018, "session": "June", "section": "B"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2020, "session": "June", "section": "A"},
+        {"year": 2021, "session": "June", "section": "B"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2023, "session": "December", "section": "B"}
+      ],
+      "topic": "Group Dynamics",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Ethical issues in social psychological research",
+      "times_repeated": 7,
+      "appearances": [
+        {"year": 2012, "session": "December", "section": "A"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "June", "section": "B"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2019, "session": "June", "section": "A"}
+      ],
+      "topic": "Research Methods in Social Psychology",
+      "priority": "high"
+    },
+    {
+      "question_text": "Discuss stereotypes — characteristics, development and maintenance",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "B"},
+        {"year": 2017, "session": "June", "section": "B"},
+        {"year": 2020, "session": "June", "section": "A"},
+        {"year": 2021, "session": "June", "section": "A"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2024, "session": "June", "section": "B"},
+        {"year": 2024, "session": "December", "section": "C"}
+      ],
+      "topic": "Prejudice and Discrimination",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss crowd behaviour and theories of crowd behaviour",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2016, "session": "June", "section": "B"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2018, "session": "June", "section": "B"},
+        {"year": 2019, "session": "December", "section": "A"},
+        {"year": 2021, "session": "June", "section": "A"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2024, "session": "June", "section": "B"}
+      ],
+      "topic": "Collective and Crowd Behaviour",
+      "priority": "very_high"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Discuss the methods of reducing prejudice and discrimination / Discuss the nature and characteristics of groups, types and rules",
+    "count": 14,
+    "percentage": 50.0,
+    "topics": ["Prejudice and Discrimination", "Group Dynamics"]
+  },
+
+  "topics": [
+    {
+      "topic_name": "Prejudice and Discrimination",
+      "slug": "prejudice-and-discrimination",
+      "frequency_sec_a": 18,
+      "frequency_sec_b": 12,
+      "frequency_sec_c": 6,
+      "total_appearances": 36,
+      "percentage": 12.9,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 14, "december": 14},
+      "repeated_questions_count": 4,
+      "key_questions": [
+        "Discuss the methods of reducing prejudice and discrimination",
+        "Explain prejudice and discrimination — how prejudice is manifested",
+        "Discuss the characteristics, development and maintenance of stereotypes",
+        "Discuss causal and maintenance factors of prejudice",
+        "Discuss social identity theory (related)"
+      ],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Attitudes",
+      "slug": "attitudes",
+      "frequency_sec_a": 16,
+      "frequency_sec_b": 10,
+      "frequency_sec_c": 3,
+      "total_appearances": 29,
+      "percentage": 10.4,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 12, "december": 12},
+      "repeated_questions_count": 4,
+      "key_questions": [
+        "Discuss factors affecting attitude formation",
+        "Discuss factors affecting attitude change / types of attitude change",
+        "Explain theories of attitude organisation (Katz functional theory, Kelman's three process theory)",
+        "Discuss the nature, components and characteristics of attitude",
+        "Role of classical and operant conditioning in attitude formation"
+      ],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Group Dynamics",
+      "slug": "group-dynamics",
+      "frequency_sec_a": 14,
+      "frequency_sec_b": 12,
+      "frequency_sec_c": 4,
+      "total_appearances": 30,
+      "percentage": 10.7,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 14, "december": 14},
+      "repeated_questions_count": 3,
+      "key_questions": [
+        "Define group and discuss its characteristics, features, types, rules",
+        "Discuss the concept, importance and role of group dynamics",
+        "Discuss theories of group formation",
+        "Discuss stages of group development",
+        "Role of communication and cohesion in group dynamics"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Conformity and Obedience",
+      "slug": "conformity-and-obedience",
+      "frequency_sec_a": 14,
+      "frequency_sec_b": 6,
+      "frequency_sec_c": 5,
+      "total_appearances": 25,
+      "percentage": 8.9,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 10, "december": 11},
+      "repeated_questions_count": 3,
+      "key_questions": [
+        "Discuss conformity — Asch's study / factors that increase conformity",
+        "Discuss obedience — experimental studies of human obedience (Milgram)",
+        "Define compliance and principles of compliance (Cialdini)",
+        "Discuss social influence — conformity, compliance, obedience"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Aggression",
+      "slug": "aggression",
+      "frequency_sec_a": 12,
+      "frequency_sec_b": 6,
+      "frequency_sec_c": 3,
+      "total_appearances": 21,
+      "percentage": 7.5,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2014","2016","2017","2018","2020","2021","2022","2024"],
+      "sessions_appeared": {"june": 8, "december": 8},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Discuss theories of aggression (frustration-aggression, psychodynamic, social learning)",
+        "Discuss the nature, types and causes of aggression",
+        "Discuss methods to reduce aggression",
+        "Discuss measurement of aggression"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Interpersonal Attraction",
+      "slug": "interpersonal-attraction",
+      "frequency_sec_a": 10,
+      "frequency_sec_b": 8,
+      "frequency_sec_c": 2,
+      "total_appearances": 20,
+      "percentage": 7.1,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2022","2023","2024"],
+      "sessions_appeared": {"june": 8, "december": 9},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Define interpersonal attraction and factors affecting it",
+        "Discuss evolutionary theory of interpersonal attraction",
+        "Discuss Heider's Balance theory with reference to interpersonal attraction",
+        "Reciprocity-of-liking rule"
+      ],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Pro-social Behaviour",
+      "slug": "pro-social-behaviour",
+      "frequency_sec_a": 12,
+      "frequency_sec_b": 4,
+      "frequency_sec_c": 3,
+      "total_appearances": 19,
+      "percentage": 6.8,
+      "priority": "high",
+      "years_appeared": ["2011","2014","2015","2016","2017","2020","2021","2022","2024"],
+      "sessions_appeared": {"june": 9, "december": 6},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Discuss theories of pro-social behaviour",
+        "Factors affecting helping behaviour",
+        "Define pro-social and altruistic behaviour / 5-step response in emergencies",
+        "Empathy-altruism hypothesis"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Person Perception and Attribution",
+      "slug": "person-perception-and-attribution",
+      "frequency_sec_a": 10,
+      "frequency_sec_b": 7,
+      "frequency_sec_c": 4,
+      "total_appearances": 21,
+      "percentage": 7.5,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2016","2017","2019","2020","2021","2022","2023"],
+      "sessions_appeared": {"june": 10, "december": 8},
+      "repeated_questions_count": 3,
+      "key_questions": [
+        "Discuss errors in attribution / attribution theory",
+        "Define person perception and its determinants",
+        "Discuss schemas and prototypes in impression formation",
+        "Covariation principle (Harold Kelley)",
+        "Cognitive algebra",
+        "Primacy vs. recency effect"
+      ],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Social Conflict",
+      "slug": "social-conflict",
+      "frequency_sec_a": 12,
+      "frequency_sec_b": 6,
+      "frequency_sec_c": 2,
+      "total_appearances": 20,
+      "percentage": 7.1,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 7, "december": 11},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Discuss nature and forms of social conflict — methods of conflict resolution",
+        "Two-dimensional model of handling conflict",
+        "Discuss causes, characteristics and effects of conflict",
+        "Types of social conflicts in India"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Research Methods in Social Psychology",
+      "slug": "research-methods",
+      "frequency_sec_a": 10,
+      "frequency_sec_b": 8,
+      "frequency_sec_c": 5,
+      "total_appearances": 23,
+      "percentage": 8.2,
+      "priority": "high",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 9, "december": 9},
+      "repeated_questions_count": 3,
+      "key_questions": [
+        "Discuss experimental method in social psychology / threats to validity",
+        "Discuss ethical issues in social psychological research",
+        "Discuss ethnography as a research method",
+        "Discuss correlation method — merits and demerits",
+        "Quasi-experimental method",
+        "Observational method — types and advantages"
+      ],
+      "related_units": ["Block-1"]
+    },
+    {
+      "topic_name": "Collective and Crowd Behaviour",
+      "slug": "collective-crowd-behaviour",
+      "frequency_sec_a": 10,
+      "frequency_sec_b": 4,
+      "frequency_sec_c": 2,
+      "total_appearances": 16,
+      "percentage": 5.7,
+      "priority": "high",
+      "years_appeared": ["2012","2013","2014","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 8, "december": 6},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Discuss crowd behaviour and theories of crowd behaviour",
+        "Differentiate collective behaviour and crowd behaviour",
+        "Different forms of collective behaviour",
+        "Group mind theory with reference to crowd behaviour"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Cooperation and Competition",
+      "slug": "cooperation-and-competition",
+      "frequency_sec_a": 6,
+      "frequency_sec_b": 8,
+      "frequency_sec_c": 1,
+      "total_appearances": 15,
+      "percentage": 5.4,
+      "priority": "medium",
+      "years_appeared": ["2011","2012","2013","2014","2015","2017","2018","2019","2020","2021","2022","2024"],
+      "sessions_appeared": {"june": 7, "december": 7},
+      "repeated_questions_count": 2,
+      "key_questions": [
+        "Define cooperation — types of cooperation",
+        "Differentiate cooperation and competition",
+        "Discuss cooperation and competition as processes of social interaction"
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Self-Perception",
+      "slug": "self-perception",
+      "frequency_sec_a": 4,
+      "frequency_sec_b": 8,
+      "frequency_sec_c": 2,
+      "total_appearances": 14,
+      "percentage": 5.0,
+      "priority": "medium",
+      "years_appeared": ["2013","2014","2016","2018","2019","2020","2021","2022","2023"],
+      "sessions_appeared": {"june": 6, "december": 6},
+      "repeated_questions_count": 1,
+      "key_questions": [
+        "Discuss Bem's self-perception theory",
+        "How one's own behaviour can be understood — self-perception",
+        "Define self-perception"
+      ],
+      "related_units": ["Block-2"]
+    },
+    {
+      "topic_name": "Social Identity",
+      "slug": "social-identity",
+      "frequency_sec_a": 4,
+      "frequency_sec_b": 4,
+      "frequency_sec_c": 5,
+      "total_appearances": 13,
+      "percentage": 4.6,
+      "priority": "medium",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2020"],
+      "sessions_appeared": {"june": 6, "december": 6},
+      "repeated_questions_count": 1,
+      "key_questions": [
+        "Discuss social identity and social identity theory",
+        "Explain social identity and importance of fashion in everyday life"
+      ],
+      "related_units": ["Block-3"]
+    },
+    {
+      "topic_name": "Nature, Scope and History of Social Psychology",
+      "slug": "nature-scope-history",
+      "frequency_sec_a": 8,
+      "frequency_sec_b": 3,
+      "frequency_sec_c": 1,
+      "total_appearances": 12,
+      "percentage": 4.3,
+      "priority": "medium",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2018","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 5, "december": 7},
+      "repeated_questions_count": 1,
+      "key_questions": [
+        "History/emergence of social psychology",
+        "Define nature and scope of social psychology",
+        "Social psychology and its related disciplines",
+        "Applications of social psychology",
+        "Current trends in social psychology"
+      ],
+      "related_units": ["Block-1"]
+    }
+  ],
+
+  "priority_distribution": {
+    "high": 11,
+    "medium": 4,
+    "low": 0
+  },
+
+  "session_patterns": {
+    "december_heavier": ["Social Conflict", "Conformity and Obedience", "Attitudes"],
+    "june_heavier": ["Pro-social Behaviour", "Aggression", "Crowd Behaviour"],
+    "balanced": ["Prejudice and Discrimination", "Group Dynamics", "Research Methods", "Interpersonal Attraction", "Person Perception and Attribution"]
+  },
+
+  "exam_format_summary": {
+    "old_format_years": ["2011","2012","2013","2014"],
+    "new_format_years": ["2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+    "new_format_sections": {
+      "section_a": "Answer any 2 of 4 questions × 10 marks = 20 marks (~450 words each)",
+      "section_b": "Answer any 4 of 5 questions × 6 marks = 24 marks (~250 words each)",
+      "section_c": "Short notes on any 2 of 3 × 3 marks = 6 marks (~100 words each)"
+    }
+  }
+}

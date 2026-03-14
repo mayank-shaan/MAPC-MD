@@ -1,0 +1,16 @@
+{
+  "course": "MPC-002", "year": 2012, "session": "June", "extraction_date": "2025-03-13",
+  "questions": [
+    {"id": "2012-Jun-Q1", "text": "What is Life span development? Describe significant facts about development.", "marks": "3+7", "topic": "Issues in Lifespan Development"},
+    {"id": "2012-Jun-Q2", "text": "Briefly describe the characteristics of prenatal period. How can environmental influences affect the development of foetus?", "marks": "4+6", "topic": "Prenatal Development"},
+    {"id": "2012-Jun-Q3", "text": "Define infancy period. Elucidate the four components of language development of children.", "marks": "3+7", "topic": "Language Development"},
+    {"id": "2012-Jun-Q4", "text": "What is learning disability? Discuss the identification process and remedial program for learning disability.", "marks": "2+3+5", "topic": "Learning Disability"},
+    {"id": "2012-Jun-Q5", "text": "What is information processing approach to cognitive development during adolescence?", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2012-Jun-Q6", "text": "What are the various challenges of adolescence?", "marks": 10, "topic": "Adolescence"},
+    {"id": "2012-Jun-Q7", "text": "Describe the development during adult years in terms of stage vs contextual theories.", "marks": 10, "topic": "Theories of Lifespan Development"},
+    {"id": "2012-Jun-Q8", "text": "How does old age affect cognitive development?", "marks": 10, "topic": "Cognitive Development in Late Adulthood"},
+    {"id": "2012-Jun-Q9", "text": "What are the psychosocial changes that occur in old age?", "marks": 10, "topic": "Psychosocial Development in Late Adulthood"},
+    {"id": "2012-Jun-Q10a", "text": "Kohlberg's theory of moral development", "marks": 5, "topic": "Moral Development"},
+    {"id": "2012-Jun-Q10b", "text": "Gifted children.", "marks": 5, "topic": "Exceptional Children"}
+  ]
+}

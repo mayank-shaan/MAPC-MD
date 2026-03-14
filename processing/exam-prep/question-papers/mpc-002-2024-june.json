@@ -1,0 +1,28 @@
+{
+  "course": "MPC-002",
+  "year": 2024,
+  "session": "June",
+  "extraction_date": "2025-03-13",
+  "exam_duration": "2 hours",
+  "maximum_marks": 50,
+  "format": "3-section",
+  "sections": {
+    "A": {"instruction": "Answer any 2 of 4 questions, ~450 words each", "marks": "2×10=20"},
+    "B": {"instruction": "Answer any 4 of 5 questions, ~250 words each", "marks": "4×6=24"},
+    "C": {"instruction": "Write short notes on any 2 of 3, ~100 words each", "marks": "2×3=6"}
+  },
+  "questions": [
+    {"id": "2024-Jun-A1", "section": "A", "number": 1, "text": "Differentiate between growth and development. Discuss the main areas in which children's growth and development takes place.", "marks": "4+6", "topic": "Growth and Development"},
+    {"id": "2024-Jun-A2", "section": "A", "number": 2, "text": "Discuss the characteristics and periods of prenatal development.", "marks": "4+6", "topic": "Prenatal Development"},
+    {"id": "2024-Jun-A3", "section": "A", "number": 3, "text": "Elucidate the cognitive changes during middle adulthood period.", "marks": 10, "topic": "Cognitive Development in Adulthood"},
+    {"id": "2024-Jun-A4", "section": "A", "number": 4, "text": "Discuss information processing approach in cognitive development.", "marks": 10, "topic": "Information Processing Approach"},
+    {"id": "2024-Jun-B5", "section": "B", "number": 5, "text": "Discuss language development during infancy.", "marks": 6, "topic": "Language Development"},
+    {"id": "2024-Jun-B6", "section": "B", "number": 6, "text": "Differentiate between stage theories and contextual approach to life span development.", "marks": 6, "topic": "Theories of Lifespan Development"},
+    {"id": "2024-Jun-B7", "section": "B", "number": 7, "text": "Explain the concept of identity crisis and describe Marcia's identity status during adolescence.", "marks": "2+4", "topic": "Identity Development in Adolescence"},
+    {"id": "2024-Jun-B8", "section": "B", "number": 8, "text": "Elucidate Piaget's idea on decentration and conservation tasks.", "marks": 6, "topic": "Piaget's Cognitive Development"},
+    {"id": "2024-Jun-B9", "section": "B", "number": 9, "text": "Discuss the remedial measures and teaching strategies for intellectual disability (mental retardation).", "marks": 6, "topic": "Intellectual Disability"},
+    {"id": "2024-Jun-C10", "section": "C", "number": 10, "text": "Types of attachment patterns", "marks": 3, "topic": "Attachment"},
+    {"id": "2024-Jun-C11", "section": "C", "number": 11, "text": "Obstacles in studying lifespan development", "marks": 3, "topic": "Research Methods in Lifespan"},
+    {"id": "2024-Jun-C12", "section": "C", "number": 12, "text": "Retirement and Leisure", "marks": 3, "topic": "Late Adulthood"}
+  ]
+}
