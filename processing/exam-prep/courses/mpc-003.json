@@ -1,0 +1,791 @@
+{
+  "course_id": "MPC-003",
+  "course_name": "Personality: Theories and Assessment",
+  "analysis_date": "2026-03-14",
+  "years_analyzed": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+  "sessions_analyzed": ["June", "December"],
+  "total_papers": 27,
+  "papers_note": "27 papers available (2011-2024); 2012-June missing. Format changed after 2014: old format (2011-2014) was Answer any 5 of 10 questions (10 marks each); new format (2015-onward) is Section A (2×10) + Section B (4×6) + Section C (2×3) = 50 marks.",
+  "paper_format": {
+    "2011_to_2014": {
+      "sections": 1,
+      "questions_set": 10,
+      "questions_to_answer": 5,
+      "marks_per_question": 10,
+      "total_marks": 50,
+      "word_limit_per_answer": 500
+    },
+    "2015_onward": {
+      "sections": 3,
+      "section_a": { "questions_set": 4, "questions_to_answer": 2, "marks_each": 10, "total": 20, "word_limit": 450 },
+      "section_b": { "questions_set": 5, "questions_to_answer": 4, "marks_each": 6, "total": 24, "word_limit": 250 },
+      "section_c": { "questions_set": 3, "questions_to_answer": 2, "marks_each": 3, "total": 6, "word_limit": 100 },
+      "total_marks": 50
+    }
+  },
+  "status": "analyzed",
+
+  "repeated_questions": [
+    {
+      "question_text": "Explain/Describe/Elaborate Albert Bandura's Social Learning Theory",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2011, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2012, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 9},
+        {"year": 2015, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2016, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2017, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2019, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2021, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2021, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2023, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2023, "session": "December", "section": "A", "question_number": 3}
+      ],
+      "topic": "Social Learning Theory (Bandura)",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define Personality / Explain the concept of personality (often combined with biological/psychological factors)",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2013, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2015, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2015, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2016, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2017, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2019, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2023, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2024, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2024, "session": "December", "section": "A", "question_number": 1}
+      ],
+      "topic": "Personality: Definition and Determinants",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Describe Projective Techniques (classification, strengths and weaknesses)",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2013, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2015, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2018, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2019, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2019, "session": "December", "section": "B", "question_number": 9},
+        {"year": 2020, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2021, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2022, "session": "June", "section": "B", "question_number": 8},
+        {"year": 2024, "session": "June", "section": "A", "question_number": 1}
+      ],
+      "topic": "Projective Techniques",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss Eysenck's Type/Trait Hierarchy / Eysenck's theory of personality / Eysenck's dimensions",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 6},
+        {"year": 2013, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2013, "session": "December", "section": "C"},
+        {"year": 2014, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2015, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2016, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2017, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2019, "session": "June", "section": "A", "question_number": 4},
+        {"year": 2021, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2023, "session": "December", "section": "B", "question_number": 5},
+        {"year": 2024, "session": "December", "section": "A", "question_number": 4}
+      ],
+      "topic": "Eysenck's Theory of Personality",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain Behavioural Assessment (characteristics, assumptions, advantages, limitations, types)",
+      "times_repeated": 13,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 9},
+        {"year": 2011, "session": "December", "section": "A", "question_number": 9},
+        {"year": 2012, "session": "December", "section": "A", "question_number": 10},
+        {"year": 2015, "session": "June", "section": "B", "question_number": 9},
+        {"year": 2015, "session": "December", "section": "B", "question_number": 9},
+        {"year": 2016, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2017, "session": "December", "section": "B", "question_number": 8},
+        {"year": 2019, "session": "June", "section": "B", "question_number": 6},
+        {"year": 2019, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2020, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2021, "session": "June", "section": "A", "question_number": 4},
+        {"year": 2022, "session": "June", "section": "A", "question_number": 4},
+        {"year": 2024, "session": "December", "section": "A", "question_number": 2}
+      ],
+      "topic": "Behavioural Assessment",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Describe Allport's trait theory / functional autonomy / proprium / mature personality",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 5},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 4},
+        {"year": 2014, "session": "December", "section": "A", "question_number": 7},
+        {"year": 2015, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2016, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2017, "session": "December", "section": "A", "question_number": 1},
+        {"year": 2017, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2018, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2018, "session": "June", "section": "B", "question_number": 8},
+        {"year": 2019, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2020, "session": "December", "section": "B", "question_number": 7},
+        {"year": 2022, "session": "December", "section": "B", "question_number": 7},
+        {"year": 2024, "session": "June", "section": "A", "question_number": 4},
+        {"year": 2023, "session": "December", "section": "A", "question_number": 4}
+      ],
+      "topic": "Allport's Theory of Personality",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss Cattell's trait approach / categories of traits / formula for personality",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2012, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2016, "session": "December", "section": "B", "question_number": 5},
+        {"year": 2018, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2019, "session": "December", "section": "B", "question_number": 7},
+        {"year": 2020, "session": "December", "section": "B", "question_number": 5},
+        {"year": 2021, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2022, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2023, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2024, "session": "December", "section": "B", "question_number": 5}
+      ],
+      "topic": "Cattell's Trait Theory",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss principles of Classical Conditioning (Pavlov's learning theory of personality)",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "C"},
+        {"year": 2011, "session": "December", "section": "C"},
+        {"year": 2014, "session": "December", "section": "A", "question_number": 5},
+        {"year": 2015, "session": "June"},
+        {"year": 2016, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2019, "session": "June", "section": "B", "question_number": 9},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "December", "section": "B", "question_number": 6},
+        {"year": 2021, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2023, "session": "December", "section": "B", "question_number": 9},
+        {"year": 2024, "session": "June", "section": "A", "question_number": 3}
+      ],
+      "topic": "Classical Conditioning / Pavlov's Learning Theory",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain Five Factor Model (Big Five) of personality",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2012, "session": "December", "section": "A", "question_number": 7},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 5},
+        {"year": 2015, "session": "June", "section": "B", "question_number": 6},
+        {"year": 2016, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2017, "session": "December", "section": "B", "question_number": 5},
+        {"year": 2021, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2023, "session": "June", "section": "C", "question_number": 11},
+        {"year": 2024, "session": "June", "section": "A", "question_number": 1}
+      ],
+      "topic": "Five Factor Model (Big Five)",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain Freud's Psychoanalytic theory / stages of psychosexual development / structural model",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A", "question_number": 1},
+        {"year": 2011, "session": "December", "section": "A", "question_number": 3},
+        {"year": 2013, "session": "December", "section": "A", "question_number": 8},
+        {"year": 2015, "session": "June", "section": "B", "question_number": 7},
+        {"year": 2017, "session": "December", "section": "A", "question_number": 2},
+        {"year": 2018, "session": "June", "section": "A", "question_number": 2},
+        {"year": 2019, "session": "December", "section": "B", "question_number": 6},
+        {"year": 2021, "session": "June", "section": "B", "question_number": 6},
+        {"year": 2022, "session": "June", "section": "A", "question_number": 3},
+        {"year": 2024, "session": "December", "section": "B", "question_number": 6}
+      ],
+      "topic": "Freud's Psychoanalytic Theory",
+      "priority": "very_high"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Explain/Describe the characteristics, assumptions, advantages and limitations of Behavioural Assessment",
+    "count": 13,
+    "percentage": 48.1
+  },
+
+  "topics": [
+    {
+      "topic_name": "Behavioural Assessment",
+      "slug": "behavioural-assessment",
+      "frequency": 18,
+      "percentage": 8.0,
+      "priority": "high",
+      "section_distribution": { "A": 9, "B": 7, "C": 2 },
+      "years_appeared": ["2011", "2012", "2015", "2016", "2017", "2019", "2020", "2021", "2022", "2024"],
+      "repeated_questions_count": 13,
+      "sample_questions": [
+        "Explain the common characteristics and assumptions of behavioural assessment methods. Discuss the types of behavioural assessment.",
+        "Delineate the characteristics and assumptions of behavioural assessment methods. Discuss the advantages and limitations of behavioural assessment.",
+        "Define Behavioural Assessment. Discuss the common characteristics, assumptions and use of behavioural assessment method."
+      ],
+      "related_units": ["Block-4"]
+    },
+    {
+      "topic_name": "Social Learning Theory (Bandura)",
+      "slug": "social-learning-theory-bandura",
+      "frequency": 17,
+      "percentage": 7.6,
+      "priority": "high",
+      "section_distribution": { "A": 12, "B": 4, "C": 1 },
+      "years_appeared": ["2011", "2012", "2013", "2015", "2016", "2017", "2019", "2021", "2022", "2023", "2024"],
+      "repeated_questions_count": 12,
+      "sample_questions": [
+        "Describe Albert Bandura's Social Learning Theory.",
+        "Explain the key features of social-cognitive theory of personality.",
+        "Discuss self-system with reference to Bandura's theory of social learning."
+      ],
+      "related_units": ["Block-3/Unit-3"]
+    },
+    {
+      "topic_name": "Allport's Theory of Personality",
+      "slug": "allports-theory-personality",
+      "frequency": 16,
+      "percentage": 7.1,
+      "priority": "high",
+      "section_distribution": { "A": 9, "B": 6, "C": 1 },
+      "years_appeared": ["2011", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2022", "2023", "2024"],
+      "repeated_questions_count": 12,
+      "sample_questions": [
+        "Discuss in detail the trait approach proposed by Allport.",
+        "Elucidate the concepts of functional autonomy and mature personality as given by Allport.",
+        "Explain Allport's concept of proprium and developmental stages of selfhood."
+      ],
+      "related_units": ["Block-2/Unit-1"]
+    },
+    {
+      "topic_name": "Projective Techniques",
+      "slug": "projective-techniques",
+      "frequency": 16,
+      "percentage": 7.1,
+      "priority": "high",
+      "section_distribution": { "A": 8, "B": 6, "C": 2 },
+      "years_appeared": ["2011", "2013", "2015", "2016", "2018", "2019", "2020", "2021", "2022", "2024"],
+      "repeated_questions_count": 11,
+      "sample_questions": [
+        "Explain projective techniques. Describe its classification given by Lindsay.",
+        "Classify projective techniques. Discuss strengths and limitations of projective techniques.",
+        "Define and describe projective techniques. Elucidate its strengths and weaknesses."
+      ],
+      "related_units": ["Block-4/Unit-3"]
+    },
+    {
+      "topic_name": "Personality: Definition and Determinants",
+      "slug": "personality-definition-determinants",
+      "frequency": 15,
+      "percentage": 6.7,
+      "priority": "high",
+      "section_distribution": { "A": 12, "B": 2, "C": 1 },
+      "years_appeared": ["2011", "2012", "2013", "2015", "2016", "2017", "2018", "2019", "2020", "2023", "2024"],
+      "repeated_questions_count": 11,
+      "sample_questions": [
+        "Define personality. Explain the role of biological factors in the development of personality.",
+        "Define personality. Highlight the role of psychological factors in personality development.",
+        "Discuss the biological and psychological factors that influence the development of personality."
+      ],
+      "related_units": ["Block-1/Unit-1"]
+    },
+    {
+      "topic_name": "Eysenck's Theory of Personality",
+      "slug": "eysencks-theory-personality",
+      "frequency": 14,
+      "percentage": 6.2,
+      "priority": "high",
+      "section_distribution": { "A": 9, "B": 4, "C": 1 },
+      "years_appeared": ["2011", "2013", "2014", "2015", "2016", "2017", "2019", "2021", "2023", "2024"],
+      "repeated_questions_count": 10,
+      "sample_questions": [
+        "Define Personality. Discuss in detail Eysenck's type trait hierarchy.",
+        "Elucidate the dimensions of personality as given by Eysenck.",
+        "Explain the neurophysiological basis of traits and types."
+      ],
+      "related_units": ["Block-2/Unit-2"]
+    },
+    {
+      "topic_name": "Cattell's Trait Theory",
+      "slug": "cattells-trait-theory",
+      "frequency": 14,
+      "percentage": 6.2,
+      "priority": "high",
+      "section_distribution": { "A": 7, "B": 6, "C": 1 },
+      "years_appeared": ["2012", "2013", "2014", "2016", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "repeated_questions_count": 10,
+      "sample_questions": [
+        "Explain Cattell's formula for personality. Describe the categories of traits stated by him.",
+        "Describe different categories of traits as given by Cattell.",
+        "Discuss Cattell's trait approach to personality."
+      ],
+      "related_units": ["Block-2/Unit-3"]
+    },
+    {
+      "topic_name": "Classical Conditioning / Pavlov's Learning Theory",
+      "slug": "classical-conditioning-pavlov",
+      "frequency": 14,
+      "percentage": 6.2,
+      "priority": "high",
+      "section_distribution": { "A": 7, "B": 5, "C": 2 },
+      "years_appeared": ["2011", "2014", "2015", "2016", "2019", "2020", "2021", "2023", "2024"],
+      "repeated_questions_count": 10,
+      "sample_questions": [
+        "Explain Pavlov's learning theory of personality.",
+        "Discuss the principles of classical conditioning.",
+        "Explain the concepts of generalisation and discrimination with reference to classical conditioning."
+      ],
+      "related_units": ["Block-3/Unit-1"]
+    },
+    {
+      "topic_name": "Five Factor Model (Big Five)",
+      "slug": "five-factor-model-big-five",
+      "frequency": 12,
+      "percentage": 5.3,
+      "priority": "high",
+      "section_distribution": { "A": 6, "B": 4, "C": 2 },
+      "years_appeared": ["2011", "2012", "2013", "2015", "2016", "2017", "2021", "2023", "2024"],
+      "repeated_questions_count": 9,
+      "sample_questions": [
+        "Define personality. Explain the five factor model (Big Five) of personality.",
+        "Describe and elucidate the theoretical principles of the Big Five theory. Explain the measurement of the Big Five Inventory.",
+        "Discuss the five-factor model of personality."
+      ],
+      "related_units": ["Block-2/Unit-4"]
+    },
+    {
+      "topic_name": "Freud's Psychoanalytic Theory",
+      "slug": "freuds-psychoanalytic-theory",
+      "frequency": 13,
+      "percentage": 5.8,
+      "priority": "high",
+      "section_distribution": { "A": 9, "B": 3, "C": 1 },
+      "years_appeared": ["2011", "2013", "2015", "2017", "2018", "2019", "2021", "2022", "2024"],
+      "repeated_questions_count": 9,
+      "sample_questions": [
+        "Explain Sigmund Freud's Psychoanalytic theory of personality.",
+        "Discuss the stages of psychosexual development proposed by Freud.",
+        "Explain Freud's structural model of personality and give examples of any two defense mechanisms."
+      ],
+      "related_units": ["Block-3/Unit-4"]
+    },
+    {
+      "topic_name": "Maslow's Hierarchy of Needs / Humanistic Theory",
+      "slug": "maslow-hierarchy-needs-humanistic",
+      "frequency": 12,
+      "percentage": 5.3,
+      "priority": "high",
+      "section_distribution": { "A": 5, "B": 6, "C": 1 },
+      "years_appeared": ["2011", "2013", "2014", "2015", "2016", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "repeated_questions_count": 8,
+      "sample_questions": [
+        "Discuss the humanistic theory of personality.",
+        "Describe the hierarchy of needs as proposed by Maslow.",
+        "Discuss deficiency and growth needs with reference to Maslow's Hierarchy of Needs."
+      ],
+      "related_units": ["Block-3/Unit-6"]
+    },
+    {
+      "topic_name": "Rogers' Theory of Personality",
+      "slug": "rogers-theory-personality",
+      "frequency": 10,
+      "percentage": 4.4,
+      "priority": "high",
+      "section_distribution": { "A": 7, "B": 2, "C": 1 },
+      "years_appeared": ["2012", "2013", "2014", "2019", "2020", "2021", "2022"],
+      "repeated_questions_count": 7,
+      "sample_questions": [
+        "Elucidate Carl Rogers' theory of personality.",
+        "Explain Rogers' theory of Personality.",
+        "Critically evaluate the Carl Rogers' theory of personality."
+      ],
+      "related_units": ["Block-3/Unit-5"]
+    },
+    {
+      "topic_name": "Personality Assessment: Meaning, Purpose & Criteria",
+      "slug": "personality-assessment-meaning-purpose",
+      "frequency": 10,
+      "percentage": 4.4,
+      "priority": "high",
+      "section_distribution": { "A": 6, "B": 3, "C": 1 },
+      "years_appeared": ["2011", "2012", "2013", "2014", "2018", "2019", "2020", "2022", "2023"],
+      "repeated_questions_count": 7,
+      "sample_questions": [
+        "Explain the meaning and purpose of personality assessment. Explain the standardization norms, reliability and validity.",
+        "Define personality assessment. Discuss the criteria of testing and measurement in psychological assessment.",
+        "Discuss the criteria of testing and measurement in psychological assessment."
+      ],
+      "related_units": ["Block-4/Unit-1"]
+    },
+    {
+      "topic_name": "Self-Report Inventories / Personality Inventories",
+      "slug": "self-report-inventories",
+      "frequency": 10,
+      "percentage": 4.4,
+      "priority": "high",
+      "section_distribution": { "A": 5, "B": 3, "C": 2 },
+      "years_appeared": ["2011", "2014", "2015", "2016", "2017", "2019", "2020", "2022", "2023", "2024"],
+      "repeated_questions_count": 6,
+      "sample_questions": [
+        "Explain self report inventory. Describe measures to avoid faking and methods to overcome weaknesses in self report inventories.",
+        "Discuss self-report personality tests with suitable examples.",
+        "Define and elucidate the various types of self-report inventories and describe any two of them."
+      ],
+      "related_units": ["Block-4/Unit-2"]
+    },
+    {
+      "topic_name": "Observational Learning Principles (Bandura)",
+      "slug": "observational-learning-principles",
+      "frequency": 9,
+      "percentage": 4.0,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 5, "C": 1 },
+      "years_appeared": ["2011", "2012", "2013", "2014", "2016", "2017", "2018", "2022", "2024"],
+      "repeated_questions_count": 6,
+      "sample_questions": [
+        "Discuss in detail principles of observational learning as stated by Albert Bandura.",
+        "Discuss the principles of observational learning. Evaluate Bandura's theory.",
+        "Explain the principles of observational learning."
+      ],
+      "related_units": ["Block-3/Unit-3"]
+    },
+    {
+      "topic_name": "Sullivan's Theory of Personality",
+      "slug": "sullivans-theory-personality",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 4, "B": 3, "C": 1 },
+      "years_appeared": ["2011", "2012", "2013", "2018", "2019", "2023", "2024"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Describe Sullivan's theory of personality.",
+        "Discuss Sullivan's theory of personality.",
+        "Describe Sullivan's developmental epochs."
+      ],
+      "related_units": ["Block-3/Unit-2"]
+    },
+    {
+      "topic_name": "Karen Horney's Theory",
+      "slug": "karen-horneys-theory",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 4, "B": 3, "C": 1 },
+      "years_appeared": ["2011", "2014", "2015", "2017", "2018", "2019", "2020", "2021"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Explain Karen Horney's theory of personality.",
+        "Explain the concept of basic anxiety and neurotic needs as proposed by Karen Horney.",
+        "Discuss the patterns of neurotic needs as described by Karen Horney."
+      ],
+      "related_units": ["Block-3/Unit-2"]
+    },
+    {
+      "topic_name": "Guilford's Trait Theory",
+      "slug": "guilfords-trait-theory",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 4, "B": 3, "C": 1 },
+      "years_appeared": ["2013", "2015", "2018", "2019", "2020", "2021", "2022"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Explain Guilford's trait theory of personality.",
+        "Discuss Guilford's Trait theory.",
+        "Compare between Type and Trait approaches to personality. Describe Guilford's trait theory."
+      ],
+      "related_units": ["Block-2/Unit-3"]
+    },
+    {
+      "topic_name": "Case Study Method",
+      "slug": "case-study-method",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 4, "B": 3, "C": 1 },
+      "years_appeared": ["2011", "2013", "2014", "2015", "2016", "2018", "2019", "2020", "2021"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Critically analyze the case study method.",
+        "Explain the meaning, purpose and types of case study method.",
+        "Define Behavioural Assessment. Discuss case study method as a study of individual behaviour."
+      ],
+      "related_units": ["Block-4/Unit-4"]
+    },
+    {
+      "topic_name": "Interview Method",
+      "slug": "interview-method",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 4, "C": 1 },
+      "years_appeared": ["2013", "2014", "2016", "2017", "2018", "2020", "2024"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Critically analyze interview method and also discuss briefly about various interviewing techniques.",
+        "Explain interview method. Describe its strengths and weaknesses.",
+        "Describe interview method."
+      ],
+      "related_units": ["Block-4/Unit-4"]
+    },
+    {
+      "topic_name": "Skinner's Operant Conditioning / Schedules of Reinforcement",
+      "slug": "skinner-operant-conditioning",
+      "frequency": 8,
+      "percentage": 3.6,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 4, "C": 1 },
+      "years_appeared": ["2011", "2012", "2014", "2015", "2016", "2018", "2019", "2022"],
+      "repeated_questions_count": 5,
+      "sample_questions": [
+        "Discuss Skinner's learning theory of personality.",
+        "Explain in detail operant behaviour and schedules of reinforcement.",
+        "Discuss the schedules of reinforcement in Skinner's learning theory."
+      ],
+      "related_units": ["Block-3/Unit-1"]
+    },
+    {
+      "topic_name": "Nature vs Nurture Debate",
+      "slug": "nature-vs-nurture-debate",
+      "frequency": 7,
+      "percentage": 3.1,
+      "priority": "medium",
+      "section_distribution": { "A": 4, "B": 2, "C": 1 },
+      "years_appeared": ["2014", "2017", "2021", "2022", "2023"],
+      "repeated_questions_count": 4,
+      "sample_questions": [
+        "Explain in detail the person-situation controversy.",
+        "Discuss the issues of Personality in the context of nature versus nurture.",
+        "Discuss the nature and nurture debate with research examples."
+      ],
+      "related_units": ["Block-1/Unit-2"]
+    },
+    {
+      "topic_name": "Reliability and Validity in Assessment",
+      "slug": "reliability-validity-assessment",
+      "frequency": 7,
+      "percentage": 3.1,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 3, "C": 1 },
+      "years_appeared": ["2014", "2017", "2018", "2019", "2020", "2021", "2023"],
+      "repeated_questions_count": 4,
+      "sample_questions": [
+        "Discuss the concept of validity and its relevance in personality testing.",
+        "Elucidate the concepts of reliability and validity.",
+        "Define Reliability and Validity as measurement concepts."
+      ],
+      "related_units": ["Block-4/Unit-1"]
+    },
+    {
+      "topic_name": "Nomothetic vs Idiographic Approach",
+      "slug": "nomothetic-vs-idiographic",
+      "frequency": 6,
+      "percentage": 2.7,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 2, "C": 1 },
+      "years_appeared": ["2014", "2015", "2018", "2020", "2022", "2023"],
+      "repeated_questions_count": 4,
+      "sample_questions": [
+        "Highlight the nomothetic versus ideographic debate in personality.",
+        "Explain nomothetic approach vs idiographic approach to personality.",
+        "Differentiate between nomothetic and idiographic approaches to personality."
+      ],
+      "related_units": ["Block-1/Unit-3"]
+    },
+    {
+      "topic_name": "Thematic Apperception Test (TAT)",
+      "slug": "thematic-apperception-test",
+      "frequency": 6,
+      "percentage": 2.7,
+      "priority": "medium",
+      "section_distribution": { "A": 2, "B": 2, "C": 2 },
+      "years_appeared": ["2011", "2013", "2016", "2017", "2018", "2020", "2021"],
+      "repeated_questions_count": 4,
+      "sample_questions": [
+        "Describe the Thematic Apperception Test highlighting the characteristic features.",
+        "Elucidate the concept of apperception. Describe the Thematic Apperception Test (TAT).",
+        "Discuss concept of apperception and elucidate the different types of apperception test."
+      ],
+      "related_units": ["Block-4/Unit-3"]
+    },
+    {
+      "topic_name": "Rorschach Ink-Blot Test",
+      "slug": "rorschach-inkblot-test",
+      "frequency": 5,
+      "percentage": 2.2,
+      "priority": "medium",
+      "section_distribution": { "A": 2, "B": 2, "C": 1 },
+      "years_appeared": ["2011", "2022", "2024"],
+      "repeated_questions_count": 3,
+      "sample_questions": [
+        "Describe Rorschach's test of personality and discuss its strengths and weaknesses.",
+        "Explain ink-blot techniques of personality assessment.",
+        "Elucidate the administration and scoring of Rorschach test."
+      ],
+      "related_units": ["Block-4/Unit-3"]
+    },
+    {
+      "topic_name": "NEO-PI / MMPI / Personality Inventories (specific)",
+      "slug": "neo-pi-mmpi-inventories",
+      "frequency": 6,
+      "percentage": 2.7,
+      "priority": "medium",
+      "section_distribution": { "A": 1, "B": 3, "C": 2 },
+      "years_appeared": ["2011", "2017", "2019", "2020", "2022", "2024"],
+      "repeated_questions_count": 3,
+      "sample_questions": [
+        "Write a note on the measurement of the Big Five Inventory (BFI).",
+        "Explain the Neo-Personality Inventory (NEO-PI).",
+        "MMPI-2 (Minnesota Multiphasic Personality Inventory)."
+      ],
+      "related_units": ["Block-4/Unit-2"]
+    },
+    {
+      "topic_name": "Defense Mechanisms",
+      "slug": "defense-mechanisms",
+      "frequency": 5,
+      "percentage": 2.2,
+      "priority": "medium",
+      "section_distribution": { "A": 1, "B": 2, "C": 2 },
+      "years_appeared": ["2015", "2016", "2017", "2022", "2023", "2024"],
+      "repeated_questions_count": 3,
+      "sample_questions": [
+        "Describe various defense mechanisms.",
+        "Explain the structural model of personality and give examples of any two defense mechanisms.",
+        "Defense mechanism (short note)."
+      ],
+      "related_units": ["Block-3/Unit-4"]
+    },
+    {
+      "topic_name": "Type Theories / Sheldon / Ayurvedic Body Types",
+      "slug": "type-theories-sheldon-ayurvedic",
+      "frequency": 6,
+      "percentage": 2.7,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 1, "C": 2 },
+      "years_appeared": ["2011", "2013", "2015", "2016", "2017", "2019", "2021", "2023"],
+      "repeated_questions_count": 3,
+      "sample_questions": [
+        "Discuss Sheldon's somatotype personality and Ayurvedic body types.",
+        "Explain any three type theories of personality.",
+        "What are Ayurvedic Body Types? Explain."
+      ],
+      "related_units": ["Block-2/Unit-2"]
+    },
+    {
+      "topic_name": "Reciprocal Determinism / Self-Efficacy / Self-System",
+      "slug": "reciprocal-determinism-self-efficacy",
+      "frequency": 6,
+      "percentage": 2.7,
+      "priority": "medium",
+      "section_distribution": { "A": 1, "B": 3, "C": 2 },
+      "years_appeared": ["2017", "2018", "2019", "2020", "2021", "2022"],
+      "repeated_questions_count": 3,
+      "sample_questions": [
+        "Describe the concept of self-system. Explain the sources and role of self efficacy.",
+        "Explain the principles of observational learning.",
+        "Reciprocal Determinism (short note)."
+      ],
+      "related_units": ["Block-3/Unit-3"]
+    },
+    {
+      "topic_name": "Historical Development of Personality Assessment",
+      "slug": "history-personality-assessment",
+      "frequency": 4,
+      "percentage": 1.8,
+      "priority": "low",
+      "section_distribution": { "A": 2, "B": 1, "C": 1 },
+      "years_appeared": ["2012", "2020", "2023"],
+      "repeated_questions_count": 2,
+      "sample_questions": [
+        "Discuss the history of personality assessment.",
+        "Trace the historical development of personality assessment."
+      ],
+      "related_units": ["Block-4/Unit-1"]
+    },
+    {
+      "topic_name": "Neurophysiological Basis of Traits and Types",
+      "slug": "neurophysiological-basis-traits-types",
+      "frequency": 5,
+      "percentage": 2.2,
+      "priority": "medium",
+      "section_distribution": { "A": 3, "B": 1, "C": 1 },
+      "years_appeared": ["2013", "2014", "2016", "2020", "2022"],
+      "repeated_questions_count": 4,
+      "sample_questions": [
+        "Discuss in detail the neurophysiological basis of traits and types.",
+        "Explain the neurophysiological basis of traits and types.",
+        "Discuss the neuropsychological basis of traits and types."
+      ],
+      "related_units": ["Block-2/Unit-2"]
+    },
+    {
+      "topic_name": "Introvert vs Extrovert Differences",
+      "slug": "introvert-vs-extrovert",
+      "frequency": 4,
+      "percentage": 1.8,
+      "priority": "low",
+      "section_distribution": { "A": 0, "B": 1, "C": 3 },
+      "years_appeared": ["2018", "2019", "2022", "2024"],
+      "repeated_questions_count": 2,
+      "sample_questions": [
+        "Differences between Introverts and Extroverts.",
+        "Introverts vs. Extroverts (short note)."
+      ],
+      "related_units": ["Block-2/Unit-2"]
+    },
+    {
+      "topic_name": "Infant Shyness / Temperament",
+      "slug": "infant-shyness-temperament",
+      "frequency": 3,
+      "percentage": 1.3,
+      "priority": "low",
+      "section_distribution": { "A": 0, "B": 1, "C": 2 },
+      "years_appeared": ["2018", "2020"],
+      "repeated_questions_count": 2,
+      "sample_questions": [
+        "Infant shyness (short note).",
+        "Discuss infant shyness."
+      ],
+      "related_units": ["Block-1/Unit-2"]
+    }
+  ],
+
+  "priority_distribution": {
+    "high": 14,
+    "medium": 16,
+    "low": 3
+  },
+
+  "session_patterns": {
+    "june_specific_topics": ["Rogers' Theory (more in June)", "Guilford's Trait Theory"],
+    "december_specific_topics": ["Cattell's Trait Theory", "Nomothetic vs Idiographic"],
+    "balanced_topics": ["Bandura's Social Learning Theory", "Allport's Theory", "Behavioural Assessment", "Projective Techniques", "Big Five"]
+  },
+
+  "total_unique_questions_approximate": 225,
+  "high_priority_topics": 14,
+  "medium_priority_topics": 16,
+  "low_priority_topics": 3
+}

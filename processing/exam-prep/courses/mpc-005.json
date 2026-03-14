@@ -1,0 +1,718 @@
+{
+  "course_id": "MPC-005",
+  "course_name": "Research Methods in Psychology",
+  "analysis_date": "2026-03-14",
+  "years_analyzed": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+  "sessions_analyzed": ["June","December"],
+  "total_papers": 28,
+  "total_questions": 280,
+  "status": "analyzed",
+
+  "paper_format_note": "Two formats. 2011-2014 (old): Answer any 5 of 10 questions, 10 marks each, ~500 words. 2015-2024 (new three-section): Sec A answer any 2 of 4 × 10 marks = 20; Sec B answer any 4 of 5 × 6 marks = 24; Sec C write short notes on any 2 of 3 × 3 marks = 6. Total 50 marks in both formats.",
+
+  "repeated_questions": [
+    {
+      "question_text": "Discuss the various steps involved in a research process",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "A"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2019, "session": "December", "section": "A"},
+        {"year": 2020, "session": "June", "section": "A"},
+        {"year": 2022, "session": "December", "section": "A"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2024, "session": "December", "section": "A"},
+        {"year": 2024, "session": "June", "section": "A/B"}
+      ],
+      "topic": "Research Process",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define/Explain validity and discuss the threats to internal validity",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2023, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "B"}
+      ],
+      "topic": "Validity",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss the various methods of estimating reliability",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2015, "session": "June", "section": "B"},
+        {"year": 2016, "session": "June", "section": "B"},
+        {"year": 2017, "session": "December", "section": "B"},
+        {"year": 2018, "session": "June", "section": "A"},
+        {"year": 2019, "session": "June", "section": "A"},
+        {"year": 2021, "session": "June", "section": "A"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2023, "session": "June", "section": "B"},
+        {"year": 2024, "session": "June", "section": "B"}
+      ],
+      "topic": "Reliability",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss the goals, steps and/or coding system in grounded theory",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2013, "session": "June", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2016, "session": "December", "section": "A"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2018, "session": "June", "section": "B"},
+        {"year": 2021, "session": "December", "section": "A"},
+        {"year": 2022, "session": "June", "section": "A"},
+        {"year": 2023, "session": "June", "section": "A"},
+        {"year": 2023, "session": "December", "section": "A"},
+        {"year": 2024, "session": "December", "section": "A"}
+      ],
+      "topic": "Grounded Theory",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain the approaches and/or steps in discourse analysis",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "B"},
+        {"year": 2012, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "A"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2017, "session": "December", "section": "A"},
+        {"year": 2018, "session": "December", "section": "A"},
+        {"year": 2020, "session": "June", "section": "A"},
+        {"year": 2021, "session": "June", "section": "B"},
+        {"year": 2022, "session": "December", "section": "A"},
+        {"year": 2023, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "B"},
+        {"year": 2024, "session": "June", "section": "C"}
+      ],
+      "topic": "Discourse Analysis",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain the types of quasi-experimental design / differentiate quasi and true experimental design",
+      "times_repeated": 12,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2015, "session": "December", "section": "B"},
+        {"year": 2016, "session": "December", "section": "B"},
+        {"year": 2017, "session": "December", "section": "A"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2019, "session": "December", "section": "A"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "December", "section": "A"},
+        {"year": 2022, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "A"}
+      ],
+      "topic": "Quasi-Experimental Design",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define/Explain factorial design and its types",
+      "times_repeated": 11,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2013, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2018, "session": "December", "section": "B"},
+        {"year": 2019, "session": "June", "section": "A"},
+        {"year": 2020, "session": "December", "section": "B"},
+        {"year": 2021, "session": "June", "section": "A"},
+        {"year": 2023, "session": "December", "section": "A"},
+        {"year": 2024, "session": "June", "section": "A"}
+      ],
+      "topic": "Factorial Design",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Discuss types and methods of survey research / data collection in survey",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2012, "session": "December", "section": "A"},
+        {"year": 2014, "session": "June", "section": "A"},
+        {"year": 2016, "session": "December", "section": "A"},
+        {"year": 2018, "session": "June", "section": "A"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "June", "section": "B"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2024, "session": "June", "section": "A"}
+      ],
+      "topic": "Survey Research",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain the steps in analysing/evaluating data and reporting in qualitative research",
+      "times_repeated": 10,
+      "appearances": [
+        {"year": 2011, "session": "June", "section": "A"},
+        {"year": 2011, "session": "December", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2015, "session": "June", "section": "A"},
+        {"year": 2019, "session": "June", "section": "A"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "December", "section": "A"},
+        {"year": 2021, "session": "June", "section": "B"},
+        {"year": 2021, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "B"}
+      ],
+      "topic": "Qualitative Research Report & Data Evaluation",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Describe ex-post facto research: concept, characteristics, steps",
+      "times_repeated": 9,
+      "appearances": [
+        {"year": 2011, "session": "December", "section": "C"},
+        {"year": 2012, "session": "June", "section": "A"},
+        {"year": 2013, "session": "June", "section": "A"},
+        {"year": 2014, "session": "December", "section": "A"},
+        {"year": 2016, "session": "June", "section": "A"},
+        {"year": 2017, "session": "June", "section": "A"},
+        {"year": 2019, "session": "December", "section": "B"},
+        {"year": 2020, "session": "December", "section": "B"},
+        {"year": 2024, "session": "December", "section": "A"}
+      ],
+      "topic": "Ex-Post Facto Research",
+      "priority": "very_high"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Explain the approaches and/or steps in discourse analysis / Discuss the goals, steps and coding in grounded theory",
+    "count": 12,
+    "percentage": 42.9
+  },
+
+  "topics": [
+    {
+      "topic_name": "Discourse Analysis",
+      "slug": "discourse-analysis",
+      "frequency": 18,
+      "percentage": 64.3,
+      "priority": "high",
+      "papers_appeared": 18,
+      "years_appeared": ["2011","2012","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 8, "december": 10},
+      "repeated_questions_count": 12,
+      "section_distribution": {"A": 8, "B": 7, "C": 3},
+      "sample_questions": [
+        "Discuss the assumptions, approaches and steps of Discourse Analysis",
+        "Explain the relevance and steps of discourse analysis",
+        "Give a detailed description of Discourse analysis",
+        "Explain the approaches and steps in discourse analysis",
+        "Explain the assumptions and approaches of discourse analysis"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Factorial Design",
+      "slug": "factorial-design",
+      "frequency": 17,
+      "percentage": 60.7,
+      "priority": "high",
+      "papers_appeared": 17,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 9, "december": 8},
+      "repeated_questions_count": 11,
+      "section_distribution": {"A": 10, "B": 5, "C": 2},
+      "sample_questions": [
+        "Define factorial design. Explain 2×2 factorial design with an example",
+        "Explain the types of factorial design with illustration",
+        "Explain the key terms related to factorial design",
+        "Describe the various terms related to factorial design and illustrate its types with example",
+        "Define factorial design. Discuss its various types",
+        "Discuss the main and interaction effects in a factorial design",
+        "Explain simple Two-factor Design with a suitable example"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Validity",
+      "slug": "validity",
+      "frequency": 16,
+      "percentage": 57.1,
+      "priority": "high",
+      "papers_appeared": 16,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 5, "december": 11},
+      "repeated_questions_count": 11,
+      "section_distribution": {"A": 5, "B": 9, "C": 2},
+      "sample_questions": [
+        "Define validity. Explain the threats to internal and external validity",
+        "Define validity. Discuss the various threats to internal validity",
+        "Explain the different types of validity",
+        "Differentiate between external and internal validity. Discuss the threats to external validity",
+        "Define validity. Explain the various types of validity"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Quasi-Experimental Design",
+      "slug": "quasi-experimental-design",
+      "frequency": 16,
+      "percentage": 57.1,
+      "priority": "high",
+      "papers_appeared": 16,
+      "years_appeared": ["2011","2012","2013","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 4, "december": 12},
+      "repeated_questions_count": 12,
+      "section_distribution": {"A": 8, "B": 7, "C": 1},
+      "sample_questions": [
+        "Discuss the meaning and types of Quasi Experimental research design",
+        "Differentiate between quasi-experimental and experimental research design",
+        "Explain the types of quasi-experimental design",
+        "Discuss the various types of quasi-experimental design",
+        "Explain advantages and disadvantages of quasi-experimental research"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Survey Research",
+      "slug": "survey-research",
+      "frequency": 16,
+      "percentage": 57.1,
+      "priority": "high",
+      "papers_appeared": 16,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 9, "december": 7},
+      "repeated_questions_count": 10,
+      "section_distribution": {"A": 8, "B": 6, "C": 2},
+      "sample_questions": [
+        "Describe the types of survey research and explain the steps involved in it",
+        "Discuss the various data collection methods used in survey research",
+        "What are the different types of survey research? Explain methods of data collection",
+        "Discuss the steps in conducting survey research. Explain the different instruments used",
+        "Describe the methods of data collection in survey research"
+      ],
+      "related_units": ["Block-3"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Qualitative Research (types, relevance, qual vs quant)",
+      "slug": "qualitative-research",
+      "frequency": 16,
+      "percentage": 57.1,
+      "priority": "high",
+      "papers_appeared": 16,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 7, "december": 9},
+      "repeated_questions_count": 8,
+      "section_distribution": {"A": 8, "B": 6, "C": 2},
+      "sample_questions": [
+        "Differentiate between qualitative and quantitative research. Elucidate the types of qualitative research",
+        "Discuss the meaning of qualitative research. What are its types?",
+        "Differentiate between qualitative and quantitative research. Discuss the relevance of qualitative research in Psychology",
+        "What is qualitative research? Discuss the relevance and application of qualitative research in psychology"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Grounded Theory",
+      "slug": "grounded-theory",
+      "frequency": 16,
+      "percentage": 57.1,
+      "priority": "high",
+      "papers_appeared": 16,
+      "years_appeared": ["2011","2012","2013","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 9, "december": 7},
+      "repeated_questions_count": 12,
+      "section_distribution": {"A": 10, "B": 4, "C": 2},
+      "sample_questions": [
+        "Explain the goals and steps of grounded theory",
+        "Discuss grounded theory as an approach in qualitative research",
+        "Elucidate the steps and coding system in grounded theory",
+        "Discuss the goals, methods and steps of grounded theory",
+        "Explain the meaning, types of coding and relevance of grounded theory"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Qualitative Research Report & Data Evaluation",
+      "slug": "qualitative-research-report",
+      "frequency": 14,
+      "percentage": 50.0,
+      "priority": "high",
+      "papers_appeared": 14,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 6, "december": 8},
+      "repeated_questions_count": 10,
+      "section_distribution": {"A": 7, "B": 5, "C": 2},
+      "sample_questions": [
+        "Explain the steps in evaluating and interpreting data in qualitative research",
+        "Elucidate the steps and contents of report of data in qualitative research",
+        "Describe the steps of evaluating data in qualitative research",
+        "Explain the steps in analysing data in qualitative research",
+        "Describe the contents of a qualitative research report"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Experimental Research Design (between-group, within-group, single-factor)",
+      "slug": "experimental-research-design",
+      "frequency": 13,
+      "percentage": 46.4,
+      "priority": "high",
+      "papers_appeared": 13,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2021","2022","2024"],
+      "sessions_appeared": {"june": 8, "december": 5},
+      "repeated_questions_count": 7,
+      "section_distribution": {"A": 8, "B": 4, "C": 1},
+      "sample_questions": [
+        "What is Experimental Research Design? Explain the types of experimental research design",
+        "Explain the types of between group (single factor) research design",
+        "Compare and contrast Between-group and Within-group design",
+        "Explain single-factor design with suitable example",
+        "Discuss the types of within subject (single factor) research design",
+        "Explain single-factor research design"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Correlational Research Design",
+      "slug": "correlational-research-design",
+      "frequency": 13,
+      "percentage": 46.4,
+      "priority": "high",
+      "papers_appeared": 13,
+      "years_appeared": ["2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"],
+      "sessions_appeared": {"june": 8, "december": 5},
+      "repeated_questions_count": 7,
+      "section_distribution": {"A": 6, "B": 5, "C": 2},
+      "sample_questions": [
+        "Define and elucidate the types of correlational research design. Discuss the standard of quality used in assessing correlational design",
+        "Critically evaluate correlational design of research. Discuss its various types",
+        "Define correlational design. Describe the advantages and disadvantages",
+        "Explain Correlational Design. Discuss its advantages and limitations"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Reliability",
+      "slug": "reliability",
+      "frequency": 12,
+      "percentage": 42.9,
+      "priority": "high",
+      "papers_appeared": 12,
+      "years_appeared": ["2011","2012","2013","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 9, "december": 3},
+      "repeated_questions_count": 10,
+      "section_distribution": {"A": 7, "B": 4, "C": 1},
+      "sample_questions": [
+        "Define reliability. Discuss the various methods of estimating reliability",
+        "Explain the various methods of estimating reliability of a test",
+        "What is meant by internal consistency reliability? Describe two methods of estimating internal consistency reliability",
+        "Define Reliability. Discuss the methods of estimating reliability"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Sampling Methods",
+      "slug": "sampling-methods",
+      "frequency": 12,
+      "percentage": 42.9,
+      "priority": "high",
+      "papers_appeared": 12,
+      "years_appeared": ["2011","2012","2013","2015","2016","2017","2018","2019","2020","2021","2023","2024"],
+      "sessions_appeared": {"june": 5, "december": 7},
+      "repeated_questions_count": 6,
+      "section_distribution": {"A": 6, "B": 5, "C": 1},
+      "sample_questions": [
+        "What is the purpose of sampling? Discuss the various sampling methods",
+        "Define Sampling. Discuss the various non-probability and probability sampling methods",
+        "Discuss various sampling methods",
+        "Describe the different methods of non-probability sampling",
+        "Discuss the non-probability sampling methods"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Variables & Constructs",
+      "slug": "variables-and-constructs",
+      "frequency": 12,
+      "percentage": 42.9,
+      "priority": "high",
+      "papers_appeared": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"],
+      "sessions_appeared": {"june": 7, "december": 5},
+      "repeated_questions_count": 6,
+      "section_distribution": {"A": 5, "B": 6, "C": 1},
+      "sample_questions": [
+        "Differentiate between variables and constructs. Elucidate the different types of variables with examples",
+        "What is a variable? Explain different types of variables",
+        "Define variable. Discuss various types of variables",
+        "Differentiate between Variable and Construct. Explain the various types of constructs",
+        "Define variable. Explain extraneous and confounding variables"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Ex-Post Facto Research",
+      "slug": "ex-post-facto-research",
+      "frequency": 12,
+      "percentage": 42.9,
+      "priority": "high",
+      "papers_appeared": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2024"],
+      "sessions_appeared": {"june": 4, "december": 8},
+      "repeated_questions_count": 9,
+      "section_distribution": {"A": 7, "B": 3, "C": 2},
+      "sample_questions": [
+        "Discuss the concept, characteristics and steps of Ex-post facto research",
+        "Describe the characteristics and steps of ex-post facto research",
+        "Define ex-post facto research. Explain the steps involved in ex-post facto research",
+        "Differentiate between Expost facto research and Experimental Research",
+        "Highlight the strengths and limitations of ex-post facto research"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Qualities/Criteria of Good Research",
+      "slug": "qualities-of-good-research",
+      "frequency": 12,
+      "percentage": 42.9,
+      "priority": "high",
+      "papers_appeared": 12,
+      "years_appeared": ["2011","2012","2013","2014","2015","2017","2018","2020","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 7, "december": 5},
+      "repeated_questions_count": 6,
+      "section_distribution": {"A": 3, "B": 3, "C": 6},
+      "sample_questions": [
+        "Discuss the criteria, objectives and qualities of a good research. Discuss the importance of research in Psychology",
+        "Discuss the objectives and qualities of a good research",
+        "What are the basic criteria of good research? Discuss the significance of research methods in Psychology",
+        "Qualities of a good research (short note)"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Research Process",
+      "slug": "research-process",
+      "frequency": 10,
+      "percentage": 35.7,
+      "priority": "high",
+      "papers_appeared": 10,
+      "years_appeared": ["2011","2015","2016","2019","2020","2022","2023","2024"],
+      "sessions_appeared": {"june": 3, "december": 7},
+      "repeated_questions_count": 10,
+      "section_distribution": {"A": 9, "B": 1},
+      "sample_questions": [
+        "Describe the various steps involved in a research process",
+        "Explain the steps in research process",
+        "Discuss the steps in research process",
+        "Explain the various steps involved in a research process",
+        "Elucidate the various steps involved in research process"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Ethnography",
+      "slug": "ethnography",
+      "frequency": 15,
+      "percentage": 53.6,
+      "priority": "high",
+      "papers_appeared": 15,
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": {"june": 7, "december": 8},
+      "repeated_questions_count": 8,
+      "section_distribution": {"A": 3, "B": 6, "C": 6},
+      "sample_questions": [
+        "Explain ethnography as a research method",
+        "Describe the assumptions and steps of Ethnographic research",
+        "Explain critically the concept of ethnography",
+        "Discuss the meaning, assumptions and types of ethnography",
+        "Discuss the assumptions, types and steps in ethnography"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Case Study",
+      "slug": "case-study",
+      "frequency": 10,
+      "percentage": 35.7,
+      "priority": "high",
+      "papers_appeared": 10,
+      "years_appeared": ["2011","2014","2015","2016","2017","2018","2020","2021","2023"],
+      "sessions_appeared": {"june": 5, "december": 5},
+      "repeated_questions_count": 5,
+      "section_distribution": {"A": 4, "B": 3, "C": 3},
+      "sample_questions": [
+        "Elaborate the nature, criteria and types of case study",
+        "Describe case study as a research method",
+        "Describe 'case study' and elaborate the misconceptions in case studies",
+        "Explain the nature of case study. Describe the steps involved in it",
+        "Steps for case study (short note)"
+      ],
+      "related_units": ["Block-3"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Hypothesis",
+      "slug": "hypothesis",
+      "frequency": 8,
+      "percentage": 28.6,
+      "priority": "medium",
+      "papers_appeared": 8,
+      "years_appeared": ["2013","2014","2016","2017","2018","2019","2020","2022"],
+      "sessions_appeared": {"june": 3, "december": 5},
+      "repeated_questions_count": 4,
+      "section_distribution": {"A": 3, "B": 4, "C": 1},
+      "sample_questions": [
+        "Discuss the potential difficulties in the formulation of a good hypothesis",
+        "What is the meaning and significance of hypothesis? Explain the different characteristic features and types of hypothesis",
+        "Elucidate the types of hypothesis. Discuss the errors in hypothesis testing",
+        "Define hypothesis. Discuss the difficulties in formulating hypothesis"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Field Experiment",
+      "slug": "field-experiment",
+      "frequency": 8,
+      "percentage": 28.6,
+      "priority": "medium",
+      "papers_appeared": 8,
+      "years_appeared": ["2011","2013","2015","2016","2018","2019","2020","2021"],
+      "sessions_appeared": {"june": 4, "december": 4},
+      "repeated_questions_count": 4,
+      "section_distribution": {"A": 4, "B": 2, "C": 2},
+      "sample_questions": [
+        "Differentiate between experimental research and field experiments",
+        "Differentiate between experimental research and field experiment. Discuss the strengths and weaknesses of field experiments",
+        "What is a Field Experiment? Elucidate the steps in conducting field experiments",
+        "Elucidate the various aspects to be considered for constructing a field experiment"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Causal-Comparative Design",
+      "slug": "causal-comparative-design",
+      "frequency": 9,
+      "percentage": 32.1,
+      "priority": "medium",
+      "papers_appeared": 9,
+      "years_appeared": ["2012","2013","2015","2016","2017","2019","2021","2022","2023"],
+      "sessions_appeared": {"june": 4, "december": 5},
+      "repeated_questions_count": 5,
+      "section_distribution": {"A": 3, "B": 5, "C": 1},
+      "sample_questions": [
+        "Discuss the similarities and differences of causal comparative and correlational research design",
+        "Compare the causal comparative research design to correlational research design and experimental research design",
+        "What are causal comparative designs? Highlight their strengths and limitations",
+        "Give a comparative analysis of causal comparative and correlational research design"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Research Design (objectives, types, criteria)",
+      "slug": "research-design",
+      "frequency": 7,
+      "percentage": 25.0,
+      "priority": "medium",
+      "papers_appeared": 7,
+      "years_appeared": ["2011","2016","2018","2019","2020","2023","2024"],
+      "sessions_appeared": {"june": 3, "december": 4},
+      "repeated_questions_count": 3,
+      "section_distribution": {"A": 4, "B": 3},
+      "sample_questions": [
+        "Define research design. Discuss the various types of experimental research design",
+        "What is research design? Explain its objectives",
+        "Define research design. Discuss the objectives of research design",
+        "Explain research design. What are the objectives and criteria of a good research design?"
+      ],
+      "related_units": ["Block-2"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Content Analysis",
+      "slug": "content-analysis",
+      "frequency": 7,
+      "percentage": 25.0,
+      "priority": "medium",
+      "papers_appeared": 7,
+      "years_appeared": ["2011","2012","2013","2014","2017","2022","2024"],
+      "sessions_appeared": {"june": 3, "december": 4},
+      "repeated_questions_count": 3,
+      "section_distribution": {"A": 1, "B": 2, "C": 4},
+      "sample_questions": [
+        "Explain the concept of critical discourse analysis and content analysis. Point out relevance and implications",
+        "Content analysis (short note)",
+        "Discuss the contents of research report"
+      ],
+      "related_units": ["Block-4"],
+      "related_mdx_files": []
+    },
+    {
+      "topic_name": "Research Biases",
+      "slug": "research-biases",
+      "frequency": 5,
+      "percentage": 17.9,
+      "priority": "medium",
+      "papers_appeared": 5,
+      "years_appeared": ["2011","2012","2013","2021","2022"],
+      "sessions_appeared": {"june": 2, "december": 3},
+      "repeated_questions_count": 2,
+      "section_distribution": {"A": 2, "B": 1, "C": 2},
+      "sample_questions": [
+        "What are the biases in psychological research? How can you minimize them?",
+        "Describe psychological research as a science. Explain ways to minimize subjectivity and maximize objectivity",
+        "Research biases (short note)"
+      ],
+      "related_units": ["Block-1"],
+      "related_mdx_files": []
+    }
+  ],
+
+  "priority_distribution": {
+    "high": 18,
+    "medium": 6,
+    "low": 0
+  },
+
+  "session_patterns": {
+    "june_specific_topics": ["Reliability (appears mostly in June Section A)", "Survey Research (slightly more June)", "Grounded Theory (slightly more June)"],
+    "december_specific_topics": ["Validity/Threats to Internal Validity (dominantly December)", "Quasi-Experimental Design (mostly December)", "Research Process (mostly December)"],
+    "balanced_topics": ["Factorial Design", "Qualitative Research", "Ethnography", "Variables & Constructs"]
+  }
+}
