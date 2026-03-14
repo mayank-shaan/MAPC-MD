@@ -1,9 +1,9 @@
 {
   "last_updated": "2026-03-14",
   "total_courses": 7,
-  "courses_analyzed": 3,
+  "courses_analyzed": 5,
   "courses_content_created": 3,
-  "total_questions_analyzed": 857,
+  "total_questions_analyzed": 1417,
   "courses": {
     "MPC-001": {
       "status": "content_created",
@@ -69,8 +69,36 @@
         "question_answer_pages": 33
       }
     },
-    "MPC-004": { "status": "pending" },
-    "MPC-005": { "status": "pending" },
+    "MPC-004": {
+      "status": "analyzed",
+      "years_analyzed": 14,
+      "papers_analyzed": 28,
+      "papers_note": "All 28 papers readable. Format: 2011-2014 old (answer any 5 of 10, 10 marks each); 2015-2024 three-section (Sec A: 2×10, Sec B: 4×6, Sec C: 2×3).",
+      "total_questions": 280,
+      "topics_identified": 15,
+      "high_priority_topics": 11,
+      "medium_priority_topics": 4,
+      "low_priority_topics": 0,
+      "most_repeated_question": "Discuss methods of reducing prejudice and discrimination / Group characteristics, types and rules (14 appearances each, 50%)",
+      "analysis_date": "2026-03-14",
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
+    "MPC-005": {
+      "status": "analyzed",
+      "years_analyzed": 14,
+      "papers_analyzed": 28,
+      "papers_note": "All 28 papers readable. Format: 2011-2014 old (answer any 5 of 10, 10 marks each); 2015-2024 three-section (Sec A: 2×10, Sec B: 4×6, Sec C: 2×3).",
+      "total_questions": 280,
+      "topics_identified": 24,
+      "high_priority_topics": 18,
+      "medium_priority_topics": 6,
+      "low_priority_topics": 0,
+      "most_repeated_question": "Explain the approaches/steps in Discourse Analysis / Discuss the goals, steps and coding in Grounded Theory (12 appearances each, 42.9%)",
+      "analysis_date": "2026-03-14",
+      "content_creation_date": null,
+      "mdx_files_created": 0
+    },
     "MPC-006": { "status": "pending" },
     "MPCL-007": { "status": "pending" }
   },
