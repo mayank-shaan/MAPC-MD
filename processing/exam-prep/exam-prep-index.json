@@ -2,7 +2,7 @@
   "last_updated": "2026-03-14",
   "total_courses": 7,
   "courses_analyzed": 6,
-  "courses_content_created": 4,
+  "courses_content_created": 5,
   "total_questions_analyzed": 1642,
   "courses": {
     "MPC-001": {
@@ -94,7 +94,7 @@
       "mdx_files_created": 0
     },
     "MPC-005": {
-      "status": "analyzed",
+      "status": "content_created",
       "years_analyzed": 14,
       "papers_analyzed": 28,
       "papers_note": "All 28 papers readable. Format: 2011-2014 old (answer any 5 of 10, 10 marks each); 2015-2024 three-section (Sec A: 2×10, Sec B: 4×6, Sec C: 2×3).",
@@ -105,8 +105,15 @@
       "low_priority_topics": 0,
       "most_repeated_question": "Explain the approaches/steps in Discourse Analysis / Discuss the goals, steps and coding in Grounded Theory (12 appearances each, 42.9%)",
       "analysis_date": "2026-03-14",
-      "content_creation_date": null,
-      "mdx_files_created": 0
+      "content_creation_date": "2026-03-15",
+      "mdx_files_created": 28,
+      "mdx_breakdown": {
+        "index": 1,
+        "topic_analysis": 1,
+        "high_priority_topics": 1,
+        "medium_priority_topics": 1,
+        "question_answer_pages": 24
+      }
     },
     "MPC-006": {
       "status": "analyzed",
