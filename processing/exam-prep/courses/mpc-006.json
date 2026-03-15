@@ -1,0 +1,974 @@
+{
+  "course_id": "MPC-006",
+  "course_name": "Statistics in Psychology",
+  "analysis_date": "2026-03-14",
+  "years_analyzed": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+  "sessions_analyzed": ["June", "December"],
+  "total_papers": 27,
+  "missing_papers": ["2019-December"],
+  "note_on_format": "Papers 2011-2014 used old format: 10 questions, answer any 5, each 10 marks. Papers 2015-2024 use new 3-section format: Section A (any 2 of 4, 10 marks each=20), Section B (any 4 of 5, 6 marks each=24), Section C (any 2 of 3, 3 marks each=6). Total marks: 50 in both formats.",
+  "status": "analyzed",
+
+  "repeated_questions": [
+    {
+      "question_text": "Compute/Calculate ANOVA (one-way) for given data",
+      "times_repeated": 18,
+      "note": "Present in almost every paper 2015-2024 as a Section-A computation question. Also appears in older papers.",
+      "topic": "Analysis of Variance (ANOVA)",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Compute Chi-square test for given data",
+      "times_repeated": 18,
+      "note": "Present in nearly every paper. Sometimes Section A (10 marks), mostly Section B (6 marks) from 2015 onward.",
+      "topic": "Chi-Square Test",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Compute Mann-Whitney U test for given data",
+      "times_repeated": 15,
+      "note": "Consistently appears in Section B from 2015 onward.",
+      "topic": "Mann-Whitney U Test",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Compute Spearman's Rho / Rank-Order Correlation for given data",
+      "times_repeated": 14,
+      "note": "Appears across all years, mostly as Section A computation. Sometimes framed with 'define outliers' or 'explain linear/nonlinear relationship'.",
+      "topic": "Spearman's Rank Correlation",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Define/Explain parametric and non-parametric statistics with assumptions, advantages and disadvantages",
+      "times_repeated": 20,
+      "note": "Present in EVERY paper across all 14 years. The single most repeated conceptual question.",
+      "topic": "Parametric vs Non-parametric Statistics",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss normal probability curve / normal distribution and its properties/characteristics",
+      "times_repeated": 16,
+      "note": "Appears in nearly every year, sometimes as Section A, sometimes Section B.",
+      "topic": "Normal Distribution & Normal Probability Curve",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Compute Kendall's Tau for given data",
+      "times_repeated": 9,
+      "appearances": ["2011-Dec", "2012-Dec", "2013-Jun", "2014-Jun", "2017-Jun", "2017-Dec", "2018-Jun", "2019-Jun", "2020-Jun", "2022-Jun", "2022-Dec"],
+      "topic": "Kendall's Tau Correlation",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain hypothesis testing / describe steps in hypothesis testing / errors in hypothesis testing",
+      "times_repeated": 14,
+      "topic": "Hypothesis Testing",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Compute regression equation for given data / describe steps in computation of regression",
+      "times_repeated": 12,
+      "topic": "Regression Analysis",
+      "priority": "very_high"
+    },
+    {
+      "question_text": "Explain/Discuss measures of central tendency and measures of dispersion",
+      "times_repeated": 8,
+      "topic": "Descriptive Statistics: Central Tendency & Dispersion",
+      "priority": "high"
+    },
+    {
+      "question_text": "Describe divergence from normality / factors causing divergence in normal curve (skewness, kurtosis)",
+      "times_repeated": 10,
+      "topic": "Divergence from Normality",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain two-way ANOVA / merits and demerits of two-way ANOVA / interactional effect",
+      "times_repeated": 10,
+      "topic": "Two-Way ANOVA",
+      "priority": "high"
+    },
+    {
+      "question_text": "Describe levels of measurement with suitable examples",
+      "times_repeated": 9,
+      "topic": "Levels of Measurement",
+      "priority": "high"
+    },
+    {
+      "question_text": "Compute t-test for given data",
+      "times_repeated": 7,
+      "appearances": ["2011-Dec", "2013-Jun", "2014-Dec", "2018-Dec", "2019-Jun", "2020-Jun", "2020-Dec"],
+      "topic": "t-Test",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain/Compute point biserial correlation and/or phi coefficient",
+      "times_repeated": 8,
+      "topic": "Point Biserial & Phi Coefficient",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain/Compute partial correlation and/or part (semi-partial) correlation",
+      "times_repeated": 8,
+      "topic": "Partial & Part Correlation",
+      "priority": "high"
+    },
+    {
+      "question_text": "Describe/Compute standard error (of mean)",
+      "times_repeated": 9,
+      "topic": "Standard Error",
+      "priority": "high"
+    },
+    {
+      "question_text": "Describe Kruskal-Wallis ANOVA test",
+      "times_repeated": 6,
+      "topic": "Kruskal-Wallis ANOVA",
+      "priority": "medium"
+    },
+    {
+      "question_text": "Describe Wilcoxon matched pair signed rank test",
+      "times_repeated": 6,
+      "topic": "Wilcoxon Matched Pair Signed Rank Test",
+      "priority": "medium"
+    },
+    {
+      "question_text": "Explain frequency distribution (grouped/ungrouped) / organisation of data / graphical presentation",
+      "times_repeated": 8,
+      "topic": "Data Organisation & Frequency Distribution",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain/compute Pearson's Product Moment Correlation (r)",
+      "times_repeated": 8,
+      "topic": "Pearson's Product Moment Correlation",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain Type I and Type II errors",
+      "times_repeated": 9,
+      "topic": "Type I & Type II Errors",
+      "priority": "high"
+    },
+    {
+      "question_text": "Explain point and interval estimation",
+      "times_repeated": 5,
+      "topic": "Estimation: Point & Interval",
+      "priority": "medium"
+    },
+    {
+      "question_text": "Explain/discuss multiple regression and/or multiple correlation",
+      "times_repeated": 5,
+      "topic": "Multiple Regression & Multiple Correlation",
+      "priority": "medium"
+    },
+    {
+      "question_text": "Describe biserial and tetrachoric correlation",
+      "times_repeated": 6,
+      "topic": "Biserial & Tetrachoric Correlation",
+      "priority": "medium"
+    }
+  ],
+
+  "most_repeated_question": {
+    "text": "Define/Explain parametric and non-parametric statistics with assumptions, advantages and disadvantages",
+    "count": 20,
+    "note": "Appears in every single paper across all 14 years in some form"
+  },
+
+  "topics": [
+    {
+      "topic_name": "Parametric vs Non-parametric Statistics",
+      "slug": "parametric-nonparametric-statistics",
+      "frequency_count": 27,
+      "papers_appeared": 27,
+      "percentage": 100.0,
+      "priority": "very_high",
+      "section": "Primarily Section A (10 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 14, "december": 13 },
+      "sub_topics": [
+        "Definition and distinction",
+        "Assumptions of parametric statistics",
+        "Assumptions of non-parametric statistics",
+        "Advantages of non-parametric statistics",
+        "Disadvantages of non-parametric statistics",
+        "When to use non-parametric tests"
+      ],
+      "related_units": ["Block-1"],
+      "sample_questions": [
+        "Discuss the assumptions of parametric and nonparametric statistics.",
+        "Define parametric and non-parametric statistics. Discuss their assumptions, advantages and disadvantages.",
+        "Explain non-parametric statistics with a focus on its assumptions, advantages and disadvantages.",
+        "Differentiate between parametric and non-parametric statistics.",
+        "Elucidate parametric and non-parametric statistics. Describe the assumptions of parametric statistics."
+      ]
+    },
+    {
+      "topic_name": "Analysis of Variance (One-Way ANOVA)",
+      "slug": "anova-one-way",
+      "frequency_count": 22,
+      "papers_appeared": 22,
+      "percentage": 81.5,
+      "priority": "very_high",
+      "section": "Section A (10 marks) - computation",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 12, "december": 10 },
+      "sub_topics": [
+        "Computation of one-way ANOVA",
+        "Steps in ANOVA",
+        "F-ratio calculation",
+        "Within-group and between-group variance",
+        "Assumptions of ANOVA",
+        "Advantages and disadvantages of ANOVA"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Compute ANOVA for the following data.",
+        "Compute one-way ANOVA for the following data and indicate if groups differ on the variable.",
+        "Using ANOVA, find out if there exists difference in the 3 groups.",
+        "Discuss the procedure involved in Analysis of Variance. Find out the F-value for the following data.",
+        "What are assumptions of Analysis of Variance? Discuss uses and limitations of ANOVA."
+      ]
+    },
+    {
+      "topic_name": "Chi-Square Test",
+      "slug": "chi-square-test",
+      "frequency_count": 22,
+      "papers_appeared": 22,
+      "percentage": 81.5,
+      "priority": "very_high",
+      "section": "Section A (10 marks) older papers; Section B (6 marks) in 2015+ papers",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 12, "december": 10 },
+      "sub_topics": [
+        "Computation of chi-square",
+        "Goodness of fit",
+        "Test of independence",
+        "Assumptions of chi-square",
+        "Yates' correction"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Compute Chi-square for the following data.",
+        "Write assumptions of Chi square and calculate Chi square from following data.",
+        "Define chi square distribution and highlight its uses as a test of 'Goodness of fit'.",
+        "Compute Chi-square for the following data (gender × responses)."
+      ]
+    },
+    {
+      "topic_name": "Normal Distribution & Normal Probability Curve",
+      "slug": "normal-distribution-probability-curve",
+      "frequency_count": 22,
+      "papers_appeared": 22,
+      "percentage": 81.5,
+      "priority": "very_high",
+      "section": "Section A (10 marks) or Section B (6 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 11, "december": 11 },
+      "sub_topics": [
+        "Properties/characteristics of normal probability curve",
+        "Importance and applications of normal distribution",
+        "Concept and theoretical base of normal curve",
+        "Use of normal distribution in psychology",
+        "Area under the normal curve"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Explain the concept of normal curve with the help of a diagram. Describe the characteristics of normal probability curve.",
+        "Discuss the concept, properties and characteristics of normal probability curve with the help of a suitable diagram.",
+        "Explain Normal Distribution and highlight its characteristics.",
+        "What is Normal distribution? Discuss its importance and characteristics.",
+        "Describe the importance and application of normal distribution."
+      ]
+    },
+    {
+      "topic_name": "Hypothesis Testing",
+      "slug": "hypothesis-testing",
+      "frequency_count": 20,
+      "papers_appeared": 20,
+      "percentage": 74.1,
+      "priority": "very_high",
+      "section": "Section A (10 marks) or Section B (6 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 10, "december": 10 },
+      "sub_topics": [
+        "Steps in hypothesis testing",
+        "Null hypothesis and alternative hypothesis",
+        "Level of significance",
+        "One-tailed and two-tailed tests",
+        "Errors in hypothesis testing (Type I, Type II)",
+        "Decision errors"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "What is inferential statistics? Discuss in detail Hypothesis Testing.",
+        "Explain hypothesis testing. Describe errors in hypothesis testing.",
+        "What is hypothesis testing? Discuss the steps involved in setting up the level of significance.",
+        "Define hypothesis testing. Discuss general procedure for testing a hypothesis.",
+        "Explain null hypothesis with an example. Discuss errors in hypothesis testing.",
+        "Elucidate hypothesis testing."
+      ]
+    },
+    {
+      "topic_name": "Spearman's Rank Correlation",
+      "slug": "spearmans-rank-correlation",
+      "frequency_count": 19,
+      "papers_appeared": 19,
+      "percentage": 70.4,
+      "priority": "very_high",
+      "section": "Section A (10 marks) - often combined with theory",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 10, "december": 9 },
+      "sub_topics": [
+        "Computation of Spearman's rho",
+        "Rank-order correlation coefficient",
+        "Application and use",
+        "Comparison with Pearson's r"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Define outliers. Compute Spearman's Rho for the following data.",
+        "Discuss Spearman's Rank-order correlation with suitable example.",
+        "Explain linear and non-linear relationship. Find out the degree of relationship using Spearman's Rho.",
+        "Compute Spearman's Rho for the following data.",
+        "Find out Rho (Spearman's rank correlation) for the following data."
+      ]
+    },
+    {
+      "topic_name": "Mann-Whitney U Test",
+      "slug": "mann-whitney-u-test",
+      "frequency_count": 20,
+      "papers_appeared": 20,
+      "percentage": 74.1,
+      "priority": "very_high",
+      "section": "Section B (6 marks) in 2015+ papers; Section A earlier",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 11, "december": 9 },
+      "sub_topics": [
+        "Computation of Mann-Whitney U",
+        "Interpretation",
+        "When to use Mann-Whitney U (non-parametric alternative to t-test)"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Compute Mann-Whitney U test for the following data.",
+        "Calculate Mann-Whitney U-test with the help of the following data.",
+        "Describe Mann-Whitney U-test. Two independent samples had the following values. Is difference between scores significant?"
+      ]
+    },
+    {
+      "topic_name": "Regression Analysis",
+      "slug": "regression-analysis",
+      "frequency_count": 18,
+      "papers_appeared": 18,
+      "percentage": 66.7,
+      "priority": "very_high",
+      "section": "Section A (10 marks) in older papers; Section A or B in newer papers",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 9, "december": 9 },
+      "sub_topics": [
+        "Linear regression",
+        "Regression equation (X on Y and Y on X)",
+        "Steps in computation of regression",
+        "Multiple regression",
+        "Relationship between correlation and regression",
+        "Assumptions underlying regression"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Compute regression equation for X and Y based on the following data.",
+        "Discuss the steps in computation of regression with the help of suitable example.",
+        "Define regression. Differentiate between linear and multiple regression by citing example.",
+        "Explain step by step the calculation of point biserial correlation and phi coefficient."
+      ]
+    },
+    {
+      "topic_name": "Divergence from Normality",
+      "slug": "divergence-from-normality",
+      "frequency_count": 16,
+      "papers_appeared": 16,
+      "percentage": 59.3,
+      "priority": "very_high",
+      "section": "Section A (10 marks) or Section B (6 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 8, "december": 8 },
+      "sub_topics": [
+        "Skewness (positive and negative)",
+        "Kurtosis (leptokurtic, platykurtic, mesokurtic)",
+        "Factors causing divergence",
+        "Diagrams of divergence",
+        "Measuring divergence"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Describe divergence of normality with suitable diagrams. Explain the factors causing divergence in normal curve.",
+        "Explain divergence in normality with the help of a suitable diagram.",
+        "Discuss factors causing divergence in normal curve.",
+        "What is Skewness? Explain the factors causing divergence in normal distribution.",
+        "Describe divergence from normality with suitable diagram and discuss the factors causing divergence."
+      ]
+    },
+    {
+      "topic_name": "Two-Way ANOVA",
+      "slug": "two-way-anova",
+      "frequency_count": 14,
+      "papers_appeared": 14,
+      "percentage": 51.9,
+      "priority": "high",
+      "section": "Section B (6 marks) in 2015+ papers",
+      "years_appeared": ["2013","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 7, "december": 7 },
+      "sub_topics": [
+        "Interactional effect",
+        "Merits and demerits of two-way ANOVA",
+        "Concept of two-way ANOVA",
+        "Main effects vs interaction effects"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Explain the concept of interactional effect. Discuss merits and demerits of two-way ANOVA.",
+        "Elucidate interactional effect. Discuss the merits and demerits of two-way ANOVA.",
+        "Discuss merits and demerits of Two-Way Analysis Variance.",
+        "Explain the concept, merits and demerits of two-way ANOVA.",
+        "Describe interactional effect. Explain the demerits of two-way ANOVA."
+      ]
+    },
+    {
+      "topic_name": "Kendall's Tau Correlation",
+      "slug": "kendalls-tau-correlation",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section A or B",
+      "years_appeared": ["2011","2012","2013","2014","2016","2017","2019","2020","2022"],
+      "sessions_appeared": { "june": 6, "december": 6 },
+      "sub_topics": [
+        "Computation of Kendall's tau",
+        "When to use Kendall's tau",
+        "Comparison with Spearman's rho"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "When do we use Kendall 'Tau'? Find out Tau value for the following data.",
+        "Compute Kendall's tau for the following data.",
+        "Describe Kendall Rank correlation. Find out Kendall Rank Correlation co-efficient tau.",
+        "Compare Pearson's 'r' with Kendall's 'Tau'."
+      ]
+    },
+    {
+      "topic_name": "Levels of Measurement",
+      "slug": "levels-of-measurement",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section B (6 marks)",
+      "years_appeared": ["2013","2014","2015","2016","2017","2018","2019","2021","2022","2023"],
+      "sessions_appeared": { "june": 6, "december": 6 },
+      "sub_topics": [
+        "Nominal scale",
+        "Ordinal scale",
+        "Interval scale",
+        "Ratio scale",
+        "Examples for each level"
+      ],
+      "related_units": ["Block-1"],
+      "sample_questions": [
+        "Describe the four levels of measurement and indicate the data for which they are used.",
+        "Describe the levels of measurement with suitable examples.",
+        "Discuss the level of measurement with suitable examples."
+      ]
+    },
+    {
+      "topic_name": "Pearson's Product Moment Correlation",
+      "slug": "pearson-product-moment-correlation",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section A (10 marks) mostly in older papers",
+      "years_appeared": ["2011","2012","2013","2014","2016","2017","2018","2020","2021","2022"],
+      "sessions_appeared": { "june": 6, "december": 6 },
+      "sub_topics": [
+        "Computation of Pearson's r",
+        "Definition of correlation",
+        "Interpretation of correlation coefficient",
+        "Characteristics of correlation",
+        "Comparison with rank correlation"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Define Product moment coefficient of correlation. Calculate 'r' for the following data.",
+        "Explain the steps in the calculation of Pearson's product-moment correlation, with the help of an example.",
+        "Define correlation. Find out if relationship exists between the data given below with the help of Pearson's Product Moment Coefficient of Correlation.",
+        "Compute Pearson's product moment correlation for the following data."
+      ]
+    },
+    {
+      "topic_name": "Standard Error",
+      "slug": "standard-error",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section B (6 marks) or short note",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"],
+      "sessions_appeared": { "june": 7, "december": 5 },
+      "sub_topics": [
+        "Standard error of the mean",
+        "Importance and application of standard error",
+        "Standard error for large and small samples",
+        "Sampling error"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Discuss the importance and application of standard error of means.",
+        "Describe standard error of the mean and state its function.",
+        "Discuss the meaning, importance and application of standard error.",
+        "Discuss significance of mean difference and standard error of the mean."
+      ]
+    },
+    {
+      "topic_name": "Type I & Type II Errors",
+      "slug": "type-i-type-ii-errors",
+      "frequency_count": 13,
+      "papers_appeared": 13,
+      "percentage": 48.1,
+      "priority": "high",
+      "section": "Section C (3 marks) short note, or Section A/B conceptual",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 7, "december": 6 },
+      "sub_topics": [
+        "Type I error (alpha error) - rejecting true null hypothesis",
+        "Type II error (beta error) - accepting false null hypothesis",
+        "Decision errors",
+        "Relationship with significance level"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Explain Type I and Type II errors, with suitable examples.",
+        "Type I and Type II errors (short note).",
+        "What do you mean by decision errors? Discuss applications of one-tailed and two-tailed hypothesis tests."
+      ]
+    },
+    {
+      "topic_name": "Descriptive Statistics: Central Tendency & Dispersion",
+      "slug": "descriptive-statistics-central-tendency-dispersion",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section A (10 marks) or Section B (6 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"],
+      "sessions_appeared": { "june": 6, "december": 6 },
+      "sub_topics": [
+        "Mean, median, mode",
+        "Range, variance, standard deviation",
+        "Advantages and disadvantages of each measure",
+        "Descriptive vs inferential statistics",
+        "Graphical presentation of data"
+      ],
+      "related_units": ["Block-1"],
+      "sample_questions": [
+        "Describe the measures of central tendency and measures of dispersion.",
+        "Describe measures of central tendency. Elucidate advantages and disadvantages of descriptive statistics.",
+        "Differentiate between descriptive and inferential statistics.",
+        "Explain descriptive statistics. Describe graphical presentation of data."
+      ]
+    },
+    {
+      "topic_name": "Data Organisation & Frequency Distribution",
+      "slug": "data-organisation-frequency-distribution",
+      "frequency_count": 12,
+      "papers_appeared": 12,
+      "percentage": 44.4,
+      "priority": "high",
+      "section": "Section A (10 marks) or Section B (6 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2017","2019","2020","2021","2023","2024"],
+      "sessions_appeared": { "june": 7, "december": 5 },
+      "sub_topics": [
+        "Classification and tabulation of data",
+        "Grouped and ungrouped frequency distribution",
+        "Types of frequency distribution",
+        "Graphical presentation (histogram, frequency polygon, bar chart, pie chart)",
+        "Four major statistical techniques for organising data"
+      ],
+      "related_units": ["Block-1"],
+      "sample_questions": [
+        "Discuss in detail the organisation of data in terms of classification and tabulation.",
+        "Describe the four major statistical techniques for organising the data.",
+        "Discuss frequency distribution in terms of grouped and ungrouped data. Elucidate the types of frequency distribution.",
+        "Explain organisation of data with the help of suitable examples.",
+        "Discuss the graphical and diagrammatic presentation of data."
+      ]
+    },
+    {
+      "topic_name": "Point Biserial & Phi Coefficient",
+      "slug": "point-biserial-phi-coefficient",
+      "frequency_count": 11,
+      "papers_appeared": 11,
+      "percentage": 40.7,
+      "priority": "high",
+      "section": "Section A or B",
+      "years_appeared": ["2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 5, "december": 6 },
+      "sub_topics": [
+        "Point biserial correlation - definition and computation",
+        "Phi coefficient - definition and computation",
+        "When to use each",
+        "Examples from psychology"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Explain point biserial correlation and phi-coefficient with suitable examples.",
+        "Explain step by step the calculation of point biserial correlation and phi coefficient and indicate their uses.",
+        "Describe point-biserial correlation and phi-coefficient.",
+        "Explain Phi coefficient. Compute Pearson's product moment correlation for the following data."
+      ]
+    },
+    {
+      "topic_name": "Partial & Part (Semi-partial) Correlation",
+      "slug": "partial-part-correlation",
+      "frequency_count": 11,
+      "papers_appeared": 11,
+      "percentage": 40.7,
+      "priority": "high",
+      "section": "Section A or B",
+      "years_appeared": ["2011","2014","2017","2018","2019","2020","2022","2023","2024"],
+      "sessions_appeared": { "june": 5, "december": 6 },
+      "sub_topics": [
+        "Partial correlation - definition and purpose",
+        "Part (semi-partial) correlation",
+        "Difference between partial and part correlation",
+        "When to use each with examples"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Differentiate between partial and part correlation with suitable example.",
+        "Explain partial correlation. Compute Spearman's Rho for the following data.",
+        "Elucidate partial and part correlation (semi-partial correlation) with the help of suitable examples.",
+        "Discuss multiple correlation. Explain partial correlation with suitable example."
+      ]
+    },
+    {
+      "topic_name": "t-Test",
+      "slug": "t-test",
+      "frequency_count": 10,
+      "papers_appeared": 10,
+      "percentage": 37.0,
+      "priority": "high",
+      "section": "Section A (10 marks) mostly in 2018-2022",
+      "years_appeared": ["2011","2013","2014","2018","2019","2020","2021"],
+      "sessions_appeared": { "june": 5, "december": 5 },
+      "sub_topics": [
+        "Computation of t-test (independent samples)",
+        "Paired t-test",
+        "Standard error and t-test relationship",
+        "Significance of difference between means"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Compute t test for the following data.",
+        "Describe standard error. Compute t test for the following data.",
+        "Differentiate between parametric and non-parametric statistics. Find out whether the two groups differ significantly."
+      ]
+    },
+    {
+      "topic_name": "Kruskal-Wallis ANOVA",
+      "slug": "kruskal-wallis-anova",
+      "frequency_count": 9,
+      "papers_appeared": 9,
+      "percentage": 33.3,
+      "priority": "medium",
+      "section": "Section B (6 marks) or Section C (3 marks)",
+      "years_appeared": ["2011","2012","2013","2014","2016","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 5, "december": 4 },
+      "sub_topics": [
+        "Computation / step-by-step procedure",
+        "When to use Kruskal-Wallis",
+        "Non-parametric alternative to one-way ANOVA"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Discuss Kruskal-Wallis analysis of variance.",
+        "Explain step by step procedure for computation of Kruskal Wallis ANOVA with an example.",
+        "Kruskal-Wallis ANOVA test (short note).",
+        "When do we use Kruskal Wallis Analysis of variance?"
+      ]
+    },
+    {
+      "topic_name": "Wilcoxon Matched Pair Signed Rank Test",
+      "slug": "wilcoxon-signed-rank-test",
+      "frequency_count": 8,
+      "papers_appeared": 8,
+      "percentage": 29.6,
+      "priority": "medium",
+      "section": "Section B (6 marks) or Section C (3 marks)",
+      "years_appeared": ["2011","2013","2016","2019","2022","2023","2024"],
+      "sessions_appeared": { "june": 4, "december": 4 },
+      "sub_topics": [
+        "Computation / step-by-step procedure",
+        "When to use Wilcoxon test",
+        "Two sample tests"
+      ],
+      "related_units": ["Block-3"],
+      "sample_questions": [
+        "Explain in detail Wilcoxon matched pair signed rank test with suitable example.",
+        "Describe Wilcoxon matched pair signed rank test.",
+        "What do you mean by two sample tests? Write step by step procedure for Wilcoxon test for small sample.",
+        "Wilcoxon matched pair signed rank test (short note)."
+      ]
+    },
+    {
+      "topic_name": "Biserial & Tetrachoric Correlation",
+      "slug": "biserial-tetrachoric-correlation",
+      "frequency_count": 9,
+      "papers_appeared": 9,
+      "percentage": 33.3,
+      "priority": "medium",
+      "section": "Section B (6 marks) or Section C (3 marks)",
+      "years_appeared": ["2011","2016","2017","2018","2019","2021","2022","2023","2024"],
+      "sessions_appeared": { "june": 5, "december": 4 },
+      "sub_topics": [
+        "Biserial correlation - definition and use",
+        "Tetrachoric correlation - definition and use",
+        "Difference from point biserial",
+        "When to use dichotomous variables"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Describe biserial and tetrachoric correlation.",
+        "Describe point biserial correlation and tetrachoric correlation.",
+        "What is tetrachoric correlation? Compute Kendall's tau for the following data.",
+        "Explain biserial correlation. Compute Pearson's product moment correlation for the following data."
+      ]
+    },
+    {
+      "topic_name": "Multiple Regression & Multiple Correlation",
+      "slug": "multiple-regression-multiple-correlation",
+      "frequency_count": 8,
+      "papers_appeared": 8,
+      "percentage": 29.6,
+      "priority": "medium",
+      "section": "Section C (3 marks short note) or Section B",
+      "years_appeared": ["2012","2013","2014","2016","2017","2021","2022","2024"],
+      "sessions_appeared": { "june": 4, "december": 4 },
+      "sub_topics": [
+        "Multiple regression equation",
+        "Multiple correlation coefficient",
+        "Difference from simple regression",
+        "Predictors and criterion variables"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Discuss multiple correlation. Explain partial correlation with suitable example.",
+        "Multiple regression (short note).",
+        "Define regression. Differentiate between linear and multiple regression.",
+        "When do we use partial and multiple correlations?"
+      ]
+    },
+    {
+      "topic_name": "Point & Interval Estimation",
+      "slug": "point-interval-estimation",
+      "frequency_count": 7,
+      "papers_appeared": 7,
+      "percentage": 25.9,
+      "priority": "medium",
+      "section": "Section B (6 marks) or Section C (3 marks)",
+      "years_appeared": ["2013","2014","2016","2020","2021","2022"],
+      "sessions_appeared": { "june": 3, "december": 4 },
+      "sub_topics": [
+        "Point estimation",
+        "Interval estimation / confidence intervals",
+        "Difference between point and interval estimation"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Discuss Point and Interval estimation.",
+        "Point and Interval Estimation (short note)."
+      ]
+    },
+    {
+      "topic_name": "Level of Significance",
+      "slug": "level-of-significance",
+      "frequency_count": 9,
+      "papers_appeared": 9,
+      "percentage": 33.3,
+      "priority": "medium",
+      "section": "Section C (3 marks) or within hypothesis testing",
+      "years_appeared": ["2011","2012","2013","2014","2015","2016","2018","2021","2024"],
+      "sessions_appeared": { "june": 5, "december": 4 },
+      "sub_topics": [
+        "Setting up level of significance",
+        "0.05 vs 0.01 level",
+        "Critical values",
+        "Relationship with Type I error"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Describe steps in setting up the level of significance.",
+        "Level of significance (short note).",
+        "Delineate the steps in setting up the level of significance.",
+        "Discuss the concept of level of significance."
+      ]
+    },
+    {
+      "topic_name": "Linear & Non-linear Relationship",
+      "slug": "linear-nonlinear-relationship",
+      "frequency_count": 7,
+      "papers_appeared": 7,
+      "percentage": 25.9,
+      "priority": "medium",
+      "section": "Section A or C",
+      "years_appeared": ["2014","2016","2017","2020","2022","2023"],
+      "sessions_appeared": { "june": 4, "december": 3 },
+      "sub_topics": [
+        "Linear relationship - definition and diagram",
+        "Non-linear relationship",
+        "Scatter plots",
+        "Correlation and causality"
+      ],
+      "related_units": ["Block-2"],
+      "sample_questions": [
+        "Explain linear and non-linear relationship with suitable diagrams.",
+        "Describe linear and non-linear relationship with suitable examples.",
+        "Linear and Non-linear Relationship (short note)."
+      ]
+    },
+    {
+      "topic_name": "Degrees of Freedom",
+      "slug": "degrees-of-freedom",
+      "frequency_count": 6,
+      "papers_appeared": 6,
+      "percentage": 22.2,
+      "priority": "low",
+      "section": "Section C (3 marks short note)",
+      "years_appeared": ["2014","2015","2021"],
+      "sessions_appeared": { "june": 3, "december": 3 },
+      "sample_questions": [
+        "Degrees of Freedom (short note).",
+        "Degree of Freedom (short note)."
+      ]
+    },
+    {
+      "topic_name": "Variance & Characteristics of Variance",
+      "slug": "variance",
+      "frequency_count": 7,
+      "papers_appeared": 7,
+      "percentage": 25.9,
+      "priority": "medium",
+      "section": "Section A, B, or C",
+      "years_appeared": ["2013","2014","2015","2019","2021"],
+      "sessions_appeared": { "june": 4, "december": 3 },
+      "sample_questions": [
+        "Explain the meaning of variance.",
+        "Characteristics of variance (short note).",
+        "Meaning of Variance (short note).",
+        "Variance and Covariance: Building blocks of correlations."
+      ]
+    },
+    {
+      "topic_name": "Skewness & Kurtosis",
+      "slug": "skewness-kurtosis",
+      "frequency_count": 7,
+      "papers_appeared": 7,
+      "percentage": 25.9,
+      "priority": "medium",
+      "section": "Section C (3 marks) or within divergence from normality",
+      "years_appeared": ["2013","2014","2015","2017","2022","2023"],
+      "sessions_appeared": { "june": 4, "december": 3 },
+      "sample_questions": [
+        "Kurtosis (short note).",
+        "Skewness (short note).",
+        "What is Skewness? Explain the factors causing divergence in normal distribution.",
+        "Outliers and curvilinearity (short note)."
+      ]
+    },
+    {
+      "topic_name": "Histogram & Frequency Polygon",
+      "slug": "histogram-frequency-polygon",
+      "frequency_count": 5,
+      "papers_appeared": 5,
+      "percentage": 18.5,
+      "priority": "low",
+      "section": "Section C (3 marks) or within data organisation",
+      "years_appeared": ["2013","2014","2020","2022"],
+      "sessions_appeared": { "june": 3, "december": 2 },
+      "sample_questions": [
+        "Histogram (short note).",
+        "Types of Frequency Distribution (short note).",
+        "Scatter plot (short note)."
+      ]
+    }
+  ],
+
+  "priority_distribution": {
+    "very_high": 8,
+    "high": 14,
+    "medium": 10,
+    "low": 3
+  },
+
+  "section_patterns": {
+    "section_a_topics": [
+      "Parametric vs Non-parametric Statistics",
+      "Analysis of Variance (One-Way ANOVA)",
+      "Spearman's Rank Correlation",
+      "Hypothesis Testing",
+      "Normal Distribution & Normal Probability Curve",
+      "Chi-Square Test",
+      "Regression Analysis",
+      "Divergence from Normality",
+      "Pearson's Product Moment Correlation",
+      "t-Test"
+    ],
+    "section_b_topics": [
+      "Mann-Whitney U Test",
+      "Chi-Square Test",
+      "Two-Way ANOVA / Interactional Effect",
+      "Levels of Measurement",
+      "Standard Error",
+      "Kruskal-Wallis ANOVA",
+      "Wilcoxon Signed Rank Test",
+      "Point Biserial & Phi Coefficient",
+      "Partial & Part Correlation",
+      "Biserial & Tetrachoric Correlation",
+      "Normal Probability Curve Characteristics",
+      "Kendall's Tau Correlation"
+    ],
+    "section_c_topics": [
+      "Type I & Type II Errors",
+      "Level of Significance",
+      "Degrees of Freedom",
+      "Kruskal-Wallis ANOVA Test",
+      "Wilcoxon Matched Pair Signed Rank Test",
+      "Multiple Regression",
+      "Linear Regression",
+      "Kurtosis",
+      "Histogram",
+      "Standard Error",
+      "Mann-Whitney U Test",
+      "Partial Correlation",
+      "Interactional Effect",
+      "Scatter Plot",
+      "Tetrachoric Correlation"
+    ]
+  },
+
+  "format_change_note": "IMPORTANT: From 2015 onward, the paper changed to a 3-section format. Section A has 4 questions (answer any 2, 10 marks each). Section B has 5 questions (answer any 4, 6 marks each). Section C has 3 short notes (answer any 2, 3 marks each). Earlier papers (2011-2014) had 10 questions, answer any 5, all 10 marks each.",
+
+  "key_insights": [
+    "ANOVA (one-way) computation is virtually guaranteed every exam in Section A",
+    "Chi-square computation appears in every paper",
+    "Mann-Whitney U is a Section B fixture from 2015 onward",
+    "Parametric vs non-parametric is the single most conceptually repeated question",
+    "Normal curve properties appear every year - high value for conceptual understanding",
+    "Hypothesis testing appears in some form every year",
+    "Regression computation appears in approximately 2 out of every 3 papers",
+    "Two-way ANOVA / interactional effect is a reliable Section B question from 2015+",
+    "Spearman's rho appears as Section A computation in 2 of every 3 papers",
+    "Short notes are highly predictable: Type I/II errors, level of significance, degrees of freedom, kurtosis cycle regularly"
+  ]
+}
