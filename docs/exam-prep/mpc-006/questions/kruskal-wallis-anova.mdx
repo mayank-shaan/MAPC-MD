@@ -1,0 +1,111 @@
+---
+id: mpc-006-kruskal-wallis-anova
+title: Kruskal-Wallis ANOVA — Previous Year Questions & Answers
+sidebar_label: Kruskal-Wallis ANOVA
+tags: [exam-prep, statistics, kruskal-wallis, non-parametric, high-priority]
+description: Comprehensive answers to all previous year questions on Kruskal-Wallis ANOVA in MPC-006 Statistics in Psychology (9 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: high
+frequency: 9
+percentage: 33.3
+---
+
+# Kruskal-Wallis ANOVA — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 9 of 27 (33.3%) |
+| **Priority** | 🟠 **HIGH** |
+| **Section Distribution** | Sec A: ~1 | Sec B: ~4 | Sec C: ~4 |
+| **Most Repeated** | "Discuss Kruskal-Wallis analysis of variance." / "Explain step-by-step procedure for computation of Kruskal-Wallis ANOVA." |
+
+## 🎯 Must-Know Concepts
+1. Kruskal-Wallis is the non-parametric alternative to one-way ANOVA
+2. Used when comparing three or more independent groups on ordinal data
+3. Based on ranks of all scores combined
+4. H statistic follows a chi-square distribution
+5. Formula and computation procedure
+
+---
+
+## 🔥 Most Repeated Question
+
+**Common phrasings:**
+- "Discuss Kruskal-Wallis analysis of variance."
+- "Explain step by step procedure for computation of Kruskal-Wallis ANOVA with an example."
+- "When do we use Kruskal-Wallis Analysis of Variance?"
+- "Kruskal-Wallis ANOVA test (short note)."
+
+### Answer (Section B — ~250 words):
+
+**Kruskal-Wallis One-Way Analysis of Variance** is a non-parametric statistical test used to determine whether three or more independent groups differ significantly on a variable. It is the non-parametric equivalent of one-way ANOVA.
+
+**When to Use:**
+1. Data is measured on an ordinal scale
+2. The assumptions of one-way ANOVA (normality, homogeneity of variance) cannot be met
+3. Sample sizes are small
+4. Comparing three or more independent groups
+
+**Step-by-Step Computation Procedure:**
+
+**Step 1**: Rank all scores from all groups combined, from lowest (rank 1) to highest. Handle ties with average ranks.
+
+**Step 2**: Sum the ranks for each group: R₁, R₂, R₃, ...
+
+**Step 3**: Apply the Kruskal-Wallis H formula:
+$$H = \frac{12}{N(N+1)} \sum_{j=1}^{k} \frac{R_j^2}{n_j} - 3(N+1)$$
+
+Where:
+- N = total number of observations across all groups
+- k = number of groups
+- nj = number of observations in group j
+- Rj = sum of ranks in group j
+
+**Step 4**: Degrees of freedom: df = k − 1
+
+**Step 5**: Compare H obtained with χ² critical at df = k − 1 at α = 0.05
+
+**Decision**: If H obtained ≥ χ² critical → Reject H₀ → At least one group differs significantly
+
+**Note on Ties**: When there are many tied ranks, a correction factor is applied to H. For small numbers of ties, the correction has minimal effect.
+
+**Advantages over one-way ANOVA:**
+- Does not require normality
+- Suitable for ordinal data
+- Valid for small samples
+
+**Limitations:**
+- Less powerful than ANOVA when parametric assumptions are met
+- Rank-based, so loses some information from actual values
+- Only tells us that groups differ — not which specific groups differ (post-hoc tests required)
+
+---
+
+## 🧠 Memory Aid
+
+**Kruskal-Wallis vs ANOVA**:
+- One-way ANOVA = parametric, interval/ratio data
+- Kruskal-Wallis = non-parametric, ordinal/ranked data
+- Both test whether 3+ groups differ; H statistic ~ χ²
+
+---
+
+## 📚 Related Content
+- [Kruskal-Wallis ANOVA: Introduction](/mpc-006/block-4/kruskal-wallis-anova-introduction)
+- [Kruskal-Wallis: Step-by-Step Procedure](/mpc-006/block-4/kruskal-wallis-step-by-step-procedure)
+- [ANOVA vs Kruskal-Wallis Comparison](/mpc-006/block-4/anova-vs-kruskal-wallis-comparison)
+
+## ✅ Self-Assessment
+1. When would you use Kruskal-Wallis instead of one-way ANOVA?
+2. Write the formula for the H statistic.
+3. What distribution does the H statistic follow?
+4. What are the degrees of freedom for Kruskal-Wallis with 4 groups?
+5. What is the first step in computing Kruskal-Wallis?
+
+## 💡 Exam Tips
+- **Section C (short note)**: Non-parametric alternative to ANOVA → Used for 3+ groups, ordinal data → Based on ranks → H ~ χ² → df = k−1. That is sufficient for 3 marks.
+- **Section B (6 marks)**: Add the formula, full procedure steps, and comparison with ANOVA.
+- The formula must be written out for Section B — it is a key mark-earner.
+- Remember: H is compared to χ² critical, not F critical.

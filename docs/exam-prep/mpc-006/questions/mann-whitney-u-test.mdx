@@ -1,0 +1,129 @@
+---
+id: mpc-006-mann-whitney-u-test
+title: Mann-Whitney U Test — Previous Year Questions & Answers
+sidebar_label: Mann-Whitney U Test
+tags: [exam-prep, statistics, mann-whitney, non-parametric, very-high-priority]
+description: Comprehensive answers to all previous year questions on Mann-Whitney U Test in MPC-006 Statistics in Psychology (20 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: very_high
+frequency: 20
+percentage: 74.1
+---
+
+# Mann-Whitney U Test — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 20 of 27 (74.1%) |
+| **Priority** | 🔴 **VERY HIGH** |
+| **Section Distribution** | Sec A: ~4 | Sec B: ~14 | Sec C: ~2 |
+| **Most Repeated** | "Compute Mann-Whitney U test for the following data" |
+| **Probability** | **Extremely High** — the standard Section B computation from 2015 onward |
+
+## 🎯 Must-Know Concepts
+1. Mann-Whitney U is the non-parametric alternative to the independent samples t-test
+2. Used when data is ordinal or not normally distributed
+3. Based on ranking all scores together from both groups
+4. Two U values computed: U₁ and U₂; the smaller is used
+5. Decision: compare U obtained with U critical (U obtained ≤ U critical = significant)
+
+---
+
+## 🔥 Core Computation Procedure
+
+### Step-by-Step Mann-Whitney U Computation
+
+**Step 1: State H₀ and H₁**
+- H₀: There is no significant difference between Group 1 and Group 2
+- H₁: There is a significant difference between the two groups
+
+**Step 2: Rank all scores together**
+Combine all scores from both groups, then rank them from lowest (rank 1) to highest. In case of ties, assign average ranks.
+
+**Step 3: Compute U₁ and U₂**
+
+$$U_1 = n_1 n_2 + \frac{n_1(n_1+1)}{2} - R_1$$
+
+$$U_2 = n_1 n_2 + \frac{n_2(n_2+1)}{2} - R_2$$
+
+Where:
+- n₁ = number of subjects in Group 1
+- n₂ = number of subjects in Group 2
+- R₁ = sum of ranks for Group 1
+- R₂ = sum of ranks for Group 2
+
+**Verification**: U₁ + U₂ = n₁ × n₂
+
+**Step 4: Select the smaller U**
+U = smaller of U₁ and U₂
+
+**Step 5: Find U critical from the Mann-Whitney U table**
+Look up critical U at n₁ and n₂ at α = 0.05 (two-tailed)
+
+**Step 6: Decision**
+- If U obtained ≤ U critical: Reject H₀ → Significant difference exists
+- If U obtained > U critical: Retain H₀ → No significant difference
+
+> **Note**: For Mann-Whitney U, the decision rule is reversed from most tests — the obtained value must be **smaller** than or equal to the critical value to be significant.
+
+### Worked Example Layout
+
+| All Scores Combined | Group | Rank |
+|---------------------|-------|------|
+| Score 1 | G1 | 1 |
+| Score 2 | G2 | 2 |
+| ... | ... | ... |
+
+Then compute R₁, R₂, U₁, U₂.
+
+---
+
+## 📝 Conceptual Questions
+
+### When to use Mann-Whitney U Test (Section B — ~250 words)
+
+The Mann-Whitney U test is used when:
+1. The data are measured on an ordinal scale or the continuous data violates normality assumptions
+2. The researcher is comparing **two independent groups**
+3. Sample sizes are small
+4. The independent samples t-test assumptions cannot be met
+
+**Relationship to t-test**: The Mann-Whitney U test is the non-parametric alternative to the independent samples t-test. Where the t-test requires interval/ratio data and assumes normality, the Mann-Whitney U test requires only ordinal-level data. When the normality assumption is met, the t-test is more powerful; when it is violated, Mann-Whitney U is preferred.
+
+**Assumptions of Mann-Whitney U:**
+1. Two independent groups
+2. Data measured at least on ordinal scale
+3. Observations are independent
+
+---
+
+## 🧠 Memory Aid
+
+**Mann-Whitney Steps (RRUC-D):**
+- **R**ank all scores together
+- **R**₁ and R₂: sum ranks for each group
+- **U**₁ and U₂: apply the formulas
+- **C**hoose smaller U
+- **D**ecide: U obtained ≤ U critical → significant
+
+---
+
+## 📚 Related Content
+- [Mann-Whitney U Test](/mpc-006/block-4/mann-whitney-u-test)
+- [Parametric vs Non-parametric Two-Sample Tests](/mpc-006/block-4/parametric-vs-nonparametric-two-sample)
+
+## ✅ Self-Assessment
+1. What does the Mann-Whitney U test measure?
+2. If n₁ = 6, n₂ = 5, and R₁ = 40, what is U₁?
+3. If U₁ = 12 and U₂ = 18, which value is used for the decision?
+4. How does the decision rule for Mann-Whitney U differ from most other tests?
+5. When would you use Mann-Whitney U instead of a t-test?
+
+## 💡 Exam Tips
+- **Always show the combined ranking table** — this earns the most marks.
+- Verify your work: U₁ + U₂ must equal n₁ × n₂.
+- State H₀ before computing.
+- Remember: smaller U = more significant. The decision rule is the opposite of most tests.
+- Mention that Mann-Whitney U is the non-parametric equivalent of the t-test.

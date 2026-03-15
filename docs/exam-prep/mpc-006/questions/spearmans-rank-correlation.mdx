@@ -1,0 +1,131 @@
+---
+id: mpc-006-spearmans-rank-correlation
+title: Spearman's Rank Correlation — Previous Year Questions & Answers
+sidebar_label: Spearman's Rank Correlation
+tags: [exam-prep, statistics, spearman, correlation, very-high-priority]
+description: Comprehensive answers to all previous year questions on Spearman's Rank Correlation in MPC-006 Statistics in Psychology (19 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: very_high
+frequency: 19
+percentage: 70.4
+---
+
+# Spearman's Rank Correlation — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 19 of 27 (70.4%) |
+| **Priority** | 🔴 **VERY HIGH** |
+| **Section Distribution** | Sec A: ~14 | Sec B: ~4 | Sec C: ~1 |
+| **Most Repeated** | "Compute Spearman's Rho for the following data" |
+| **Probability** | **Very High** — primary Section A computation in ~2 of every 3 papers |
+
+## 🎯 Must-Know Concepts
+1. Spearman's rho (ρ) is a non-parametric measure of rank correlation
+2. Formula: rho = 1 − [6Σd²/ n(n²−1)]
+3. d = difference between ranks for each pair
+4. Range: −1 to +1 (same as Pearson's r)
+5. Used when data is ordinal, or Pearson's r assumptions are violated
+6. Tied ranks: assign average of tied ranks
+
+---
+
+## 🔥 Core Computation Procedure
+
+### Step-by-Step Spearman's Rho
+
+**Step 1: Assign ranks to each variable**
+Rank the scores for Variable X from 1 (lowest) to n (highest). Do the same for Variable Y. For tied scores, assign the average rank.
+
+**Step 2: Compute d (rank differences)**
+For each pair, d = Rank of X − Rank of Y
+
+**Step 3: Compute d²**
+Square each d value.
+
+**Step 4: Sum the d² values**
+ΣD² = sum of all squared rank differences
+
+**Step 5: Apply the formula**
+$$\rho = 1 - \frac{6\Sigma D^2}{n(n^2 - 1)}$$
+
+Where n = number of pairs.
+
+**Computation Table:**
+
+| Subject | X | Y | Rank X | Rank Y | D (RX−RY) | D² |
+|---------|---|---|--------|--------|-----------|-----|
+| 1 | | | | | | |
+| 2 | | | | | | |
+| ... | | | | | | |
+| | | | | | ΣD² = | |
+
+**Step 6: Interpret**
+- rho = +1: Perfect positive rank correlation
+- rho = −1: Perfect negative rank correlation
+- rho = 0: No rank correlation
+- Compare with critical r at df = n − 2
+
+---
+
+## 📝 Conceptual Questions
+
+### Spearman's Rho vs Pearson's r (Section B — ~250 words)
+
+| Aspect | Spearman's Rho (ρ) | Pearson's r |
+|--------|-------------------|-------------|
+| **Type** | Non-parametric | Parametric |
+| **Data scale** | Ordinal (ranked data) | Interval or ratio |
+| **Distribution** | No normality assumption | Assumes normality |
+| **Based on** | Rank differences | Actual values |
+| **Formula** | 1 − 6ΣD²/n(n²−1) | Σ(X−X̄)(Y−Ȳ)/nSDxSDy |
+| **Outliers** | Less sensitive | Sensitive |
+| **Use** | When ranks are natural, or data non-normal | When interval/ratio data, normal distribution |
+
+**When to use Spearman's rho:**
+1. Data measured on ordinal scale (e.g., rankings, ratings)
+2. Data does not meet normality assumptions
+3. Small samples
+4. Presence of outliers that would distort Pearson's r
+
+Often questions are phrased as: "Define outliers. Compute Spearman's Rho for the following data." — prepare a definition of outliers: extreme values that deviate markedly from other data points, which can distort correlation coefficients.
+
+### Linear and Non-linear Relationship (Section A pairing — ~250 words)
+
+Questions often pair Spearman's Rho computation with "Explain linear and non-linear relationship":
+
+**Linear relationship**: When scores on two variables change at a constant rate — a straight line fits the scatter plot. The relationship can be positive (both increase together) or negative (one increases as the other decreases).
+
+**Non-linear relationship**: When the relationship between variables is not constant — the scatter plot follows a curved pattern. Pearson's r is not appropriate for non-linear relationships; Spearman's rho may better capture monotonic non-linear relationships.
+
+---
+
+## 🧠 Memory Aid
+
+**Spearman Steps (RRDS-F):**
+- **R**ank X variable
+- **R**ank Y variable
+- **D**ifference (d = Rank X − Rank Y) and D²
+- **S**um the D² values
+- **F**ormula: rho = 1 − 6ΣD²/n(n²−1)
+
+---
+
+## 📚 Related Content
+- [Spearman Rho, Kendall Tau](/mpc-006/block-2/spearman-rho-kendall-tau)
+- [Correlation: Meaning and Scatter Diagrams](/mpc-006/block-2/correlation-meaning-scatter-diagrams)
+
+## ✅ Self-Assessment
+1. Write the formula for Spearman's rho.
+2. What is the value of n(n²−1) when n = 8?
+3. If ΣD² = 24 and n = 6, what is rho?
+4. When would you choose Spearman's rho over Pearson's r?
+5. How do you handle tied ranks in Spearman's rho computation?
+
+## 💡 Exam Tips
+- Show the full table with columns: Subject, X, Y, Rank X, Rank Y, D, D².
+- Verify: the sum of ranks for X should equal n(n+1)/2.
+- For tied ranks: both scores get the average of the two ranks (e.g., if 2 scores tie for ranks 3 and 4, both get rank 3.5).
+- Questions often come with a theory part ("explain outliers" or "linear vs non-linear") before the computation — prepare both.
