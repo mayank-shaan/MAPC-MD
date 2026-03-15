@@ -1,0 +1,128 @@
+---
+id: mpc-006-chi-square-test
+title: Chi-Square Test — Previous Year Questions & Answers
+sidebar_label: Chi-Square Test
+tags: [exam-prep, statistics, chi-square, non-parametric, very-high-priority]
+description: Comprehensive answers to all previous year questions on Chi-Square Test in MPC-006 Statistics in Psychology (22 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: very_high
+frequency: 22
+percentage: 81.5
+---
+
+# Chi-Square Test — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 22 of 27 (81.5%) |
+| **Priority** | 🔴 **VERY HIGH** |
+| **Section Distribution** | Sec A: ~8 | Sec B: ~12 | Sec C: ~2 |
+| **Most Repeated** | "Compute Chi-square for the following data" |
+| **Probability** | **Extremely High** — nearly certain as Section B computation |
+
+## 🎯 Must-Know Concepts
+1. Chi-square (χ²) is a non-parametric test for categorical data
+2. Two uses: goodness of fit and test of independence (contingency)
+3. Formula: χ² = Σ[(O − E)² / E]
+4. Expected frequency calculation for contingency tables
+5. Yates' correction for 2×2 tables
+6. Assumptions and limitations of chi-square
+
+---
+
+## 🔥 Core Computation Procedure
+
+### Chi-Square Test of Independence (Contingency Table)
+
+**Question type**: "Compute chi-square for the following data. Is the difference significant?"
+
+**Step 1: Set up the contingency table**
+Arrange observed frequencies (O) in rows and columns.
+
+**Step 2: Calculate Expected Frequencies (E)**
+$$E_{ij} = \frac{Row\, Total_i \times Column\, Total_j}{Grand\, Total}$$
+
+**Step 3: Compute Chi-Square**
+$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+
+Calculate (O − E), then (O − E)², then (O − E)²/E for each cell. Sum all values.
+
+**Step 4: Degrees of Freedom**
+$$df = (r - 1)(c - 1)$$
+where r = number of rows, c = number of columns.
+
+**Step 5: Chi-Square Table**
+
+| Cell | O | E | O−E | (O−E)² | (O−E)²/E |
+|------|---|---|-----|---------|----------|
+| Cell 1 | | | | | |
+| Cell 2 | | | | | |
+| ... | | | | | |
+| **Total** | | | | | **χ²** |
+
+**Step 6: Decision**
+- Find χ² critical from the chi-square distribution table at the computed df at α = 0.05
+- If χ² obtained ≥ χ² critical: Reject H₀ → Significant association exists
+- If χ² obtained < χ² critical: Retain H₀ → No significant association
+
+### Yates' Correction (for 2×2 tables with small expected frequencies)
+When expected frequency in any cell < 5 in a 2×2 table:
+$$\chi^2_{Yates} = \sum \frac{(|O - E| - 0.5)^2}{E}$$
+
+---
+
+## 📝 Conceptual Questions
+
+### Chi-square as Goodness of Fit (Section B — ~250 words)
+
+The **goodness of fit** test examines whether observed frequencies differ significantly from expected (theoretical) frequencies.
+
+*Procedure*:
+1. State expected frequency for each category based on theoretical distribution
+2. Compute χ² = Σ[(O − E)² / E]
+3. df = k − 1 (k = number of categories)
+4. Compare χ² obtained with χ² critical
+
+*Example*: Testing whether a die is fair — expected frequency for each face = N/6.
+
+**Assumptions of Chi-Square:**
+1. Data must be in frequencies (counts), not percentages or proportions
+2. Observations must be independent
+3. Expected frequency in each cell should be at least 5 (use Yates' correction if not)
+4. Data measured on nominal or ordinal scale
+
+**Advantages**: Simple to compute; applicable to nominal data; no normality assumption.
+
+**Limitations**: Cannot be used with continuous data directly; sensitive to small expected frequencies; only tests association, not causation.
+
+---
+
+## 🧠 Memory Aid
+
+**Chi-Square Steps (SEDC):**
+- **S**et up observed table
+- **E**xpected frequencies (row × col / grand total)
+- **D**ifference: (O−E)²/E for each cell, sum = χ²
+- **C**ompare with critical value at df = (r−1)(c−1)
+
+---
+
+## 📚 Related Content
+- [Chi-Square Test: Goodness of Fit and Independence](/mpc-006/block-4/chi-square-test-goodness-of-fit-independence)
+- [Non-parametric Tests: Chi-square, Mann-Whitney](/mpc-006/block-1/nonparametric-tests-chi-square-mann-whitney)
+
+## ✅ Self-Assessment
+1. What is the formula for expected frequency in a contingency table?
+2. When should Yates' correction be applied?
+3. For a 3×2 contingency table, what are the degrees of freedom?
+4. What is the difference between goodness of fit and test of independence?
+5. What is the minimum expected frequency rule for chi-square?
+
+## 💡 Exam Tips
+- Always draw the full table with O, E, (O−E), (O−E)², (O−E)²/E columns.
+- Mention Yates' correction even if not applied — it shows awareness.
+- State H₀: "There is no significant association between the two variables."
+- Chi-square is non-parametric — mention this in your answer.
+- For goodness of fit questions, clearly state what the expected frequencies represent.

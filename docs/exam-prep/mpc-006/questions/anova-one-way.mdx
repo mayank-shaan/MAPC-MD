@@ -1,0 +1,145 @@
+---
+id: mpc-006-anova-one-way
+title: One-Way ANOVA — Previous Year Questions & Answers
+sidebar_label: One-Way ANOVA
+tags: [exam-prep, statistics, anova, computation, very-high-priority]
+description: Comprehensive answers to all previous year questions on One-Way ANOVA in MPC-006 Statistics in Psychology (22 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: very_high
+frequency: 22
+percentage: 81.5
+---
+
+# One-Way ANOVA — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 22 of 27 (81.5%) |
+| **Priority** | 🔴 **VERY HIGH** — virtual guarantee in Section A |
+| **Section Distribution** | Sec A: ~20 | Sec B: ~2 |
+| **Most Repeated** | Compute one-way ANOVA for given data |
+| **Probability** | **Extremely High** — prepare as your primary Section A computation |
+
+## 🎯 Must-Know Concepts
+1. Purpose: ANOVA tests whether three or more group means differ significantly
+2. F-ratio = Between-group variance / Within-group variance
+3. Steps: compute SS total, SS between, SS within; then df, MS, F
+4. Assumptions: normality, homogeneity of variance, independent samples
+5. Advantages and limitations of ANOVA
+6. Interpretation: F obtained vs F critical from table
+
+---
+
+## 🔥 Core Computation Procedure (Section A — ~450 words)
+
+**Question type**: "Compute one-way ANOVA for the following data and indicate whether the groups differ significantly."
+
+### Step-by-Step ANOVA Computation
+
+**Given**: Scores from k groups (typically 3 groups with n subjects each)
+
+**Step 1: Calculate the Grand Total and Grand Mean**
+- Grand Total (ΣX) = Sum of all scores
+- Grand Mean (X̄G) = ΣX / N (N = total subjects across all groups)
+
+**Step 2: Calculate Group Totals and Means**
+- For each group j: Tj = ΣXj, X̄j = Tj / nj
+
+**Step 3: Calculate Sum of Squares (SS)**
+
+*SS Total* (total variability):
+$$SS_{Total} = \sum X^2 - \frac{(\sum X)^2}{N}$$
+
+*SS Between* (variability due to group differences):
+$$SS_{Between} = \sum_j \frac{T_j^2}{n_j} - \frac{(\sum X)^2}{N}$$
+
+*SS Within* (variability within each group):
+$$SS_{Within} = SS_{Total} - SS_{Between}$$
+
+**Step 4: Degrees of Freedom (df)**
+- df Between = k − 1 (k = number of groups)
+- df Within = N − k
+- df Total = N − 1
+
+**Step 5: Mean Squares (MS)**
+- MS Between = SS Between / df Between
+- MS Within = SS Within / df Within
+
+**Step 6: F-ratio**
+$$F = \frac{MS_{Between}}{MS_{Within}}$$
+
+**Step 7: ANOVA Summary Table**
+
+| Source | SS | df | MS | F |
+|--------|----|----|----|----|
+| Between Groups | SS_B | k−1 | MS_B | MS_B/MS_W |
+| Within Groups | SS_W | N−k | MS_W | — |
+| Total | SS_T | N−1 | — | — |
+
+**Step 8: Decision**
+- Find F critical from F-distribution table at df1 = k−1, df2 = N−k at α = 0.05
+- If F obtained ≥ F critical: Reject H₀ → Groups differ significantly
+- If F obtained < F critical: Retain H₀ → Groups do not differ significantly
+
+### Null and Alternative Hypothesis
+- **H₀**: μ₁ = μ₂ = μ₃ (all group means are equal)
+- **H₁**: At least one group mean is different
+
+---
+
+## 📝 Conceptual Questions
+
+### Assumptions of ANOVA (Section B — ~250 words)
+
+ANOVA rests on several assumptions:
+
+1. *Normality*: Scores within each group are normally distributed. ANOVA is relatively robust to violations of normality when sample sizes are equal and reasonably large.
+2. *Homogeneity of variance*: The variance within each group is approximately equal (homoscedasticity). Levene's test can be used to check this assumption.
+3. *Independence of observations*: Scores from different subjects are independent of each other.
+4. *Random sampling*: Participants are randomly assigned to groups (in true experiments).
+
+*Advantages of ANOVA:*
+- Can compare three or more groups simultaneously, avoiding the inflation of Type I error that occurs with multiple t-tests.
+- Partitions total variability into meaningful components (between-group and within-group).
+- Extensible to complex designs (two-way ANOVA, mixed designs).
+
+*Limitations of ANOVA:*
+- Assumes normality and homogeneity of variance.
+- Only tells us that at least one group differs; does not identify which groups differ (post-hoc tests needed).
+- Sensitive to outliers.
+
+---
+
+## 🧠 Memory Aid
+
+**ANOVA Steps (GSSDF-MF-D):**
+- **G**rand total & grand mean
+- **S**S Total
+- **S**S Between & SS Within
+- **D**egrees of freedom
+- **F**ormulate MS
+- **F**-ratio
+- **D**ecision (compare with F critical)
+
+---
+
+## 📚 Related Content
+- [One-Way ANOVA](/mpc-006/block-3/one-way-anova)
+- [Two-Way ANOVA](/mpc-006/block-3/two-way-anova)
+- [Parametric Tests: t, F, Pearson](/mpc-006/block-1/parametric-tests-t-f-pearson)
+
+## ✅ Self-Assessment
+1. What does the F-ratio represent in ANOVA?
+2. What are the degrees of freedom between and within for 3 groups with 5 subjects each?
+3. If F obtained = 4.2 and F critical = 3.89, what is your conclusion?
+4. Why use ANOVA instead of multiple t-tests?
+5. What assumptions must be met before applying ANOVA?
+
+## 💡 Exam Tips
+- **Always draw the ANOVA summary table** — examiners award marks for the structured table format.
+- Show every calculation step: GT, group totals, SS formulas, df, MS, F.
+- State H₀ and H₁ before computing.
+- Look up F critical and state the conclusion explicitly.
+- Computation questions: practice with at least 5 different data sets before the exam.

@@ -1,0 +1,96 @@
+---
+id: mpc-006-t-test
+title: t-Test — Previous Year Questions & Answers
+sidebar_label: t-Test
+tags: [exam-prep, statistics, t-test, computation, high-priority]
+description: Comprehensive answers to all previous year questions on t-Test in MPC-006 Statistics in Psychology (10 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: high
+frequency: 10
+percentage: 37.0
+---
+
+# t-Test — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 10 of 27 (37.0%) |
+| **Priority** | 🟠 **HIGH** |
+| **Section Distribution** | Sec A: ~8 | Sec B: ~2 |
+| **Most Repeated** | "Compute t test for the following data" |
+| **Note** | More common in older papers (2011–2020); ANOVA dominates Section A post-2018 |
+
+## 🎯 Must-Know Concepts
+1. t-test for independent samples (two groups)
+2. t-test for correlated/paired samples
+3. Formula, df, interpretation
+4. Relationship to SE (standard error)
+5. Assumptions of t-test
+
+---
+
+## 🔥 Core Computation: Independent Samples t-Test
+
+**Step 1**: Compute means and SDs for each group
+
+**Step 2**: Compute standard error of the difference between means:
+$$SE_{diff} = \sqrt{\frac{SD_1^2}{n_1} + \frac{SD_2^2}{n_2}}$$
+
+For small samples with equal variances (pooled SD):
+$$t = \frac{\bar{X}_1 - \bar{X}_2}{SD_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}$$
+
+Where pooled SD:
+$$SD_p = \sqrt{\frac{(n_1-1)SD_1^2 + (n_2-1)SD_2^2}{n_1+n_2-2}}$$
+
+**Step 3**: Degrees of freedom: df = n₁ + n₂ − 2
+
+**Step 4**: Compare t obtained with t critical at df and α = 0.05
+
+**Decision**: If |t obtained| ≥ t critical → Reject H₀ → Significant difference
+
+### Paired Samples t-Test (Correlated):
+$$t = \frac{\bar{D}}{SE_D}$$
+
+Where D = difference scores for each pair, D̄ = mean of differences, SE_D = SD of differences / √n
+
+df = n − 1 (n = number of pairs)
+
+---
+
+## 📝 Assumptions of t-Test (Section B — ~200 words)
+
+1. Data measured on interval or ratio scale
+2. Normal distribution in the population
+3. Homogeneity of variance (for independent samples)
+4. Random sampling
+5. Independence of observations (for independent samples t-test)
+
+**When to use t-test vs ANOVA**: t-test compares **two groups**; ANOVA compares **three or more groups**. Running multiple t-tests inflates Type I error; ANOVA avoids this.
+
+---
+
+## 🧠 Memory Aid
+
+**t-test = two groups**: t = difference between means / standard error of that difference.
+
+---
+
+## 📚 Related Content
+- [t-Test: Independent and Correlated Samples](/mpc-006/block-3/t-test-independent-correlated-samples)
+- [Significance of Difference Between Two Means](/mpc-006/block-3/significance-difference-two-means)
+- [Standard Error and Sample Size](/mpc-006/block-1/standard-error-sample-size-z-t-decision)
+
+## ✅ Self-Assessment
+1. Write the formula for independent samples t-test.
+2. What are the degrees of freedom for a t-test with n₁ = 10, n₂ = 12?
+3. What is the difference between independent and paired t-tests?
+4. Why use ANOVA instead of multiple t-tests?
+5. What assumptions must be met for a t-test?
+
+## 💡 Exam Tips
+- Always show the SE calculation step explicitly.
+- State H₀ and H₁ before computing.
+- Questions often pair: "Describe SE. Compute t-test for the following data."
+- df must be correct — losing marks here is avoidable.

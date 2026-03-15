@@ -1,0 +1,132 @@
+---
+id: mpc-006-regression-analysis
+title: Regression Analysis — Previous Year Questions & Answers
+sidebar_label: Regression Analysis
+tags: [exam-prep, statistics, regression, computation, very-high-priority]
+description: Comprehensive answers to all previous year questions on Regression Analysis in MPC-006 Statistics in Psychology (18 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: very_high
+frequency: 18
+percentage: 66.7
+---
+
+# Regression Analysis — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 18 of 27 (66.7%) |
+| **Priority** | 🔴 **VERY HIGH** |
+| **Section Distribution** | Sec A: ~12 | Sec B: ~5 | Sec C: ~1 |
+| **Most Repeated** | "Compute regression equation for X and Y based on the following data" |
+| **Probability** | **Very High** — Section A computation in ~2 of every 3 papers |
+
+## 🎯 Must-Know Concepts
+1. Regression is used for prediction — predicting one variable from another
+2. Two regression equations: Y on X (predicting Y from X) and X on Y (predicting X from Y)
+3. Regression coefficient (b) = slope of the regression line
+4. Relationship between correlation and regression
+5. Linear vs multiple regression
+6. Assumptions underlying regression
+
+---
+
+## 🔥 Core Computation Procedure
+
+### Regression Equations (Section A)
+
+**Two regression equations** are needed for full marks:
+
+**Regression of Y on X** (predicting Y from X):
+$$Y = a_{yx} + b_{yx}X$$
+
+Where:
+$$b_{yx} = \frac{n\Sigma XY - \Sigma X \cdot \Sigma Y}{n\Sigma X^2 - (\Sigma X)^2}$$
+
+$$a_{yx} = \bar{Y} - b_{yx}\bar{X}$$
+
+**Regression of X on Y** (predicting X from Y):
+$$X = a_{xy} + b_{xy}Y$$
+
+Where:
+$$b_{xy} = \frac{n\Sigma XY - \Sigma X \cdot \Sigma Y}{n\Sigma Y^2 - (\Sigma Y)^2}$$
+
+$$a_{xy} = \bar{X} - b_{xy}\bar{Y}$$
+
+### Computation Table
+
+| N | X | Y | X² | Y² | XY |
+|---|---|---|----|----|----|
+| 1 | | | | | |
+| 2 | | | | | |
+| ... | | | | | |
+| **Σ** | ΣX | ΣY | ΣX² | ΣY² | ΣXY |
+
+**Step 1**: Calculate ΣX, ΣY, ΣX², ΣY², ΣXY, and n  
+**Step 2**: Compute X̄ and Ȳ  
+**Step 3**: Compute b_yx using the formula  
+**Step 4**: Compute a_yx = Ȳ − b_yx × X̄  
+**Step 5**: Write equation: Ŷ = a_yx + b_yx × X  
+**Step 6**: Repeat for X on Y regression  
+**Step 7**: Verify — point (X̄, Ȳ) must lie on both regression lines
+
+---
+
+## 📝 Conceptual Questions
+
+### Relationship between Correlation and Regression (Section B — ~250 words)
+
+Correlation and regression are closely related but serve different purposes:
+
+- **Correlation** measures the degree and direction of the linear relationship between two variables. It is symmetrical — r(X,Y) = r(Y,X).
+- **Regression** uses the relationship to predict one variable from the other. It is asymmetrical — there are two distinct regression equations.
+
+The regression coefficients b_yx and b_xy are related to the correlation coefficient:
+$$r = \sqrt{b_{yx} \times b_{xy}}$$
+
+This means: if you multiply the two regression coefficients and take the square root, you get Pearson's r. Also: if r = 0, the regression lines are perpendicular to the axes and prediction is impossible; if r = ±1, both regression lines coincide.
+
+**Assumptions of linear regression:**
+1. Linear relationship between variables
+2. Normality of residuals
+3. Homoscedasticity (equal variance of residuals)
+4. Independence of observations
+
+**Linear vs Multiple Regression:**
+- *Linear (simple) regression*: One predictor variable; one criterion variable
+- *Multiple regression*: Two or more predictor variables; one criterion variable. Better prediction accuracy but more complex computation.
+
+---
+
+## 🧠 Memory Aid
+
+**Regression Steps (TSBE):**
+- **T**able: compute ΣX, ΣY, ΣX², ΣY², ΣXY
+- **S**lope b: apply formula
+- **B**-intercept a: a = Ȳ − bX̄
+- **E**quation: write Ŷ = a + bX
+
+**r connects b_yx and b_xy**:
+$$r = \sqrt{b_{yx} \times b_{xy}}$$
+
+---
+
+## 📚 Related Content
+- [Linear Regression: Introduction and Prediction](/mpc-006/block-2/linear-regression-introduction-prediction)
+- [Bivariate Regression: OLS and Computation](/mpc-006/block-2/bivariate-regression-ols-computation)
+- [Multiple Regression](/mpc-006/block-2/standardised-multiple-regression)
+
+## ✅ Self-Assessment
+1. Write the formula for regression coefficient b_yx.
+2. What is the relationship between the two regression coefficients and r?
+3. If X̄ = 5, Ȳ = 7, and b_yx = 0.8, what is a_yx?
+4. Why are there two regression equations?
+5. What is the purpose of the regression equation?
+
+## 💡 Exam Tips
+- Always compute **both** regression equations for full marks in Section A.
+- The computation table with ΣX, ΣY, ΣX², ΣY², ΣXY is essential — set it up first.
+- Verify your computation: r² = b_yx × b_xy.
+- Questions often ask you to also predict a value using the equation — substitute and solve.
+- Know the formula r = √(b_yx × b_xy) — it frequently appears as a short note or within conceptual answers.

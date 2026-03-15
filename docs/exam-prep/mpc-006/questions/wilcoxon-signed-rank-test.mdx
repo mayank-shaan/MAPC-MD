@@ -1,0 +1,117 @@
+---
+id: mpc-006-wilcoxon-signed-rank-test
+title: Wilcoxon Matched Pair Signed Rank Test — Previous Year Questions & Answers
+sidebar_label: Wilcoxon Signed Rank Test
+tags: [exam-prep, statistics, wilcoxon, non-parametric, medium-priority]
+description: Comprehensive answers to all previous year questions on Wilcoxon Matched Pair Signed Rank Test in MPC-006 Statistics in Psychology (8 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: medium
+frequency: 8
+percentage: 29.6
+---
+
+# Wilcoxon Matched Pair Signed Rank Test — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 8 of 27 (29.6%) |
+| **Priority** | 🟡 **MEDIUM** |
+| **Section Distribution** | Sec A: ~1 | Sec B: ~4 | Sec C: ~3 |
+| **Most Repeated** | "Explain in detail Wilcoxon matched pair signed rank test with suitable example." |
+
+## 🎯 Must-Know Concepts
+1. Non-parametric alternative to paired samples t-test
+2. Based on ranks of absolute differences between paired scores
+3. Both magnitude and direction of differences are considered
+4. T statistic = smaller of sum of positive and negative ranks
+5. Decision: T obtained ≤ T critical = significant
+
+---
+
+## 🔥 Most Repeated Question
+
+**Common phrasings:**
+- "Explain in detail Wilcoxon matched pair signed rank test with suitable example."
+- "Describe Wilcoxon matched pair signed rank test."
+- "What do you mean by two sample tests? Write step by step procedure for Wilcoxon test for small sample."
+- "Wilcoxon matched pair signed rank test (short note)."
+
+### Answer (Section B — ~250 words):
+
+The **Wilcoxon Matched Pair Signed Rank Test** is a non-parametric statistical test used to compare two **related (paired) samples**. It is the non-parametric equivalent of the paired samples t-test.
+
+**When to Use:**
+1. Data consists of paired observations (before-after, matched pairs, repeated measures)
+2. Data is at least ordinal
+3. Assumptions of the paired t-test (normality of difference scores) cannot be met
+4. Sample is small
+
+**Step-by-Step Procedure:**
+
+**Step 1**: Compute the difference (D) for each pair: D = Score₂ − Score₁
+
+**Step 2**: Exclude all pairs where D = 0 (zero differences are dropped). Update n accordingly.
+
+**Step 3**: Rank the **absolute values** of the differences |D|, from smallest (rank 1) to largest. Handle ties with average ranks.
+
+**Step 4**: Assign the **sign** of the original difference to each rank.
+- Positive differences → positive ranks
+- Negative differences → negative ranks
+
+**Step 5**: Compute:
+- W⁺ = sum of positive ranks
+- W⁻ = sum of negative ranks
+
+**Verification**: W⁺ + W⁻ = n(n+1)/2
+
+**Step 6**: T = smaller of W⁺ and W⁻
+
+**Step 7**: Find T critical from the Wilcoxon T table at the adjusted n and α = 0.05
+
+**Decision**: If T obtained ≤ T critical → Reject H₀ → Significant difference between the two conditions
+
+> **Note**: Like Mann-Whitney U, the decision rule is reversed — smaller obtained value means more significant.
+
+**Example Table:**
+
+| Pair | Score₁ | Score₂ | D | |D| | Rank | Signed Rank |
+|------|--------|--------|---|----|------|-------------|
+| 1 | | | | | | |
+| ... | | | | | | |
+
+**Advantages:**
+- Considers both magnitude and direction of differences (unlike sign test)
+- More powerful than the sign test
+- Suitable when t-test assumptions cannot be met
+
+---
+
+## 🧠 Memory Aid
+
+**Wilcoxon Steps (DRZST):**
+- **D**ifferences (compute D = Score₂ − Score₁)
+- **R**emove zeros
+- **Z**ero-free ranking of |D|
+- **S**ign the ranks (+ or −)
+- **T** = smaller of W⁺ and W⁻ → compare with T critical
+
+---
+
+## 📚 Related Content
+- [Wilcoxon Matched-Pairs Signed-Ranks](/mpc-006/block-4/wilcoxon-matched-pairs-signed-ranks)
+- [Parametric vs Non-parametric Two-Sample Tests](/mpc-006/block-4/parametric-vs-nonparametric-two-sample)
+
+## ✅ Self-Assessment
+1. When is the Wilcoxon test preferred over the paired t-test?
+2. What is the purpose of the sign assigned to each rank?
+3. If W⁺ = 32 and W⁻ = 13, what is T?
+4. What should W⁺ + W⁻ equal?
+5. How does the Wilcoxon test differ from the sign test?
+
+## 💡 Exam Tips
+- **Section C (short note)**: Non-parametric paired test → Based on ranks of |D| → T = smaller of W⁺ and W⁻ → T ≤ T critical = significant.
+- **Section B (6 marks)**: Full procedure steps + the table + decision rule + comparison with paired t-test.
+- Show the complete signed rank table for computation questions.
+- Verification check (W⁺ + W⁻ = n(n+1)/2) is good practice and shows understanding.

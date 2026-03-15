@@ -1,0 +1,112 @@
+---
+id: mpc-006-kendalls-tau-correlation
+title: Kendall's Tau Correlation — Previous Year Questions & Answers
+sidebar_label: Kendall's Tau Correlation
+tags: [exam-prep, statistics, kendall-tau, correlation, high-priority]
+description: Comprehensive answers to all previous year questions on Kendall's Tau Correlation in MPC-006 Statistics in Psychology (12 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: high
+frequency: 12
+percentage: 44.4
+---
+
+# Kendall's Tau Correlation — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 12 of 27 (44.4%) |
+| **Priority** | 🟠 **HIGH** |
+| **Section Distribution** | Sec A: ~6 | Sec B: ~5 | Sec C: ~1 |
+| **Most Repeated** | "When do we use Kendall's Tau? Find out Tau value for the following data." |
+
+## 🎯 Must-Know Concepts
+1. Kendall's tau (τ) is a non-parametric rank correlation coefficient
+2. Based on concordant and discordant pairs
+3. Formula: τ = (P − Q) / [n(n−1)/2]
+4. When to use: ordinal data, or when comparing with Spearman's rho
+5. Tau is generally lower in magnitude than Spearman's rho for the same data
+
+---
+
+## 🔥 Core Computation Procedure
+
+### Step-by-Step Kendall's Tau
+
+**Step 1: Rank both variables**
+Assign ranks to both X and Y.
+
+**Step 2: Arrange by rank of X**
+Sort all pairs in ascending order of Rank X.
+
+**Step 3: Count Concordant (P) and Discordant (Q) pairs**
+
+For each pair in the sorted order, examine all pairs below it:
+- **Concordant**: A pair below has a *higher* rank on Y → adds to P
+- **Discordant**: A pair below has a *lower* rank on Y → adds to Q
+
+Sum all concordant pairs → P  
+Sum all discordant pairs → Q
+
+**Step 4: Apply the formula**
+$$\tau = \frac{P - Q}{\frac{n(n-1)}{2}}$$
+
+Where n(n−1)/2 = total number of pairs compared.
+
+**Step 5: Interpret**
+- τ = +1: Perfect positive concordance
+- τ = −1: Perfect negative concordance (all discordant)
+- τ = 0: No relationship
+
+**Step 6: Significance test** (for larger samples, convert to z-score)
+
+---
+
+## 📝 Conceptual: Kendall's Tau vs Spearman's Rho (Section B — ~250 words)
+
+| Aspect | Kendall's Tau (τ) | Spearman's Rho (ρ) |
+|--------|------------------|-------------------|
+| **Basis** | Concordant and discordant pairs | Rank differences (D²) |
+| **Formula** | (P−Q) / [n(n−1)/2] | 1 − 6ΣD²/n(n²−1) |
+| **Range** | −1 to +1 | −1 to +1 |
+| **Value** | Generally lower than rho for same data | Generally higher than tau |
+| **Interpretation** | Probability that a randomly chosen pair is concordant minus discordant | Degree of monotonic rank relationship |
+| **Preferred** | Smaller samples, ties present | Standard rank correlation |
+
+**When to use Kendall's Tau:**
+1. When data consists of natural ranks or ordinal measurements
+2. When sample is small
+3. When you want a probability-based interpretation (the difference in probability of concordant vs discordant pairs)
+4. When there are many ties in the data
+
+Both tau and rho are equivalent to Pearson's r when the data are bivariate normally distributed and the relationship is linear.
+
+---
+
+## 🧠 Memory Aid
+
+**Kendall's Tau Steps (RACP):**
+- **R**ank and sort by rank of X
+- **A**ll pairs below: count **C**oncordant (P) and **D**iscordant (Q)
+- **C**ompute τ = (P−Q) / [n(n−1)/2]
+- **P**ositive = more concordant pairs
+
+---
+
+## 📚 Related Content
+- [Spearman Rho and Kendall Tau](/mpc-006/block-2/spearman-rho-kendall-tau)
+- [Kendall Tau Rank Order Correlation](/mpc-006/block-4/kendall-tau-rank-order-correlation)
+
+## ✅ Self-Assessment
+1. What is the difference between a concordant and a discordant pair?
+2. Write the formula for Kendall's tau.
+3. If P = 18 and Q = 2 with n = 6, what is tau?
+4. Why is Kendall's tau usually smaller than Spearman's rho?
+5. When would you use Kendall's tau instead of Pearson's r?
+
+## 💡 Exam Tips
+- Show the full pair-comparison table — this is where marks are earned.
+- The formula n(n−1)/2 = total pairs; double-check your count.
+- "Compare Pearson's r with Kendall's Tau" is a frequent pairing — prepare the comparison table.
+- Verification: P + Q = n(n−1)/2 (if no ties).

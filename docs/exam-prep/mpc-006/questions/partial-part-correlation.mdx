@@ -1,0 +1,96 @@
+---
+id: mpc-006-partial-part-correlation
+title: Partial & Part Correlation — Previous Year Questions & Answers
+sidebar_label: Partial & Part Correlation
+tags: [exam-prep, statistics, partial-correlation, part-correlation, high-priority]
+description: Comprehensive answers to all previous year questions on Partial and Part Correlation in MPC-006 Statistics in Psychology (11 papers, 2011–2024)
+last_updated: 2026-03-15
+priority: high
+frequency: 11
+percentage: 40.7
+---
+
+# Partial & Part (Semi-partial) Correlation — Previous Year Questions
+
+## 📊 Topic Overview
+
+| Metric | Value |
+|--------|-------|
+| **Papers Appeared** | 11 of 27 (40.7%) |
+| **Priority** | 🟠 **HIGH** |
+| **Section Distribution** | Sec A: ~5 | Sec B: ~5 | Sec C: ~1 |
+| **Most Repeated** | "Differentiate between partial and part correlation with suitable example." |
+
+## 🎯 Must-Know Concepts
+1. Partial correlation: correlation between X and Y with the effect of Z removed from **both**
+2. Part (semi-partial) correlation: correlation between X and Y with the effect of Z removed from only one variable
+3. When to use each
+4. Formula and conceptual explanation
+
+---
+
+## 🔥 Most Repeated Question
+
+**Common phrasings:**
+- "Differentiate between partial and part correlation with suitable example."
+- "Elucidate partial and part (semi-partial) correlation with the help of suitable examples."
+- "Explain partial correlation. Compute Spearman's Rho for the following data."
+
+### Answer (Section A or B — ~350 words):
+
+When studying the relationship between two variables, a **third variable (control variable)** may be influencing both, creating a spurious or inflated correlation. Partial and part correlations control for this third variable.
+
+**Partial Correlation (r_XY.Z):**
+
+Partial correlation is the correlation between variables X and Y after **removing the effect of a third variable Z from both X and Y**.
+
+*When to use*: When Z is related to both X and Y and you want to know the "pure" relationship between X and Y independent of Z.
+
+*Example*: The correlation between vocabulary (X) and reading comprehension (Y) may be inflated because both are related to age (Z). The partial correlation r_XY.Z gives the relationship between vocabulary and reading when age is controlled.
+
+*Formula (using zero-order correlations)*:
+$$r_{XY.Z} = \frac{r_{XY} - r_{XZ} \cdot r_{YZ}}{\sqrt{(1 - r_{XZ}^2)(1 - r_{YZ}^2)}}$$
+
+**Part (Semi-partial) Correlation (r_X(Y.Z)):**
+
+Part correlation (also called semi-partial correlation) is the correlation between X and Y after **removing the effect of Z from only one variable (Y), not from both**.
+
+*When to use*: When you want to know how much unique variance in X is explained by Y after removing the influence of Z from Y alone. Commonly used in multiple regression to assess unique contribution of each predictor.
+
+*Example*: What is the unique relationship between study time (Y) and exam score (X), after removing the effect of intelligence (Z) from study time — but not from exam score?
+
+**Key Difference:**
+
+| Aspect | Partial Correlation | Part Correlation |
+|--------|---------------------|-----------------|
+| Z removed from | **Both** X and Y | **Only one** variable |
+| Question answered | Pure X–Y relationship | Unique variance in X explained by Y alone |
+| Use | Controlling confounds | Multiple regression, unique contribution |
+
+Both partial and part correlations will be smaller than the zero-order (bivariate) correlation if Z is related to both variables.
+
+---
+
+## 🧠 Memory Aid
+
+- **Partial**: Both variables **par**tially cleaned of Z
+- **Part/Semi-partial**: Only **part** of the pair is cleaned (one variable only)
+
+---
+
+## 📚 Related Content
+- [Partial Correlation: Controlling Third Variable](/mpc-006/block-2/partial-correlation-controlling-third-variable)
+- [Semi-partial and Multiple Correlation](/mpc-006/block-2/semipartial-multiple-correlation)
+
+## ✅ Self-Assessment
+1. What is partial correlation and when is it used?
+2. What is the difference between partial and part correlation?
+3. Write the formula for partial correlation.
+4. Give a psychology example where partial correlation is useful.
+5. In multiple regression, which correlation (partial or part) gives unique contribution?
+
+## 💡 Exam Tips
+- The key distinction (partial = remove from both; part = remove from one) is the most important point.
+- Always give a concrete example for each type.
+- The comparison table is excellent for Section B answers.
+- Questions sometimes combine "partial correlation" with a Spearman computation — prepare both independently.
