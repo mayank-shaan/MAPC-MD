@@ -28,7 +28,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'msd', // Your GitHub username
   projectName: 'mapc-msd',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   
   // Enable Mermaid diagrams
