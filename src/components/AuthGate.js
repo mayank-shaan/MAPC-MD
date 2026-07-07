@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { SignIn, useUser } from '@clerk/react';
 
 export default function AuthGate({ children }) {
+  // During SSR and before client mount, render children so:
+  //  1. The static HTML emitted by `docusaurus build` contains real page
+  //     content — required for the local search plugin
+  //     (@cmfcmf/docusaurus-search-local) to build a usable index.
+  //  2. The first client render matches SSR, avoiding hydration mismatches.
+  // After mount, we run the real Clerk-based gate.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <>{children}</>;
+  }
+
+  return <ClerkGate>{children}</ClerkGate>;
+}
+
+function ClerkGate({ children }) {
   const { isLoaded, isSignedIn } = useUser();
 
   if (!isLoaded) {
